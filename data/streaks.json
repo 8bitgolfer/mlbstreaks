@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-27 22:12 UTC",
+  "updated": "2026-04-27 22:16 UTC",
   "throughDate": "2026-04-26",
   "hits": [
     {
@@ -33,21 +33,6 @@
       "lastGameDate": "2026-04-26"
     },
     {
-      "player": "Mickey Moniak",
-      "games": 11,
-      "atBats": 42,
-      "runs": 8,
-      "hits": 16,
-      "hr": 3,
-      "rbi": 6,
-      "bb": 4,
-      "k": 11,
-      "ba": ".381",
-      "oba": ".435",
-      "slug": ".714",
-      "lastGameDate": "2026-04-26"
-    },
-    {
       "player": "Kevin McGonigle",
       "games": 11,
       "atBats": 45,
@@ -60,6 +45,21 @@
       "ba": ".356",
       "oba": ".431",
       "slug": ".578",
+      "lastGameDate": "2026-04-26"
+    },
+    {
+      "player": "Mickey Moniak",
+      "games": 11,
+      "atBats": 42,
+      "runs": 8,
+      "hits": 16,
+      "hr": 3,
+      "rbi": 6,
+      "bb": 4,
+      "k": 11,
+      "ba": ".381",
+      "oba": ".435",
+      "slug": ".714",
       "lastGameDate": "2026-04-26"
     },
     {
@@ -168,21 +168,6 @@
       "lastGameDate": "2026-04-26"
     },
     {
-      "player": "Alek Thomas",
-      "games": 7,
-      "atBats": 26,
-      "runs": 6,
-      "hits": 10,
-      "hr": 2,
-      "rbi": 5,
-      "bb": 1,
-      "k": 1,
-      "ba": ".385",
-      "oba": ".407",
-      "slug": ".769",
-      "lastGameDate": "2026-04-26"
-    },
-    {
       "player": "Michael Busch",
       "games": 7,
       "atBats": 30,
@@ -195,6 +180,21 @@
       "ba": ".333",
       "oba": ".394",
       "slug": ".600",
+      "lastGameDate": "2026-04-26"
+    },
+    {
+      "player": "Alek Thomas",
+      "games": 7,
+      "atBats": 26,
+      "runs": 6,
+      "hits": 10,
+      "hr": 2,
+      "rbi": 5,
+      "bb": 1,
+      "k": 1,
+      "ba": ".385",
+      "oba": ".407",
+      "slug": ".769",
       "lastGameDate": "2026-04-26"
     },
     {
@@ -228,21 +228,6 @@
       "lastGameDate": "2026-04-26"
     },
     {
-      "player": "Ketel Marte",
-      "games": 6,
-      "atBats": 26,
-      "runs": 3,
-      "hits": 8,
-      "hr": 0,
-      "rbi": 1,
-      "bb": 2,
-      "k": 3,
-      "ba": ".308",
-      "oba": ".357",
-      "slug": ".346",
-      "lastGameDate": "2026-04-26"
-    },
-    {
       "player": "Josh Jung",
       "games": 6,
       "atBats": 22,
@@ -255,6 +240,21 @@
       "ba": ".364",
       "oba": ".417",
       "slug": ".818",
+      "lastGameDate": "2026-04-26"
+    },
+    {
+      "player": "Ketel Marte",
+      "games": 6,
+      "atBats": 26,
+      "runs": 3,
+      "hits": 8,
+      "hr": 0,
+      "rbi": 1,
+      "bb": 2,
+      "k": 3,
+      "ba": ".308",
+      "oba": ".357",
+      "slug": ".346",
       "lastGameDate": "2026-04-26"
     },
     {
@@ -348,6 +348,21 @@
       "lastGameDate": "2026-04-26"
     },
     {
+      "player": "Nathaniel Lowe",
+      "games": 5,
+      "atBats": 21,
+      "runs": 6,
+      "hits": 7,
+      "hr": 4,
+      "rbi": 5,
+      "bb": 1,
+      "k": 3,
+      "ba": ".333",
+      "oba": ".364",
+      "slug": ".952",
+      "lastGameDate": "2026-04-26"
+    },
+    {
       "player": "Yandy Diaz",
       "games": 5,
       "atBats": 18,
@@ -423,18 +438,33 @@
       "lastGameDate": "2026-04-26"
     },
     {
-      "player": "Nathaniel Lowe",
+      "player": "Yainer Diaz",
       "games": 5,
-      "atBats": 21,
-      "runs": 6,
-      "hits": 7,
-      "hr": 4,
-      "rbi": 5,
-      "bb": 1,
+      "atBats": 20,
+      "runs": 2,
+      "hits": 6,
+      "hr": 1,
+      "rbi": 3,
+      "bb": 0,
       "k": 3,
-      "ba": ".333",
-      "oba": ".364",
-      "slug": ".952",
+      "ba": ".300",
+      "oba": ".286",
+      "slug": ".550",
+      "lastGameDate": "2026-04-25"
+    },
+    {
+      "player": "Nolan Gorman",
+      "games": 5,
+      "atBats": 19,
+      "runs": 2,
+      "hits": 6,
+      "hr": 0,
+      "rbi": 1,
+      "bb": 2,
+      "k": 5,
+      "ba": ".316",
+      "oba": ".381",
+      "slug": ".421",
       "lastGameDate": "2026-04-26"
     },
     {
@@ -466,36 +496,6 @@
       "oba": ".412",
       "slug": ".688",
       "lastGameDate": "2026-04-24"
-    },
-    {
-      "player": "Yainer Diaz",
-      "games": 5,
-      "atBats": 20,
-      "runs": 2,
-      "hits": 6,
-      "hr": 1,
-      "rbi": 3,
-      "bb": 0,
-      "k": 3,
-      "ba": ".300",
-      "oba": ".286",
-      "slug": ".550",
-      "lastGameDate": "2026-04-25"
-    },
-    {
-      "player": "Nolan Gorman",
-      "games": 5,
-      "atBats": 19,
-      "runs": 2,
-      "hits": 6,
-      "hr": 0,
-      "rbi": 1,
-      "bb": 2,
-      "k": 5,
-      "ba": ".316",
-      "oba": ".381",
-      "slug": ".421",
-      "lastGameDate": "2026-04-26"
     }
   ],
   "hr": [
