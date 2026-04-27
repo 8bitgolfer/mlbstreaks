@@ -21,65 +21,59 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install packages
-        run: |
-          pip install pandas lxml requests beautifulsoup4 html5lib
-
       - name: Generate real hit streak data
         run: |
           mkdir -p data
 
           python << 'EOF'
-          import pandas as pd
           import json
+          import re
           import requests
-          from io import StringIO
+          from bs4 import BeautifulSoup
           from datetime import datetime, timezone
 
           url = "https://www.baseballmusings.com/cgi-bin/CurStreak.py"
 
           headers = {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+              "User-Agent": "Mozilla/5.0"
           }
 
           response = requests.get(url, headers=headers, timeout=30)
           response.raise_for_status()
 
-          tables = pd.read_html(StringIO(response.text))
-          df = tables[0]
-
-          df.columns = [str(c).strip() for c in df.columns]
-          df = df[df["Player"].astype(str) != "Player"]
-
-          def clean_num(value):
-              try:
-                  return int(value)
-              except:
-                  return 0
-
-          def clean_str(value):
-              if pd.isna(value):
-                  return ""
-              return str(value).strip()
+          soup = BeautifulSoup(response.text, "html.parser")
+          text = soup.get_text("\n")
 
           hits = []
 
-          for _, row in df.iterrows():
-              hits.append({
-                  "player": clean_str(row.get("Player")),
-                  "games": clean_num(row.get("Games")),
-                  "atBats": clean_num(row.get("At Bats")),
-                  "runs": clean_num(row.get("Runs")),
-                  "hits": clean_num(row.get("Hits")),
-                  "hr": clean_num(row.get("HR")),
-                  "rbi": clean_num(row.get("RBI")),
-                  "bb": clean_num(row.get("BB")),
-                  "k": clean_num(row.get("K")),
-                  "ba": clean_str(row.get("BA")),
-                  "oba": clean_str(row.get("OBA")),
-                  "slug": clean_str(row.get("Slug%")),
-                  "lastGameDate": clean_str(row.get("Last Game Date"))
-              })
+          pattern = re.compile(
+              r"^(.+?)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\.\d+)\s+(\.\d+)\s+([\d.]+)\s+(\d{4}-\d{2}-\d{2})$"
+          )
+
+          for line in text.splitlines():
+              line = line.strip()
+
+              if not line or line.startswith("Player"):
+                  continue
+
+              match = pattern.match(line)
+
+              if match:
+                  hits.append({
+                      "player": match.group(1).strip(),
+                      "games": int(match.group(2)),
+                      "atBats": int(match.group(3)),
+                      "runs": int(match.group(4)),
+                      "hits": int(match.group(5)),
+                      "hr": int(match.group(6)),
+                      "rbi": int(match.group(7)),
+                      "bb": int(match.group(8)),
+                      "k": int(match.group(9)),
+                      "ba": match.group(10),
+                      "oba": match.group(11),
+                      "slug": match.group(12),
+                      "lastGameDate": match.group(13)
+                  })
 
           data = {
               "updated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
@@ -91,6 +85,9 @@ jobs:
               json.dump(data, f, indent=2)
 
           print(f"Saved {len(hits)} hit streaks")
+
+          if len(hits) == 0:
+              raise Exception("No hit streak data found")
           EOF
 
       - name: Commit updated data
