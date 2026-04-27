@@ -32,61 +32,71 @@ jobs:
           python << 'EOF'
           import json
           import re
-          import html
           import requests
+          from bs4 import BeautifulSoup, NavigableString, Tag
           from datetime import datetime, timezone
 
           url = "https://www.baseballmusings.com/cgi-bin/CurStreak.py"
 
           headers = {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120 Safari/537.36"
           }
 
           response = requests.get(url, headers=headers, timeout=30)
           response.raise_for_status()
 
-          page = response.text
-
-          row_pattern = re.compile(
-              r'<a[^>]*>(.*?)</a>\s*'
-              r'(\d+)\s+'
-              r'(\d+)\s+'
-              r'(\d+)\s+'
-              r'(\d+)\s+'
-              r'(\d+)\s+'
-              r'(\d+)\s+'
-              r'(\d+)\s+'
-              r'(\d+)\s+'
-              r'(\.\d+)\s+'
-              r'(\.\d+)\s+'
-              r'([\d.]+)\s+'
-              r'(\d{4}-\d{2}-\d{2})',
-              re.S
-          )
+          soup = BeautifulSoup(response.text, "html.parser")
 
           hits = []
 
-          for match in row_pattern.finditer(page):
-              player = re.sub(r"<.*?>", "", match.group(1))
-              player = html.unescape(player).strip()
+          stat_pattern = re.compile(
+              r"^\s*(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\.\d+)\s+(\.\d+)\s+([\d.]+)\s+(\d{4}-\d{2}-\d{2})"
+          )
 
-              if not player or player.lower() in ["baseball musings home", "day by day database"]:
+          skip_links = {
+              "Baseball Musings Pledge Drive",
+              "Retrosheet",
+              "Baseball Info Solutions",
+              "Baseball Musings home",
+              "Day by Day Database"
+          }
+
+          for link in soup.find_all("a"):
+              player = link.get_text(" ", strip=True)
+
+              if not player or player in skip_links:
+                  continue
+
+              sibling_text = ""
+
+              for sib in link.next_siblings:
+                  if isinstance(sib, Tag) and sib.name == "a":
+                      break
+                  if isinstance(sib, NavigableString):
+                      sibling_text += " " + str(sib)
+                  elif isinstance(sib, Tag):
+                      sibling_text += " " + sib.get_text(" ", strip=True)
+
+              sibling_text = " ".join(sibling_text.split())
+              match = stat_pattern.search(sibling_text)
+
+              if not match:
                   continue
 
               hits.append({
                   "player": player,
-                  "games": int(match.group(2)),
-                  "atBats": int(match.group(3)),
-                  "runs": int(match.group(4)),
-                  "hits": int(match.group(5)),
-                  "hr": int(match.group(6)),
-                  "rbi": int(match.group(7)),
-                  "bb": int(match.group(8)),
-                  "k": int(match.group(9)),
-                  "ba": match.group(10),
-                  "oba": match.group(11),
-                  "slug": match.group(12),
-                  "lastGameDate": match.group(13)
+                  "games": int(match.group(1)),
+                  "atBats": int(match.group(2)),
+                  "runs": int(match.group(3)),
+                  "hits": int(match.group(4)),
+                  "hr": int(match.group(5)),
+                  "rbi": int(match.group(6)),
+                  "bb": int(match.group(7)),
+                  "k": int(match.group(8)),
+                  "ba": match.group(9),
+                  "oba": match.group(10),
+                  "slug": match.group(11),
+                  "lastGameDate": match.group(12)
               })
 
           hits.sort(key=lambda x: x["games"], reverse=True)
@@ -103,6 +113,7 @@ jobs:
           print(f"Saved {len(hits)} hit streaks")
 
           if len(hits) == 0:
+              print(response.text[:2000])
               raise Exception("No hit streak data found")
           EOF
 
