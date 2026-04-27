@@ -16,21 +16,80 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v5
 
-      - name: Create data folder
-        run: mkdir -p data
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
 
-      - name: Fetch hit streaks
+      - name: Install packages
         run: |
-          curl -L -o data/streaks.html https://www.baseballmusings.com/cgi-bin/CurStreak.py
+          pip install pandas lxml requests beautifulsoup4 html5lib
 
-      - name: Create JSON file
+      - name: Generate real hit streak data
         run: |
-          echo '{"message":"MLB streak data updated"}' > data/streaks.json
+          mkdir -p data
 
-      - name: Commit data
+          python << 'EOF'
+          import pandas as pd
+          import json
+          from datetime import datetime, timezone
+
+          url = "https://www.baseballmusings.com/cgi-bin/CurStreak.py"
+
+          tables = pd.read_html(url)
+          df = tables[0]
+
+          df.columns = [str(c).strip() for c in df.columns]
+
+          # Remove repeated header rows
+          df = df[df["Player"].astype(str) != "Player"]
+
+          def clean_num(value):
+              try:
+                  return int(value)
+              except:
+                  return 0
+
+          def clean_str(value):
+              if pd.isna(value):
+                  return ""
+              return str(value).strip()
+
+          hits = []
+
+          for _, row in df.iterrows():
+              hits.append({
+                  "player": clean_str(row.get("Player")),
+                  "games": clean_num(row.get("Games")),
+                  "atBats": clean_num(row.get("At Bats")),
+                  "runs": clean_num(row.get("Runs")),
+                  "hits": clean_num(row.get("Hits")),
+                  "hr": clean_num(row.get("HR")),
+                  "rbi": clean_num(row.get("RBI")),
+                  "bb": clean_num(row.get("BB")),
+                  "k": clean_num(row.get("K")),
+                  "ba": clean_str(row.get("BA")),
+                  "oba": clean_str(row.get("OBA")),
+                  "slug": clean_str(row.get("Slug%")),
+                  "lastGameDate": clean_str(row.get("Last Game Date"))
+              })
+
+          data = {
+              "updated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
+              "hits": hits,
+              "hr": []
+          }
+
+          with open("data/streaks.json", "w", encoding="utf-8") as f:
+              json.dump(data, f, indent=2)
+
+          print(f"Saved {len(hits)} hit streaks")
+          EOF
+
+      - name: Commit updated data
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add data/
-          git commit -m "Update streak data" || echo "No changes to commit"
+          git add data/streaks.json
+          git commit -m "Update real MLB hit streak data" || echo "No changes to commit"
           git push
