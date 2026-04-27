@@ -21,6 +21,11 @@ jobs:
         with:
           python-version: "3.11"
 
+      # 🔥 THIS FIXES YOUR ERROR
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4
+
       - name: Generate real hit streak data
         run: |
           mkdir -p data
@@ -42,38 +47,33 @@ jobs:
           response.raise_for_status()
 
           soup = BeautifulSoup(response.text, "html.parser")
-          text = soup.get_text("\n")
+
+          table = soup.find("table")
+          rows = table.find_all("tr")
 
           hits = []
 
-          pattern = re.compile(
-              r"^(.+?)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\.\d+)\s+(\.\d+)\s+([\d.]+)\s+(\d{4}-\d{2}-\d{2})$"
-          )
+          for row in rows[1:]:
+              cols = [td.get_text(strip=True) for td in row.find_all("td")]
 
-          for line in text.splitlines():
-              line = line.strip()
-
-              if not line or line.startswith("Player"):
+              if len(cols) < 13:
                   continue
 
-              match = pattern.match(line)
-
-              if match:
-                  hits.append({
-                      "player": match.group(1).strip(),
-                      "games": int(match.group(2)),
-                      "atBats": int(match.group(3)),
-                      "runs": int(match.group(4)),
-                      "hits": int(match.group(5)),
-                      "hr": int(match.group(6)),
-                      "rbi": int(match.group(7)),
-                      "bb": int(match.group(8)),
-                      "k": int(match.group(9)),
-                      "ba": match.group(10),
-                      "oba": match.group(11),
-                      "slug": match.group(12),
-                      "lastGameDate": match.group(13)
-                  })
+              hits.append({
+                  "player": cols[0],
+                  "games": int(cols[1]),
+                  "atBats": int(cols[2]),
+                  "runs": int(cols[3]),
+                  "hits": int(cols[4]),
+                  "hr": int(cols[5]),
+                  "rbi": int(cols[6]),
+                  "bb": int(cols[7]),
+                  "k": int(cols[8]),
+                  "ba": cols[9],
+                  "oba": cols[10],
+                  "slug": cols[11],
+                  "lastGameDate": cols[12]
+              })
 
           data = {
               "updated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
@@ -81,13 +81,13 @@ jobs:
               "hr": []
           }
 
-          with open("data/streaks.json", "w", encoding="utf-8") as f:
+          with open("data/streaks.json", "w") as f:
               json.dump(data, f, indent=2)
 
           print(f"Saved {len(hits)} hit streaks")
 
           if len(hits) == 0:
-              raise Exception("No hit streak data found")
+              raise Exception("No data scraped")
           EOF
 
       - name: Commit updated data
@@ -95,5 +95,5 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add data/streaks.json
-          git commit -m "Update real MLB hit streak data" || echo "No changes to commit"
+          git commit -m "Update MLB hit streak data" || echo "No changes"
           git push
