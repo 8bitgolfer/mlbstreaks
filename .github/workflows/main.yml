@@ -25,50 +25,56 @@ jobs:
         run: |
           pip install requests beautifulsoup4
 
-      - name: Generate real hit streak data
+      - name: Generate real MLB hit streak data
         run: |
           mkdir -p data
 
           python << 'EOF'
           import json
           import re
+          import html
           import requests
-          from bs4 import BeautifulSoup
           from datetime import datetime, timezone
 
           url = "https://www.baseballmusings.com/cgi-bin/CurStreak.py"
 
           headers = {
-              "User-Agent": "Mozilla/5.0"
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
           }
 
           response = requests.get(url, headers=headers, timeout=30)
           response.raise_for_status()
 
-          soup = BeautifulSoup(response.text, "html.parser")
-          text = soup.get_text("\n")
+          page = response.text
+
+          row_pattern = re.compile(
+              r'<a[^>]*>(.*?)</a>\s*'
+              r'(\d+)\s+'
+              r'(\d+)\s+'
+              r'(\d+)\s+'
+              r'(\d+)\s+'
+              r'(\d+)\s+'
+              r'(\d+)\s+'
+              r'(\d+)\s+'
+              r'(\d+)\s+'
+              r'(\.\d+)\s+'
+              r'(\.\d+)\s+'
+              r'([\d.]+)\s+'
+              r'(\d{4}-\d{2}-\d{2})',
+              re.S
+          )
 
           hits = []
 
-          for line in text.splitlines():
-              line = line.strip()
+          for match in row_pattern.finditer(page):
+              player = re.sub(r"<.*?>", "", match.group(1))
+              player = html.unescape(player).strip()
 
-              if not line:
-                  continue
-
-              if line.startswith("Player") or "Games At Bats" in line:
-                  continue
-
-              match = re.match(
-                  r"^(.+?)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\.\d+)\s+(\.\d+)\s+([\d.]+)\s+(\d{4}-\d{2}-\d{2})$",
-                  line
-              )
-
-              if not match:
+              if not player or player.lower() in ["baseball musings home", "day by day database"]:
                   continue
 
               hits.append({
-                  "player": match.group(1),
+                  "player": player,
                   "games": int(match.group(2)),
                   "atBats": int(match.group(3)),
                   "runs": int(match.group(4)),
@@ -82,6 +88,8 @@ jobs:
                   "slug": match.group(12),
                   "lastGameDate": match.group(13)
               })
+
+          hits.sort(key=lambda x: x["games"], reverse=True)
 
           data = {
               "updated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
