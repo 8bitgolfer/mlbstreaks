@@ -32,16 +32,23 @@ jobs:
           python << 'EOF'
           import pandas as pd
           import json
+          import requests
+          from io import StringIO
           from datetime import datetime, timezone
 
           url = "https://www.baseballmusings.com/cgi-bin/CurStreak.py"
 
-          tables = pd.read_html(url)
+          headers = {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+          }
+
+          response = requests.get(url, headers=headers, timeout=30)
+          response.raise_for_status()
+
+          tables = pd.read_html(StringIO(response.text))
           df = tables[0]
 
           df.columns = [str(c).strip() for c in df.columns]
-
-          # Remove repeated header rows
           df = df[df["Player"].astype(str) != "Player"]
 
           def clean_num(value):
