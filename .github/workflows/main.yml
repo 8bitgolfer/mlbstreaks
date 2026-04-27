@@ -21,7 +21,6 @@ jobs:
         with:
           python-version: "3.11"
 
-      # 🔥 THIS FIXES YOUR ERROR
       - name: Install dependencies
         run: |
           pip install requests beautifulsoup4
@@ -47,32 +46,41 @@ jobs:
           response.raise_for_status()
 
           soup = BeautifulSoup(response.text, "html.parser")
-
-          table = soup.find("table")
-          rows = table.find_all("tr")
+          text = soup.get_text("\n")
 
           hits = []
 
-          for row in rows[1:]:
-              cols = [td.get_text(strip=True) for td in row.find_all("td")]
+          for line in text.splitlines():
+              line = line.strip()
 
-              if len(cols) < 13:
+              if not line:
+                  continue
+
+              if line.startswith("Player") or "Games At Bats" in line:
+                  continue
+
+              match = re.match(
+                  r"^(.+?)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\.\d+)\s+(\.\d+)\s+([\d.]+)\s+(\d{4}-\d{2}-\d{2})$",
+                  line
+              )
+
+              if not match:
                   continue
 
               hits.append({
-                  "player": cols[0],
-                  "games": int(cols[1]),
-                  "atBats": int(cols[2]),
-                  "runs": int(cols[3]),
-                  "hits": int(cols[4]),
-                  "hr": int(cols[5]),
-                  "rbi": int(cols[6]),
-                  "bb": int(cols[7]),
-                  "k": int(cols[8]),
-                  "ba": cols[9],
-                  "oba": cols[10],
-                  "slug": cols[11],
-                  "lastGameDate": cols[12]
+                  "player": match.group(1),
+                  "games": int(match.group(2)),
+                  "atBats": int(match.group(3)),
+                  "runs": int(match.group(4)),
+                  "hits": int(match.group(5)),
+                  "hr": int(match.group(6)),
+                  "rbi": int(match.group(7)),
+                  "bb": int(match.group(8)),
+                  "k": int(match.group(9)),
+                  "ba": match.group(10),
+                  "oba": match.group(11),
+                  "slug": match.group(12),
+                  "lastGameDate": match.group(13)
               })
 
           data = {
@@ -81,13 +89,13 @@ jobs:
               "hr": []
           }
 
-          with open("data/streaks.json", "w") as f:
+          with open("data/streaks.json", "w", encoding="utf-8") as f:
               json.dump(data, f, indent=2)
 
           print(f"Saved {len(hits)} hit streaks")
 
           if len(hits) == 0:
-              raise Exception("No data scraped")
+              raise Exception("No hit streak data found")
           EOF
 
       - name: Commit updated data
