@@ -25,121 +25,257 @@ jobs:
         run: |
           pip install requests beautifulsoup4
 
-      - name: Generate real MLB hit streak data
+      - name: Generate MLB hit and HR streak data
         run: |
           mkdir -p data
 
           python << 'EOF'
           import json
           import re
+          import time
           import requests
           from bs4 import BeautifulSoup
-          from datetime import datetime, timezone
+          from datetime import datetime, timezone, date
 
-          url = "https://www.baseballmusings.com/cgi-bin/CurStreak.py"
-
-          headers = {
+          HEADERS = {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120 Safari/537.36"
           }
 
-          response = requests.get(url, headers=headers, timeout=30)
-          response.raise_for_status()
+          HIT_URL = "https://www.baseballmusings.com/cgi-bin/CurStreak.py"
 
-          soup = BeautifulSoup(response.text, "html.parser")
+          def get_json(url):
+              response = requests.get(url, headers=HEADERS, timeout=30)
+              response.raise_for_status()
+              return response.json()
 
-          # Convert page to readable text
-          text = soup.get_text(" ", strip=True)
+          def get_text(url):
+              response = requests.get(url, headers=HEADERS, timeout=30)
+              response.raise_for_status()
+              return response.text
 
-          # Fix Baseball Musings spacing issue
-          text = text.replace("Slug%Last Game Date", "Slug% Last Game Date")
+          def scrape_hit_streaks():
+              response_text = get_text(HIT_URL)
+              soup = BeautifulSoup(response_text, "html.parser")
 
-          # Remove repeated table headers
-          header_pattern = re.compile(
-              r"Player\s+Games\s+At\s+Bats\s+Runs\s+Hits\s+HR\s+RBI\s+BB\s+K\s+BA\s+OBA\s+Slug%\s+Last\s+Game\s+Date",
-              re.IGNORECASE
-          )
+              text = soup.get_text(" ", strip=True)
+              text = text.replace("Slug%Last Game Date", "Slug% Last Game Date")
 
-          text = header_pattern.sub(" ", text)
+              through_date = None
+              date_match = re.search(r"Through Games of\s+(\d{2}/\d{2}/\d{4})", text)
+              if date_match:
+                  through_date = datetime.strptime(date_match.group(1), "%m/%d/%Y").date()
+              else:
+                  through_date = date.today()
 
-          # Keep only the section after the page title
-          marker = "Current Hit Streaks"
-          if marker in text:
-              text = text.split(marker, 1)[-1]
+              header_pattern = re.compile(
+                  r"Player\s+Games\s+At\s+Bats\s+Runs\s+Hits\s+HR\s+RBI\s+BB\s+K\s+BA\s+OBA\s+Slug%\s+Last\s+Game\s+Date",
+                  re.IGNORECASE
+              )
 
-          # Remove footer text so it does not get mixed in
-          footer_marker = "The information used here"
-          if footer_marker in text:
-              text = text.split(footer_marker, 1)[0]
+              text = header_pattern.sub(" ", text)
 
-          # Match rows:
-          # Player Games AtBats Runs Hits HR RBI BB K BA OBA SLG LastGameDate
-          row_pattern = re.compile(
-              r"([A-Z][A-Za-zÀ-ÖØ-öø-ÿ0-9.'’\-\s]+?)\s+"
-              r"(\d+)\s+"
-              r"(\d+)\s+"
-              r"(\d+)\s+"
-              r"(\d+)\s+"
-              r"(\d+)\s+"
-              r"(\d+)\s+"
-              r"(\d+)\s+"
-              r"(\d+)\s+"
-              r"(\.\d+)\s+"
-              r"(\.\d+)\s+"
-              r"(\d+\.\d+|\.\d+)\s+"
-              r"(\d{4}-\d{2}-\d{2})"
-          )
+              marker = "Current Hit Streaks"
+              if marker in text:
+                  text = text.split(marker, 1)[-1]
 
-          hits = []
+              footer_marker = "The information used here"
+              if footer_marker in text:
+                  text = text.split(footer_marker, 1)[0]
 
-          bad_words = [
-              "Baseball Musings",
-              "Day By Day",
-              "Pledge Drive",
-              "Games Through Date",
-              "Submit",
-              "Retrosheet",
-              "Baseball Info Solutions"
-          ]
+              row_pattern = re.compile(
+                  r"([A-Z][A-Za-zÀ-ÖØ-öø-ÿ0-9.'’\-\s]+?)\s+"
+                  r"(\d+)\s+"
+                  r"(\d+)\s+"
+                  r"(\d+)\s+"
+                  r"(\d+)\s+"
+                  r"(\d+)\s+"
+                  r"(\d+)\s+"
+                  r"(\d+)\s+"
+                  r"(\d+)\s+"
+                  r"(\.\d+)\s+"
+                  r"(\.\d+)\s+"
+                  r"(\d+\.\d+|\.\d+)\s+"
+                  r"(\d{4}-\d{2}-\d{2})"
+              )
 
-          for match in row_pattern.finditer(text):
-              player = " ".join(match.group(1).split()).strip()
+              hits = []
 
-              if any(bad in player for bad in bad_words):
-                  continue
+              bad_words = [
+                  "Baseball Musings",
+                  "Day By Day",
+                  "Pledge Drive",
+                  "Games Through Date",
+                  "Submit",
+                  "Retrosheet",
+                  "Baseball Info Solutions"
+              ]
 
-              hits.append({
-                  "player": player,
-                  "games": int(match.group(2)),
-                  "atBats": int(match.group(3)),
-                  "runs": int(match.group(4)),
-                  "hits": int(match.group(5)),
-                  "hr": int(match.group(6)),
-                  "rbi": int(match.group(7)),
-                  "bb": int(match.group(8)),
-                  "k": int(match.group(9)),
-                  "ba": match.group(10),
-                  "oba": match.group(11),
-                  "slug": match.group(12),
-                  "lastGameDate": match.group(13)
-              })
+              for match in row_pattern.finditer(text):
+                  player = " ".join(match.group(1).split()).strip()
 
-          hits.sort(key=lambda x: x["games"], reverse=True)
+                  if any(bad in player for bad in bad_words):
+                      continue
+
+                  hits.append({
+                      "player": player,
+                      "games": int(match.group(2)),
+                      "atBats": int(match.group(3)),
+                      "runs": int(match.group(4)),
+                      "hits": int(match.group(5)),
+                      "hr": int(match.group(6)),
+                      "rbi": int(match.group(7)),
+                      "bb": int(match.group(8)),
+                      "k": int(match.group(9)),
+                      "ba": match.group(10),
+                      "oba": match.group(11),
+                      "slug": match.group(12),
+                      "lastGameDate": match.group(13)
+                  })
+
+              hits.sort(key=lambda x: x["games"], reverse=True)
+
+              return hits, through_date
+
+          def build_hr_streaks(through_date):
+              season = through_date.year
+              start_date = f"{season}-01-01"
+              end_date = through_date.isoformat()
+
+              schedule_url = (
+                  "https://statsapi.mlb.com/api/v1/schedule"
+                  f"?sportId=1&gameTypes=R&startDate={start_date}&endDate={end_date}"
+              )
+
+              schedule = get_json(schedule_url)
+
+              games = []
+
+              for day in schedule.get("dates", []):
+                  game_date = day.get("date")
+
+                  for game in day.get("games", []):
+                      status = game.get("status", {}).get("abstractGameState", "")
+                      game_pk = game.get("gamePk")
+
+                      if status == "Final" and game_pk:
+                          games.append({
+                              "gamePk": game_pk,
+                              "date": game_date
+                          })
+
+              player_logs = {}
+
+              for i, game in enumerate(games, start=1):
+                  game_pk = game["gamePk"]
+                  game_date = game["date"]
+
+                  box_url = f"https://statsapi.mlb.com/api/v1/game/{game_pk}/boxscore"
+
+                  try:
+                      box = get_json(box_url)
+                  except Exception as e:
+                      print(f"Skipped game {game_pk}: {e}")
+                      continue
+
+                  for side in ["home", "away"]:
+                      team_data = box.get("teams", {}).get(side, {})
+                      team_name = team_data.get("team", {}).get("name", "")
+                      players = team_data.get("players", {})
+
+                      for player_id, pdata in players.items():
+                          person = pdata.get("person", {})
+                          name = person.get("fullName", "")
+                          batting = pdata.get("stats", {}).get("batting", {})
+
+                          if not name or not batting:
+                              continue
+
+                          at_bats = int(batting.get("atBats", 0) or 0)
+                          plate_appearances = int(batting.get("plateAppearances", 0) or 0)
+                          home_runs = int(batting.get("homeRuns", 0) or 0)
+
+                          # Only count games where the player actually batted
+                          if at_bats == 0 and plate_appearances == 0 and home_runs == 0:
+                              continue
+
+                          key = str(person.get("id", player_id))
+
+                          if key not in player_logs:
+                              player_logs[key] = {
+                                  "player": name,
+                                  "team": team_name,
+                                  "games": []
+                              }
+
+                          player_logs[key]["player"] = name
+                          player_logs[key]["team"] = team_name
+                          player_logs[key]["games"].append({
+                              "date": game_date,
+                              "hr": home_runs
+                          })
+
+                  if i % 25 == 0:
+                      print(f"Processed {i}/{len(games)} games")
+                      time.sleep(0.25)
+
+              hr_streaks = []
+
+              for player_id, pdata in player_logs.items():
+                  logs = sorted(pdata["games"], key=lambda x: x["date"], reverse=True)
+
+                  if not logs:
+                      continue
+
+                  # Active streak only counts if player homered in their most recent game played
+                  if logs[0]["hr"] <= 0:
+                      continue
+
+                  streak_games = 0
+                  total_hr = 0
+                  last_game_date = logs[0]["date"]
+
+                  for game in logs:
+                      if game["hr"] > 0:
+                          streak_games += 1
+                          total_hr += game["hr"]
+                      else:
+                          break
+
+                  if streak_games > 0:
+                      hr_streaks.append({
+                          "player": pdata["player"],
+                          "team": pdata.get("team", ""),
+                          "games": streak_games,
+                          "hr": total_hr,
+                          "lastGameDate": last_game_date
+                      })
+
+              hr_streaks.sort(key=lambda x: (x["games"], x["hr"], x["player"]), reverse=True)
+
+              return hr_streaks
+
+          hits, through_date = scrape_hit_streaks()
+          hr = build_hr_streaks(through_date)
 
           data = {
               "updated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
+              "throughDate": through_date.isoformat(),
               "hits": hits,
-              "hr": []
+              "hr": hr
           }
 
           with open("data/streaks.json", "w", encoding="utf-8") as f:
               json.dump(data, f, indent=2)
 
           print(f"Saved {len(hits)} hit streaks")
+          print(f"Saved {len(hr)} HR streaks")
+          print(f"Through date: {through_date.isoformat()}")
 
           if len(hits) == 0:
-              print("PAGE TEXT PREVIEW:")
-              print(text[:3000])
               raise Exception("No hit streak data found")
+
+          if len(hr) == 0:
+              print("No active HR streaks found. This can happen on some days, but the script still worked.")
           EOF
 
       - name: Commit updated data
@@ -147,5 +283,5 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add data/streaks.json
-          git commit -m "Update MLB hit streak data" || echo "No changes"
+          git commit -m "Update MLB hit and HR streak data" || echo "No changes"
           git push
