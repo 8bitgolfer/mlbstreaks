@@ -31,6 +31,7 @@ jobs:
 
           python << 'EOF'
           import json
+          import re
           import requests
           from bs4 import BeautifulSoup
           from datetime import datetime, timezone
@@ -38,7 +39,7 @@ jobs:
           url = "https://www.baseballmusings.com/cgi-bin/CurStreak.py"
 
           headers = {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120 Safari/537.36"
           }
 
           response = requests.get(url, headers=headers, timeout=30)
@@ -46,38 +47,81 @@ jobs:
 
           soup = BeautifulSoup(response.text, "html.parser")
 
+          # Convert page to readable text
+          text = soup.get_text(" ", strip=True)
+
+          # Fix Baseball Musings spacing issue
+          text = text.replace("Slug%Last Game Date", "Slug% Last Game Date")
+
+          # Remove repeated table headers
+          header_pattern = re.compile(
+              r"Player\s+Games\s+At\s+Bats\s+Runs\s+Hits\s+HR\s+RBI\s+BB\s+K\s+BA\s+OBA\s+Slug%\s+Last\s+Game\s+Date",
+              re.IGNORECASE
+          )
+
+          text = header_pattern.sub(" ", text)
+
+          # Keep only the section after the page title
+          marker = "Current Hit Streaks"
+          if marker in text:
+              text = text.split(marker, 1)[-1]
+
+          # Remove footer text so it does not get mixed in
+          footer_marker = "The information used here"
+          if footer_marker in text:
+              text = text.split(footer_marker, 1)[0]
+
+          # Match rows:
+          # Player Games AtBats Runs Hits HR RBI BB K BA OBA SLG LastGameDate
+          row_pattern = re.compile(
+              r"([A-Z][A-Za-zÀ-ÖØ-öø-ÿ0-9.'’\-\s]+?)\s+"
+              r"(\d+)\s+"
+              r"(\d+)\s+"
+              r"(\d+)\s+"
+              r"(\d+)\s+"
+              r"(\d+)\s+"
+              r"(\d+)\s+"
+              r"(\d+)\s+"
+              r"(\d+)\s+"
+              r"(\.\d+)\s+"
+              r"(\.\d+)\s+"
+              r"(\d+\.\d+|\.\d+)\s+"
+              r"(\d{4}-\d{2}-\d{2})"
+          )
+
           hits = []
 
-          for row in soup.find_all("tr"):
-              cols = [c.get_text(" ", strip=True) for c in row.find_all(["td", "th"])]
+          bad_words = [
+              "Baseball Musings",
+              "Day By Day",
+              "Pledge Drive",
+              "Games Through Date",
+              "Submit",
+              "Retrosheet",
+              "Baseball Info Solutions"
+          ]
 
-              if len(cols) < 14:
+          for match in row_pattern.finditer(text):
+              player = " ".join(match.group(1).split()).strip()
+
+              if any(bad in player for bad in bad_words):
                   continue
 
-              # Expected format:
-              # Rank, Player, Games, At Bats, Runs, Hits, HR, RBI, BB, K, BA, OBA, Slug%, Last Game Date
-              if not cols[0].isdigit():
-                  continue
-
-              try:
-                  hits.append({
-                      "player": cols[1],
-                      "games": int(cols[2]),
-                      "atBats": int(cols[3]),
-                      "runs": int(cols[4]),
-                      "hits": int(cols[5]),
-                      "hr": int(cols[6]),
-                      "rbi": int(cols[7]),
-                      "bb": int(cols[8]),
-                      "k": int(cols[9]),
-                      "ba": cols[10],
-                      "oba": cols[11],
-                      "slug": cols[12],
-                      "lastGameDate": cols[13]
-                  })
-              except Exception as e:
-                  print("Skipped row:", cols)
-                  print("Reason:", e)
+              hits.append({
+                  "player": player,
+                  "games": int(match.group(2)),
+                  "atBats": int(match.group(3)),
+                  "runs": int(match.group(4)),
+                  "hits": int(match.group(5)),
+                  "hr": int(match.group(6)),
+                  "rbi": int(match.group(7)),
+                  "bb": int(match.group(8)),
+                  "k": int(match.group(9)),
+                  "ba": match.group(10),
+                  "oba": match.group(11),
+                  "slug": match.group(12),
+                  "lastGameDate": match.group(13)
+              })
 
           hits.sort(key=lambda x: x["games"], reverse=True)
 
@@ -93,6 +137,8 @@ jobs:
           print(f"Saved {len(hits)} hit streaks")
 
           if len(hits) == 0:
+              print("PAGE TEXT PREVIEW:")
+              print(text[:3000])
               raise Exception("No hit streak data found")
           EOF
 
