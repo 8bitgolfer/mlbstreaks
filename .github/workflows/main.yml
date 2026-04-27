@@ -31,15 +31,14 @@ jobs:
 
           python << 'EOF'
           import json
-          import re
           import requests
-          from bs4 import BeautifulSoup, NavigableString, Tag
+          from bs4 import BeautifulSoup
           from datetime import datetime, timezone
 
           url = "https://www.baseballmusings.com/cgi-bin/CurStreak.py"
 
           headers = {
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
           }
 
           response = requests.get(url, headers=headers, timeout=30)
@@ -49,55 +48,36 @@ jobs:
 
           hits = []
 
-          stat_pattern = re.compile(
-              r"^\s*(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\.\d+)\s+(\.\d+)\s+([\d.]+)\s+(\d{4}-\d{2}-\d{2})"
-          )
+          for row in soup.find_all("tr"):
+              cols = [c.get_text(" ", strip=True) for c in row.find_all(["td", "th"])]
 
-          skip_links = {
-              "Baseball Musings Pledge Drive",
-              "Retrosheet",
-              "Baseball Info Solutions",
-              "Baseball Musings home",
-              "Day by Day Database"
-          }
-
-          for link in soup.find_all("a"):
-              player = link.get_text(" ", strip=True)
-
-              if not player or player in skip_links:
+              if len(cols) < 14:
                   continue
 
-              sibling_text = ""
-
-              for sib in link.next_siblings:
-                  if isinstance(sib, Tag) and sib.name == "a":
-                      break
-                  if isinstance(sib, NavigableString):
-                      sibling_text += " " + str(sib)
-                  elif isinstance(sib, Tag):
-                      sibling_text += " " + sib.get_text(" ", strip=True)
-
-              sibling_text = " ".join(sibling_text.split())
-              match = stat_pattern.search(sibling_text)
-
-              if not match:
+              # Expected format:
+              # Rank, Player, Games, At Bats, Runs, Hits, HR, RBI, BB, K, BA, OBA, Slug%, Last Game Date
+              if not cols[0].isdigit():
                   continue
 
-              hits.append({
-                  "player": player,
-                  "games": int(match.group(1)),
-                  "atBats": int(match.group(2)),
-                  "runs": int(match.group(3)),
-                  "hits": int(match.group(4)),
-                  "hr": int(match.group(5)),
-                  "rbi": int(match.group(6)),
-                  "bb": int(match.group(7)),
-                  "k": int(match.group(8)),
-                  "ba": match.group(9),
-                  "oba": match.group(10),
-                  "slug": match.group(11),
-                  "lastGameDate": match.group(12)
-              })
+              try:
+                  hits.append({
+                      "player": cols[1],
+                      "games": int(cols[2]),
+                      "atBats": int(cols[3]),
+                      "runs": int(cols[4]),
+                      "hits": int(cols[5]),
+                      "hr": int(cols[6]),
+                      "rbi": int(cols[7]),
+                      "bb": int(cols[8]),
+                      "k": int(cols[9]),
+                      "ba": cols[10],
+                      "oba": cols[11],
+                      "slug": cols[12],
+                      "lastGameDate": cols[13]
+                  })
+              except Exception as e:
+                  print("Skipped row:", cols)
+                  print("Reason:", e)
 
           hits.sort(key=lambda x: x["games"], reverse=True)
 
@@ -113,7 +93,6 @@ jobs:
           print(f"Saved {len(hits)} hit streaks")
 
           if len(hits) == 0:
-              print(response.text[:2000])
               raise Exception("No hit streak data found")
           EOF
 
