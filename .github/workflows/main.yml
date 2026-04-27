@@ -35,7 +35,7 @@ jobs:
           import time
           import requests
           from bs4 import BeautifulSoup
-          from datetime import datetime, timezone, date
+          from datetime import datetime, timezone, date, timedelta
 
           HEADERS = {
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120 Safari/537.36"
@@ -62,6 +62,7 @@ jobs:
 
               through_date = None
               date_match = re.search(r"Through Games of\s+(\d{2}/\d{2}/\d{4})", text)
+
               if date_match:
                   through_date = datetime.strptime(date_match.group(1), "%m/%d/%Y").date()
               else:
@@ -136,32 +137,45 @@ jobs:
 
               return hits, through_date
 
-          def build_hr_streaks(through_date):
-              season = through_date.year
-              start_date = f"{season}-01-01"
-              end_date = through_date.isoformat()
-
+          def get_schedule_games(start_date, end_date):
+              # IMPORTANT: MLB API uses gameType, not gameTypes
               schedule_url = (
                   "https://statsapi.mlb.com/api/v1/schedule"
-                  f"?sportId=1&gameTypes=R&startDate={start_date}&endDate={end_date}"
+                  f"?sportId=1&gameType=R&startDate={start_date}&endDate={end_date}"
               )
 
               schedule = get_json(schedule_url)
-
               games = []
 
               for day in schedule.get("dates", []):
                   game_date = day.get("date")
 
                   for game in day.get("games", []):
-                      status = game.get("status", {}).get("abstractGameState", "")
                       game_pk = game.get("gamePk")
+                      status = game.get("status", {})
+                      abstract_state = status.get("abstractGameState", "")
+                      detailed_state = status.get("detailedState", "")
 
-                      if status == "Final" and game_pk:
+                      if not game_pk:
+                          continue
+
+                      if abstract_state == "Final" or detailed_state in ["Final", "Completed Early"]:
                           games.append({
                               "gamePk": game_pk,
                               "date": game_date
                           })
+
+              return games
+
+          def build_hr_streaks(through_date):
+              # HR streak records are short, so last 60 days is enough and keeps the workflow faster
+              start = through_date - timedelta(days=60)
+              start_date = start.isoformat()
+              end_date = through_date.isoformat()
+
+              games = get_schedule_games(start_date, end_date)
+
+              print(f"Found {len(games)} final MLB games from {start_date} to {end_date}")
 
               player_logs = {}
 
@@ -182,9 +196,11 @@ jobs:
                       team_name = team_data.get("team", {}).get("name", "")
                       players = team_data.get("players", {})
 
-                      for player_id, pdata in players.items():
+                      for player_key, pdata in players.items():
                           person = pdata.get("person", {})
                           name = person.get("fullName", "")
+                          player_id = person.get("id", player_key)
+
                           batting = pdata.get("stats", {}).get("batting", {})
 
                           if not name or not batting:
@@ -194,11 +210,11 @@ jobs:
                           plate_appearances = int(batting.get("plateAppearances", 0) or 0)
                           home_runs = int(batting.get("homeRuns", 0) or 0)
 
-                          # Only count games where the player actually batted
-                          if at_bats == 0 and plate_appearances == 0 and home_runs == 0:
+                          # Only count games where the player actually hit
+                          if at_bats == 0 and plate_appearances == 0:
                               continue
 
-                          key = str(person.get("id", player_id))
+                          key = str(player_id)
 
                           if key not in player_logs:
                               player_logs[key] = {
@@ -216,7 +232,7 @@ jobs:
 
                   if i % 25 == 0:
                       print(f"Processed {i}/{len(games)} games")
-                      time.sleep(0.25)
+                      time.sleep(0.2)
 
               hr_streaks = []
 
@@ -226,7 +242,7 @@ jobs:
                   if not logs:
                       continue
 
-                  # Active streak only counts if player homered in their most recent game played
+                  # Active HR streak means the player homered in their most recent game played
                   if logs[0]["hr"] <= 0:
                       continue
 
@@ -241,14 +257,13 @@ jobs:
                       else:
                           break
 
-                  if streak_games > 0:
-                      hr_streaks.append({
-                          "player": pdata["player"],
-                          "team": pdata.get("team", ""),
-                          "games": streak_games,
-                          "hr": total_hr,
-                          "lastGameDate": last_game_date
-                      })
+                  hr_streaks.append({
+                      "player": pdata["player"],
+                      "team": pdata.get("team", ""),
+                      "games": streak_games,
+                      "hr": total_hr,
+                      "lastGameDate": last_game_date
+                  })
 
               hr_streaks.sort(key=lambda x: (x["games"], x["hr"], x["player"]), reverse=True)
 
@@ -275,7 +290,7 @@ jobs:
               raise Exception("No hit streak data found")
 
           if len(hr) == 0:
-              print("No active HR streaks found. This can happen on some days, but the script still worked.")
+              print("WARNING: No active HR streaks found. Check if MLB Stats API returned games.")
           EOF
 
       - name: Commit updated data
