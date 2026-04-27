@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MLB Streak Tracker</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div>
+      <p class="eyebrow">MLB Daily Tracker</p>
+      <h1>Current MLB Hit & Home Run Streaks</h1>
+      <p class="sub">Auto-updated from Baseball Musings hit streak data and MLB Stats API game logs.</p>
+    </div>
+    <div class="updated">Last updated: <span id="updated">Loading...</span></div>
+  </header>
+
+  <main>
+    <section class="controls">
+      <input id="search" placeholder="Search player..." />
+      <select id="view">
+        <option value="hits">Hit streaks</option>
+        <option value="hr">Home run streaks</option>
+      </select>
+    </section>
+
+    <section class="cards">
+      <div class="stat-card"><span id="leaderName">--</span><small>Current leader</small></div>
+      <div class="stat-card"><span id="leaderGames">--</span><small>Games</small></div>
+      <div class="stat-card"><span id="rowsCount">--</span><small>Players shown</small></div>
+    </section>
+
+    <section class="table-wrap">
+      <table>
+        <thead id="thead"></thead>
+        <tbody id="tbody"></tbody>
+      </table>
+      <p id="empty" class="empty" hidden>No players found.</p>
+    </section>
+  </main>
+
+  <footer>
+    Hit streak source: Baseball Musings Day By Day Database. HR streaks calculated from MLB Stats API player game logs.
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>

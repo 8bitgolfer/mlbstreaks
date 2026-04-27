@@ -1,0 +1,25 @@
+:root { --bg:#07111f; --card:#101c2e; --line:#24344d; --text:#f4f7fb; --muted:#9fb0c7; --accent:#47a3ff; }
+* { box-sizing:border-box; }
+body { margin:0; font-family:Arial, sans-serif; background:linear-gradient(135deg,#07111f,#101827); color:var(--text); }
+.hero { display:flex; justify-content:space-between; gap:20px; padding:40px 6vw 25px; align-items:flex-end; }
+h1 { margin:0; font-size:clamp(32px,5vw,60px); line-height:1; }
+.eyebrow { color:var(--accent); font-weight:700; letter-spacing:.08em; text-transform:uppercase; }
+.sub, footer, .updated { color:var(--muted); }
+.updated { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:14px 18px; white-space:nowrap; }
+main { padding:0 6vw 40px; }
+.controls { display:flex; gap:12px; margin:20px 0; }
+input, select { width:100%; padding:14px 16px; border-radius:14px; border:1px solid var(--line); background:#0b1626; color:var(--text); font-size:16px; }
+select { max-width:220px; }
+.cards { display:grid; grid-template-columns:repeat(3,1fr); gap:14px; margin-bottom:18px; }
+.stat-card { background:var(--card); border:1px solid var(--line); border-radius:18px; padding:18px; }
+.stat-card span { display:block; font-size:28px; font-weight:800; }
+.stat-card small { color:var(--muted); }
+.table-wrap { background:var(--card); border:1px solid var(--line); border-radius:18px; overflow:auto; }
+table { width:100%; border-collapse:collapse; min-width:850px; }
+th, td { padding:13px 14px; border-bottom:1px solid var(--line); text-align:left; }
+th { position:sticky; top:0; background:#142238; color:#cfe1ff; cursor:pointer; }
+tbody tr:hover { background:#15243a; }
+.badge { background:rgba(71,163,255,.16); color:#8fc7ff; border:1px solid rgba(71,163,255,.3); padding:5px 9px; border-radius:999px; font-weight:700; }
+.empty { padding:25px; color:var(--muted); }
+footer { padding:25px 6vw; font-size:14px; }
+@media (max-width:800px){ .hero,.controls{flex-direction:column; align-items:stretch;} .cards{grid-template-columns:1fr;} select{max-width:none;} }
