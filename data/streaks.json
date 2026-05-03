@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-02 09:46 UTC",
+  "updated": "2026-05-03 09:58 UTC",
   "throughDate": "2026-05-01",
   "hits": [
     {
@@ -198,21 +198,6 @@
       "lastGameDate": "2026-05-01"
     },
     {
-      "player": "Pedro Pages",
-      "games": 6,
-      "atBats": 23,
-      "runs": 2,
-      "hits": 9,
-      "hr": 2,
-      "rbi": 3,
-      "bb": 1,
-      "k": 7,
-      "ba": ".391",
-      "oba": ".417",
-      "slug": ".696",
-      "lastGameDate": "2026-05-01"
-    },
-    {
       "player": "Jacob Wilson",
       "games": 6,
       "atBats": 24,
@@ -225,6 +210,21 @@
       "ba": ".375",
       "oba": ".407",
       "slug": ".458",
+      "lastGameDate": "2026-05-01"
+    },
+    {
+      "player": "Pedro Pages",
+      "games": 6,
+      "atBats": 23,
+      "runs": 2,
+      "hits": 9,
+      "hr": 2,
+      "rbi": 3,
+      "bb": 1,
+      "k": 7,
+      "ba": ".391",
+      "oba": ".417",
+      "slug": ".696",
       "lastGameDate": "2026-05-01"
     },
     {
@@ -243,21 +243,6 @@
       "lastGameDate": "2026-05-01"
     },
     {
-      "player": "Mike Trout",
-      "games": 6,
-      "atBats": 23,
-      "runs": 5,
-      "hits": 7,
-      "hr": 2,
-      "rbi": 3,
-      "bb": 4,
-      "k": 8,
-      "ba": ".304",
-      "oba": ".429",
-      "slug": ".609",
-      "lastGameDate": "2026-05-01"
-    },
-    {
       "player": "Miguel Andujar",
       "games": 6,
       "atBats": 23,
@@ -270,6 +255,21 @@
       "ba": ".304",
       "oba": ".333",
       "slug": ".522",
+      "lastGameDate": "2026-05-01"
+    },
+    {
+      "player": "Mike Trout",
+      "games": 6,
+      "atBats": 23,
+      "runs": 5,
+      "hits": 7,
+      "hr": 2,
+      "rbi": 3,
+      "bb": 4,
+      "k": 8,
+      "ba": ".304",
+      "oba": ".429",
+      "slug": ".609",
       "lastGameDate": "2026-05-01"
     },
     {
