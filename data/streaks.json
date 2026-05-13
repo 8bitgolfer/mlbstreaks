@@ -1,276 +1,291 @@
 {
-  "updated": "2026-05-12 12:29 UTC",
-  "throughDate": "2026-05-11",
+  "updated": "2026-05-13 13:39 UTC",
+  "throughDate": "2026-05-12",
   "hits": [
     {
       "player": "Brandon Marsh",
-      "games": 12,
-      "atBats": 42,
-      "runs": 11,
-      "hits": 20,
+      "games": 13,
+      "atBats": 46,
+      "runs": 12,
+      "hits": 21,
       "hr": 0,
       "rbi": 5,
       "bb": 3,
       "k": 8,
-      "ba": ".476",
-      "oba": ".500",
-      "slug": ".595",
-      "lastGameDate": "2026-05-10"
-    },
-    {
-      "player": "Kazuma Okamoto",
-      "games": 10,
-      "atBats": 39,
-      "runs": 9,
-      "hits": 13,
-      "hr": 5,
-      "rbi": 11,
-      "bb": 5,
-      "k": 10,
-      "ba": ".333",
-      "oba": ".409",
-      "slug": ".769",
-      "lastGameDate": "2026-05-11"
+      "ba": ".457",
+      "oba": ".481",
+      "slug": ".565",
+      "lastGameDate": "2026-05-12"
     },
     {
       "player": "Chase Meidroth",
-      "games": 10,
-      "atBats": 39,
-      "runs": 8,
-      "hits": 13,
-      "hr": 1,
-      "rbi": 2,
-      "bb": 3,
-      "k": 14,
-      "ba": ".333",
-      "oba": ".381",
-      "slug": ".513",
-      "lastGameDate": "2026-05-10"
-    },
-    {
-      "player": "Zack Gelof",
-      "games": 9,
-      "atBats": 31,
-      "runs": 6,
-      "hits": 10,
+      "games": 11,
+      "atBats": 43,
+      "runs": 9,
+      "hits": 14,
       "hr": 2,
-      "rbi": 7,
-      "bb": 4,
-      "k": 9,
-      "ba": ".323",
-      "oba": ".400",
-      "slug": ".613",
-      "lastGameDate": "2026-05-10"
-    },
-    {
-      "player": "Riley Greene",
-      "games": 6,
-      "atBats": 21,
-      "runs": 2,
-      "hits": 10,
-      "hr": 0,
-      "rbi": 1,
-      "bb": 4,
-      "k": 8,
-      "ba": ".476",
-      "oba": ".560",
-      "slug": ".714",
-      "lastGameDate": "2026-05-10"
+      "rbi": 5,
+      "bb": 3,
+      "k": 16,
+      "ba": ".326",
+      "oba": ".370",
+      "slug": ".558",
+      "lastGameDate": "2026-05-12"
     },
     {
       "player": "Samuel Basallo",
-      "games": 6,
-      "atBats": 21,
-      "runs": 4,
-      "hits": 9,
+      "games": 7,
+      "atBats": 25,
+      "runs": 5,
+      "hits": 11,
       "hr": 0,
-      "rbi": 5,
+      "rbi": 6,
       "bb": 1,
       "k": 4,
-      "ba": ".429",
-      "oba": ".455",
-      "slug": ".667",
-      "lastGameDate": "2026-05-10"
+      "ba": ".440",
+      "oba": ".462",
+      "slug": ".680",
+      "lastGameDate": "2026-05-12"
     },
     {
-      "player": "Michael Busch",
-      "games": 6,
-      "atBats": 20,
+      "player": "Riley Greene",
+      "games": 7,
+      "atBats": 25,
       "runs": 2,
-      "hits": 8,
-      "hr": 1,
-      "rbi": 6,
-      "bb": 6,
-      "k": 5,
-      "ba": ".400",
-      "oba": ".538",
-      "slug": ".600",
-      "lastGameDate": "2026-05-10"
+      "hits": 11,
+      "hr": 0,
+      "rbi": 1,
+      "bb": 4,
+      "k": 9,
+      "ba": ".440",
+      "oba": ".517",
+      "slug": ".640",
+      "lastGameDate": "2026-05-12"
     },
     {
       "player": "Braden Shewmake",
-      "games": 6,
-      "atBats": 19,
+      "games": 7,
+      "atBats": 23,
       "runs": 4,
-      "hits": 7,
+      "hits": 9,
       "hr": 2,
-      "rbi": 2,
-      "bb": 0,
-      "k": 2,
-      "ba": ".368",
-      "oba": ".368",
-      "slug": ".684",
-      "lastGameDate": "2026-05-11"
-    },
-    {
-      "player": "Zach Neto",
-      "games": 6,
-      "atBats": 24,
-      "runs": 5,
-      "hits": 7,
-      "hr": 1,
       "rbi": 3,
-      "bb": 2,
-      "k": 6,
-      "ba": ".292",
-      "oba": ".333",
-      "slug": ".542",
-      "lastGameDate": "2026-05-11"
-    },
-    {
-      "player": "Jake McCarthy",
-      "games": 6,
-      "atBats": 18,
-      "runs": 4,
-      "hits": 7,
-      "hr": 2,
-      "rbi": 8,
-      "bb": 2,
+      "bb": 0,
       "k": 3,
-      "ba": ".389",
-      "oba": ".450",
-      "slug": ".889",
-      "lastGameDate": "2026-05-10"
+      "ba": ".391",
+      "oba": ".391",
+      "slug": ".652",
+      "lastGameDate": "2026-05-12"
     },
     {
       "player": "Nick Fortes",
-      "games": 6,
-      "atBats": 18,
+      "games": 7,
+      "atBats": 22,
       "runs": 2,
-      "hits": 7,
+      "hits": 8,
       "hr": 0,
       "rbi": 0,
       "bb": 0,
-      "k": 3,
-      "ba": ".389",
-      "oba": ".389",
-      "slug": ".389",
-      "lastGameDate": "2026-05-10"
-    },
-    {
-      "player": "Maikel Garcia",
-      "games": 5,
-      "atBats": 18,
-      "runs": 2,
-      "hits": 9,
-      "hr": 0,
-      "rbi": 3,
-      "bb": 3,
-      "k": 1,
-      "ba": ".500",
-      "oba": ".571",
-      "slug": ".667",
-      "lastGameDate": "2026-05-10"
+      "k": 5,
+      "ba": ".364",
+      "oba": ".364",
+      "slug": ".364",
+      "lastGameDate": "2026-05-12"
     },
     {
       "player": "Randy Arozarena",
-      "games": 5,
-      "atBats": 19,
-      "runs": 3,
-      "hits": 8,
-      "hr": 0,
-      "rbi": 1,
+      "games": 6,
+      "atBats": 23,
+      "runs": 7,
+      "hits": 12,
+      "hr": 1,
+      "rbi": 4,
       "bb": 0,
       "k": 6,
-      "ba": ".421",
-      "oba": ".476",
-      "slug": ".421",
-      "lastGameDate": "2026-05-11"
+      "ba": ".522",
+      "oba": ".577",
+      "slug": ".739",
+      "lastGameDate": "2026-05-12"
     },
     {
-      "player": "Julio Rodriguez",
-      "games": 5,
-      "atBats": 20,
-      "runs": 5,
-      "hits": 8,
-      "hr": 3,
-      "rbi": 3,
-      "bb": 1,
-      "k": 6,
-      "ba": ".400",
-      "oba": ".429",
-      "slug": ".900",
-      "lastGameDate": "2026-05-11"
+      "player": "Maikel Garcia",
+      "games": 6,
+      "atBats": 23,
+      "runs": 2,
+      "hits": 10,
+      "hr": 0,
+      "rbi": 4,
+      "bb": 3,
+      "k": 1,
+      "ba": ".435",
+      "oba": ".500",
+      "slug": ".565",
+      "lastGameDate": "2026-05-12"
     },
     {
       "player": "Kyle Schwarber",
-      "games": 5,
-      "atBats": 22,
-      "runs": 6,
-      "hits": 8,
-      "hr": 5,
-      "rbi": 7,
-      "bb": 1,
+      "games": 6,
+      "atBats": 25,
+      "runs": 7,
+      "hits": 9,
+      "hr": 6,
+      "rbi": 8,
+      "bb": 2,
       "k": 8,
-      "ba": ".364",
-      "oba": ".391",
-      "slug": "1.091",
-      "lastGameDate": "2026-05-10"
-    },
-    {
-      "player": "Luis Arraez",
-      "games": 5,
-      "atBats": 21,
-      "runs": 4,
-      "hits": 7,
-      "hr": 0,
-      "rbi": 3,
-      "bb": 2,
-      "k": 1,
-      "ba": ".333",
-      "oba": ".391",
-      "slug": ".429",
-      "lastGameDate": "2026-05-11"
-    },
-    {
-      "player": "Mauricio Dubon",
-      "games": 5,
-      "atBats": 20,
-      "runs": 1,
-      "hits": 7,
-      "hr": 0,
-      "rbi": 5,
-      "bb": 2,
-      "k": 4,
-      "ba": ".350",
-      "oba": ".409",
-      "slug": ".450",
-      "lastGameDate": "2026-05-10"
+      "ba": ".360",
+      "oba": ".407",
+      "slug": "1.120",
+      "lastGameDate": "2026-05-12"
     },
     {
       "player": "Spencer Horwitz",
-      "games": 5,
-      "atBats": 16,
+      "games": 6,
+      "atBats": 19,
       "runs": 2,
-      "hits": 6,
+      "hits": 8,
       "hr": 0,
       "rbi": 6,
-      "bb": 4,
+      "bb": 5,
       "k": 3,
-      "ba": ".375",
-      "oba": ".500",
-      "slug": ".688",
-      "lastGameDate": "2026-05-10"
+      "ba": ".421",
+      "oba": ".542",
+      "slug": ".684",
+      "lastGameDate": "2026-05-12"
+    },
+    {
+      "player": "Bobby Witt Jr.",
+      "games": 5,
+      "atBats": 20,
+      "runs": 4,
+      "hits": 10,
+      "hr": 3,
+      "rbi": 4,
+      "bb": 2,
+      "k": 1,
+      "ba": ".500",
+      "oba": ".545",
+      "slug": "1.000",
+      "lastGameDate": "2026-05-12"
+    },
+    {
+      "player": "Elly De La Cruz",
+      "games": 5,
+      "atBats": 22,
+      "runs": 3,
+      "hits": 10,
+      "hr": 0,
+      "rbi": 1,
+      "bb": 0,
+      "k": 5,
+      "ba": ".455",
+      "oba": ".455",
+      "slug": ".545",
+      "lastGameDate": "2026-05-12"
+    },
+    {
+      "player": "Heliot Ramos",
+      "games": 5,
+      "atBats": 21,
+      "runs": 7,
+      "hits": 9,
+      "hr": 1,
+      "rbi": 5,
+      "bb": 2,
+      "k": 3,
+      "ba": ".429",
+      "oba": ".478",
+      "slug": ".762",
+      "lastGameDate": "2026-05-12"
+    },
+    {
+      "player": "Daylen Lile",
+      "games": 5,
+      "atBats": 19,
+      "runs": 2,
+      "hits": 8,
+      "hr": 2,
+      "rbi": 5,
+      "bb": 0,
+      "k": 2,
+      "ba": ".421",
+      "oba": ".429",
+      "slug": ".842",
+      "lastGameDate": "2026-05-12"
+    },
+    {
+      "player": "Jung Hoo Lee",
+      "games": 5,
+      "atBats": 25,
+      "runs": 2,
+      "hits": 8,
+      "hr": 0,
+      "rbi": 2,
+      "bb": 0,
+      "k": 4,
+      "ba": ".320",
+      "oba": ".346",
+      "slug": ".400",
+      "lastGameDate": "2026-05-12"
+    },
+    {
+      "player": "Jake Bauers",
+      "games": 5,
+      "atBats": 16,
+      "runs": 4,
+      "hits": 7,
+      "hr": 1,
+      "rbi": 2,
+      "bb": 3,
+      "k": 4,
+      "ba": ".438",
+      "oba": ".526",
+      "slug": ".750",
+      "lastGameDate": "2026-05-12"
+    },
+    {
+      "player": "Sal Stewart",
+      "games": 5,
+      "atBats": 21,
+      "runs": 5,
+      "hits": 7,
+      "hr": 1,
+      "rbi": 1,
+      "bb": 1,
+      "k": 6,
+      "ba": ".333",
+      "oba": ".364",
+      "slug": ".571",
+      "lastGameDate": "2026-05-12"
+    },
+    {
+      "player": "Jose Altuve",
+      "games": 5,
+      "atBats": 19,
+      "runs": 4,
+      "hits": 7,
+      "hr": 0,
+      "rbi": 0,
+      "bb": 1,
+      "k": 2,
+      "ba": ".368",
+      "oba": ".429",
+      "slug": ".421",
+      "lastGameDate": "2026-05-12"
+    },
+    {
+      "player": "Eric Haase",
+      "games": 5,
+      "atBats": 18,
+      "runs": 4,
+      "hits": 6,
+      "hr": 2,
+      "rbi": 4,
+      "bb": 0,
+      "k": 4,
+      "ba": ".333",
+      "oba": ".333",
+      "slug": ".778",
+      "lastGameDate": "2026-05-12"
     },
     {
       "player": "Eli White",
@@ -292,23 +307,44 @@
     {
       "player": "Kyle Schwarber",
       "team": "Philadelphia Phillies",
-      "games": 4,
-      "hr": 5,
-      "lastGameDate": "2026-05-10"
+      "games": 5,
+      "hr": 6,
+      "lastGameDate": "2026-05-12"
     },
     {
-      "player": "Max Muncy",
-      "team": "Los Angeles Dodgers",
-      "games": 2,
-      "hr": 2,
-      "lastGameDate": "2026-05-11"
-    },
-    {
-      "player": "Andr\u00e9s Gim\u00e9nez",
-      "team": "Toronto Blue Jays",
+      "player": "Luis Garc\u00eda Jr.",
+      "team": "Washington Nationals",
       "games": 1,
       "hr": 2,
-      "lastGameDate": "2026-05-11"
+      "lastGameDate": "2026-05-12"
+    },
+    {
+      "player": "Eric Haase",
+      "team": "San Francisco Giants",
+      "games": 1,
+      "hr": 2,
+      "lastGameDate": "2026-05-12"
+    },
+    {
+      "player": "Daylen Lile",
+      "team": "Washington Nationals",
+      "games": 1,
+      "hr": 2,
+      "lastGameDate": "2026-05-12"
+    },
+    {
+      "player": "Vaughn Grissom",
+      "team": "Los Angeles Angels",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-05-12"
+    },
+    {
+      "player": "Trent Grisham",
+      "team": "New York Yankees",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-05-12"
     },
     {
       "player": "Travis d'Arnaud",
@@ -318,67 +354,67 @@
       "lastGameDate": "2026-05-06"
     },
     {
-      "player": "Spencer Steer",
-      "team": "Cincinnati Reds",
+      "player": "Shohei Ohtani",
+      "team": "Los Angeles Dodgers",
       "games": 1,
       "hr": 1,
-      "lastGameDate": "2026-05-10"
+      "lastGameDate": "2026-05-12"
     },
     {
-      "player": "Randal Grichuk",
-      "team": "Chicago White Sox",
+      "player": "Shea Langeliers",
+      "team": "Athletics",
       "games": 1,
       "hr": 1,
-      "lastGameDate": "2026-05-10"
+      "lastGameDate": "2026-05-12"
     },
     {
-      "player": "Rafael Devers",
-      "team": "San Francisco Giants",
+      "player": "Salvador Perez",
+      "team": "Kansas City Royals",
       "games": 1,
       "hr": 1,
-      "lastGameDate": "2026-05-11"
+      "lastGameDate": "2026-05-12"
     },
     {
-      "player": "Oneil Cruz",
-      "team": "Pittsburgh Pirates",
+      "player": "Ryan Vilade",
+      "team": "Tampa Bay Rays",
       "games": 1,
       "hr": 1,
-      "lastGameDate": "2026-05-10"
+      "lastGameDate": "2026-05-12"
     },
     {
-      "player": "Nick Castellanos",
-      "team": "San Diego Padres",
+      "player": "Ryan Jeffers",
+      "team": "Minnesota Twins",
       "games": 1,
       "hr": 1,
-      "lastGameDate": "2026-05-10"
+      "lastGameDate": "2026-05-12"
     },
     {
-      "player": "Matt Olson",
-      "team": "Atlanta Braves",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-05-10"
-    },
-    {
-      "player": "Konnor Griffin",
-      "team": "Pittsburgh Pirates",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-05-10"
-    },
-    {
-      "player": "Julio Rodr\u00edguez",
+      "player": "Randy Arozarena",
       "team": "Seattle Mariners",
       "games": 1,
       "hr": 1,
-      "lastGameDate": "2026-05-11"
+      "lastGameDate": "2026-05-12"
     },
     {
-      "player": "Jordan Walker",
-      "team": "St. Louis Cardinals",
+      "player": "Paul Goldschmidt",
+      "team": "New York Yankees",
       "games": 1,
       "hr": 1,
-      "lastGameDate": "2026-05-10"
+      "lastGameDate": "2026-05-12"
+    },
+    {
+      "player": "Mike Yastrzemski",
+      "team": "Atlanta Braves",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-05-12"
+    },
+    {
+      "player": "Miguel Andujar",
+      "team": "San Diego Padres",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-05-12"
     },
     {
       "player": "Jordan Lawlar",
@@ -388,53 +424,88 @@
       "lastGameDate": "2026-04-02"
     },
     {
-      "player": "Jonathan Aranda",
-      "team": "Tampa Bay Rays",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-05-11"
-    },
-    {
-      "player": "Jake Bauers",
+      "player": "Joey Ortiz",
       "team": "Milwaukee Brewers",
       "games": 1,
       "hr": 1,
-      "lastGameDate": "2026-05-09"
+      "lastGameDate": "2026-05-12"
     },
     {
-      "player": "Gage Workman",
+      "player": "Joc Pederson",
+      "team": "Texas Rangers",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-05-12"
+    },
+    {
+      "player": "James Wood",
+      "team": "Washington Nationals",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-05-12"
+    },
+    {
+      "player": "JJ Wetherholt",
+      "team": "St. Louis Cardinals",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-05-12"
+    },
+    {
+      "player": "Ildemaro Vargas",
+      "team": "Arizona Diamondbacks",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-05-12"
+    },
+    {
+      "player": "Harrison Bader",
+      "team": "San Francisco Giants",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-05-12"
+    },
+    {
+      "player": "Ezequiel Duran",
+      "team": "Texas Rangers",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-05-12"
+    },
+    {
+      "player": "Drew Romo",
+      "team": "Chicago White Sox",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-05-12"
+    },
+    {
+      "player": "Dominic Canzone",
+      "team": "Seattle Mariners",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-05-12"
+    },
+    {
+      "player": "Dillon Dingler",
       "team": "Detroit Tigers",
       "games": 1,
       "hr": 1,
-      "lastGameDate": "2026-05-10"
+      "lastGameDate": "2026-05-12"
     },
     {
-      "player": "Drake Baldwin",
-      "team": "Atlanta Braves",
+      "player": "Derek Hill",
+      "team": "Chicago White Sox",
       "games": 1,
       "hr": 1,
-      "lastGameDate": "2026-05-10"
+      "lastGameDate": "2026-05-12"
     },
     {
-      "player": "Coby Mayo",
-      "team": "Baltimore Orioles",
+      "player": "Chase Meidroth",
+      "team": "Chicago White Sox",
       "games": 1,
       "hr": 1,
-      "lastGameDate": "2026-05-11"
-    },
-    {
-      "player": "Bryce Harper",
-      "team": "Philadelphia Phillies",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-05-10"
-    },
-    {
-      "player": "Brice Turang",
-      "team": "Milwaukee Brewers",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-05-10"
+      "lastGameDate": "2026-05-12"
     },
     {
       "player": "Braxton Fulford",
@@ -444,6 +515,20 @@
       "lastGameDate": "2026-03-30"
     },
     {
+      "player": "Brady House",
+      "team": "Washington Nationals",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-05-12"
+    },
+    {
+      "player": "Bobby Witt Jr.",
+      "team": "Kansas City Royals",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-05-12"
+    },
+    {
       "player": "Bo Naylor",
       "team": "Cleveland Guardians",
       "games": 1,
@@ -451,11 +536,25 @@
       "lastGameDate": "2026-05-07"
     },
     {
-      "player": "Ben Rice",
-      "team": "New York Yankees",
+      "player": "Austin Riley",
+      "team": "Atlanta Braves",
       "games": 1,
       "hr": 1,
-      "lastGameDate": "2026-05-11"
+      "lastGameDate": "2026-05-12"
+    },
+    {
+      "player": "Angel Mart\u00ednez",
+      "team": "Cleveland Guardians",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-05-12"
+    },
+    {
+      "player": "Alex Bregman",
+      "team": "Chicago Cubs",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-05-12"
     }
   ]
 }
