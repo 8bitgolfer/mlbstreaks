@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-15 12:24 UTC",
+  "updated": "2026-05-16 10:45 UTC",
   "throughDate": "2026-05-14",
   "hits": [
     {
@@ -153,21 +153,6 @@
       "lastGameDate": "2026-05-14"
     },
     {
-      "player": "Alec Bohm",
-      "games": 5,
-      "atBats": 18,
-      "runs": 4,
-      "hits": 8,
-      "hr": 2,
-      "rbi": 5,
-      "bb": 1,
-      "k": 2,
-      "ba": ".444",
-      "oba": ".474",
-      "slug": ".833",
-      "lastGameDate": "2026-05-14"
-    },
-    {
       "player": "Rafael Devers",
       "games": 5,
       "atBats": 19,
@@ -180,6 +165,21 @@
       "ba": ".421",
       "oba": ".500",
       "slug": ".737",
+      "lastGameDate": "2026-05-14"
+    },
+    {
+      "player": "Alec Bohm",
+      "games": 5,
+      "atBats": 18,
+      "runs": 4,
+      "hits": 8,
+      "hr": 2,
+      "rbi": 5,
+      "bb": 1,
+      "k": 2,
+      "ba": ".444",
+      "oba": ".474",
+      "slug": ".833",
       "lastGameDate": "2026-05-14"
     },
     {
