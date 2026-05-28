@@ -1,216 +1,201 @@
 {
-  "updated": "2026-05-27 17:44 UTC",
-  "throughDate": "2026-05-26",
+  "updated": "2026-05-28 17:53 UTC",
+  "throughDate": "2026-05-27",
   "hits": [
     {
       "player": "Ketel Marte",
-      "games": 10,
-      "atBats": 42,
+      "games": 11,
+      "atBats": 47,
       "runs": 14,
-      "hits": 22,
+      "hits": 24,
       "hr": 4,
       "rbi": 17,
       "bb": 4,
       "k": 3,
-      "ba": ".524",
-      "oba": ".553",
-      "slug": ".952",
-      "lastGameDate": "2026-05-26"
-    },
-    {
-      "player": "William Contreras",
-      "games": 10,
-      "atBats": 42,
-      "runs": 7,
-      "hits": 17,
-      "hr": 1,
-      "rbi": 7,
-      "bb": 2,
-      "k": 7,
-      "ba": ".405",
-      "oba": ".432",
-      "slug": ".500",
-      "lastGameDate": "2026-05-26"
+      "ba": ".511",
+      "oba": ".538",
+      "slug": ".894",
+      "lastGameDate": "2026-05-27"
     },
     {
       "player": "Willson Contreras",
-      "games": 9,
-      "atBats": 35,
+      "games": 10,
+      "atBats": 40,
       "runs": 6,
-      "hits": 16,
+      "hits": 17,
       "hr": 3,
       "rbi": 10,
       "bb": 1,
-      "k": 4,
-      "ba": ".457",
-      "oba": ".472",
-      "slug": ".857",
-      "lastGameDate": "2026-05-26"
-    },
-    {
-      "player": "Ernie Clement",
-      "games": 9,
-      "atBats": 31,
-      "runs": 6,
-      "hits": 12,
-      "hr": 3,
-      "rbi": 8,
-      "bb": 2,
-      "k": 3,
-      "ba": ".387",
-      "oba": ".424",
-      "slug": ".806",
-      "lastGameDate": "2026-05-26"
-    },
-    {
-      "player": "Junior Caminero",
-      "games": 9,
-      "atBats": 34,
-      "runs": 6,
-      "hits": 12,
-      "hr": 2,
-      "rbi": 8,
-      "bb": 8,
       "k": 6,
-      "ba": ".353",
-      "oba": ".476",
-      "slug": ".588",
-      "lastGameDate": "2026-05-26"
-    },
-    {
-      "player": "Teoscar Hernandez",
-      "games": 7,
-      "atBats": 24,
-      "runs": 7,
-      "hits": 9,
-      "hr": 2,
-      "rbi": 8,
-      "bb": 3,
-      "k": 7,
-      "ba": ".375",
-      "oba": ".429",
-      "slug": ".667",
-      "lastGameDate": "2026-05-26"
+      "ba": ".425",
+      "oba": ".439",
+      "slug": ".775",
+      "lastGameDate": "2026-05-27"
     },
     {
       "player": "Nathaniel Lowe",
-      "games": 6,
-      "atBats": 23,
+      "games": 7,
+      "atBats": 26,
       "runs": 5,
-      "hits": 9,
+      "hits": 10,
       "hr": 2,
-      "rbi": 7,
-      "bb": 2,
-      "k": 5,
-      "ba": ".391",
-      "oba": ".440",
-      "slug": ".826",
-      "lastGameDate": "2026-05-25"
+      "rbi": 8,
+      "bb": 4,
+      "k": 6,
+      "ba": ".385",
+      "oba": ".467",
+      "slug": ".769",
+      "lastGameDate": "2026-05-27"
     },
     {
       "player": "Alex Bregman",
-      "games": 6,
-      "atBats": 23,
-      "runs": 1,
-      "hits": 8,
+      "games": 7,
+      "atBats": 29,
+      "runs": 2,
+      "hits": 10,
       "hr": 0,
       "rbi": 0,
       "bb": 1,
-      "k": 4,
-      "ba": ".348",
-      "oba": ".423",
-      "slug": ".391",
-      "lastGameDate": "2026-05-26"
-    },
-    {
-      "player": "Oswald Peraza",
-      "games": 6,
-      "atBats": 22,
-      "runs": 3,
-      "hits": 8,
-      "hr": 1,
-      "rbi": 3,
-      "bb": 1,
-      "k": 7,
-      "ba": ".364",
-      "oba": ".462",
-      "slug": ".545",
-      "lastGameDate": "2026-05-26"
-    },
-    {
-      "player": "Cameron Smith",
-      "games": 6,
-      "atBats": 21,
-      "runs": 5,
-      "hits": 7,
-      "hr": 1,
-      "rbi": 1,
-      "bb": 2,
-      "k": 4,
-      "ba": ".333",
-      "oba": ".417",
-      "slug": ".524",
-      "lastGameDate": "2026-05-26"
-    },
-    {
-      "player": "Orlando Arcia",
-      "games": 5,
-      "atBats": 15,
-      "runs": 1,
-      "hits": 8,
-      "hr": 0,
-      "rbi": 1,
-      "bb": 0,
-      "k": 3,
-      "ba": ".533",
-      "oba": ".533",
-      "slug": ".600",
-      "lastGameDate": "2026-05-26"
+      "k": 5,
+      "ba": ".345",
+      "oba": ".406",
+      "slug": ".414",
+      "lastGameDate": "2026-05-27"
     },
     {
       "player": "Jonathan Aranda",
-      "games": 5,
-      "atBats": 19,
-      "runs": 3,
-      "hits": 8,
+      "games": 6,
+      "atBats": 21,
+      "runs": 4,
+      "hits": 10,
       "hr": 1,
       "rbi": 6,
-      "bb": 2,
+      "bb": 3,
       "k": 6,
-      "ba": ".421",
-      "oba": ".455",
-      "slug": ".737",
-      "lastGameDate": "2026-05-26"
-    },
-    {
-      "player": "Kevin McGonigle",
-      "games": 5,
-      "atBats": 20,
-      "runs": 4,
-      "hits": 7,
-      "hr": 1,
-      "rbi": 5,
-      "bb": 2,
-      "k": 3,
-      "ba": ".350",
-      "oba": ".409",
-      "slug": ".600",
-      "lastGameDate": "2026-05-26"
+      "ba": ".476",
+      "oba": ".520",
+      "slug": ".762",
+      "lastGameDate": "2026-05-27"
     },
     {
       "player": "Taylor Trammell",
-      "games": 5,
-      "atBats": 16,
-      "runs": 2,
-      "hits": 7,
+      "games": 6,
+      "atBats": 19,
+      "runs": 3,
+      "hits": 9,
       "hr": 0,
       "rbi": 1,
       "bb": 1,
-      "k": 4,
+      "k": 5,
+      "ba": ".474",
+      "oba": ".500",
+      "slug": ".632",
+      "lastGameDate": "2026-05-27"
+    },
+    {
+      "player": "Kevin McGonigle",
+      "games": 6,
+      "atBats": 23,
+      "runs": 6,
+      "hits": 9,
+      "hr": 1,
+      "rbi": 5,
+      "bb": 3,
+      "k": 3,
+      "ba": ".391",
+      "oba": ".462",
+      "slug": ".609",
+      "lastGameDate": "2026-05-27"
+    },
+    {
+      "player": "Willy Adames",
+      "games": 6,
+      "atBats": 26,
+      "runs": 8,
+      "hits": 8,
+      "hr": 2,
+      "rbi": 3,
+      "bb": 2,
+      "k": 7,
+      "ba": ".308",
+      "oba": ".357",
+      "slug": ".731",
+      "lastGameDate": "2026-05-27"
+    },
+    {
+      "player": "Andy Pages",
+      "games": 5,
+      "atBats": 21,
+      "runs": 7,
+      "hits": 10,
+      "hr": 3,
+      "rbi": 8,
+      "bb": 1,
+      "k": 2,
+      "ba": ".476",
+      "oba": ".500",
+      "slug": "1.095",
+      "lastGameDate": "2026-05-27"
+    },
+    {
+      "player": "Bryan Reynolds",
+      "games": 5,
+      "atBats": 18,
+      "runs": 3,
+      "hits": 9,
+      "hr": 0,
+      "rbi": 2,
+      "bb": 2,
+      "k": 3,
+      "ba": ".500",
+      "oba": ".550",
+      "slug": ".667",
+      "lastGameDate": "2026-05-27"
+    },
+    {
+      "player": "Chase Meidroth",
+      "games": 5,
+      "atBats": 23,
+      "runs": 2,
+      "hits": 8,
+      "hr": 2,
+      "rbi": 6,
+      "bb": 1,
+      "k": 3,
+      "ba": ".348",
+      "oba": ".375",
+      "slug": ".609",
+      "lastGameDate": "2026-05-27"
+    },
+    {
+      "player": "Travis Bazzana",
+      "games": 5,
+      "atBats": 19,
+      "runs": 2,
+      "hits": 8,
+      "hr": 1,
+      "rbi": 2,
+      "bb": 2,
+      "k": 2,
+      "ba": ".421",
+      "oba": ".476",
+      "slug": ".842",
+      "lastGameDate": "2026-05-27"
+    },
+    {
+      "player": "Vladimir Guerrero Jr.",
+      "games": 5,
+      "atBats": 16,
+      "runs": 4,
+      "hits": 7,
+      "hr": 0,
+      "rbi": 1,
+      "bb": 6,
+      "k": 1,
       "ba": ".438",
-      "oba": ".471",
-      "slug": ".562",
-      "lastGameDate": "2026-05-26"
+      "oba": ".583",
+      "slug": ".438",
+      "lastGameDate": "2026-05-27"
     },
     {
       "player": "Nolan Schanuel",
@@ -228,6 +213,21 @@
       "lastGameDate": "2026-05-23"
     },
     {
+      "player": "Spencer Horwitz",
+      "games": 5,
+      "atBats": 17,
+      "runs": 4,
+      "hits": 7,
+      "hr": 2,
+      "rbi": 3,
+      "bb": 2,
+      "k": 0,
+      "ba": ".412",
+      "oba": ".476",
+      "slug": ".765",
+      "lastGameDate": "2026-05-27"
+    },
+    {
       "player": "Dylan Crews",
       "games": 5,
       "atBats": 22,
@@ -240,66 +240,6 @@
       "ba": ".273",
       "oba": ".273",
       "slug": ".455",
-      "lastGameDate": "2026-05-26"
-    },
-    {
-      "player": "Yohendrick Pinango",
-      "games": 5,
-      "atBats": 19,
-      "runs": 2,
-      "hits": 6,
-      "hr": 1,
-      "rbi": 4,
-      "bb": 0,
-      "k": 4,
-      "ba": ".316",
-      "oba": ".316",
-      "slug": ".579",
-      "lastGameDate": "2026-05-26"
-    },
-    {
-      "player": "Willy Adames",
-      "games": 5,
-      "atBats": 22,
-      "runs": 7,
-      "hits": 6,
-      "hr": 2,
-      "rbi": 3,
-      "bb": 2,
-      "k": 6,
-      "ba": ".273",
-      "oba": ".333",
-      "slug": ".682",
-      "lastGameDate": "2026-05-26"
-    },
-    {
-      "player": "Gavin Sheets",
-      "games": 5,
-      "atBats": 19,
-      "runs": 1,
-      "hits": 5,
-      "hr": 0,
-      "rbi": 2,
-      "bb": 1,
-      "k": 5,
-      "ba": ".263",
-      "oba": ".300",
-      "slug": ".263",
-      "lastGameDate": "2026-05-26"
-    },
-    {
-      "player": "Vinnie Pasquantino",
-      "games": 5,
-      "atBats": 17,
-      "runs": 3,
-      "hits": 5,
-      "hr": 0,
-      "rbi": 1,
-      "bb": 3,
-      "k": 0,
-      "ba": ".294",
-      "oba": ".400",
-      "slug": ".412",
       "lastGameDate": "2026-05-26"
     },
     {
@@ -316,134 +256,79 @@
       "oba": ".333",
       "slug": ".471",
       "lastGameDate": "2026-05-18"
+    },
+    {
+      "player": "Jorge Soler",
+      "games": 5,
+      "atBats": 21,
+      "runs": 3,
+      "hits": 5,
+      "hr": 0,
+      "rbi": 0,
+      "bb": 1,
+      "k": 5,
+      "ba": ".238",
+      "oba": ".273",
+      "slug": ".238",
+      "lastGameDate": "2026-05-27"
     }
   ],
   "hr": [
     {
       "player": "Yordan Alvarez",
       "team": "Houston Astros",
-      "games": 2,
-      "hr": 3,
-      "lastGameDate": "2026-05-26"
+      "games": 3,
+      "hr": 5,
+      "lastGameDate": "2026-05-27"
     },
     {
       "player": "Munetaka Murakami",
       "team": "Chicago White Sox",
+      "games": 3,
+      "hr": 3,
+      "lastGameDate": "2026-05-27"
+    },
+    {
+      "player": "Joc Pederson",
+      "team": "Texas Rangers",
       "games": 2,
-      "hr": 2,
-      "lastGameDate": "2026-05-26"
-    },
-    {
-      "player": "James Wood",
-      "team": "Washington Nationals",
-      "games": 2,
-      "hr": 2,
-      "lastGameDate": "2026-05-26"
-    },
-    {
-      "player": "Esmerlyn Valdez",
-      "team": "Pittsburgh Pirates",
-      "games": 2,
-      "hr": 2,
-      "lastGameDate": "2026-05-26"
-    },
-    {
-      "player": "Ernie Clement",
-      "team": "Toronto Blue Jays",
-      "games": 2,
-      "hr": 2,
-      "lastGameDate": "2026-05-26"
-    },
-    {
-      "player": "Cody Bellinger",
-      "team": "New York Yankees",
-      "games": 2,
-      "hr": 2,
-      "lastGameDate": "2026-05-26"
-    },
-    {
-      "player": "Bobby Witt Jr.",
-      "team": "Kansas City Royals",
-      "games": 2,
-      "hr": 2,
-      "lastGameDate": "2026-05-26"
-    },
-    {
-      "player": "Mookie Betts",
-      "team": "Los Angeles Dodgers",
-      "games": 1,
-      "hr": 2,
-      "lastGameDate": "2026-05-26"
-    },
-    {
-      "player": "Amed Rosario",
-      "team": "New York Yankees",
-      "games": 1,
-      "hr": 2,
-      "lastGameDate": "2026-05-26"
-    },
-    {
-      "player": "Yohendrick Pi\u00f1ango",
-      "team": "Toronto Blue Jays",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-05-26"
-    },
-    {
-      "player": "Willy Adames",
-      "team": "San Francisco Giants",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-05-26"
-    },
-    {
-      "player": "Will Smith",
-      "team": "Los Angeles Dodgers",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-05-26"
-    },
-    {
-      "player": "Wenceel P\u00e9rez",
-      "team": "Detroit Tigers",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-05-26"
-    },
-    {
-      "player": "Vaughn Grissom",
-      "team": "Los Angeles Angels",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-05-26"
-    },
-    {
-      "player": "Tyler Soderstrom",
-      "team": "Athletics",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-05-26"
-    },
-    {
-      "player": "Tyler Heineman",
-      "team": "Toronto Blue Jays",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-05-23"
-    },
-    {
-      "player": "Trent Grisham",
-      "team": "New York Yankees",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-05-26"
+      "hr": 3,
+      "lastGameDate": "2026-05-27"
     },
     {
       "player": "Trea Turner",
       "team": "Philadelphia Phillies",
+      "games": 2,
+      "hr": 2,
+      "lastGameDate": "2026-05-27"
+    },
+    {
+      "player": "Juan Soto",
+      "team": "New York Mets",
+      "games": 2,
+      "hr": 2,
+      "lastGameDate": "2026-05-27"
+    },
+    {
+      "player": "Jarren Duran",
+      "team": "Boston Red Sox",
+      "games": 2,
+      "hr": 2,
+      "lastGameDate": "2026-05-27"
+    },
+    {
+      "player": "Andy Pages",
+      "team": "Los Angeles Dodgers",
+      "games": 2,
+      "hr": 2,
+      "lastGameDate": "2026-05-27"
+    },
+    {
+      "player": "Gunnar Henderson",
+      "team": "Baltimore Orioles",
       "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-05-26"
+      "hr": 2,
+      "lastGameDate": "2026-05-27"
     },
     {
       "player": "Travis d'Arnaud",
@@ -453,11 +338,18 @@
       "lastGameDate": "2026-05-06"
     },
     {
-      "player": "Spencer Horwitz",
-      "team": "Pittsburgh Pirates",
+      "player": "Spencer Torkelson",
+      "team": "Detroit Tigers",
       "games": 1,
       "hr": 1,
-      "lastGameDate": "2026-05-26"
+      "lastGameDate": "2026-05-27"
+    },
+    {
+      "player": "Shohei Ohtani",
+      "team": "Los Angeles Dodgers",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-05-27"
     },
     {
       "player": "Samuel Basallo",
@@ -467,60 +359,53 @@
       "lastGameDate": "2026-05-26"
     },
     {
-      "player": "Ram\u00f3n Laureano",
-      "team": "San Diego Padres",
+      "player": "Ryan McMahon",
+      "team": "New York Yankees",
       "games": 1,
       "hr": 1,
-      "lastGameDate": "2026-05-26"
+      "lastGameDate": "2026-05-27"
     },
     {
-      "player": "Michael Harris II",
-      "team": "Atlanta Braves",
+      "player": "Rob Refsnyder",
+      "team": "Seattle Mariners",
       "games": 1,
       "hr": 1,
-      "lastGameDate": "2026-05-26"
+      "lastGameDate": "2026-05-27"
     },
     {
-      "player": "Matt Olson",
-      "team": "Atlanta Braves",
+      "player": "Michael Conforto",
+      "team": "Chicago Cubs",
       "games": 1,
       "hr": 1,
-      "lastGameDate": "2026-05-26"
+      "lastGameDate": "2026-05-27"
     },
     {
-      "player": "Manny Machado",
-      "team": "San Diego Padres",
+      "player": "Konnor Griffin",
+      "team": "Pittsburgh Pirates",
       "games": 1,
       "hr": 1,
-      "lastGameDate": "2026-05-26"
+      "lastGameDate": "2026-05-27"
     },
     {
-      "player": "Luis Garc\u00eda Jr.",
-      "team": "Washington Nationals",
+      "player": "Kody Clemens",
+      "team": "Minnesota Twins",
       "games": 1,
       "hr": 1,
-      "lastGameDate": "2026-05-25"
+      "lastGameDate": "2026-05-27"
     },
     {
-      "player": "Kyle Karros",
-      "team": "Colorado Rockies",
+      "player": "Kazuma Okamoto",
+      "team": "Toronto Blue Jays",
       "games": 1,
       "hr": 1,
-      "lastGameDate": "2026-05-26"
+      "lastGameDate": "2026-05-27"
     },
     {
-      "player": "Ketel Marte",
-      "team": "Arizona Diamondbacks",
+      "player": "Julio Rodr\u00edguez",
+      "team": "Seattle Mariners",
       "games": 1,
       "hr": 1,
-      "lastGameDate": "2026-05-26"
-    },
-    {
-      "player": "Juan Soto",
-      "team": "New York Mets",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-05-26"
+      "lastGameDate": "2026-05-27"
     },
     {
       "player": "Jose Siri",
@@ -544,41 +429,6 @@
       "lastGameDate": "2026-04-02"
     },
     {
-      "player": "Jorbit Vivas",
-      "team": "Washington Nationals",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-05-23"
-    },
-    {
-      "player": "Joc Pederson",
-      "team": "Texas Rangers",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-05-26"
-    },
-    {
-      "player": "Jo Adell",
-      "team": "Los Angeles Angels",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-05-26"
-    },
-    {
-      "player": "Jes\u00fas S\u00e1nchez",
-      "team": "Toronto Blue Jays",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-05-26"
-    },
-    {
-      "player": "Jeremy Pe\u00f1a",
-      "team": "Houston Astros",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-05-26"
-    },
-    {
       "player": "Jazz Chisholm Jr.",
       "team": "New York Yankees",
       "games": 1,
@@ -586,60 +436,25 @@
       "lastGameDate": "2026-05-26"
     },
     {
-      "player": "Jarren Duran",
-      "team": "Boston Red Sox",
+      "player": "Ian Happ",
+      "team": "Chicago Cubs",
       "games": 1,
       "hr": 1,
-      "lastGameDate": "2026-05-26"
+      "lastGameDate": "2026-05-27"
     },
     {
-      "player": "Jake Bauers",
-      "team": "Milwaukee Brewers",
+      "player": "Freddie Freeman",
+      "team": "Los Angeles Dodgers",
       "games": 1,
       "hr": 1,
-      "lastGameDate": "2026-05-26"
+      "lastGameDate": "2026-05-27"
     },
     {
-      "player": "J.T. Realmuto",
-      "team": "Philadelphia Phillies",
+      "player": "Eric Wagaman",
+      "team": "New York Mets",
       "games": 1,
       "hr": 1,
-      "lastGameDate": "2026-05-26"
-    },
-    {
-      "player": "Isiah Kiner-Falefa",
-      "team": "Boston Red Sox",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-05-26"
-    },
-    {
-      "player": "Hunter Goodman",
-      "team": "Colorado Rockies",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-05-26"
-    },
-    {
-      "player": "Garrett Mitchell",
-      "team": "Milwaukee Brewers",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-05-26"
-    },
-    {
-      "player": "Evan Carter",
-      "team": "Texas Rangers",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-05-26"
-    },
-    {
-      "player": "Eric Haase",
-      "team": "San Francisco Giants",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-05-26"
+      "lastGameDate": "2026-05-27"
     },
     {
       "player": "Enrique Hern\u00e1ndez",
@@ -663,32 +478,18 @@
       "lastGameDate": "2026-05-25"
     },
     {
-      "player": "Ceddanne Rafaela",
-      "team": "Boston Red Sox",
+      "player": "Chase Meidroth",
+      "team": "Chicago White Sox",
       "games": 1,
       "hr": 1,
-      "lastGameDate": "2026-05-26"
+      "lastGameDate": "2026-05-27"
     },
     {
-      "player": "Casey Schmitt",
-      "team": "San Francisco Giants",
+      "player": "Byron Buxton",
+      "team": "Minnesota Twins",
       "games": 1,
       "hr": 1,
-      "lastGameDate": "2026-05-26"
-    },
-    {
-      "player": "Cam Smith",
-      "team": "Houston Astros",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-05-26"
-    },
-    {
-      "player": "Bryce Harper",
-      "team": "Philadelphia Phillies",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-05-26"
+      "lastGameDate": "2026-05-27"
     },
     {
       "player": "Brett Sullivan",
@@ -698,6 +499,13 @@
       "lastGameDate": "2026-05-26"
     },
     {
+      "player": "Brandon Lowe",
+      "team": "Pittsburgh Pirates",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-05-27"
+    },
+    {
       "player": "Bo Naylor",
       "team": "Cleveland Guardians",
       "games": 1,
@@ -705,25 +513,11 @@
       "lastGameDate": "2026-05-07"
     },
     {
-      "player": "Anthony Volpe",
-      "team": "New York Yankees",
+      "player": "Blaze Alexander",
+      "team": "Baltimore Orioles",
       "games": 1,
       "hr": 1,
-      "lastGameDate": "2026-05-26"
-    },
-    {
-      "player": "Andy Pages",
-      "team": "Los Angeles Dodgers",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-05-26"
-    },
-    {
-      "player": "Adrian Del Castillo",
-      "team": "Arizona Diamondbacks",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-05-26"
+      "lastGameDate": "2026-05-27"
     }
   ]
 }
