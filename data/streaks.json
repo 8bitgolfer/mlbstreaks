@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-28 17:53 UTC",
+  "updated": "2026-05-29 09:50 UTC",
   "throughDate": "2026-05-27",
   "hits": [
     {
@@ -153,6 +153,21 @@
       "lastGameDate": "2026-05-27"
     },
     {
+      "player": "Travis Bazzana",
+      "games": 5,
+      "atBats": 19,
+      "runs": 2,
+      "hits": 8,
+      "hr": 1,
+      "rbi": 2,
+      "bb": 2,
+      "k": 2,
+      "ba": ".421",
+      "oba": ".476",
+      "slug": ".842",
+      "lastGameDate": "2026-05-27"
+    },
+    {
       "player": "Chase Meidroth",
       "games": 5,
       "atBats": 23,
@@ -168,18 +183,18 @@
       "lastGameDate": "2026-05-27"
     },
     {
-      "player": "Travis Bazzana",
+      "player": "Spencer Horwitz",
       "games": 5,
-      "atBats": 19,
-      "runs": 2,
-      "hits": 8,
-      "hr": 1,
-      "rbi": 2,
+      "atBats": 17,
+      "runs": 4,
+      "hits": 7,
+      "hr": 2,
+      "rbi": 3,
       "bb": 2,
-      "k": 2,
-      "ba": ".421",
+      "k": 0,
+      "ba": ".412",
       "oba": ".476",
-      "slug": ".842",
+      "slug": ".765",
       "lastGameDate": "2026-05-27"
     },
     {
@@ -213,21 +228,6 @@
       "lastGameDate": "2026-05-23"
     },
     {
-      "player": "Spencer Horwitz",
-      "games": 5,
-      "atBats": 17,
-      "runs": 4,
-      "hits": 7,
-      "hr": 2,
-      "rbi": 3,
-      "bb": 2,
-      "k": 0,
-      "ba": ".412",
-      "oba": ".476",
-      "slug": ".765",
-      "lastGameDate": "2026-05-27"
-    },
-    {
       "player": "Dylan Crews",
       "games": 5,
       "atBats": 22,
@@ -243,21 +243,6 @@
       "lastGameDate": "2026-05-26"
     },
     {
-      "player": "Jung Hoo Lee",
-      "games": 5,
-      "atBats": 17,
-      "runs": 3,
-      "hits": 5,
-      "hr": 1,
-      "rbi": 3,
-      "bb": 0,
-      "k": 0,
-      "ba": ".294",
-      "oba": ".333",
-      "slug": ".471",
-      "lastGameDate": "2026-05-18"
-    },
-    {
       "player": "Jorge Soler",
       "games": 5,
       "atBats": 21,
@@ -271,6 +256,21 @@
       "oba": ".273",
       "slug": ".238",
       "lastGameDate": "2026-05-27"
+    },
+    {
+      "player": "Jung Hoo Lee",
+      "games": 5,
+      "atBats": 17,
+      "runs": 3,
+      "hits": 5,
+      "hr": 1,
+      "rbi": 3,
+      "bb": 0,
+      "k": 0,
+      "ba": ".294",
+      "oba": ".333",
+      "slug": ".471",
+      "lastGameDate": "2026-05-18"
     }
   ],
   "hr": [
