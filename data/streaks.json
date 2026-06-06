@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-05 09:42 UTC",
+  "updated": "2026-06-06 08:31 UTC",
   "throughDate": "2026-06-04",
   "hits": [
     {
@@ -93,6 +93,21 @@
       "lastGameDate": "2026-06-04"
     },
     {
+      "player": "Tyler Freeman",
+      "games": 8,
+      "atBats": 29,
+      "runs": 7,
+      "hits": 11,
+      "hr": 1,
+      "rbi": 3,
+      "bb": 3,
+      "k": 2,
+      "ba": ".379",
+      "oba": ".455",
+      "slug": ".586",
+      "lastGameDate": "2026-06-03"
+    },
+    {
       "player": "Donnie Walton",
       "games": 8,
       "atBats": 31,
@@ -121,21 +136,6 @@
       "oba": ".371",
       "slug": ".515",
       "lastGameDate": "2026-06-04"
-    },
-    {
-      "player": "Tyler Freeman",
-      "games": 8,
-      "atBats": 29,
-      "runs": 7,
-      "hits": 11,
-      "hr": 1,
-      "rbi": 3,
-      "bb": 3,
-      "k": 2,
-      "ba": ".379",
-      "oba": ".455",
-      "slug": ".586",
-      "lastGameDate": "2026-06-03"
     },
     {
       "player": "Shohei Ohtani",
@@ -363,21 +363,6 @@
       "lastGameDate": "2026-06-04"
     },
     {
-      "player": "Mickey Gasper",
-      "games": 6,
-      "atBats": 21,
-      "runs": 6,
-      "hits": 7,
-      "hr": 0,
-      "rbi": 3,
-      "bb": 4,
-      "k": 6,
-      "ba": ".333",
-      "oba": ".423",
-      "slug": ".476",
-      "lastGameDate": "2026-06-03"
-    },
-    {
       "player": "Chase Meidroth",
       "games": 6,
       "atBats": 23,
@@ -390,6 +375,21 @@
       "ba": ".304",
       "oba": ".360",
       "slug": ".478",
+      "lastGameDate": "2026-06-03"
+    },
+    {
+      "player": "Mickey Gasper",
+      "games": 6,
+      "atBats": 21,
+      "runs": 6,
+      "hits": 7,
+      "hr": 0,
+      "rbi": 3,
+      "bb": 4,
+      "k": 6,
+      "ba": ".333",
+      "oba": ".423",
+      "slug": ".476",
       "lastGameDate": "2026-06-03"
     },
     {
