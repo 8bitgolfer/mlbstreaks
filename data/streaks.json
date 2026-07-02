@@ -1,81 +1,141 @@
 {
-  "updated": "2026-07-01 09:44 UTC",
-  "throughDate": "2026-06-29",
+  "updated": "2026-07-02 09:01 UTC",
+  "throughDate": "2026-06-30",
   "hits": [
     {
       "player": "Carter Jensen",
-      "games": 19,
-      "atBats": 77,
-      "runs": 15,
-      "hits": 27,
-      "hr": 4,
-      "rbi": 17,
+      "games": 20,
+      "atBats": 81,
+      "runs": 16,
+      "hits": 28,
+      "hr": 5,
+      "rbi": 18,
       "bb": 6,
-      "k": 14,
-      "ba": ".351",
-      "oba": ".388",
-      "slug": ".610",
-      "lastGameDate": "2026-06-28"
+      "k": 16,
+      "ba": ".346",
+      "oba": ".382",
+      "slug": ".630",
+      "lastGameDate": "2026-06-30"
     },
     {
       "player": "T.J. Rumfield",
-      "games": 12,
-      "atBats": 46,
+      "games": 13,
+      "atBats": 49,
       "runs": 6,
-      "hits": 18,
+      "hits": 19,
       "hr": 3,
       "rbi": 11,
-      "bb": 5,
+      "bb": 6,
       "k": 7,
-      "ba": ".391",
-      "oba": ".462",
-      "slug": ".652",
-      "lastGameDate": "2026-06-29"
+      "ba": ".388",
+      "oba": ".464",
+      "slug": ".653",
+      "lastGameDate": "2026-06-30"
     },
     {
       "player": "Liam Hicks",
-      "games": 10,
-      "atBats": 42,
-      "runs": 8,
-      "hits": 15,
+      "games": 11,
+      "atBats": 48,
+      "runs": 9,
+      "hits": 17,
       "hr": 1,
       "rbi": 6,
       "bb": 4,
       "k": 6,
-      "ba": ".357",
-      "oba": ".426",
-      "slug": ".524",
-      "lastGameDate": "2026-06-19"
+      "ba": ".354",
+      "oba": ".415",
+      "slug": ".500",
+      "lastGameDate": "2026-06-30"
     },
     {
       "player": "Xavier Edwards",
-      "games": 8,
-      "atBats": 30,
-      "runs": 3,
-      "hits": 12,
+      "games": 9,
+      "atBats": 36,
+      "runs": 5,
+      "hits": 16,
       "hr": 0,
-      "rbi": 3,
+      "rbi": 4,
       "bb": 3,
       "k": 2,
-      "ba": ".400",
-      "oba": ".455",
-      "slug": ".500",
-      "lastGameDate": "2026-06-29"
+      "ba": ".444",
+      "oba": ".487",
+      "slug": ".556",
+      "lastGameDate": "2026-06-30"
     },
     {
       "player": "Chase DeLauter",
-      "games": 8,
-      "atBats": 31,
-      "runs": 3,
-      "hits": 12,
+      "games": 9,
+      "atBats": 35,
+      "runs": 4,
+      "hits": 13,
       "hr": 0,
       "rbi": 5,
       "bb": 2,
       "k": 8,
-      "ba": ".387",
-      "oba": ".424",
-      "slug": ".452",
-      "lastGameDate": "2026-06-29"
+      "ba": ".371",
+      "oba": ".405",
+      "slug": ".457",
+      "lastGameDate": "2026-06-30"
+    },
+    {
+      "player": "Josh Lowe",
+      "games": 9,
+      "atBats": 28,
+      "runs": 4,
+      "hits": 11,
+      "hr": 2,
+      "rbi": 8,
+      "bb": 1,
+      "k": 7,
+      "ba": ".393",
+      "oba": ".414",
+      "slug": ".714",
+      "lastGameDate": "2026-06-30"
+    },
+    {
+      "player": "Luis Arraez",
+      "games": 8,
+      "atBats": 27,
+      "runs": 4,
+      "hits": 12,
+      "hr": 1,
+      "rbi": 2,
+      "bb": 3,
+      "k": 0,
+      "ba": ".444",
+      "oba": ".484",
+      "slug": ".741",
+      "lastGameDate": "2026-06-30"
+    },
+    {
+      "player": "Anthony Seigler",
+      "games": 8,
+      "atBats": 27,
+      "runs": 6,
+      "hits": 12,
+      "hr": 1,
+      "rbi": 3,
+      "bb": 3,
+      "k": 3,
+      "ba": ".444",
+      "oba": ".500",
+      "slug": ".704",
+      "lastGameDate": "2026-06-30"
+    },
+    {
+      "player": "Mauricio Dubon",
+      "games": 8,
+      "atBats": 33,
+      "runs": 6,
+      "hits": 12,
+      "hr": 1,
+      "rbi": 1,
+      "bb": 1,
+      "k": 2,
+      "ba": ".364",
+      "oba": ".382",
+      "slug": ".576",
+      "lastGameDate": "2026-06-30"
     },
     {
       "player": "Mike Trout",
@@ -108,19 +168,19 @@
       "lastGameDate": "2026-06-13"
     },
     {
-      "player": "Josh Lowe",
-      "games": 8,
-      "atBats": 25,
-      "runs": 3,
-      "hits": 10,
-      "hr": 2,
-      "rbi": 8,
-      "bb": 0,
-      "k": 6,
-      "ba": ".400",
-      "oba": ".400",
-      "slug": ".760",
-      "lastGameDate": "2026-06-29"
+      "player": "Mookie Betts",
+      "games": 7,
+      "atBats": 32,
+      "runs": 5,
+      "hits": 13,
+      "hr": 3,
+      "rbi": 9,
+      "bb": 1,
+      "k": 3,
+      "ba": ".406",
+      "oba": ".424",
+      "slug": ".750",
+      "lastGameDate": "2026-06-30"
     },
     {
       "player": "Trent Grisham",
@@ -138,154 +198,139 @@
       "lastGameDate": "2026-06-12"
     },
     {
-      "player": "Konnor Griffin",
-      "games": 7,
-      "atBats": 31,
-      "runs": 6,
-      "hits": 11,
-      "hr": 2,
-      "rbi": 3,
-      "bb": 1,
-      "k": 7,
-      "ba": ".355",
-      "oba": ".394",
-      "slug": ".613",
-      "lastGameDate": "2026-06-29"
-    },
-    {
-      "player": "Mauricio Dubon",
+      "player": "Julio Rodriguez",
       "games": 7,
       "atBats": 29,
-      "runs": 5,
-      "hits": 11,
-      "hr": 1,
-      "rbi": 1,
-      "bb": 0,
-      "k": 2,
-      "ba": ".379",
-      "oba": ".379",
-      "slug": ".621",
-      "lastGameDate": "2026-06-28"
-    },
-    {
-      "player": "Miguel Vargas",
-      "games": 7,
-      "atBats": 27,
-      "runs": 5,
-      "hits": 11,
-      "hr": 3,
-      "rbi": 8,
-      "bb": 5,
-      "k": 4,
-      "ba": ".407",
-      "oba": ".500",
-      "slug": ".852",
-      "lastGameDate": "2026-06-29"
-    },
-    {
-      "player": "Anthony Seigler",
-      "games": 7,
-      "atBats": 23,
-      "runs": 5,
-      "hits": 11,
-      "hr": 1,
+      "runs": 4,
+      "hits": 12,
+      "hr": 0,
       "rbi": 3,
-      "bb": 3,
-      "k": 1,
-      "ba": ".478",
-      "oba": ".538",
-      "slug": ".739",
-      "lastGameDate": "2026-06-29"
+      "bb": 2,
+      "k": 8,
+      "ba": ".414",
+      "oba": ".469",
+      "slug": ".414",
+      "lastGameDate": "2026-06-30"
     },
     {
-      "player": "Kahlil Watson",
+      "player": "Brooks Lee",
       "games": 7,
-      "atBats": 23,
-      "runs": 2,
+      "atBats": 26,
+      "runs": 5,
       "hits": 10,
-      "hr": 1,
-      "rbi": 8,
-      "bb": 1,
-      "k": 3,
-      "ba": ".435",
-      "oba": ".458",
-      "slug": ".652",
-      "lastGameDate": "2026-06-29"
+      "hr": 2,
+      "rbi": 3,
+      "bb": 2,
+      "k": 4,
+      "ba": ".385",
+      "oba": ".429",
+      "slug": ".654",
+      "lastGameDate": "2026-06-30"
     },
     {
-      "player": "Luis Arraez",
+      "player": "Nicky Lopez",
       "games": 7,
-      "atBats": 23,
+      "atBats": 21,
       "runs": 3,
       "hits": 9,
       "hr": 0,
       "rbi": 1,
-      "bb": 3,
-      "k": 0,
-      "ba": ".391",
-      "oba": ".444",
-      "slug": ".522",
-      "lastGameDate": "2026-06-29"
+      "bb": 0,
+      "k": 4,
+      "ba": ".429",
+      "oba": ".429",
+      "slug": ".429",
+      "lastGameDate": "2026-06-30"
     },
     {
-      "player": "Mookie Betts",
+      "player": "Sal Stewart",
       "games": 6,
-      "atBats": 27,
-      "runs": 4,
+      "atBats": 26,
+      "runs": 5,
       "hits": 10,
-      "hr": 3,
-      "rbi": 8,
+      "hr": 2,
+      "rbi": 5,
       "bb": 1,
-      "k": 3,
-      "ba": ".370",
-      "oba": ".393",
-      "slug": ".741",
-      "lastGameDate": "2026-06-29"
+      "k": 6,
+      "ba": ".385",
+      "oba": ".407",
+      "slug": ".731",
+      "lastGameDate": "2026-06-30"
     },
     {
-      "player": "Julio Rodriguez",
+      "player": "Yandy Diaz",
       "games": 6,
-      "atBats": 24,
-      "runs": 2,
-      "hits": 9,
+      "atBats": 21,
+      "runs": 7,
+      "hits": 10,
       "hr": 0,
       "rbi": 3,
-      "bb": 2,
-      "k": 7,
-      "ba": ".375",
-      "oba": ".444",
-      "slug": ".375",
-      "lastGameDate": "2026-06-29"
+      "bb": 3,
+      "k": 2,
+      "ba": ".476",
+      "oba": ".520",
+      "slug": ".571",
+      "lastGameDate": "2026-06-30"
     },
     {
-      "player": "Brooks Lee",
-      "games": 6,
-      "atBats": 22,
-      "runs": 5,
-      "hits": 9,
-      "hr": 2,
-      "rbi": 3,
-      "bb": 2,
-      "k": 3,
-      "ba": ".409",
-      "oba": ".458",
-      "slug": ".727",
-      "lastGameDate": "2026-06-29"
-    },
-    {
-      "player": "Nicky Lopez",
+      "player": "Sal Frelick",
       "games": 6,
       "atBats": 18,
       "runs": 2,
-      "hits": 8,
+      "hits": 9,
       "hr": 0,
-      "rbi": 1,
-      "bb": 0,
-      "k": 4,
-      "ba": ".444",
-      "oba": ".444",
+      "rbi": 2,
+      "bb": 2,
+      "k": 0,
+      "ba": ".500",
+      "oba": ".550",
+      "slug": ".667",
+      "lastGameDate": "2026-06-30"
+    },
+    {
+      "player": "Shohei Ohtani",
+      "games": 6,
+      "atBats": 27,
+      "runs": 5,
+      "hits": 9,
+      "hr": 1,
+      "rbi": 5,
+      "bb": 2,
+      "k": 7,
+      "ba": ".333",
+      "oba": ".379",
       "slug": ".444",
-      "lastGameDate": "2026-06-29"
+      "lastGameDate": "2026-06-30"
+    },
+    {
+      "player": "Caleb Durbin",
+      "games": 6,
+      "atBats": 21,
+      "runs": 6,
+      "hits": 8,
+      "hr": 2,
+      "rbi": 5,
+      "bb": 2,
+      "k": 6,
+      "ba": ".381",
+      "oba": ".435",
+      "slug": ".714",
+      "lastGameDate": "2026-06-30"
+    },
+    {
+      "player": "Carson Benge",
+      "games": 6,
+      "atBats": 28,
+      "runs": 1,
+      "hits": 7,
+      "hr": 0,
+      "rbi": 2,
+      "bb": 1,
+      "k": 7,
+      "ba": ".250",
+      "oba": ".276",
+      "slug": ".250",
+      "lastGameDate": "2026-06-30"
     },
     {
       "player": "Isiah Kiner-Falefa",
@@ -318,34 +363,64 @@
       "lastGameDate": "2026-06-17"
     },
     {
-      "player": "Yandy Diaz",
-      "games": 5,
-      "atBats": 17,
-      "runs": 6,
-      "hits": 9,
-      "hr": 0,
-      "rbi": 3,
-      "bb": 2,
+      "player": "Ryan Kreidler",
+      "games": 6,
+      "atBats": 20,
+      "runs": 1,
+      "hits": 6,
+      "hr": 1,
+      "rbi": 5,
+      "bb": 0,
       "k": 2,
-      "ba": ".529",
-      "oba": ".550",
-      "slug": ".647",
-      "lastGameDate": "2026-06-28"
+      "ba": ".300",
+      "oba": ".300",
+      "slug": ".450",
+      "lastGameDate": "2026-06-30"
     },
     {
-      "player": "Geraldo Perdomo",
+      "player": "Esmerlyn Valdez",
+      "games": 5,
+      "atBats": 15,
+      "runs": 6,
+      "hits": 10,
+      "hr": 4,
+      "rbi": 6,
+      "bb": 4,
+      "k": 2,
+      "ba": ".667",
+      "oba": ".737",
+      "slug": "1.600",
+      "lastGameDate": "2026-06-30"
+    },
+    {
+      "player": "Junior Caminero",
+      "games": 5,
+      "atBats": 20,
+      "runs": 7,
+      "hits": 10,
+      "hr": 7,
+      "rbi": 15,
+      "bb": 2,
+      "k": 2,
+      "ba": ".500",
+      "oba": ".545",
+      "slug": "1.550",
+      "lastGameDate": "2026-06-30"
+    },
+    {
+      "player": "Cole Young",
       "games": 5,
       "atBats": 19,
-      "runs": 2,
+      "runs": 5,
       "hits": 8,
-      "hr": 1,
+      "hr": 2,
       "rbi": 4,
-      "bb": 2,
-      "k": 3,
+      "bb": 1,
+      "k": 2,
       "ba": ".421",
-      "oba": ".476",
-      "slug": ".684",
-      "lastGameDate": "2026-06-29"
+      "oba": ".450",
+      "slug": ".737",
+      "lastGameDate": "2026-06-30"
     },
     {
       "player": "Jeremy Pena",
@@ -363,64 +438,19 @@
       "lastGameDate": "2026-06-28"
     },
     {
-      "player": "Sal Stewart",
-      "games": 5,
-      "atBats": 22,
-      "runs": 4,
-      "hits": 8,
-      "hr": 1,
-      "rbi": 3,
-      "bb": 1,
-      "k": 5,
-      "ba": ".364",
-      "oba": ".391",
-      "slug": ".591",
-      "lastGameDate": "2026-06-29"
-    },
-    {
-      "player": "Shohei Ohtani",
-      "games": 5,
-      "atBats": 23,
-      "runs": 5,
-      "hits": 8,
-      "hr": 1,
-      "rbi": 5,
-      "bb": 1,
-      "k": 7,
-      "ba": ".348",
-      "oba": ".375",
-      "slug": ".478",
-      "lastGameDate": "2026-06-29"
-    },
-    {
-      "player": "Caleb Durbin",
-      "games": 5,
-      "atBats": 18,
-      "runs": 6,
-      "hits": 7,
-      "hr": 2,
-      "rbi": 5,
-      "bb": 2,
-      "k": 4,
-      "ba": ".389",
-      "oba": ".450",
-      "slug": ".778",
-      "lastGameDate": "2026-06-29"
-    },
-    {
-      "player": "Samuel Antonacci",
+      "player": "Seiya Suzuki",
       "games": 5,
       "atBats": 21,
-      "runs": 6,
-      "hits": 7,
-      "hr": 0,
-      "rbi": 0,
-      "bb": 3,
-      "k": 2,
-      "ba": ".333",
-      "oba": ".440",
-      "slug": ".381",
-      "lastGameDate": "2026-06-29"
+      "runs": 4,
+      "hits": 8,
+      "hr": 2,
+      "rbi": 8,
+      "bb": 1,
+      "k": 4,
+      "ba": ".381",
+      "oba": ".375",
+      "slug": ".714",
+      "lastGameDate": "2026-06-30"
     },
     {
       "player": "Victor Bericoto",
@@ -438,48 +468,48 @@
       "lastGameDate": "2026-06-29"
     },
     {
-      "player": "Brayan Rocchio",
+      "player": "Fernando Tatis Jr.",
       "games": 5,
-      "atBats": 22,
-      "runs": 3,
-      "hits": 6,
-      "hr": 0,
-      "rbi": 1,
-      "bb": 1,
-      "k": 4,
-      "ba": ".273",
-      "oba": ".304",
-      "slug": ".318",
-      "lastGameDate": "2026-06-29"
+      "atBats": 24,
+      "runs": 2,
+      "hits": 7,
+      "hr": 2,
+      "rbi": 5,
+      "bb": 0,
+      "k": 5,
+      "ba": ".292",
+      "oba": ".320",
+      "slug": ".583",
+      "lastGameDate": "2026-06-30"
     },
     {
-      "player": "Carson Benge",
+      "player": "Kerry Carpenter",
       "games": 5,
-      "atBats": 23,
-      "runs": 1,
-      "hits": 6,
-      "hr": 0,
-      "rbi": 2,
+      "atBats": 19,
+      "runs": 4,
+      "hits": 7,
+      "hr": 3,
+      "rbi": 7,
       "bb": 1,
       "k": 5,
-      "ba": ".261",
-      "oba": ".292",
-      "slug": ".261",
-      "lastGameDate": "2026-06-29"
+      "ba": ".368",
+      "oba": ".400",
+      "slug": ".895",
+      "lastGameDate": "2026-06-30"
     },
     {
-      "player": "Sal Frelick",
+      "player": "Samuel Antonacci",
       "games": 5,
-      "atBats": 14,
-      "runs": 1,
-      "hits": 6,
+      "atBats": 21,
+      "runs": 6,
+      "hits": 7,
       "hr": 0,
-      "rbi": 1,
-      "bb": 2,
-      "k": 0,
-      "ba": ".429",
-      "oba": ".500",
-      "slug": ".571",
+      "rbi": 0,
+      "bb": 3,
+      "k": 2,
+      "ba": ".333",
+      "oba": ".440",
+      "slug": ".381",
       "lastGameDate": "2026-06-29"
     },
     {
@@ -498,63 +528,169 @@
       "lastGameDate": "2026-06-28"
     },
     {
-      "player": "Ryan Kreidler",
+      "player": "Rafael Devers",
       "games": 5,
-      "atBats": 16,
-      "runs": 1,
+      "atBats": 17,
+      "runs": 3,
+      "hits": 6,
+      "hr": 3,
+      "rbi": 6,
+      "bb": 2,
+      "k": 4,
+      "ba": ".353",
+      "oba": ".421",
+      "slug": ".941",
+      "lastGameDate": "2026-06-30"
+    },
+    {
+      "player": "Chandler Simpson",
+      "games": 5,
+      "atBats": 18,
+      "runs": 0,
       "hits": 5,
-      "hr": 1,
-      "rbi": 3,
-      "bb": 0,
+      "hr": 0,
+      "rbi": 1,
+      "bb": 2,
       "k": 1,
-      "ba": ".312",
-      "oba": ".312",
-      "slug": ".500",
-      "lastGameDate": "2026-06-29"
+      "ba": ".278",
+      "oba": ".350",
+      "slug": ".389",
+      "lastGameDate": "2026-06-30"
     }
   ],
   "hr": [
     {
       "player": "Junior Caminero",
       "team": "Tampa Bay Rays",
-      "games": 4,
-      "hr": 6,
-      "lastGameDate": "2026-06-28"
-    },
-    {
-      "player": "Esmerlyn Valdez",
-      "team": "Pittsburgh Pirates",
-      "games": 4,
-      "hr": 4,
-      "lastGameDate": "2026-06-29"
+      "games": 5,
+      "hr": 7,
+      "lastGameDate": "2026-06-30"
     },
     {
       "player": "Ketel Marte",
       "team": "Arizona Diamondbacks",
-      "games": 3,
-      "hr": 3,
-      "lastGameDate": "2026-06-29"
+      "games": 4,
+      "hr": 4,
+      "lastGameDate": "2026-06-30"
     },
     {
-      "player": "Cam Smith",
-      "team": "Houston Astros",
-      "games": 1,
+      "player": "Joc Pederson",
+      "team": "Texas Rangers",
+      "games": 2,
       "hr": 2,
-      "lastGameDate": "2026-06-29"
+      "lastGameDate": "2026-06-30"
     },
     {
-      "player": "Brandon Marsh",
+      "player": "Colby Thomas",
+      "team": "Athletics",
+      "games": 2,
+      "hr": 2,
+      "lastGameDate": "2026-06-30"
+    },
+    {
+      "player": "Trea Turner",
       "team": "Philadelphia Phillies",
-      "games": 1,
+      "games": 2,
       "hr": 2,
-      "lastGameDate": "2026-06-29"
+      "lastGameDate": "2026-06-30"
     },
     {
-      "player": "Cole Young",
-      "team": "Seattle Mariners",
+      "player": "Dansby Swanson",
+      "team": "Chicago Cubs",
       "games": 1,
       "hr": 2,
-      "lastGameDate": "2026-06-29"
+      "lastGameDate": "2026-06-30"
+    },
+    {
+      "player": "Riley Greene",
+      "team": "Detroit Tigers",
+      "games": 1,
+      "hr": 2,
+      "lastGameDate": "2026-06-30"
+    },
+    {
+      "player": "Fernando Tatis Jr.",
+      "team": "San Diego Padres",
+      "games": 1,
+      "hr": 2,
+      "lastGameDate": "2026-06-30"
+    },
+    {
+      "player": "Bobby Witt Jr.",
+      "team": "Kansas City Royals",
+      "games": 1,
+      "hr": 2,
+      "lastGameDate": "2026-06-30"
+    },
+    {
+      "player": "Alex Bregman",
+      "team": "Chicago Cubs",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-06-30"
+    },
+    {
+      "player": "Michael Busch",
+      "team": "Chicago Cubs",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-06-30"
+    },
+    {
+      "player": "Pete Crow-Armstrong",
+      "team": "Chicago Cubs",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-06-30"
+    },
+    {
+      "player": "Kerry Carpenter",
+      "team": "Detroit Tigers",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-06-30"
+    },
+    {
+      "player": "Spencer Torkelson",
+      "team": "Detroit Tigers",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-06-30"
+    },
+    {
+      "player": "Josh Jung",
+      "team": "Texas Rangers",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-06-30"
+    },
+    {
+      "player": "Sal Stewart",
+      "team": "Cincinnati Reds",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-06-30"
+    },
+    {
+      "player": "CJ Abrams",
+      "team": "Washington Nationals",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-06-30"
+    },
+    {
+      "player": "Jake Bauers",
+      "team": "Milwaukee Brewers",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-06-30"
+    },
+    {
+      "player": "Ben Rice",
+      "team": "New York Yankees",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-06-30"
     },
     {
       "player": "Shay Whitcomb",
@@ -564,116 +700,46 @@
       "lastGameDate": "2026-06-10"
     },
     {
-      "player": "Bryce Harper",
-      "team": "Philadelphia Phillies",
+      "player": "Yordan Alvarez",
+      "team": "Houston Astros",
       "games": 1,
       "hr": 1,
-      "lastGameDate": "2026-06-29"
+      "lastGameDate": "2026-06-30"
     },
     {
-      "player": "Trea Turner",
-      "team": "Philadelphia Phillies",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-06-29"
-    },
-    {
-      "player": "Heliot Ramos",
-      "team": "San Francisco Giants",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-06-29"
-    },
-    {
-      "player": "Elly De La Cruz",
-      "team": "Cincinnati Reds",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-06-29"
-    },
-    {
-      "player": "Hunter Goodman",
-      "team": "Colorado Rockies",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-06-29"
-    },
-    {
-      "player": "James Wood",
-      "team": "Washington Nationals",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-06-29"
-    },
-    {
-      "player": "Brice Turang",
-      "team": "Milwaukee Brewers",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-06-29"
-    },
-    {
-      "player": "Nolan Arenado",
-      "team": "Arizona Diamondbacks",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-06-29"
-    },
-    {
-      "player": "Colby Thomas",
-      "team": "Athletics",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-06-29"
-    },
-    {
-      "player": "Josh Bell",
-      "team": "Minnesota Twins",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-06-29"
-    },
-    {
-      "player": "Royce Lewis",
-      "team": "Minnesota Twins",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-06-29"
-    },
-    {
-      "player": "Joc Pederson",
-      "team": "Texas Rangers",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-06-28"
-    },
-    {
-      "player": "Amed Rosario",
-      "team": "New York Yankees",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-06-29"
-    },
-    {
-      "player": "Willson Contreras",
-      "team": "Boston Red Sox",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-06-29"
-    },
-    {
-      "player": "Caleb Durbin",
-      "team": "Boston Red Sox",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-06-29"
-    },
-    {
-      "player": "Ben Williamson",
+      "player": "Ryan Vilade",
       "team": "Tampa Bay Rays",
       "games": 1,
       "hr": 1,
-      "lastGameDate": "2026-06-28"
+      "lastGameDate": "2026-06-30"
+    },
+    {
+      "player": "Rafael Devers",
+      "team": "San Francisco Giants",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-06-30"
+    },
+    {
+      "player": "Luis Arraez",
+      "team": "San Francisco Giants",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-06-30"
+    },
+    {
+      "player": "Javier Sanoja",
+      "team": "Miami Marlins",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-06-30"
+    },
+    {
+      "player": "Owen Caissie",
+      "team": "Miami Marlins",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-06-30"
     },
     {
       "player": "Otto Lopez",
@@ -683,11 +749,18 @@
       "lastGameDate": "2026-06-29"
     },
     {
-      "player": "Victor Caratini",
+      "player": "James Outman",
       "team": "Minnesota Twins",
       "games": 1,
       "hr": 1,
-      "lastGameDate": "2026-06-29"
+      "lastGameDate": "2026-06-30"
+    },
+    {
+      "player": "Nathan Church",
+      "team": "St. Louis Cardinals",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-06-30"
     },
     {
       "player": "Max Muncy",
@@ -697,25 +770,18 @@
       "lastGameDate": "2026-06-29"
     },
     {
-      "player": "Shohei Ohtani",
+      "player": "Miguel Rojas",
       "team": "Los Angeles Dodgers",
       "games": 1,
       "hr": 1,
-      "lastGameDate": "2026-06-29"
+      "lastGameDate": "2026-06-30"
     },
     {
-      "player": "Andy Pages",
-      "team": "Los Angeles Dodgers",
+      "player": "Mickey Moniak",
+      "team": "Colorado Rockies",
       "games": 1,
       "hr": 1,
-      "lastGameDate": "2026-06-29"
-    },
-    {
-      "player": "Zach Neto",
-      "team": "Los Angeles Angels",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-06-29"
+      "lastGameDate": "2026-06-30"
     },
     {
       "player": "Travis d'Arnaud",
@@ -725,11 +791,39 @@
       "lastGameDate": "2026-05-06"
     },
     {
+      "player": "Francisco Alvarez",
+      "team": "New York Mets",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-06-30"
+    },
+    {
       "player": "Bo Naylor",
       "team": "Cleveland Guardians",
       "games": 1,
       "hr": 1,
       "lastGameDate": "2026-05-07"
+    },
+    {
+      "player": "Kyle Manzardo",
+      "team": "Cleveland Guardians",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-06-30"
+    },
+    {
+      "player": "Manny Machado",
+      "team": "San Diego Padres",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-06-30"
+    },
+    {
+      "player": "Colson Montgomery",
+      "team": "Chicago White Sox",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-06-30"
     },
     {
       "player": "Dominic Canzone",
@@ -739,18 +833,18 @@
       "lastGameDate": "2026-06-29"
     },
     {
-      "player": "Jared Triolo",
-      "team": "Pittsburgh Pirates",
+      "player": "Carter Jensen",
+      "team": "Kansas City Royals",
       "games": 1,
       "hr": 1,
-      "lastGameDate": "2026-06-29"
+      "lastGameDate": "2026-06-30"
     },
     {
-      "player": "Joey Ortiz",
-      "team": "Milwaukee Brewers",
+      "player": "Lourdes Gurriel Jr.",
+      "team": "Arizona Diamondbacks",
       "games": 1,
       "hr": 1,
-      "lastGameDate": "2026-06-29"
+      "lastGameDate": "2026-06-30"
     },
     {
       "player": "Cedric Mullins",
@@ -760,6 +854,13 @@
       "lastGameDate": "2026-06-28"
     },
     {
+      "player": "Gavin Sheets",
+      "team": "San Diego Padres",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-06-30"
+    },
+    {
       "player": "Isiah Kiner-Falefa",
       "team": "Boston Red Sox",
       "games": 1,
@@ -767,18 +868,32 @@
       "lastGameDate": "2026-06-18"
     },
     {
+      "player": "Luis Torrens",
+      "team": "New York Mets",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-06-30"
+    },
+    {
+      "player": "Joe Mack",
+      "team": "Miami Marlins",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-06-30"
+    },
+    {
+      "player": "Jackson Chourio",
+      "team": "Milwaukee Brewers",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-06-30"
+    },
+    {
       "player": "Jesus Rodriguez",
       "team": "San Francisco Giants",
       "games": 1,
       "hr": 1,
       "lastGameDate": "2026-05-31"
-    },
-    {
-      "player": "Endy Rodr\u00edguez",
-      "team": "Pittsburgh Pirates",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-06-29"
     },
     {
       "player": "Bryan Torres",
@@ -795,11 +910,11 @@
       "lastGameDate": "2026-05-26"
     },
     {
-      "player": "Taylor Trammell",
-      "team": "Houston Astros",
+      "player": "Nelson Vel\u00e1zquez",
+      "team": "St. Louis Cardinals",
       "games": 1,
       "hr": 1,
-      "lastGameDate": "2026-06-29"
+      "lastGameDate": "2026-06-30"
     },
     {
       "player": "Rafael Flores Jr.",
@@ -809,259 +924,146 @@
       "lastGameDate": "2026-06-11"
     },
     {
-      "player": "Raynel Delgado",
-      "team": "Houston Astros",
+      "player": "Tommy Edman",
+      "team": "Los Angeles Dodgers",
       "games": 1,
       "hr": 1,
-      "lastGameDate": "2026-06-28"
+      "lastGameDate": "2026-06-30"
     },
     {
-      "player": "Gabriel Arias",
-      "team": "Cleveland Guardians",
+      "player": "Junior Perez",
+      "team": "Chicago White Sox",
       "games": 1,
       "hr": 1,
-      "lastGameDate": "2026-06-29"
-    },
-    {
-      "player": "Griffin Conine",
-      "team": "Miami Marlins",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-06-29"
-    },
-    {
-      "player": "Francisco Lindor",
-      "team": "New York Mets",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-06-29"
+      "lastGameDate": "2026-06-30"
     }
   ],
   "pitcherKs": [
     {
-      "player": "Noah Schultz",
-      "team": "Chicago White Sox",
-      "opponent": "Baltimore Orioles",
+      "player": "Alan Rangel",
+      "team": "Philadelphia Phillies",
+      "opponent": "Pittsburgh Pirates",
       "line": null,
-      "last10Avg": 6.0,
-      "last5Avg": 6.0,
-      "h2hAvg": 0,
-      "projection": 6.0,
+      "last10Avg": 2.2,
+      "last5Avg": 2.4,
+      "h2hAvg": 1.0,
+      "projection": 2.0,
       "edge": null,
       "last10OverPct": 0,
       "last5OverPct": 0,
       "h2hOverPct": 0,
       "last10": [
         {
-          "date": "2026-04-25",
-          "team": "Chicago White Sox",
-          "opponent": "Washington Nationals",
-          "k": 8,
-          "outs": 18,
-          "battersFaced": 25
+          "date": "2026-04-22",
+          "team": "Philadelphia Phillies",
+          "opponent": "Chicago Cubs",
+          "k": 5,
+          "outs": 9,
+          "battersFaced": 12
         },
         {
-          "date": "2026-04-19",
-          "team": "Chicago White Sox",
-          "opponent": "Athletics",
-          "k": 6,
-          "outs": 15,
-          "battersFaced": 18
+          "date": "2025-08-06",
+          "team": "Philadelphia Phillies",
+          "opponent": "Baltimore Orioles",
+          "k": 1,
+          "outs": 3,
+          "battersFaced": 3
         },
         {
-          "date": "2026-04-14",
-          "team": "Chicago White Sox",
-          "opponent": "Tampa Bay Rays",
+          "date": "2025-07-30",
+          "team": "Philadelphia Phillies",
+          "opponent": "Chicago White Sox",
+          "k": 1,
+          "outs": 3,
+          "battersFaced": 4
+        },
+        {
+          "date": "2025-07-26",
+          "team": "Philadelphia Phillies",
+          "opponent": "New York Yankees",
+          "k": 1,
+          "outs": 3,
+          "battersFaced": 6
+        },
+        {
+          "date": "2025-06-27",
+          "team": "Philadelphia Phillies",
+          "opponent": "Atlanta Braves",
           "k": 4,
-          "outs": 13,
-          "battersFaced": 20
+          "outs": 15,
+          "battersFaced": 21
+        },
+        {
+          "date": "2025-06-06",
+          "team": "Philadelphia Phillies",
+          "opponent": "Pittsburgh Pirates",
+          "k": 1,
+          "outs": 9,
+          "battersFaced": 12
         }
       ],
       "last5": [
         {
-          "date": "2026-04-25",
-          "team": "Chicago White Sox",
-          "opponent": "Washington Nationals",
-          "k": 8,
-          "outs": 18,
-          "battersFaced": 25
-        },
-        {
-          "date": "2026-04-19",
-          "team": "Chicago White Sox",
-          "opponent": "Athletics",
-          "k": 6,
-          "outs": 15,
-          "battersFaced": 18
-        },
-        {
-          "date": "2026-04-14",
-          "team": "Chicago White Sox",
-          "opponent": "Tampa Bay Rays",
-          "k": 4,
-          "outs": 13,
-          "battersFaced": 20
-        }
-      ],
-      "h2h": []
-    },
-    {
-      "player": "Joey Cantillo",
-      "team": "Cleveland Guardians",
-      "opponent": "Texas Rangers",
-      "line": null,
-      "last10Avg": 5.5,
-      "last5Avg": 5.8,
-      "h2hAvg": 8.0,
-      "projection": 6.1,
-      "edge": null,
-      "last10OverPct": 0,
-      "last5OverPct": 0,
-      "h2hOverPct": 0,
-      "last10": [
-        {
-          "date": "2026-04-25",
-          "team": "Cleveland Guardians",
-          "opponent": "Toronto Blue Jays",
-          "k": 4,
-          "outs": 15,
-          "battersFaced": 22
-        },
-        {
-          "date": "2026-04-19",
-          "team": "Cleveland Guardians",
-          "opponent": "Baltimore Orioles",
-          "k": 6,
-          "outs": 14,
-          "battersFaced": 22
-        },
-        {
-          "date": "2026-04-14",
-          "team": "Cleveland Guardians",
-          "opponent": "St. Louis Cardinals",
-          "k": 4,
-          "outs": 18,
-          "battersFaced": 21
-        },
-        {
-          "date": "2026-04-08",
-          "team": "Cleveland Guardians",
-          "opponent": "Kansas City Royals",
-          "k": 9,
-          "outs": 17,
-          "battersFaced": 21
-        },
-        {
-          "date": "2026-04-03",
-          "team": "Cleveland Guardians",
+          "date": "2026-04-22",
+          "team": "Philadelphia Phillies",
           "opponent": "Chicago Cubs",
-          "k": 6,
-          "outs": 16,
-          "battersFaced": 21
-        },
-        {
-          "date": "2026-03-28",
-          "team": "Cleveland Guardians",
-          "opponent": "Seattle Mariners",
           "k": 5,
-          "outs": 11,
-          "battersFaced": 18
+          "outs": 9,
+          "battersFaced": 12
         },
         {
-          "date": "2025-09-27",
-          "team": "Cleveland Guardians",
-          "opponent": "Texas Rangers",
-          "k": 8,
-          "outs": 17,
-          "battersFaced": 20
-        },
-        {
-          "date": "2025-09-21",
-          "team": "Cleveland Guardians",
-          "opponent": "Minnesota Twins",
-          "k": 5,
-          "outs": 13,
-          "battersFaced": 19
-        },
-        {
-          "date": "2025-09-16",
-          "team": "Cleveland Guardians",
-          "opponent": "Detroit Tigers",
-          "k": 3,
-          "outs": 15,
-          "battersFaced": 21
-        },
-        {
-          "date": "2025-09-09",
-          "team": "Cleveland Guardians",
-          "opponent": "Kansas City Royals",
-          "k": 5,
-          "outs": 24,
-          "battersFaced": 27
-        }
-      ],
-      "last5": [
-        {
-          "date": "2026-04-25",
-          "team": "Cleveland Guardians",
-          "opponent": "Toronto Blue Jays",
-          "k": 4,
-          "outs": 15,
-          "battersFaced": 22
-        },
-        {
-          "date": "2026-04-19",
-          "team": "Cleveland Guardians",
+          "date": "2025-08-06",
+          "team": "Philadelphia Phillies",
           "opponent": "Baltimore Orioles",
-          "k": 6,
-          "outs": 14,
-          "battersFaced": 22
+          "k": 1,
+          "outs": 3,
+          "battersFaced": 3
         },
         {
-          "date": "2026-04-14",
-          "team": "Cleveland Guardians",
-          "opponent": "St. Louis Cardinals",
+          "date": "2025-07-30",
+          "team": "Philadelphia Phillies",
+          "opponent": "Chicago White Sox",
+          "k": 1,
+          "outs": 3,
+          "battersFaced": 4
+        },
+        {
+          "date": "2025-07-26",
+          "team": "Philadelphia Phillies",
+          "opponent": "New York Yankees",
+          "k": 1,
+          "outs": 3,
+          "battersFaced": 6
+        },
+        {
+          "date": "2025-06-27",
+          "team": "Philadelphia Phillies",
+          "opponent": "Atlanta Braves",
           "k": 4,
-          "outs": 18,
-          "battersFaced": 21
-        },
-        {
-          "date": "2026-04-08",
-          "team": "Cleveland Guardians",
-          "opponent": "Kansas City Royals",
-          "k": 9,
-          "outs": 17,
-          "battersFaced": 21
-        },
-        {
-          "date": "2026-04-03",
-          "team": "Cleveland Guardians",
-          "opponent": "Chicago Cubs",
-          "k": 6,
-          "outs": 16,
+          "outs": 15,
           "battersFaced": 21
         }
       ],
       "h2h": [
         {
-          "date": "2025-09-27",
-          "team": "Cleveland Guardians",
-          "opponent": "Texas Rangers",
-          "k": 8,
-          "outs": 17,
-          "battersFaced": 20
+          "date": "2025-06-06",
+          "team": "Philadelphia Phillies",
+          "opponent": "Pittsburgh Pirates",
+          "k": 1,
+          "outs": 9,
+          "battersFaced": 12
         }
       ]
     },
     {
-      "player": "MacKenzie Gore",
-      "team": "Texas Rangers",
-      "opponent": "Cleveland Guardians",
+      "player": "Jacob Misiorowski",
+      "team": "Milwaukee Brewers",
+      "opponent": "Cincinnati Reds",
       "line": null,
-      "last10Avg": 5.9,
-      "last5Avg": 7.0,
+      "last10Avg": 7.0,
+      "last5Avg": 8.0,
       "h2hAvg": 0,
-      "projection": 6.3,
+      "projection": 7.4,
       "edge": null,
       "last10OverPct": 0,
       "last5OverPct": 0,
@@ -1069,259 +1071,423 @@
       "last10": [
         {
           "date": "2026-04-25",
-          "team": "Texas Rangers",
-          "opponent": "Athletics",
-          "k": 7,
-          "outs": 15,
-          "battersFaced": 25
+          "team": "Milwaukee Brewers",
+          "opponent": "Pittsburgh Pirates",
+          "k": 9,
+          "outs": 18,
+          "battersFaced": 26
         },
         {
           "date": "2026-04-19",
-          "team": "Texas Rangers",
-          "opponent": "Seattle Mariners",
-          "k": 5,
+          "team": "Milwaukee Brewers",
+          "opponent": "Miami Marlins",
+          "k": 9,
           "outs": 15,
           "battersFaced": 23
         },
         {
           "date": "2026-04-14",
-          "team": "Texas Rangers",
-          "opponent": "Athletics",
+          "team": "Milwaukee Brewers",
+          "opponent": "Toronto Blue Jays",
           "k": 5,
-          "outs": 14,
+          "outs": 16,
+          "battersFaced": 21
+        },
+        {
+          "date": "2026-04-07",
+          "team": "Milwaukee Brewers",
+          "opponent": "Boston Red Sox",
+          "k": 10,
+          "outs": 16,
           "battersFaced": 22
         },
         {
-          "date": "2026-04-08",
-          "team": "Texas Rangers",
-          "opponent": "Seattle Mariners",
-          "k": 9,
-          "outs": 15,
-          "battersFaced": 17
-        },
-        {
-          "date": "2026-04-03",
-          "team": "Texas Rangers",
-          "opponent": "Cincinnati Reds",
-          "k": 9,
-          "outs": 18,
-          "battersFaced": 24
-        },
-        {
-          "date": "2026-03-29",
-          "team": "Texas Rangers",
-          "opponent": "Philadelphia Phillies",
+          "date": "2026-04-01",
+          "team": "Milwaukee Brewers",
+          "opponent": "Tampa Bay Rays",
           "k": 7,
-          "outs": 16,
-          "battersFaced": 22
+          "outs": 18,
+          "battersFaced": 25
         },
         {
-          "date": "2025-09-16",
-          "team": "Washington Nationals",
-          "opponent": "Atlanta Braves",
-          "k": 5,
-          "outs": 16,
-          "battersFaced": 21
-        },
-        {
-          "date": "2025-09-11",
-          "team": "Washington Nationals",
-          "opponent": "Miami Marlins",
-          "k": 4,
-          "outs": 15,
-          "battersFaced": 21
-        },
-        {
-          "date": "2025-08-26",
-          "team": "Washington Nationals",
-          "opponent": "New York Yankees",
-          "k": 3,
+          "date": "2026-03-26",
+          "team": "Milwaukee Brewers",
+          "opponent": "Chicago White Sox",
+          "k": 11,
           "outs": 15,
           "battersFaced": 20
         },
         {
-          "date": "2025-08-21",
-          "team": "Washington Nationals",
-          "opponent": "New York Mets",
-          "k": 5,
+          "date": "2025-09-19",
+          "team": "Milwaukee Brewers",
+          "opponent": "St. Louis Cardinals",
+          "k": 3,
+          "outs": 11,
+          "battersFaced": 17
+        },
+        {
+          "date": "2025-09-13",
+          "team": "Milwaukee Brewers",
+          "opponent": "St. Louis Cardinals",
+          "k": 4,
+          "outs": 15,
+          "battersFaced": 23
+        },
+        {
+          "date": "2025-09-07",
+          "team": "Milwaukee Brewers",
+          "opponent": "Pittsburgh Pirates",
+          "k": 8,
+          "outs": 21,
+          "battersFaced": 25
+        },
+        {
+          "date": "2025-09-01",
+          "team": "Milwaukee Brewers",
+          "opponent": "Philadelphia Phillies",
+          "k": 4,
           "outs": 13,
-          "battersFaced": 22
+          "battersFaced": 19
         }
       ],
       "last5": [
         {
           "date": "2026-04-25",
-          "team": "Texas Rangers",
-          "opponent": "Athletics",
-          "k": 7,
-          "outs": 15,
-          "battersFaced": 25
+          "team": "Milwaukee Brewers",
+          "opponent": "Pittsburgh Pirates",
+          "k": 9,
+          "outs": 18,
+          "battersFaced": 26
         },
         {
           "date": "2026-04-19",
-          "team": "Texas Rangers",
-          "opponent": "Seattle Mariners",
-          "k": 5,
+          "team": "Milwaukee Brewers",
+          "opponent": "Miami Marlins",
+          "k": 9,
           "outs": 15,
           "battersFaced": 23
         },
         {
           "date": "2026-04-14",
-          "team": "Texas Rangers",
-          "opponent": "Athletics",
+          "team": "Milwaukee Brewers",
+          "opponent": "Toronto Blue Jays",
           "k": 5,
-          "outs": 14,
+          "outs": 16,
+          "battersFaced": 21
+        },
+        {
+          "date": "2026-04-07",
+          "team": "Milwaukee Brewers",
+          "opponent": "Boston Red Sox",
+          "k": 10,
+          "outs": 16,
           "battersFaced": 22
         },
         {
-          "date": "2026-04-08",
-          "team": "Texas Rangers",
-          "opponent": "Seattle Mariners",
-          "k": 9,
-          "outs": 15,
-          "battersFaced": 17
-        },
-        {
-          "date": "2026-04-03",
-          "team": "Texas Rangers",
-          "opponent": "Cincinnati Reds",
-          "k": 9,
+          "date": "2026-04-01",
+          "team": "Milwaukee Brewers",
+          "opponent": "Tampa Bay Rays",
+          "k": 7,
           "outs": 18,
-          "battersFaced": 24
+          "battersFaced": 25
         }
       ],
       "h2h": []
     },
     {
-      "player": "Payton Tolle",
-      "team": "Boston Red Sox",
-      "opponent": "Washington Nationals",
+      "player": "Chase Burns",
+      "team": "Cincinnati Reds",
+      "opponent": "Milwaukee Brewers",
       "line": null,
-      "last10Avg": 3.8,
-      "last5Avg": 3.6,
+      "last10Avg": 7.7,
+      "last5Avg": 6.0,
       "h2hAvg": 0,
-      "projection": 3.7,
+      "projection": 7.0,
       "edge": null,
       "last10OverPct": 0,
       "last5OverPct": 0,
       "h2hOverPct": 0,
       "last10": [
         {
-          "date": "2026-04-23",
-          "team": "Boston Red Sox",
-          "opponent": "New York Yankees",
-          "k": 11,
+          "date": "2026-04-21",
+          "team": "Cincinnati Reds",
+          "opponent": "Tampa Bay Rays",
+          "k": 8,
+          "outs": 17,
+          "battersFaced": 23
+        },
+        {
+          "date": "2026-04-16",
+          "team": "Cincinnati Reds",
+          "opponent": "San Francisco Giants",
+          "k": 4,
+          "outs": 18,
+          "battersFaced": 18
+        },
+        {
+          "date": "2026-04-10",
+          "team": "Cincinnati Reds",
+          "opponent": "Los Angeles Angels",
+          "k": 2,
+          "outs": 16,
+          "battersFaced": 27
+        },
+        {
+          "date": "2026-04-05",
+          "team": "Cincinnati Reds",
+          "opponent": "Texas Rangers",
+          "k": 9,
+          "outs": 18,
+          "battersFaced": 24
+        },
+        {
+          "date": "2026-03-30",
+          "team": "Cincinnati Reds",
+          "opponent": "Pittsburgh Pirates",
+          "k": 7,
+          "outs": 15,
+          "battersFaced": 19
+        },
+        {
+          "date": "2025-08-08",
+          "team": "Cincinnati Reds",
+          "opponent": "Pittsburgh Pirates",
+          "k": 10,
           "outs": 18,
           "battersFaced": 22
         },
         {
-          "date": "2025-09-27",
-          "team": "Boston Red Sox",
-          "opponent": "Detroit Tigers",
-          "k": 1,
-          "outs": 3,
-          "battersFaced": 3
+          "date": "2025-07-28",
+          "team": "Cincinnati Reds",
+          "opponent": "Los Angeles Dodgers",
+          "k": 10,
+          "outs": 17,
+          "battersFaced": 26
         },
         {
-          "date": "2025-09-24",
-          "team": "Boston Red Sox",
-          "opponent": "Toronto Blue Jays",
-          "k": 1,
-          "outs": 3,
-          "battersFaced": 5
+          "date": "2025-07-22",
+          "team": "Cincinnati Reds",
+          "opponent": "Washington Nationals",
+          "k": 10,
+          "outs": 17,
+          "battersFaced": 26
         },
         {
-          "date": "2025-09-21",
-          "team": "Boston Red Sox",
-          "opponent": "Tampa Bay Rays",
-          "k": 1,
-          "outs": 3,
-          "battersFaced": 6
+          "date": "2025-07-11",
+          "team": "Cincinnati Reds",
+          "opponent": "Colorado Rockies",
+          "k": 10,
+          "outs": 18,
+          "battersFaced": 25
         },
         {
-          "date": "2025-09-18",
-          "team": "Boston Red Sox",
-          "opponent": "Athletics",
-          "k": 4,
-          "outs": 9,
-          "battersFaced": 13
-        },
-        {
-          "date": "2025-09-10",
-          "team": "Boston Red Sox",
-          "opponent": "Athletics",
-          "k": 2,
-          "outs": 6,
-          "battersFaced": 9
-        },
-        {
-          "date": "2025-09-05",
-          "team": "Boston Red Sox",
-          "opponent": "Arizona Diamondbacks",
-          "k": 2,
-          "outs": 9,
-          "battersFaced": 17
-        },
-        {
-          "date": "2025-08-29",
-          "team": "Boston Red Sox",
-          "opponent": "Pittsburgh Pirates",
-          "k": 8,
-          "outs": 16,
-          "battersFaced": 21
+          "date": "2025-07-06",
+          "team": "Cincinnati Reds",
+          "opponent": "Philadelphia Phillies",
+          "k": 7,
+          "outs": 14,
+          "battersFaced": 19
         }
       ],
       "last5": [
         {
-          "date": "2026-04-23",
-          "team": "Boston Red Sox",
-          "opponent": "New York Yankees",
-          "k": 11,
-          "outs": 18,
-          "battersFaced": 22
-        },
-        {
-          "date": "2025-09-27",
-          "team": "Boston Red Sox",
-          "opponent": "Detroit Tigers",
-          "k": 1,
-          "outs": 3,
-          "battersFaced": 3
-        },
-        {
-          "date": "2025-09-24",
-          "team": "Boston Red Sox",
-          "opponent": "Toronto Blue Jays",
-          "k": 1,
-          "outs": 3,
-          "battersFaced": 5
-        },
-        {
-          "date": "2025-09-21",
-          "team": "Boston Red Sox",
+          "date": "2026-04-21",
+          "team": "Cincinnati Reds",
           "opponent": "Tampa Bay Rays",
-          "k": 1,
-          "outs": 3,
-          "battersFaced": 6
+          "k": 8,
+          "outs": 17,
+          "battersFaced": 23
         },
         {
-          "date": "2025-09-18",
-          "team": "Boston Red Sox",
-          "opponent": "Athletics",
+          "date": "2026-04-16",
+          "team": "Cincinnati Reds",
+          "opponent": "San Francisco Giants",
           "k": 4,
-          "outs": 9,
-          "battersFaced": 13
+          "outs": 18,
+          "battersFaced": 18
+        },
+        {
+          "date": "2026-04-10",
+          "team": "Cincinnati Reds",
+          "opponent": "Los Angeles Angels",
+          "k": 2,
+          "outs": 16,
+          "battersFaced": 27
+        },
+        {
+          "date": "2026-04-05",
+          "team": "Cincinnati Reds",
+          "opponent": "Texas Rangers",
+          "k": 9,
+          "outs": 18,
+          "battersFaced": 24
+        },
+        {
+          "date": "2026-03-30",
+          "team": "Cincinnati Reds",
+          "opponent": "Pittsburgh Pirates",
+          "k": 7,
+          "outs": 15,
+          "battersFaced": 19
         }
       ],
       "h2h": []
     },
     {
-      "player": "Andrew Alvarez",
-      "team": "Washington Nationals",
-      "opponent": "Boston Red Sox",
+      "player": "Michael Lorenzen",
+      "team": "Colorado Rockies",
+      "opponent": "Miami Marlins",
       "line": null,
       "last10Avg": 4.2,
-      "last5Avg": 4.2,
+      "last5Avg": 3.2,
+      "h2hAvg": 4.0,
+      "projection": 3.8,
+      "edge": null,
+      "last10OverPct": 0,
+      "last5OverPct": 0,
+      "h2hOverPct": 0,
+      "last10": [
+        {
+          "date": "2026-04-24",
+          "team": "Colorado Rockies",
+          "opponent": "New York Mets",
+          "k": 3,
+          "outs": 21,
+          "battersFaced": 26
+        },
+        {
+          "date": "2026-04-19",
+          "team": "Colorado Rockies",
+          "opponent": "Los Angeles Dodgers",
+          "k": 3,
+          "outs": 15,
+          "battersFaced": 22
+        },
+        {
+          "date": "2026-04-08",
+          "team": "Colorado Rockies",
+          "opponent": "Houston Astros",
+          "k": 4,
+          "outs": 17,
+          "battersFaced": 26
+        },
+        {
+          "date": "2026-04-03",
+          "team": "Colorado Rockies",
+          "opponent": "Philadelphia Phillies",
+          "k": 2,
+          "outs": 9,
+          "battersFaced": 23
+        },
+        {
+          "date": "2026-03-28",
+          "team": "Colorado Rockies",
+          "opponent": "Miami Marlins",
+          "k": 4,
+          "outs": 13,
+          "battersFaced": 22
+        },
+        {
+          "date": "2025-09-25",
+          "team": "Kansas City Royals",
+          "opponent": "Los Angeles Angels",
+          "k": 9,
+          "outs": 17,
+          "battersFaced": 22
+        },
+        {
+          "date": "2025-09-19",
+          "team": "Kansas City Royals",
+          "opponent": "Toronto Blue Jays",
+          "k": 4,
+          "outs": 23,
+          "battersFaced": 29
+        },
+        {
+          "date": "2025-09-12",
+          "team": "Kansas City Royals",
+          "opponent": "Philadelphia Phillies",
+          "k": 3,
+          "outs": 9,
+          "battersFaced": 20
+        },
+        {
+          "date": "2025-09-07",
+          "team": "Kansas City Royals",
+          "opponent": "Minnesota Twins",
+          "k": 5,
+          "outs": 16,
+          "battersFaced": 22
+        },
+        {
+          "date": "2025-09-02",
+          "team": "Kansas City Royals",
+          "opponent": "Los Angeles Angels",
+          "k": 5,
+          "outs": 18,
+          "battersFaced": 23
+        }
+      ],
+      "last5": [
+        {
+          "date": "2026-04-24",
+          "team": "Colorado Rockies",
+          "opponent": "New York Mets",
+          "k": 3,
+          "outs": 21,
+          "battersFaced": 26
+        },
+        {
+          "date": "2026-04-19",
+          "team": "Colorado Rockies",
+          "opponent": "Los Angeles Dodgers",
+          "k": 3,
+          "outs": 15,
+          "battersFaced": 22
+        },
+        {
+          "date": "2026-04-08",
+          "team": "Colorado Rockies",
+          "opponent": "Houston Astros",
+          "k": 4,
+          "outs": 17,
+          "battersFaced": 26
+        },
+        {
+          "date": "2026-04-03",
+          "team": "Colorado Rockies",
+          "opponent": "Philadelphia Phillies",
+          "k": 2,
+          "outs": 9,
+          "battersFaced": 23
+        },
+        {
+          "date": "2026-03-28",
+          "team": "Colorado Rockies",
+          "opponent": "Miami Marlins",
+          "k": 4,
+          "outs": 13,
+          "battersFaced": 22
+        }
+      ],
+      "h2h": [
+        {
+          "date": "2026-03-28",
+          "team": "Colorado Rockies",
+          "opponent": "Miami Marlins",
+          "k": 4,
+          "outs": 13,
+          "battersFaced": 22
+        }
+      ]
+    },
+    {
+      "player": "Ryan Gusto",
+      "team": "Miami Marlins",
+      "opponent": "Colorado Rockies",
+      "line": null,
+      "last10Avg": 4.4,
+      "last5Avg": 4.0,
       "h2hAvg": 0,
       "projection": 4.2,
       "edge": null,
@@ -1330,368 +1496,875 @@
       "h2hOverPct": 0,
       "last10": [
         {
-          "date": "2026-04-19",
-          "team": "Washington Nationals",
-          "opponent": "San Francisco Giants",
-          "k": 5,
-          "outs": 13,
-          "battersFaced": 16
-        },
-        {
-          "date": "2025-09-24",
-          "team": "Washington Nationals",
+          "date": "2025-08-27",
+          "team": "Miami Marlins",
           "opponent": "Atlanta Braves",
-          "k": 5,
-          "outs": 13,
-          "battersFaced": 18
+          "k": 2,
+          "outs": 11,
+          "battersFaced": 24
         },
         {
-          "date": "2025-09-19",
-          "team": "Washington Nationals",
-          "opponent": "New York Mets",
-          "k": 4,
-          "outs": 10,
-          "battersFaced": 18
+          "date": "2025-08-22",
+          "team": "Miami Marlins",
+          "opponent": "Toronto Blue Jays",
+          "k": 0,
+          "outs": 18,
+          "battersFaced": 24
         },
         {
-          "date": "2025-09-13",
-          "team": "Washington Nationals",
-          "opponent": "Pittsburgh Pirates",
+          "date": "2025-08-09",
+          "team": "Miami Marlins",
+          "opponent": "Atlanta Braves",
+          "k": 8,
+          "outs": 18,
+          "battersFaced": 26
+        },
+        {
+          "date": "2025-07-30",
+          "team": "Houston Astros",
+          "opponent": "Washington Nationals",
           "k": 5,
           "outs": 18,
-          "battersFaced": 23
+          "battersFaced": 22
         },
         {
-          "date": "2025-09-07",
-          "team": "Washington Nationals",
-          "opponent": "Chicago Cubs",
-          "k": 2,
-          "outs": 14,
+          "date": "2025-07-25",
+          "team": "Houston Astros",
+          "opponent": "Athletics",
+          "k": 5,
+          "outs": 10,
           "battersFaced": 20
         },
         {
-          "date": "2025-09-01",
-          "team": "Washington Nationals",
-          "opponent": "Miami Marlins",
+          "date": "2025-07-11",
+          "team": "Houston Astros",
+          "opponent": "Texas Rangers",
           "k": 4,
-          "outs": 15,
+          "outs": 13,
           "battersFaced": 19
+        },
+        {
+          "date": "2025-07-06",
+          "team": "Houston Astros",
+          "opponent": "Los Angeles Dodgers",
+          "k": 1,
+          "outs": 18,
+          "battersFaced": 22
+        },
+        {
+          "date": "2025-06-28",
+          "team": "Houston Astros",
+          "opponent": "Chicago Cubs",
+          "k": 4,
+          "outs": 12,
+          "battersFaced": 19
+        },
+        {
+          "date": "2025-06-22",
+          "team": "Houston Astros",
+          "opponent": "Los Angeles Angels",
+          "k": 7,
+          "outs": 18,
+          "battersFaced": 24
+        },
+        {
+          "date": "2025-06-16",
+          "team": "Houston Astros",
+          "opponent": "Athletics",
+          "k": 8,
+          "outs": 15,
+          "battersFaced": 20
         }
       ],
       "last5": [
         {
-          "date": "2026-04-19",
-          "team": "Washington Nationals",
-          "opponent": "San Francisco Giants",
-          "k": 5,
-          "outs": 13,
-          "battersFaced": 16
-        },
-        {
-          "date": "2025-09-24",
-          "team": "Washington Nationals",
+          "date": "2025-08-27",
+          "team": "Miami Marlins",
           "opponent": "Atlanta Braves",
-          "k": 5,
-          "outs": 13,
-          "battersFaced": 18
+          "k": 2,
+          "outs": 11,
+          "battersFaced": 24
         },
         {
-          "date": "2025-09-19",
-          "team": "Washington Nationals",
-          "opponent": "New York Mets",
-          "k": 4,
-          "outs": 10,
-          "battersFaced": 18
+          "date": "2025-08-22",
+          "team": "Miami Marlins",
+          "opponent": "Toronto Blue Jays",
+          "k": 0,
+          "outs": 18,
+          "battersFaced": 24
         },
         {
-          "date": "2025-09-13",
-          "team": "Washington Nationals",
-          "opponent": "Pittsburgh Pirates",
+          "date": "2025-08-09",
+          "team": "Miami Marlins",
+          "opponent": "Atlanta Braves",
+          "k": 8,
+          "outs": 18,
+          "battersFaced": 26
+        },
+        {
+          "date": "2025-07-30",
+          "team": "Houston Astros",
+          "opponent": "Washington Nationals",
           "k": 5,
           "outs": 18,
-          "battersFaced": 23
+          "battersFaced": 22
         },
         {
-          "date": "2025-09-07",
-          "team": "Washington Nationals",
-          "opponent": "Chicago Cubs",
-          "k": 2,
-          "outs": 14,
+          "date": "2025-07-25",
+          "team": "Houston Astros",
+          "opponent": "Athletics",
+          "k": 5,
+          "outs": 10,
           "battersFaced": 20
         }
       ],
       "h2h": []
     },
     {
-      "player": "Will Warren",
-      "team": "New York Yankees",
-      "opponent": "Detroit Tigers",
+      "player": "Slade Cecconi",
+      "team": "Cleveland Guardians",
+      "opponent": "Chicago White Sox",
       "line": null,
-      "last10Avg": 5.5,
-      "last5Avg": 6.8,
-      "h2hAvg": 5.0,
-      "projection": 5.9,
+      "last10Avg": 4.3,
+      "last5Avg": 4.0,
+      "h2hAvg": 4.0,
+      "projection": 4.1,
       "edge": null,
       "last10OverPct": 0,
       "last5OverPct": 0,
       "h2hOverPct": 0,
       "last10": [
         {
-          "date": "2026-04-24",
-          "team": "New York Yankees",
-          "opponent": "Houston Astros",
-          "k": 6,
-          "outs": 18,
+          "date": "2026-04-26",
+          "team": "Cleveland Guardians",
+          "opponent": "Toronto Blue Jays",
+          "k": 5,
+          "outs": 17,
           "battersFaced": 24
         },
         {
-          "date": "2026-04-18",
-          "team": "New York Yankees",
-          "opponent": "Kansas City Royals",
-          "k": 11,
-          "outs": 21,
-          "battersFaced": 25
-        },
-        {
-          "date": "2026-04-13",
-          "team": "New York Yankees",
-          "opponent": "Los Angeles Angels",
-          "k": 6,
-          "outs": 11,
-          "battersFaced": 17
-        },
-        {
-          "date": "2026-04-08",
-          "team": "New York Yankees",
-          "opponent": "Athletics",
-          "k": 5,
-          "outs": 14,
-          "battersFaced": 23
-        },
-        {
-          "date": "2026-04-03",
-          "team": "New York Yankees",
-          "opponent": "Miami Marlins",
-          "k": 6,
-          "outs": 17,
-          "battersFaced": 21
-        },
-        {
-          "date": "2026-03-28",
-          "team": "New York Yankees",
-          "opponent": "San Francisco Giants",
-          "k": 3,
-          "outs": 13,
-          "battersFaced": 19
-        },
-        {
-          "date": "2025-09-26",
-          "team": "New York Yankees",
-          "opponent": "Baltimore Orioles",
-          "k": 7,
+          "date": "2026-04-20",
+          "team": "Cleveland Guardians",
+          "opponent": "Houston Astros",
+          "k": 2,
           "outs": 15,
-          "battersFaced": 22
+          "battersFaced": 27
         },
         {
-          "date": "2025-09-19",
-          "team": "New York Yankees",
-          "opponent": "Baltimore Orioles",
+          "date": "2026-04-15",
+          "team": "Cleveland Guardians",
+          "opponent": "St. Louis Cardinals",
           "k": 4,
+          "outs": 12,
+          "battersFaced": 20
+        },
+        {
+          "date": "2026-04-10",
+          "team": "Cleveland Guardians",
+          "opponent": "Atlanta Braves",
+          "k": 3,
           "outs": 16,
           "battersFaced": 23
         },
         {
-          "date": "2025-09-14",
-          "team": "New York Yankees",
-          "opponent": "Boston Red Sox",
-          "k": 2,
-          "outs": 15,
-          "battersFaced": 26
-        },
-        {
-          "date": "2025-09-09",
-          "team": "New York Yankees",
-          "opponent": "Detroit Tigers",
-          "k": 5,
+          "date": "2026-04-05",
+          "team": "Cleveland Guardians",
+          "opponent": "Chicago Cubs",
+          "k": 6,
           "outs": 18,
           "battersFaced": 21
+        },
+        {
+          "date": "2026-03-29",
+          "team": "Cleveland Guardians",
+          "opponent": "Seattle Mariners",
+          "k": 5,
+          "outs": 13,
+          "battersFaced": 24
+        },
+        {
+          "date": "2025-09-26",
+          "team": "Cleveland Guardians",
+          "opponent": "Texas Rangers",
+          "k": 3,
+          "outs": 12,
+          "battersFaced": 18
+        },
+        {
+          "date": "2025-09-20",
+          "team": "Cleveland Guardians",
+          "opponent": "Minnesota Twins",
+          "k": 8,
+          "outs": 21,
+          "battersFaced": 23
+        },
+        {
+          "date": "2025-09-14",
+          "team": "Cleveland Guardians",
+          "opponent": "Chicago White Sox",
+          "k": 4,
+          "outs": 17,
+          "battersFaced": 21
+        },
+        {
+          "date": "2025-09-08",
+          "team": "Cleveland Guardians",
+          "opponent": "Kansas City Royals",
+          "k": 3,
+          "outs": 24,
+          "battersFaced": 27
         }
       ],
       "last5": [
         {
-          "date": "2026-04-24",
-          "team": "New York Yankees",
-          "opponent": "Houston Astros",
-          "k": 6,
-          "outs": 18,
+          "date": "2026-04-26",
+          "team": "Cleveland Guardians",
+          "opponent": "Toronto Blue Jays",
+          "k": 5,
+          "outs": 17,
           "battersFaced": 24
         },
         {
-          "date": "2026-04-18",
-          "team": "New York Yankees",
-          "opponent": "Kansas City Royals",
-          "k": 11,
-          "outs": 21,
-          "battersFaced": 25
+          "date": "2026-04-20",
+          "team": "Cleveland Guardians",
+          "opponent": "Houston Astros",
+          "k": 2,
+          "outs": 15,
+          "battersFaced": 27
         },
         {
-          "date": "2026-04-13",
-          "team": "New York Yankees",
-          "opponent": "Los Angeles Angels",
-          "k": 6,
-          "outs": 11,
-          "battersFaced": 17
+          "date": "2026-04-15",
+          "team": "Cleveland Guardians",
+          "opponent": "St. Louis Cardinals",
+          "k": 4,
+          "outs": 12,
+          "battersFaced": 20
         },
         {
-          "date": "2026-04-08",
-          "team": "New York Yankees",
-          "opponent": "Athletics",
-          "k": 5,
-          "outs": 14,
+          "date": "2026-04-10",
+          "team": "Cleveland Guardians",
+          "opponent": "Atlanta Braves",
+          "k": 3,
+          "outs": 16,
           "battersFaced": 23
         },
         {
-          "date": "2026-04-03",
-          "team": "New York Yankees",
-          "opponent": "Miami Marlins",
+          "date": "2026-04-05",
+          "team": "Cleveland Guardians",
+          "opponent": "Chicago Cubs",
           "k": 6,
-          "outs": 17,
+          "outs": 18,
           "battersFaced": 21
         }
       ],
       "h2h": [
         {
-          "date": "2025-09-09",
-          "team": "New York Yankees",
-          "opponent": "Detroit Tigers",
-          "k": 5,
-          "outs": 18,
+          "date": "2025-09-14",
+          "team": "Cleveland Guardians",
+          "opponent": "Chicago White Sox",
+          "k": 4,
+          "outs": 17,
           "battersFaced": 21
+        },
+        {
+          "date": "2025-08-10",
+          "team": "Cleveland Guardians",
+          "opponent": "Chicago White Sox",
+          "k": 4,
+          "outs": 9,
+          "battersFaced": 18
         }
       ]
     },
     {
-      "player": "Troy Melton",
-      "team": "Detroit Tigers",
-      "opponent": "New York Yankees",
+      "player": "Davis Martin",
+      "team": "Chicago White Sox",
+      "opponent": "Cleveland Guardians",
       "line": null,
-      "last10Avg": 3.3,
-      "last5Avg": 2.2,
-      "h2hAvg": 0,
-      "projection": 2.9,
+      "last10Avg": 4.5,
+      "last5Avg": 5.2,
+      "h2hAvg": 2.5,
+      "projection": 4.3,
       "edge": null,
       "last10OverPct": 0,
       "last5OverPct": 0,
       "h2hOverPct": 0,
       "last10": [
         {
-          "date": "2025-09-25",
-          "team": "Detroit Tigers",
-          "opponent": "Cleveland Guardians",
-          "k": 1,
-          "outs": 11,
-          "battersFaced": 15
-        },
-        {
-          "date": "2025-09-13",
-          "team": "Detroit Tigers",
-          "opponent": "Miami Marlins",
-          "k": 1,
-          "outs": 9,
-          "battersFaced": 10
-        },
-        {
-          "date": "2025-08-26",
-          "team": "Detroit Tigers",
-          "opponent": "Athletics",
-          "k": 1,
-          "outs": 9,
-          "battersFaced": 11
-        },
-        {
-          "date": "2025-08-13",
-          "team": "Detroit Tigers",
-          "opponent": "Chicago White Sox",
-          "k": 6,
-          "outs": 15,
-          "battersFaced": 16
-        },
-        {
-          "date": "2025-08-08",
-          "team": "Detroit Tigers",
-          "opponent": "Los Angeles Angels",
-          "k": 2,
-          "outs": 10,
-          "battersFaced": 12
-        },
-        {
-          "date": "2025-07-28",
-          "team": "Detroit Tigers",
+          "date": "2026-04-23",
+          "team": "Chicago White Sox",
           "opponent": "Arizona Diamondbacks",
-          "k": 5,
+          "k": 7,
+          "outs": 19,
+          "battersFaced": 24
+        },
+        {
+          "date": "2026-04-17",
+          "team": "Chicago White Sox",
+          "opponent": "Athletics",
+          "k": 4,
           "outs": 21,
           "battersFaced": 24
         },
         {
-          "date": "2025-07-23",
-          "team": "Detroit Tigers",
-          "opponent": "Pittsburgh Pirates",
-          "k": 7,
+          "date": "2026-04-10",
+          "team": "Chicago White Sox",
+          "opponent": "Kansas City Royals",
+          "k": 3,
+          "outs": 21,
+          "battersFaced": 26
+        },
+        {
+          "date": "2026-04-05",
+          "team": "Chicago White Sox",
+          "opponent": "Toronto Blue Jays",
+          "k": 6,
+          "outs": 18,
+          "battersFaced": 23
+        },
+        {
+          "date": "2026-03-30",
+          "team": "Chicago White Sox",
+          "opponent": "Miami Marlins",
+          "k": 6,
           "outs": 15,
-          "battersFaced": 24
+          "battersFaced": 21
+        },
+        {
+          "date": "2025-09-25",
+          "team": "Chicago White Sox",
+          "opponent": "New York Yankees",
+          "k": 5,
+          "outs": 13,
+          "battersFaced": 21
+        },
+        {
+          "date": "2025-09-19",
+          "team": "Chicago White Sox",
+          "opponent": "San Diego Padres",
+          "k": 4,
+          "outs": 18,
+          "battersFaced": 25
+        },
+        {
+          "date": "2025-09-13",
+          "team": "Chicago White Sox",
+          "opponent": "Cleveland Guardians",
+          "k": 3,
+          "outs": 15,
+          "battersFaced": 21
+        },
+        {
+          "date": "2025-09-07",
+          "team": "Chicago White Sox",
+          "opponent": "Detroit Tigers",
+          "k": 3,
+          "outs": 16,
+          "battersFaced": 22
+        },
+        {
+          "date": "2025-09-02",
+          "team": "Chicago White Sox",
+          "opponent": "Minnesota Twins",
+          "k": 4,
+          "outs": 18,
+          "battersFaced": 26
         }
       ],
       "last5": [
         {
-          "date": "2025-09-25",
-          "team": "Detroit Tigers",
-          "opponent": "Cleveland Guardians",
-          "k": 1,
-          "outs": 11,
-          "battersFaced": 15
+          "date": "2026-04-23",
+          "team": "Chicago White Sox",
+          "opponent": "Arizona Diamondbacks",
+          "k": 7,
+          "outs": 19,
+          "battersFaced": 24
         },
         {
-          "date": "2025-09-13",
-          "team": "Detroit Tigers",
+          "date": "2026-04-17",
+          "team": "Chicago White Sox",
+          "opponent": "Athletics",
+          "k": 4,
+          "outs": 21,
+          "battersFaced": 24
+        },
+        {
+          "date": "2026-04-10",
+          "team": "Chicago White Sox",
+          "opponent": "Kansas City Royals",
+          "k": 3,
+          "outs": 21,
+          "battersFaced": 26
+        },
+        {
+          "date": "2026-04-05",
+          "team": "Chicago White Sox",
+          "opponent": "Toronto Blue Jays",
+          "k": 6,
+          "outs": 18,
+          "battersFaced": 23
+        },
+        {
+          "date": "2026-03-30",
+          "team": "Chicago White Sox",
           "opponent": "Miami Marlins",
-          "k": 1,
-          "outs": 9,
-          "battersFaced": 10
+          "k": 6,
+          "outs": 15,
+          "battersFaced": 21
+        }
+      ],
+      "h2h": [
+        {
+          "date": "2025-09-13",
+          "team": "Chicago White Sox",
+          "opponent": "Cleveland Guardians",
+          "k": 3,
+          "outs": 15,
+          "battersFaced": 21
+        },
+        {
+          "date": "2025-08-10",
+          "team": "Chicago White Sox",
+          "opponent": "Cleveland Guardians",
+          "k": 2,
+          "outs": 15,
+          "battersFaced": 24
+        }
+      ]
+    },
+    {
+      "player": "Hurston Waldrep",
+      "team": "Atlanta Braves",
+      "opponent": "St. Louis Cardinals",
+      "line": null,
+      "last10Avg": 5.5,
+      "last5Avg": 6.2,
+      "h2hAvg": 0,
+      "projection": 5.8,
+      "edge": null,
+      "last10OverPct": 0,
+      "last5OverPct": 0,
+      "h2hOverPct": 0,
+      "last10": [
+        {
+          "date": "2025-09-23",
+          "team": "Atlanta Braves",
+          "opponent": "Washington Nationals",
+          "k": 5,
+          "outs": 18,
+          "battersFaced": 25
+        },
+        {
+          "date": "2025-09-17",
+          "team": "Atlanta Braves",
+          "opponent": "Washington Nationals",
+          "k": 8,
+          "outs": 15,
+          "battersFaced": 20
+        },
+        {
+          "date": "2025-09-12",
+          "team": "Atlanta Braves",
+          "opponent": "Houston Astros",
+          "k": 4,
+          "outs": 14,
+          "battersFaced": 24
+        },
+        {
+          "date": "2025-09-06",
+          "team": "Atlanta Braves",
+          "opponent": "Seattle Mariners",
+          "k": 5,
+          "outs": 15,
+          "battersFaced": 22
+        },
+        {
+          "date": "2025-08-31",
+          "team": "Atlanta Braves",
+          "opponent": "Philadelphia Phillies",
+          "k": 9,
+          "outs": 17,
+          "battersFaced": 25
         },
         {
           "date": "2025-08-26",
-          "team": "Detroit Tigers",
-          "opponent": "Athletics",
-          "k": 1,
-          "outs": 9,
-          "battersFaced": 11
+          "team": "Atlanta Braves",
+          "opponent": "Miami Marlins",
+          "k": 0,
+          "outs": 16,
+          "battersFaced": 24
         },
         {
-          "date": "2025-08-13",
-          "team": "Detroit Tigers",
+          "date": "2025-08-20",
+          "team": "Atlanta Braves",
           "opponent": "Chicago White Sox",
-          "k": 6,
-          "outs": 15,
-          "battersFaced": 16
+          "k": 7,
+          "outs": 21,
+          "battersFaced": 23
         },
         {
-          "date": "2025-08-08",
-          "team": "Detroit Tigers",
-          "opponent": "Los Angeles Angels",
-          "k": 2,
-          "outs": 10,
-          "battersFaced": 12
+          "date": "2025-08-15",
+          "team": "Atlanta Braves",
+          "opponent": "Cleveland Guardians",
+          "k": 7,
+          "outs": 18,
+          "battersFaced": 22
+        },
+        {
+          "date": "2025-08-09",
+          "team": "Atlanta Braves",
+          "opponent": "Miami Marlins",
+          "k": 6,
+          "outs": 18,
+          "battersFaced": 22
+        },
+        {
+          "date": "2025-08-03",
+          "team": "Atlanta Braves",
+          "opponent": "Cincinnati Reds",
+          "k": 4,
+          "outs": 17,
+          "battersFaced": 22
+        }
+      ],
+      "last5": [
+        {
+          "date": "2025-09-23",
+          "team": "Atlanta Braves",
+          "opponent": "Washington Nationals",
+          "k": 5,
+          "outs": 18,
+          "battersFaced": 25
+        },
+        {
+          "date": "2025-09-17",
+          "team": "Atlanta Braves",
+          "opponent": "Washington Nationals",
+          "k": 8,
+          "outs": 15,
+          "battersFaced": 20
+        },
+        {
+          "date": "2025-09-12",
+          "team": "Atlanta Braves",
+          "opponent": "Houston Astros",
+          "k": 4,
+          "outs": 14,
+          "battersFaced": 24
+        },
+        {
+          "date": "2025-09-06",
+          "team": "Atlanta Braves",
+          "opponent": "Seattle Mariners",
+          "k": 5,
+          "outs": 15,
+          "battersFaced": 22
+        },
+        {
+          "date": "2025-08-31",
+          "team": "Atlanta Braves",
+          "opponent": "Philadelphia Phillies",
+          "k": 9,
+          "outs": 17,
+          "battersFaced": 25
         }
       ],
       "h2h": []
     },
     {
-      "player": "Colin Rea",
-      "team": "Chicago Cubs",
-      "opponent": "San Diego Padres",
+      "player": "Dustin May",
+      "team": "St. Louis Cardinals",
+      "opponent": "Atlanta Braves",
       "line": null,
-      "last10Avg": 5.3,
+      "last10Avg": 4.2,
       "last5Avg": 4.0,
+      "h2hAvg": 6.0,
+      "projection": 4.5,
+      "edge": null,
+      "last10OverPct": 0,
+      "last5OverPct": 0,
+      "h2hOverPct": 0,
+      "last10": [
+        {
+          "date": "2026-04-21",
+          "team": "St. Louis Cardinals",
+          "opponent": "Miami Marlins",
+          "k": 5,
+          "outs": 16,
+          "battersFaced": 22
+        },
+        {
+          "date": "2026-04-15",
+          "team": "St. Louis Cardinals",
+          "opponent": "Cleveland Guardians",
+          "k": 4,
+          "outs": 18,
+          "battersFaced": 21
+        },
+        {
+          "date": "2026-04-10",
+          "team": "St. Louis Cardinals",
+          "opponent": "Boston Red Sox",
+          "k": 4,
+          "outs": 18,
+          "battersFaced": 23
+        },
+        {
+          "date": "2026-04-04",
+          "team": "St. Louis Cardinals",
+          "opponent": "Detroit Tigers",
+          "k": 4,
+          "outs": 10,
+          "battersFaced": 18
+        },
+        {
+          "date": "2026-03-29",
+          "team": "St. Louis Cardinals",
+          "opponent": "Tampa Bay Rays",
+          "k": 3,
+          "outs": 12,
+          "battersFaced": 22
+        },
+        {
+          "date": "2025-09-03",
+          "team": "Boston Red Sox",
+          "opponent": "Cleveland Guardians",
+          "k": 1,
+          "outs": 9,
+          "battersFaced": 13
+        },
+        {
+          "date": "2025-08-30",
+          "team": "Boston Red Sox",
+          "opponent": "Pittsburgh Pirates",
+          "k": 5,
+          "outs": 16,
+          "battersFaced": 28
+        },
+        {
+          "date": "2025-08-24",
+          "team": "Boston Red Sox",
+          "opponent": "New York Yankees",
+          "k": 3,
+          "outs": 13,
+          "battersFaced": 21
+        },
+        {
+          "date": "2025-08-18",
+          "team": "Boston Red Sox",
+          "opponent": "Baltimore Orioles",
+          "k": 5,
+          "outs": 18,
+          "battersFaced": 27
+        },
+        {
+          "date": "2025-08-12",
+          "team": "Boston Red Sox",
+          "opponent": "Houston Astros",
+          "k": 8,
+          "outs": 18,
+          "battersFaced": 24
+        }
+      ],
+      "last5": [
+        {
+          "date": "2026-04-21",
+          "team": "St. Louis Cardinals",
+          "opponent": "Miami Marlins",
+          "k": 5,
+          "outs": 16,
+          "battersFaced": 22
+        },
+        {
+          "date": "2026-04-15",
+          "team": "St. Louis Cardinals",
+          "opponent": "Cleveland Guardians",
+          "k": 4,
+          "outs": 18,
+          "battersFaced": 21
+        },
+        {
+          "date": "2026-04-10",
+          "team": "St. Louis Cardinals",
+          "opponent": "Boston Red Sox",
+          "k": 4,
+          "outs": 18,
+          "battersFaced": 23
+        },
+        {
+          "date": "2026-04-04",
+          "team": "St. Louis Cardinals",
+          "opponent": "Detroit Tigers",
+          "k": 4,
+          "outs": 10,
+          "battersFaced": 18
+        },
+        {
+          "date": "2026-03-29",
+          "team": "St. Louis Cardinals",
+          "opponent": "Tampa Bay Rays",
+          "k": 3,
+          "outs": 12,
+          "battersFaced": 22
+        }
+      ],
+      "h2h": [
+        {
+          "date": "2025-05-04",
+          "team": "Los Angeles Dodgers",
+          "opponent": "Atlanta Braves",
+          "k": 6,
+          "outs": 17,
+          "battersFaced": 25
+        }
+      ]
+    },
+    {
+      "player": "Stephen Kolek",
+      "team": "Kansas City Royals",
+      "opponent": "Tampa Bay Rays",
+      "line": null,
+      "last10Avg": 4.0,
+      "last5Avg": 4.2,
+      "h2hAvg": 0,
+      "projection": 4.1,
+      "edge": null,
+      "last10OverPct": 0,
+      "last5OverPct": 0,
+      "h2hOverPct": 0,
+      "last10": [
+        {
+          "date": "2025-09-24",
+          "team": "Kansas City Royals",
+          "opponent": "Los Angeles Angels",
+          "k": 2,
+          "outs": 18,
+          "battersFaced": 26
+        },
+        {
+          "date": "2025-09-18",
+          "team": "Kansas City Royals",
+          "opponent": "Seattle Mariners",
+          "k": 8,
+          "outs": 22,
+          "battersFaced": 25
+        },
+        {
+          "date": "2025-09-11",
+          "team": "Kansas City Royals",
+          "opponent": "Cleveland Guardians",
+          "k": 4,
+          "outs": 20,
+          "battersFaced": 24
+        },
+        {
+          "date": "2025-09-06",
+          "team": "Kansas City Royals",
+          "opponent": "Minnesota Twins",
+          "k": 4,
+          "outs": 21,
+          "battersFaced": 28
+        },
+        {
+          "date": "2025-08-30",
+          "team": "Kansas City Royals",
+          "opponent": "Detroit Tigers",
+          "k": 3,
+          "outs": 18,
+          "battersFaced": 22
+        },
+        {
+          "date": "2025-07-27",
+          "team": "San Diego Padres",
+          "opponent": "St. Louis Cardinals",
+          "k": 2,
+          "outs": 18,
+          "battersFaced": 24
+        },
+        {
+          "date": "2025-07-22",
+          "team": "San Diego Padres",
+          "opponent": "Miami Marlins",
+          "k": 5,
+          "outs": 17,
+          "battersFaced": 25
+        },
+        {
+          "date": "2025-07-05",
+          "team": "San Diego Padres",
+          "opponent": "Texas Rangers",
+          "k": 2,
+          "outs": 16,
+          "battersFaced": 26
+        },
+        {
+          "date": "2025-06-29",
+          "team": "San Diego Padres",
+          "opponent": "Cincinnati Reds",
+          "k": 5,
+          "outs": 17,
+          "battersFaced": 20
+        },
+        {
+          "date": "2025-06-23",
+          "team": "San Diego Padres",
+          "opponent": "Washington Nationals",
+          "k": 5,
+          "outs": 13,
+          "battersFaced": 19
+        }
+      ],
+      "last5": [
+        {
+          "date": "2025-09-24",
+          "team": "Kansas City Royals",
+          "opponent": "Los Angeles Angels",
+          "k": 2,
+          "outs": 18,
+          "battersFaced": 26
+        },
+        {
+          "date": "2025-09-18",
+          "team": "Kansas City Royals",
+          "opponent": "Seattle Mariners",
+          "k": 8,
+          "outs": 22,
+          "battersFaced": 25
+        },
+        {
+          "date": "2025-09-11",
+          "team": "Kansas City Royals",
+          "opponent": "Cleveland Guardians",
+          "k": 4,
+          "outs": 20,
+          "battersFaced": 24
+        },
+        {
+          "date": "2025-09-06",
+          "team": "Kansas City Royals",
+          "opponent": "Minnesota Twins",
+          "k": 4,
+          "outs": 21,
+          "battersFaced": 28
+        },
+        {
+          "date": "2025-08-30",
+          "team": "Kansas City Royals",
+          "opponent": "Detroit Tigers",
+          "k": 3,
+          "outs": 18,
+          "battersFaced": 22
+        }
+      ],
+      "h2h": []
+    },
+    {
+      "player": "Ian Seymour",
+      "team": "Tampa Bay Rays",
+      "opponent": "Kansas City Royals",
+      "line": null,
+      "last10Avg": 5.1,
+      "last5Avg": 4.4,
       "h2hAvg": 0,
       "projection": 4.8,
       "edge": null,
@@ -1700,278 +2373,131 @@
       "h2hOverPct": 0,
       "last10": [
         {
-          "date": "2026-04-25",
-          "team": "Chicago Cubs",
-          "opponent": "Los Angeles Dodgers",
-          "k": 4,
-          "outs": 10,
-          "battersFaced": 20
-        },
-        {
-          "date": "2026-04-20",
-          "team": "Chicago Cubs",
-          "opponent": "Philadelphia Phillies",
-          "k": 5,
-          "outs": 20,
-          "battersFaced": 28
-        },
-        {
-          "date": "2026-04-14",
-          "team": "Chicago Cubs",
-          "opponent": "Philadelphia Phillies",
-          "k": 5,
-          "outs": 18,
-          "battersFaced": 22
-        },
-        {
-          "date": "2026-04-08",
-          "team": "Chicago Cubs",
-          "opponent": "Tampa Bay Rays",
-          "k": 2,
-          "outs": 15,
-          "battersFaced": 20
-        },
-        {
-          "date": "2026-04-03",
-          "team": "Chicago Cubs",
-          "opponent": "Cleveland Guardians",
-          "k": 4,
-          "outs": 10,
-          "battersFaced": 14
-        },
-        {
-          "date": "2026-03-30",
-          "team": "Chicago Cubs",
-          "opponent": "Los Angeles Angels",
-          "k": 4,
-          "outs": 9,
-          "battersFaced": 13
-        },
-        {
-          "date": "2025-09-26",
-          "team": "Chicago Cubs",
-          "opponent": "St. Louis Cardinals",
+          "date": "2025-09-28",
+          "team": "Tampa Bay Rays",
+          "opponent": "Toronto Blue Jays",
           "k": 7,
-          "outs": 17,
-          "battersFaced": 20
-        },
-        {
-          "date": "2025-09-18",
-          "team": "Chicago Cubs",
-          "opponent": "Cincinnati Reds",
-          "k": 11,
-          "outs": 21,
-          "battersFaced": 25
-        },
-        {
-          "date": "2025-09-13",
-          "team": "Chicago Cubs",
-          "opponent": "Tampa Bay Rays",
-          "k": 5,
-          "outs": 16,
-          "battersFaced": 22
-        },
-        {
-          "date": "2025-09-07",
-          "team": "Chicago Cubs",
-          "opponent": "Washington Nationals",
-          "k": 6,
-          "outs": 16,
-          "battersFaced": 18
-        }
-      ],
-      "last5": [
-        {
-          "date": "2026-04-25",
-          "team": "Chicago Cubs",
-          "opponent": "Los Angeles Dodgers",
-          "k": 4,
           "outs": 10,
-          "battersFaced": 20
+          "battersFaced": 19
         },
         {
-          "date": "2026-04-20",
-          "team": "Chicago Cubs",
-          "opponent": "Philadelphia Phillies",
-          "k": 5,
-          "outs": 20,
-          "battersFaced": 28
-        },
-        {
-          "date": "2026-04-14",
-          "team": "Chicago Cubs",
-          "opponent": "Philadelphia Phillies",
-          "k": 5,
-          "outs": 18,
-          "battersFaced": 22
-        },
-        {
-          "date": "2026-04-08",
-          "team": "Chicago Cubs",
-          "opponent": "Tampa Bay Rays",
+          "date": "2025-09-23",
+          "team": "Tampa Bay Rays",
+          "opponent": "Baltimore Orioles",
           "k": 2,
-          "outs": 15,
-          "battersFaced": 20
-        },
-        {
-          "date": "2026-04-03",
-          "team": "Chicago Cubs",
-          "opponent": "Cleveland Guardians",
-          "k": 4,
-          "outs": 10,
-          "battersFaced": 14
-        }
-      ],
-      "h2h": []
-    },
-    {
-      "player": "Walker Buehler",
-      "team": "San Diego Padres",
-      "opponent": "Chicago Cubs",
-      "line": null,
-      "last10Avg": 3.3,
-      "last5Avg": 3.8,
-      "h2hAvg": 0,
-      "projection": 3.5,
-      "edge": null,
-      "last10OverPct": 0,
-      "last5OverPct": 0,
-      "h2hOverPct": 0,
-      "last10": [
-        {
-          "date": "2026-04-16",
-          "team": "San Diego Padres",
-          "opponent": "Seattle Mariners",
-          "k": 7,
-          "outs": 15,
-          "battersFaced": 20
-        },
-        {
-          "date": "2026-04-10",
-          "team": "San Diego Padres",
-          "opponent": "Colorado Rockies",
-          "k": 4,
-          "outs": 18,
-          "battersFaced": 20
-        },
-        {
-          "date": "2026-03-30",
-          "team": "San Diego Padres",
-          "opponent": "San Francisco Giants",
-          "k": 3,
           "outs": 12,
           "battersFaced": 19
         },
         {
-          "date": "2025-09-25",
-          "team": "Philadelphia Phillies",
-          "opponent": "Miami Marlins",
-          "k": 2,
-          "outs": 15,
-          "battersFaced": 20
+          "date": "2025-09-17",
+          "team": "Tampa Bay Rays",
+          "opponent": "Toronto Blue Jays",
+          "k": 3,
+          "outs": 21,
+          "battersFaced": 26
         },
         {
-          "date": "2025-09-19",
-          "team": "Philadelphia Phillies",
-          "opponent": "Arizona Diamondbacks",
-          "k": 3,
-          "outs": 11,
-          "battersFaced": 15
-        },
-        {
-          "date": "2025-09-12",
-          "team": "Philadelphia Phillies",
-          "opponent": "Kansas City Royals",
-          "k": 3,
-          "outs": 15,
+          "date": "2025-09-11",
+          "team": "Tampa Bay Rays",
+          "opponent": "Chicago White Sox",
+          "k": 5,
+          "outs": 16,
           "battersFaced": 22
+        },
+        {
+          "date": "2025-09-05",
+          "team": "Tampa Bay Rays",
+          "opponent": "Cleveland Guardians",
+          "k": 5,
+          "outs": 12,
+          "battersFaced": 21
+        },
+        {
+          "date": "2025-08-31",
+          "team": "Tampa Bay Rays",
+          "opponent": "Washington Nationals",
+          "k": 8,
+          "outs": 15,
+          "battersFaced": 21
+        },
+        {
+          "date": "2025-08-25",
+          "team": "Tampa Bay Rays",
+          "opponent": "Cleveland Guardians",
+          "k": 8,
+          "outs": 15,
+          "battersFaced": 17
         },
         {
           "date": "2025-08-19",
-          "team": "Boston Red Sox",
-          "opponent": "Baltimore Orioles",
+          "team": "Tampa Bay Rays",
+          "opponent": "New York Yankees",
           "k": 4,
-          "outs": 12,
-          "battersFaced": 20
+          "outs": 9,
+          "battersFaced": 16
         },
         {
-          "date": "2025-08-13",
-          "team": "Boston Red Sox",
-          "opponent": "Houston Astros",
-          "k": 3,
-          "outs": 18,
-          "battersFaced": 26
-        },
-        {
-          "date": "2025-08-08",
-          "team": "Boston Red Sox",
-          "opponent": "San Diego Padres",
+          "date": "2025-08-15",
+          "team": "Tampa Bay Rays",
+          "opponent": "San Francisco Giants",
           "k": 4,
-          "outs": 18,
-          "battersFaced": 25
-        },
-        {
-          "date": "2025-08-02",
-          "team": "Boston Red Sox",
-          "opponent": "Houston Astros",
-          "k": 0,
-          "outs": 13,
-          "battersFaced": 23
+          "outs": 10,
+          "battersFaced": 14
         }
       ],
       "last5": [
         {
-          "date": "2026-04-16",
-          "team": "San Diego Padres",
-          "opponent": "Seattle Mariners",
+          "date": "2025-09-28",
+          "team": "Tampa Bay Rays",
+          "opponent": "Toronto Blue Jays",
           "k": 7,
-          "outs": 15,
-          "battersFaced": 20
+          "outs": 10,
+          "battersFaced": 19
         },
         {
-          "date": "2026-04-10",
-          "team": "San Diego Padres",
-          "opponent": "Colorado Rockies",
-          "k": 4,
-          "outs": 18,
-          "battersFaced": 20
-        },
-        {
-          "date": "2026-03-30",
-          "team": "San Diego Padres",
-          "opponent": "San Francisco Giants",
-          "k": 3,
+          "date": "2025-09-23",
+          "team": "Tampa Bay Rays",
+          "opponent": "Baltimore Orioles",
+          "k": 2,
           "outs": 12,
           "battersFaced": 19
         },
         {
-          "date": "2025-09-25",
-          "team": "Philadelphia Phillies",
-          "opponent": "Miami Marlins",
-          "k": 2,
-          "outs": 15,
-          "battersFaced": 20
+          "date": "2025-09-17",
+          "team": "Tampa Bay Rays",
+          "opponent": "Toronto Blue Jays",
+          "k": 3,
+          "outs": 21,
+          "battersFaced": 26
         },
         {
-          "date": "2025-09-19",
-          "team": "Philadelphia Phillies",
-          "opponent": "Arizona Diamondbacks",
-          "k": 3,
-          "outs": 11,
-          "battersFaced": 15
+          "date": "2025-09-11",
+          "team": "Tampa Bay Rays",
+          "opponent": "Chicago White Sox",
+          "k": 5,
+          "outs": 16,
+          "battersFaced": 22
+        },
+        {
+          "date": "2025-09-05",
+          "team": "Tampa Bay Rays",
+          "opponent": "Cleveland Guardians",
+          "k": 5,
+          "outs": 12,
+          "battersFaced": 21
         }
       ],
       "h2h": []
     },
     {
-      "player": "Braydon Fisher",
-      "team": "Toronto Blue Jays",
-      "opponent": "New York Mets",
+      "player": "Nathan Eovaldi",
+      "team": "Texas Rangers",
+      "opponent": "Detroit Tigers",
       "line": null,
-      "last10Avg": 1.1,
-      "last5Avg": 0.2,
-      "h2hAvg": 0,
-      "projection": 0.7,
+      "last10Avg": 5.6,
+      "last5Avg": 5.0,
+      "h2hAvg": 7.0,
+      "projection": 5.7,
       "edge": null,
       "last10OverPct": 0,
       "last5OverPct": 0,
@@ -1979,687 +2505,473 @@
       "last10": [
         {
           "date": "2026-04-24",
-          "team": "Toronto Blue Jays",
-          "opponent": "Cleveland Guardians",
-          "k": 0,
-          "outs": 3,
-          "battersFaced": 4
-        },
-        {
-          "date": "2026-04-22",
-          "team": "Toronto Blue Jays",
-          "opponent": "Los Angeles Angels",
-          "k": 1,
-          "outs": 1,
-          "battersFaced": 4
-        },
-        {
-          "date": "2026-04-20",
-          "team": "Toronto Blue Jays",
-          "opponent": "Los Angeles Angels",
-          "k": 0,
-          "outs": 3,
-          "battersFaced": 3
-        },
-        {
-          "date": "2026-04-19",
-          "team": "Toronto Blue Jays",
-          "opponent": "Arizona Diamondbacks",
-          "k": 0,
-          "outs": 3,
-          "battersFaced": 3
-        },
-        {
-          "date": "2026-04-17",
-          "team": "Toronto Blue Jays",
-          "opponent": "Arizona Diamondbacks",
-          "k": 0,
-          "outs": 3,
-          "battersFaced": 4
-        },
-        {
-          "date": "2026-04-15",
-          "team": "Toronto Blue Jays",
-          "opponent": "Milwaukee Brewers",
-          "k": 0,
-          "outs": 1,
-          "battersFaced": 1
-        },
-        {
-          "date": "2026-04-14",
-          "team": "Toronto Blue Jays",
-          "opponent": "Milwaukee Brewers",
-          "k": 2,
-          "outs": 3,
-          "battersFaced": 4
-        },
-        {
-          "date": "2026-04-10",
-          "team": "Toronto Blue Jays",
-          "opponent": "Minnesota Twins",
-          "k": 4,
-          "outs": 6,
-          "battersFaced": 7
-        },
-        {
-          "date": "2026-04-04",
-          "team": "Toronto Blue Jays",
-          "opponent": "Chicago White Sox",
-          "k": 1,
-          "outs": 3,
-          "battersFaced": 5
-        },
-        {
-          "date": "2026-04-03",
-          "team": "Toronto Blue Jays",
-          "opponent": "Chicago White Sox",
-          "k": 3,
-          "outs": 5,
-          "battersFaced": 6
-        }
-      ],
-      "last5": [
-        {
-          "date": "2026-04-24",
-          "team": "Toronto Blue Jays",
-          "opponent": "Cleveland Guardians",
-          "k": 0,
-          "outs": 3,
-          "battersFaced": 4
-        },
-        {
-          "date": "2026-04-22",
-          "team": "Toronto Blue Jays",
-          "opponent": "Los Angeles Angels",
-          "k": 1,
-          "outs": 1,
-          "battersFaced": 4
-        },
-        {
-          "date": "2026-04-20",
-          "team": "Toronto Blue Jays",
-          "opponent": "Los Angeles Angels",
-          "k": 0,
-          "outs": 3,
-          "battersFaced": 3
-        },
-        {
-          "date": "2026-04-19",
-          "team": "Toronto Blue Jays",
-          "opponent": "Arizona Diamondbacks",
-          "k": 0,
-          "outs": 3,
-          "battersFaced": 3
-        },
-        {
-          "date": "2026-04-17",
-          "team": "Toronto Blue Jays",
-          "opponent": "Arizona Diamondbacks",
-          "k": 0,
-          "outs": 3,
-          "battersFaced": 4
-        }
-      ],
-      "h2h": []
-    },
-    {
-      "player": "Freddy Peralta",
-      "team": "New York Mets",
-      "opponent": "Toronto Blue Jays",
-      "line": null,
-      "last10Avg": 6.9,
-      "last5Avg": 5.8,
-      "h2hAvg": 8.0,
-      "projection": 6.7,
-      "edge": null,
-      "last10OverPct": 0,
-      "last5OverPct": 0,
-      "h2hOverPct": 0,
-      "last10": [
-        {
-          "date": "2026-04-24",
-          "team": "New York Mets",
-          "opponent": "Colorado Rockies",
-          "k": 8,
-          "outs": 17,
-          "battersFaced": 27
-        },
-        {
-          "date": "2026-04-18",
-          "team": "New York Mets",
-          "opponent": "Chicago Cubs",
-          "k": 3,
-          "outs": 17,
-          "battersFaced": 23
-        },
-        {
-          "date": "2026-04-12",
-          "team": "New York Mets",
+          "team": "Texas Rangers",
           "opponent": "Athletics",
-          "k": 6,
+          "k": 3,
           "outs": 18,
           "battersFaced": 25
         },
         {
+          "date": "2026-04-18",
+          "team": "Texas Rangers",
+          "opponent": "Seattle Mariners",
+          "k": 3,
+          "outs": 15,
+          "battersFaced": 25
+        },
+        {
+          "date": "2026-04-13",
+          "team": "Texas Rangers",
+          "opponent": "Athletics",
+          "k": 7,
+          "outs": 21,
+          "battersFaced": 26
+        },
+        {
           "date": "2026-04-07",
-          "team": "New York Mets",
-          "opponent": "Arizona Diamondbacks",
-          "k": 5,
-          "outs": 14,
-          "battersFaced": 22
+          "team": "Texas Rangers",
+          "opponent": "Seattle Mariners",
+          "k": 7,
+          "outs": 18,
+          "battersFaced": 26
         },
         {
           "date": "2026-04-01",
-          "team": "New York Mets",
-          "opponent": "St. Louis Cardinals",
-          "k": 7,
-          "outs": 16,
-          "battersFaced": 21
+          "team": "Texas Rangers",
+          "opponent": "Baltimore Orioles",
+          "k": 5,
+          "outs": 12,
+          "battersFaced": 23
         },
         {
           "date": "2026-03-26",
-          "team": "New York Mets",
-          "opponent": "Pittsburgh Pirates",
+          "team": "Texas Rangers",
+          "opponent": "Philadelphia Phillies",
           "k": 7,
-          "outs": 15,
-          "battersFaced": 21
-        },
-        {
-          "date": "2025-09-22",
-          "team": "Milwaukee Brewers",
-          "opponent": "San Diego Padres",
-          "k": 6,
-          "outs": 15,
-          "battersFaced": 20
-        },
-        {
-          "date": "2025-09-16",
-          "team": "Milwaukee Brewers",
-          "opponent": "Los Angeles Angels",
-          "k": 10,
-          "outs": 18,
+          "outs": 14,
           "battersFaced": 22
         },
         {
-          "date": "2025-09-10",
-          "team": "Milwaukee Brewers",
-          "opponent": "Texas Rangers",
+          "date": "2025-08-22",
+          "team": "Texas Rangers",
+          "opponent": "Cleveland Guardians",
           "k": 9,
-          "outs": 15,
-          "battersFaced": 23
+          "outs": 21,
+          "battersFaced": 25
         },
         {
-          "date": "2025-09-04",
-          "team": "Milwaukee Brewers",
-          "opponent": "Philadelphia Phillies",
-          "k": 8,
+          "date": "2025-08-17",
+          "team": "Texas Rangers",
+          "opponent": "Toronto Blue Jays",
+          "k": 6,
+          "outs": 21,
+          "battersFaced": 26
+        },
+        {
+          "date": "2025-08-11",
+          "team": "Texas Rangers",
+          "opponent": "Arizona Diamondbacks",
+          "k": 3,
           "outs": 15,
-          "battersFaced": 20
+          "battersFaced": 24
+        },
+        {
+          "date": "2025-08-05",
+          "team": "Texas Rangers",
+          "opponent": "New York Yankees",
+          "k": 6,
+          "outs": 24,
+          "battersFaced": 25
         }
       ],
       "last5": [
         {
           "date": "2026-04-24",
-          "team": "New York Mets",
-          "opponent": "Colorado Rockies",
-          "k": 8,
-          "outs": 17,
-          "battersFaced": 27
-        },
-        {
-          "date": "2026-04-18",
-          "team": "New York Mets",
-          "opponent": "Chicago Cubs",
-          "k": 3,
-          "outs": 17,
-          "battersFaced": 23
-        },
-        {
-          "date": "2026-04-12",
-          "team": "New York Mets",
+          "team": "Texas Rangers",
           "opponent": "Athletics",
-          "k": 6,
+          "k": 3,
           "outs": 18,
           "battersFaced": 25
         },
         {
+          "date": "2026-04-18",
+          "team": "Texas Rangers",
+          "opponent": "Seattle Mariners",
+          "k": 3,
+          "outs": 15,
+          "battersFaced": 25
+        },
+        {
+          "date": "2026-04-13",
+          "team": "Texas Rangers",
+          "opponent": "Athletics",
+          "k": 7,
+          "outs": 21,
+          "battersFaced": 26
+        },
+        {
           "date": "2026-04-07",
-          "team": "New York Mets",
-          "opponent": "Arizona Diamondbacks",
-          "k": 5,
-          "outs": 14,
-          "battersFaced": 22
+          "team": "Texas Rangers",
+          "opponent": "Seattle Mariners",
+          "k": 7,
+          "outs": 18,
+          "battersFaced": 26
         },
         {
           "date": "2026-04-01",
-          "team": "New York Mets",
-          "opponent": "St. Louis Cardinals",
-          "k": 7,
-          "outs": 16,
-          "battersFaced": 21
+          "team": "Texas Rangers",
+          "opponent": "Baltimore Orioles",
+          "k": 5,
+          "outs": 12,
+          "battersFaced": 23
         }
       ],
       "h2h": [
         {
-          "date": "2025-08-29",
-          "team": "Milwaukee Brewers",
-          "opponent": "Toronto Blue Jays",
-          "k": 8,
-          "outs": 18,
-          "battersFaced": 21
+          "date": "2025-05-11",
+          "team": "Texas Rangers",
+          "opponent": "Detroit Tigers",
+          "k": 7,
+          "outs": 21,
+          "battersFaced": 24
         }
       ]
     },
     {
-      "player": "Zack Wheeler",
-      "team": "Philadelphia Phillies",
-      "opponent": "Pittsburgh Pirates",
+      "player": "Framber Valdez",
+      "team": "Detroit Tigers",
+      "opponent": "Texas Rangers",
       "line": null,
-      "last10Avg": 8.3,
-      "last5Avg": 7.4,
-      "h2hAvg": 6.0,
-      "projection": 7.5,
+      "last10Avg": 4.5,
+      "last5Avg": 3.8,
+      "h2hAvg": 7.7,
+      "projection": 4.9,
       "edge": null,
       "last10OverPct": 0,
       "last5OverPct": 0,
       "h2hOverPct": 0,
       "last10": [
         {
-          "date": "2026-04-25",
-          "team": "Philadelphia Phillies",
-          "opponent": "Atlanta Braves",
-          "k": 6,
-          "outs": 15,
-          "battersFaced": 20
-        },
-        {
-          "date": "2025-08-15",
-          "team": "Philadelphia Phillies",
-          "opponent": "Washington Nationals",
-          "k": 6,
-          "outs": 15,
-          "battersFaced": 20
-        },
-        {
-          "date": "2025-08-10",
-          "team": "Philadelphia Phillies",
-          "opponent": "Texas Rangers",
-          "k": 7,
-          "outs": 15,
+          "date": "2026-04-24",
+          "team": "Detroit Tigers",
+          "opponent": "Cincinnati Reds",
+          "k": 4,
+          "outs": 13,
           "battersFaced": 21
         },
         {
-          "date": "2025-08-02",
-          "team": "Philadelphia Phillies",
-          "opponent": "Detroit Tigers",
-          "k": 10,
+          "date": "2026-04-19",
+          "team": "Detroit Tigers",
+          "opponent": "Boston Red Sox",
+          "k": 7,
           "outs": 18,
-          "battersFaced": 27
+          "battersFaced": 23
         },
         {
-          "date": "2025-07-27",
-          "team": "Philadelphia Phillies",
-          "opponent": "New York Yankees",
-          "k": 8,
-          "outs": 17,
+          "date": "2026-04-14",
+          "team": "Detroit Tigers",
+          "opponent": "Kansas City Royals",
+          "k": 1,
+          "outs": 21,
           "battersFaced": 26
         },
         {
-          "date": "2025-07-21",
-          "team": "Philadelphia Phillies",
-          "opponent": "Boston Red Sox",
-          "k": 10,
+          "date": "2026-04-08",
+          "team": "Detroit Tigers",
+          "opponent": "Minnesota Twins",
+          "k": 2,
+          "outs": 15,
+          "battersFaced": 29
+        },
+        {
+          "date": "2026-04-03",
+          "team": "Detroit Tigers",
+          "opponent": "St. Louis Cardinals",
+          "k": 5,
           "outs": 18,
           "battersFaced": 24
         },
         {
-          "date": "2025-07-12",
-          "team": "Philadelphia Phillies",
+          "date": "2026-03-27",
+          "team": "Detroit Tigers",
           "opponent": "San Diego Padres",
-          "k": 6,
+          "k": 5,
           "outs": 18,
-          "battersFaced": 26
+          "battersFaced": 25
         },
         {
-          "date": "2025-07-06",
-          "team": "Philadelphia Phillies",
-          "opponent": "Cincinnati Reds",
-          "k": 12,
-          "outs": 27,
-          "battersFaced": 28
-        },
-        {
-          "date": "2025-06-30",
-          "team": "Philadelphia Phillies",
-          "opponent": "San Diego Padres",
+          "date": "2025-09-25",
+          "team": "Houston Astros",
+          "opponent": "Athletics",
           "k": 10,
-          "outs": 24,
+          "outs": 21,
           "battersFaced": 30
         },
         {
-          "date": "2025-06-25",
-          "team": "Philadelphia Phillies",
-          "opponent": "Houston Astros",
-          "k": 8,
+          "date": "2025-09-20",
+          "team": "Houston Astros",
+          "opponent": "Seattle Mariners",
+          "k": 4,
+          "outs": 14,
+          "battersFaced": 24
+        },
+        {
+          "date": "2025-09-14",
+          "team": "Houston Astros",
+          "opponent": "Atlanta Braves",
+          "k": 2,
+          "outs": 12,
+          "battersFaced": 23
+        },
+        {
+          "date": "2025-09-07",
+          "team": "Houston Astros",
+          "opponent": "Texas Rangers",
+          "k": 5,
+          "outs": 21,
+          "battersFaced": 26
+        }
+      ],
+      "last5": [
+        {
+          "date": "2026-04-24",
+          "team": "Detroit Tigers",
+          "opponent": "Cincinnati Reds",
+          "k": 4,
+          "outs": 13,
+          "battersFaced": 21
+        },
+        {
+          "date": "2026-04-19",
+          "team": "Detroit Tigers",
+          "opponent": "Boston Red Sox",
+          "k": 7,
+          "outs": 18,
+          "battersFaced": 23
+        },
+        {
+          "date": "2026-04-14",
+          "team": "Detroit Tigers",
+          "opponent": "Kansas City Royals",
+          "k": 1,
+          "outs": 21,
+          "battersFaced": 26
+        },
+        {
+          "date": "2026-04-08",
+          "team": "Detroit Tigers",
+          "opponent": "Minnesota Twins",
+          "k": 2,
+          "outs": 15,
+          "battersFaced": 29
+        },
+        {
+          "date": "2026-04-03",
+          "team": "Detroit Tigers",
+          "opponent": "St. Louis Cardinals",
+          "k": 5,
           "outs": 18,
           "battersFaced": 24
         }
       ],
-      "last5": [
+      "h2h": [
         {
-          "date": "2026-04-25",
-          "team": "Philadelphia Phillies",
-          "opponent": "Atlanta Braves",
-          "k": 6,
-          "outs": 15,
-          "battersFaced": 20
-        },
-        {
-          "date": "2025-08-15",
-          "team": "Philadelphia Phillies",
-          "opponent": "Washington Nationals",
-          "k": 6,
-          "outs": 15,
-          "battersFaced": 20
-        },
-        {
-          "date": "2025-08-10",
-          "team": "Philadelphia Phillies",
+          "date": "2025-09-07",
+          "team": "Houston Astros",
           "opponent": "Texas Rangers",
-          "k": 7,
-          "outs": 15,
-          "battersFaced": 21
+          "k": 5,
+          "outs": 21,
+          "battersFaced": 26
         },
         {
-          "date": "2025-08-02",
-          "team": "Philadelphia Phillies",
-          "opponent": "Detroit Tigers",
+          "date": "2025-07-12",
+          "team": "Houston Astros",
+          "opponent": "Texas Rangers",
           "k": 10,
           "outs": 18,
-          "battersFaced": 27
-        },
-        {
-          "date": "2025-07-27",
-          "team": "Philadelphia Phillies",
-          "opponent": "New York Yankees",
-          "k": 8,
-          "outs": 17,
-          "battersFaced": 26
-        }
-      ],
-      "h2h": [
-        {
-          "date": "2025-05-17",
-          "team": "Philadelphia Phillies",
-          "opponent": "Pittsburgh Pirates",
-          "k": 6,
-          "outs": 18,
-          "battersFaced": 21
-        }
-      ]
-    },
-    {
-      "player": "Paul Skenes",
-      "team": "Pittsburgh Pirates",
-      "opponent": "Philadelphia Phillies",
-      "line": null,
-      "last10Avg": 6.4,
-      "last5Avg": 5.8,
-      "h2hAvg": 8.0,
-      "projection": 6.5,
-      "edge": null,
-      "last10OverPct": 0,
-      "last5OverPct": 0,
-      "h2hOverPct": 0,
-      "last10": [
-        {
-          "date": "2026-04-24",
-          "team": "Pittsburgh Pirates",
-          "opponent": "Milwaukee Brewers",
-          "k": 7,
-          "outs": 21,
-          "battersFaced": 22
-        },
-        {
-          "date": "2026-04-18",
-          "team": "Pittsburgh Pirates",
-          "opponent": "Tampa Bay Rays",
-          "k": 5,
-          "outs": 12,
-          "battersFaced": 16
-        },
-        {
-          "date": "2026-04-13",
-          "team": "Pittsburgh Pirates",
-          "opponent": "Washington Nationals",
-          "k": 6,
-          "outs": 18,
-          "battersFaced": 20
-        },
-        {
-          "date": "2026-04-07",
-          "team": "Pittsburgh Pirates",
-          "opponent": "San Diego Padres",
-          "k": 6,
-          "outs": 19,
-          "battersFaced": 23
-        },
-        {
-          "date": "2026-04-01",
-          "team": "Pittsburgh Pirates",
-          "opponent": "Cincinnati Reds",
-          "k": 5,
-          "outs": 15,
-          "battersFaced": 20
-        },
-        {
-          "date": "2025-09-24",
-          "team": "Pittsburgh Pirates",
-          "opponent": "Cincinnati Reds",
-          "k": 7,
-          "outs": 18,
-          "battersFaced": 22
-        },
-        {
-          "date": "2025-09-16",
-          "team": "Pittsburgh Pirates",
-          "opponent": "Chicago Cubs",
-          "k": 6,
-          "outs": 11,
-          "battersFaced": 20
-        },
-        {
-          "date": "2025-09-10",
-          "team": "Pittsburgh Pirates",
-          "opponent": "Baltimore Orioles",
-          "k": 8,
-          "outs": 15,
-          "battersFaced": 16
-        },
-        {
-          "date": "2025-09-04",
-          "team": "Pittsburgh Pirates",
-          "opponent": "Los Angeles Dodgers",
-          "k": 8,
-          "outs": 18,
-          "battersFaced": 21
-        },
-        {
-          "date": "2025-08-29",
-          "team": "Pittsburgh Pirates",
-          "opponent": "Boston Red Sox",
-          "k": 6,
-          "outs": 18,
-          "battersFaced": 25
-        }
-      ],
-      "last5": [
-        {
-          "date": "2026-04-24",
-          "team": "Pittsburgh Pirates",
-          "opponent": "Milwaukee Brewers",
-          "k": 7,
-          "outs": 21,
-          "battersFaced": 22
-        },
-        {
-          "date": "2026-04-18",
-          "team": "Pittsburgh Pirates",
-          "opponent": "Tampa Bay Rays",
-          "k": 5,
-          "outs": 12,
-          "battersFaced": 16
-        },
-        {
-          "date": "2026-04-13",
-          "team": "Pittsburgh Pirates",
-          "opponent": "Washington Nationals",
-          "k": 6,
-          "outs": 18,
-          "battersFaced": 20
-        },
-        {
-          "date": "2026-04-07",
-          "team": "Pittsburgh Pirates",
-          "opponent": "San Diego Padres",
-          "k": 6,
-          "outs": 19,
-          "battersFaced": 23
-        },
-        {
-          "date": "2026-04-01",
-          "team": "Pittsburgh Pirates",
-          "opponent": "Cincinnati Reds",
-          "k": 5,
-          "outs": 15,
-          "battersFaced": 20
-        }
-      ],
-      "h2h": [
-        {
-          "date": "2025-06-08",
-          "team": "Pittsburgh Pirates",
-          "opponent": "Philadelphia Phillies",
-          "k": 7,
-          "outs": 23,
-          "battersFaced": 25
+          "battersFaced": 24
         },
         {
           "date": "2025-05-18",
-          "team": "Pittsburgh Pirates",
-          "opponent": "Philadelphia Phillies",
-          "k": 9,
-          "outs": 24,
+          "team": "Houston Astros",
+          "opponent": "Texas Rangers",
+          "k": 8,
+          "outs": 21,
           "battersFaced": 28
         }
       ]
     },
     {
-      "player": "Reynaldo L\u00f3pez",
-      "team": "Atlanta Braves",
-      "opponent": "St. Louis Cardinals",
+      "player": "Bryce Miller",
+      "team": "Seattle Mariners",
+      "opponent": "Los Angeles Angels",
       "line": null,
-      "last10Avg": 4.0,
-      "last5Avg": 4.0,
-      "h2hAvg": 0,
-      "projection": 4.0,
+      "last10Avg": 3.9,
+      "last5Avg": 4.8,
+      "h2hAvg": 6.3,
+      "projection": 4.7,
       "edge": null,
       "last10OverPct": 0,
       "last5OverPct": 0,
       "h2hOverPct": 0,
       "last10": [
         {
-          "date": "2026-04-21",
-          "team": "Atlanta Braves",
-          "opponent": "Washington Nationals",
-          "k": 1,
-          "outs": 3,
-          "battersFaced": 11
+          "date": "2025-09-28",
+          "team": "Seattle Mariners",
+          "opponent": "Los Angeles Dodgers",
+          "k": 2,
+          "outs": 12,
+          "battersFaced": 19
         },
         {
-          "date": "2026-04-14",
-          "team": "Atlanta Braves",
-          "opponent": "Miami Marlins",
-          "k": 6,
-          "outs": 15,
-          "battersFaced": 21
+          "date": "2025-09-23",
+          "team": "Seattle Mariners",
+          "opponent": "Colorado Rockies",
+          "k": 4,
+          "outs": 17,
+          "battersFaced": 22
         },
         {
-          "date": "2026-04-07",
-          "team": "Atlanta Braves",
-          "opponent": "Los Angeles Angels",
-          "k": 7,
-          "outs": 14,
-          "battersFaced": 21
-        },
-        {
-          "date": "2026-04-02",
-          "team": "Atlanta Braves",
-          "opponent": "Arizona Diamondbacks",
-          "k": 3,
-          "outs": 15,
-          "battersFaced": 20
-        },
-        {
-          "date": "2026-03-28",
-          "team": "Atlanta Braves",
+          "date": "2025-09-17",
+          "team": "Seattle Mariners",
           "opponent": "Kansas City Royals",
+          "k": 4,
+          "outs": 15,
+          "battersFaced": 24
+        },
+        {
+          "date": "2025-09-11",
+          "team": "Seattle Mariners",
+          "opponent": "Los Angeles Angels",
+          "k": 11,
+          "outs": 17,
+          "battersFaced": 23
+        },
+        {
+          "date": "2025-09-06",
+          "team": "Seattle Mariners",
+          "opponent": "Atlanta Braves",
+          "k": 3,
+          "outs": 16,
+          "battersFaced": 24
+        },
+        {
+          "date": "2025-08-31",
+          "team": "Seattle Mariners",
+          "opponent": "Cleveland Guardians",
           "k": 3,
           "outs": 18,
+          "battersFaced": 21
+        },
+        {
+          "date": "2025-08-25",
+          "team": "Seattle Mariners",
+          "opponent": "San Diego Padres",
+          "k": 4,
+          "outs": 15,
+          "battersFaced": 21
+        },
+        {
+          "date": "2025-08-19",
+          "team": "Seattle Mariners",
+          "opponent": "Philadelphia Phillies",
+          "k": 4,
+          "outs": 15,
           "battersFaced": 22
+        },
+        {
+          "date": "2025-06-06",
+          "team": "Seattle Mariners",
+          "opponent": "Los Angeles Angels",
+          "k": 2,
+          "outs": 15,
+          "battersFaced": 23
+        },
+        {
+          "date": "2025-05-31",
+          "team": "Seattle Mariners",
+          "opponent": "Minnesota Twins",
+          "k": 2,
+          "outs": 12,
+          "battersFaced": 19
         }
       ],
       "last5": [
         {
-          "date": "2026-04-21",
-          "team": "Atlanta Braves",
-          "opponent": "Washington Nationals",
-          "k": 1,
-          "outs": 3,
-          "battersFaced": 11
+          "date": "2025-09-28",
+          "team": "Seattle Mariners",
+          "opponent": "Los Angeles Dodgers",
+          "k": 2,
+          "outs": 12,
+          "battersFaced": 19
         },
         {
-          "date": "2026-04-14",
-          "team": "Atlanta Braves",
-          "opponent": "Miami Marlins",
-          "k": 6,
-          "outs": 15,
-          "battersFaced": 21
-        },
-        {
-          "date": "2026-04-07",
-          "team": "Atlanta Braves",
-          "opponent": "Los Angeles Angels",
-          "k": 7,
-          "outs": 14,
-          "battersFaced": 21
-        },
-        {
-          "date": "2026-04-02",
-          "team": "Atlanta Braves",
-          "opponent": "Arizona Diamondbacks",
-          "k": 3,
-          "outs": 15,
-          "battersFaced": 20
-        },
-        {
-          "date": "2026-03-28",
-          "team": "Atlanta Braves",
-          "opponent": "Kansas City Royals",
-          "k": 3,
-          "outs": 18,
+          "date": "2025-09-23",
+          "team": "Seattle Mariners",
+          "opponent": "Colorado Rockies",
+          "k": 4,
+          "outs": 17,
           "battersFaced": 22
+        },
+        {
+          "date": "2025-09-17",
+          "team": "Seattle Mariners",
+          "opponent": "Kansas City Royals",
+          "k": 4,
+          "outs": 15,
+          "battersFaced": 24
+        },
+        {
+          "date": "2025-09-11",
+          "team": "Seattle Mariners",
+          "opponent": "Los Angeles Angels",
+          "k": 11,
+          "outs": 17,
+          "battersFaced": 23
+        },
+        {
+          "date": "2025-09-06",
+          "team": "Seattle Mariners",
+          "opponent": "Atlanta Braves",
+          "k": 3,
+          "outs": 16,
+          "battersFaced": 24
         }
       ],
-      "h2h": []
+      "h2h": [
+        {
+          "date": "2025-09-11",
+          "team": "Seattle Mariners",
+          "opponent": "Los Angeles Angels",
+          "k": 11,
+          "outs": 17,
+          "battersFaced": 23
+        },
+        {
+          "date": "2025-06-06",
+          "team": "Seattle Mariners",
+          "opponent": "Los Angeles Angels",
+          "k": 2,
+          "outs": 15,
+          "battersFaced": 23
+        },
+        {
+          "date": "2025-04-29",
+          "team": "Seattle Mariners",
+          "opponent": "Los Angeles Angels",
+          "k": 6,
+          "outs": 15,
+          "battersFaced": 20
+        }
+      ]
     },
     {
-      "player": "Michael McGreevy",
-      "team": "St. Louis Cardinals",
-      "opponent": "Atlanta Braves",
+      "player": "Walbert Ure\u00f1a",
+      "team": "Los Angeles Angels",
+      "opponent": "Seattle Mariners",
       "line": null,
-      "last10Avg": 3.3,
-      "last5Avg": 3.0,
+      "last10Avg": 3.2,
+      "last5Avg": 3.2,
       "h2hAvg": 0,
       "projection": 3.2,
       "edge": null,
@@ -2668,1511 +2980,358 @@
       "h2hOverPct": 0,
       "last10": [
         {
-          "date": "2026-04-20",
-          "team": "St. Louis Cardinals",
-          "opponent": "Miami Marlins",
-          "k": 3,
-          "outs": 17,
-          "battersFaced": 23
-        },
-        {
-          "date": "2026-04-14",
-          "team": "St. Louis Cardinals",
-          "opponent": "Cleveland Guardians",
-          "k": 2,
-          "outs": 15,
-          "battersFaced": 20
-        },
-        {
-          "date": "2026-04-08",
-          "team": "St. Louis Cardinals",
-          "opponent": "Washington Nationals",
-          "k": 1,
-          "outs": 18,
-          "battersFaced": 21
-        },
-        {
-          "date": "2026-04-03",
-          "team": "St. Louis Cardinals",
-          "opponent": "Detroit Tigers",
-          "k": 4,
-          "outs": 14,
-          "battersFaced": 20
-        },
-        {
-          "date": "2026-03-28",
-          "team": "St. Louis Cardinals",
-          "opponent": "Tampa Bay Rays",
-          "k": 5,
-          "outs": 18,
-          "battersFaced": 21
-        },
-        {
-          "date": "2025-09-27",
-          "team": "St. Louis Cardinals",
-          "opponent": "Chicago Cubs",
-          "k": 3,
-          "outs": 14,
-          "battersFaced": 21
-        },
-        {
-          "date": "2025-09-22",
-          "team": "St. Louis Cardinals",
-          "opponent": "San Francisco Giants",
-          "k": 2,
-          "outs": 15,
-          "battersFaced": 24
-        },
-        {
-          "date": "2025-09-16",
-          "team": "St. Louis Cardinals",
-          "opponent": "Cincinnati Reds",
-          "k": 6,
-          "outs": 21,
-          "battersFaced": 25
-        },
-        {
-          "date": "2025-09-10",
-          "team": "St. Louis Cardinals",
-          "opponent": "Seattle Mariners",
-          "k": 4,
-          "outs": 18,
-          "battersFaced": 23
-        },
-        {
-          "date": "2025-09-05",
-          "team": "St. Louis Cardinals",
-          "opponent": "San Francisco Giants",
-          "k": 3,
-          "outs": 12,
-          "battersFaced": 22
-        }
-      ],
-      "last5": [
-        {
-          "date": "2026-04-20",
-          "team": "St. Louis Cardinals",
-          "opponent": "Miami Marlins",
-          "k": 3,
-          "outs": 17,
-          "battersFaced": 23
-        },
-        {
-          "date": "2026-04-14",
-          "team": "St. Louis Cardinals",
-          "opponent": "Cleveland Guardians",
-          "k": 2,
-          "outs": 15,
-          "battersFaced": 20
-        },
-        {
-          "date": "2026-04-08",
-          "team": "St. Louis Cardinals",
-          "opponent": "Washington Nationals",
-          "k": 1,
-          "outs": 18,
-          "battersFaced": 21
-        },
-        {
-          "date": "2026-04-03",
-          "team": "St. Louis Cardinals",
-          "opponent": "Detroit Tigers",
-          "k": 4,
-          "outs": 14,
-          "battersFaced": 20
-        },
-        {
-          "date": "2026-03-28",
-          "team": "St. Louis Cardinals",
-          "opponent": "Tampa Bay Rays",
-          "k": 5,
-          "outs": 18,
-          "battersFaced": 21
-        }
-      ],
-      "h2h": []
-    },
-    {
-      "player": "Seth Lugo",
-      "team": "Kansas City Royals",
-      "opponent": "Tampa Bay Rays",
-      "line": null,
-      "last10Avg": 5.2,
-      "last5Avg": 6.4,
-      "h2hAvg": 5.0,
-      "projection": 5.6,
-      "edge": null,
-      "last10OverPct": 0,
-      "last5OverPct": 0,
-      "h2hOverPct": 0,
-      "last10": [
-        {
-          "date": "2026-04-20",
-          "team": "Kansas City Royals",
-          "opponent": "Baltimore Orioles",
-          "k": 7,
-          "outs": 21,
-          "battersFaced": 24
-        },
-        {
-          "date": "2026-04-15",
-          "team": "Kansas City Royals",
-          "opponent": "Detroit Tigers",
-          "k": 7,
-          "outs": 20,
-          "battersFaced": 23
-        },
-        {
-          "date": "2026-04-09",
-          "team": "Kansas City Royals",
-          "opponent": "Chicago White Sox",
-          "k": 4,
-          "outs": 19,
-          "battersFaced": 24
-        },
-        {
-          "date": "2026-04-04",
-          "team": "Kansas City Royals",
-          "opponent": "Milwaukee Brewers",
-          "k": 7,
-          "outs": 15,
-          "battersFaced": 21
-        },
-        {
-          "date": "2026-04-03",
-          "team": "Kansas City Royals",
-          "opponent": "Milwaukee Brewers",
-          "k": 7,
-          "outs": 15,
-          "battersFaced": 21
-        },
-        {
-          "date": "2026-03-29",
-          "team": "Kansas City Royals",
-          "opponent": "Atlanta Braves",
-          "k": 3,
-          "outs": 19,
-          "battersFaced": 24
-        },
-        {
-          "date": "2025-08-29",
-          "team": "Kansas City Royals",
-          "opponent": "Detroit Tigers",
-          "k": 5,
-          "outs": 10,
-          "battersFaced": 22
-        },
-        {
-          "date": "2025-08-24",
-          "team": "Kansas City Royals",
-          "opponent": "Detroit Tigers",
-          "k": 5,
-          "outs": 13,
-          "battersFaced": 21
-        },
-        {
-          "date": "2025-08-19",
-          "team": "Kansas City Royals",
-          "opponent": "Texas Rangers",
-          "k": 5,
-          "outs": 19,
-          "battersFaced": 24
-        },
-        {
-          "date": "2025-08-13",
-          "team": "Kansas City Royals",
-          "opponent": "Washington Nationals",
-          "k": 2,
-          "outs": 12,
-          "battersFaced": 23
-        }
-      ],
-      "last5": [
-        {
-          "date": "2026-04-20",
-          "team": "Kansas City Royals",
-          "opponent": "Baltimore Orioles",
-          "k": 7,
-          "outs": 21,
-          "battersFaced": 24
-        },
-        {
-          "date": "2026-04-15",
-          "team": "Kansas City Royals",
-          "opponent": "Detroit Tigers",
-          "k": 7,
-          "outs": 20,
-          "battersFaced": 23
-        },
-        {
-          "date": "2026-04-09",
-          "team": "Kansas City Royals",
-          "opponent": "Chicago White Sox",
-          "k": 4,
-          "outs": 19,
-          "battersFaced": 24
-        },
-        {
-          "date": "2026-04-04",
-          "team": "Kansas City Royals",
-          "opponent": "Milwaukee Brewers",
-          "k": 7,
-          "outs": 15,
-          "battersFaced": 21
-        },
-        {
-          "date": "2026-04-03",
-          "team": "Kansas City Royals",
-          "opponent": "Milwaukee Brewers",
-          "k": 7,
-          "outs": 15,
-          "battersFaced": 21
-        }
-      ],
-      "h2h": [
-        {
-          "date": "2025-05-01",
-          "team": "Kansas City Royals",
-          "opponent": "Tampa Bay Rays",
-          "k": 5,
-          "outs": 18,
-          "battersFaced": 23
-        }
-      ]
-    },
-    {
-      "player": "Shane McClanahan",
-      "team": "Tampa Bay Rays",
-      "opponent": "Kansas City Royals",
-      "line": null,
-      "last10Avg": 5.0,
-      "last5Avg": 5.0,
-      "h2hAvg": 0,
-      "projection": 5.0,
-      "edge": null,
-      "last10OverPct": 0,
-      "last5OverPct": 0,
-      "h2hOverPct": 0,
-      "last10": [
-        {
           "date": "2026-04-25",
-          "team": "Tampa Bay Rays",
-          "opponent": "Minnesota Twins",
-          "k": 7,
-          "outs": 15,
+          "team": "Los Angeles Angels",
+          "opponent": "Kansas City Royals",
+          "k": 3,
+          "outs": 11,
           "battersFaced": 21
         },
         {
           "date": "2026-04-19",
-          "team": "Tampa Bay Rays",
-          "opponent": "Pittsburgh Pirates",
-          "k": 5,
-          "outs": 13,
-          "battersFaced": 21
-        },
-        {
-          "date": "2026-04-14",
-          "team": "Tampa Bay Rays",
-          "opponent": "Chicago White Sox",
-          "k": 4,
-          "outs": 15,
-          "battersFaced": 23
-        },
-        {
-          "date": "2026-04-06",
-          "team": "Tampa Bay Rays",
-          "opponent": "Chicago Cubs",
-          "k": 5,
-          "outs": 12,
-          "battersFaced": 17
-        },
-        {
-          "date": "2026-03-31",
-          "team": "Tampa Bay Rays",
-          "opponent": "Milwaukee Brewers",
-          "k": 4,
-          "outs": 14,
-          "battersFaced": 19
-        }
-      ],
-      "last5": [
-        {
-          "date": "2026-04-25",
-          "team": "Tampa Bay Rays",
-          "opponent": "Minnesota Twins",
-          "k": 7,
-          "outs": 15,
-          "battersFaced": 21
-        },
-        {
-          "date": "2026-04-19",
-          "team": "Tampa Bay Rays",
-          "opponent": "Pittsburgh Pirates",
-          "k": 5,
-          "outs": 13,
-          "battersFaced": 21
-        },
-        {
-          "date": "2026-04-14",
-          "team": "Tampa Bay Rays",
-          "opponent": "Chicago White Sox",
-          "k": 4,
-          "outs": 15,
-          "battersFaced": 23
-        },
-        {
-          "date": "2026-04-06",
-          "team": "Tampa Bay Rays",
-          "opponent": "Chicago Cubs",
-          "k": 5,
-          "outs": 12,
-          "battersFaced": 17
-        },
-        {
-          "date": "2026-03-31",
-          "team": "Tampa Bay Rays",
-          "opponent": "Milwaukee Brewers",
-          "k": 4,
-          "outs": 14,
-          "battersFaced": 19
-        }
-      ],
-      "h2h": []
-    },
-    {
-      "player": "Tatsuya Imai",
-      "team": "Houston Astros",
-      "opponent": "Minnesota Twins",
-      "line": null,
-      "last10Avg": 4.3,
-      "last5Avg": 4.3,
-      "h2hAvg": 0,
-      "projection": 4.3,
-      "edge": null,
-      "last10OverPct": 0,
-      "last5OverPct": 0,
-      "h2hOverPct": 0,
-      "last10": [
-        {
-          "date": "2026-04-10",
-          "team": "Houston Astros",
-          "opponent": "Seattle Mariners",
-          "k": 0,
-          "outs": 1,
-          "battersFaced": 7
-        },
-        {
-          "date": "2026-04-04",
-          "team": "Houston Astros",
-          "opponent": "Athletics",
-          "k": 9,
-          "outs": 17,
-          "battersFaced": 22
-        },
-        {
-          "date": "2026-03-29",
-          "team": "Houston Astros",
-          "opponent": "Los Angeles Angels",
-          "k": 4,
-          "outs": 8,
-          "battersFaced": 15
-        }
-      ],
-      "last5": [
-        {
-          "date": "2026-04-10",
-          "team": "Houston Astros",
-          "opponent": "Seattle Mariners",
-          "k": 0,
-          "outs": 1,
-          "battersFaced": 7
-        },
-        {
-          "date": "2026-04-04",
-          "team": "Houston Astros",
-          "opponent": "Athletics",
-          "k": 9,
-          "outs": 17,
-          "battersFaced": 22
-        },
-        {
-          "date": "2026-03-29",
-          "team": "Houston Astros",
-          "opponent": "Los Angeles Angels",
-          "k": 4,
-          "outs": 8,
-          "battersFaced": 15
-        }
-      ],
-      "h2h": []
-    },
-    {
-      "player": "Taj Bradley",
-      "team": "Minnesota Twins",
-      "opponent": "Houston Astros",
-      "line": null,
-      "last10Avg": 6.2,
-      "last5Avg": 5.6,
-      "h2hAvg": 8.5,
-      "projection": 6.5,
-      "edge": null,
-      "last10OverPct": 0,
-      "last5OverPct": 0,
-      "h2hOverPct": 0,
-      "last10": [
-        {
-          "date": "2026-04-24",
-          "team": "Minnesota Twins",
-          "opponent": "Tampa Bay Rays",
-          "k": 3,
-          "outs": 19,
-          "battersFaced": 29
-        },
-        {
-          "date": "2026-04-18",
-          "team": "Minnesota Twins",
-          "opponent": "Cincinnati Reds",
-          "k": 5,
-          "outs": 18,
-          "battersFaced": 25
-        },
-        {
-          "date": "2026-04-12",
-          "team": "Minnesota Twins",
-          "opponent": "Toronto Blue Jays",
-          "k": 7,
-          "outs": 15,
-          "battersFaced": 23
-        },
-        {
-          "date": "2026-04-07",
-          "team": "Minnesota Twins",
-          "opponent": "Detroit Tigers",
-          "k": 10,
-          "outs": 19,
-          "battersFaced": 27
-        },
-        {
-          "date": "2026-04-02",
-          "team": "Minnesota Twins",
-          "opponent": "Kansas City Royals",
-          "k": 3,
+          "team": "Los Angeles Angels",
+          "opponent": "San Diego Padres",
+          "k": 8,
           "outs": 18,
           "battersFaced": 24
         },
         {
           "date": "2026-03-28",
-          "team": "Minnesota Twins",
-          "opponent": "Baltimore Orioles",
-          "k": 9,
-          "outs": 13,
-          "battersFaced": 19
-        },
-        {
-          "date": "2025-09-24",
-          "team": "Minnesota Twins",
-          "opponent": "Texas Rangers",
-          "k": 9,
-          "outs": 18,
-          "battersFaced": 22
-        },
-        {
-          "date": "2025-09-17",
-          "team": "Minnesota Twins",
-          "opponent": "New York Yankees",
-          "k": 4,
-          "outs": 12,
-          "battersFaced": 22
-        },
-        {
-          "date": "2025-09-10",
-          "team": "Minnesota Twins",
-          "opponent": "Los Angeles Angels",
-          "k": 5,
-          "outs": 19,
-          "battersFaced": 24
-        },
-        {
-          "date": "2025-09-04",
-          "team": "Minnesota Twins",
-          "opponent": "Chicago White Sox",
-          "k": 7,
-          "outs": 15,
-          "battersFaced": 23
-        }
-      ],
-      "last5": [
-        {
-          "date": "2026-04-24",
-          "team": "Minnesota Twins",
-          "opponent": "Tampa Bay Rays",
-          "k": 3,
-          "outs": 19,
-          "battersFaced": 29
-        },
-        {
-          "date": "2026-04-18",
-          "team": "Minnesota Twins",
-          "opponent": "Cincinnati Reds",
-          "k": 5,
-          "outs": 18,
-          "battersFaced": 25
-        },
-        {
-          "date": "2026-04-12",
-          "team": "Minnesota Twins",
-          "opponent": "Toronto Blue Jays",
-          "k": 7,
-          "outs": 15,
-          "battersFaced": 23
-        },
-        {
-          "date": "2026-04-07",
-          "team": "Minnesota Twins",
-          "opponent": "Detroit Tigers",
-          "k": 10,
-          "outs": 19,
-          "battersFaced": 27
-        },
-        {
-          "date": "2026-04-02",
-          "team": "Minnesota Twins",
-          "opponent": "Kansas City Royals",
-          "k": 3,
-          "outs": 18,
-          "battersFaced": 24
-        }
-      ],
-      "h2h": [
-        {
-          "date": "2025-06-01",
-          "team": "Tampa Bay Rays",
+          "team": "Los Angeles Angels",
           "opponent": "Houston Astros",
-          "k": 10,
-          "outs": 21,
-          "battersFaced": 27
-        },
-        {
-          "date": "2025-05-21",
-          "team": "Tampa Bay Rays",
-          "opponent": "Houston Astros",
-          "k": 7,
-          "outs": 18,
-          "battersFaced": 23
-        }
-      ]
-    },
-    {
-      "player": "Shane Drohan",
-      "team": "Milwaukee Brewers",
-      "opponent": "Cincinnati Reds",
-      "line": null,
-      "last10Avg": 2.0,
-      "last5Avg": 2.0,
-      "h2hAvg": 0,
-      "projection": 2.0,
-      "edge": null,
-      "last10OverPct": 0,
-      "last5OverPct": 0,
-      "h2hOverPct": 0,
-      "last10": [
-        {
-          "date": "2026-04-24",
-          "team": "Milwaukee Brewers",
-          "opponent": "Pittsburgh Pirates",
-          "k": 2,
-          "outs": 12,
-          "battersFaced": 19
-        },
-        {
-          "date": "2026-04-08",
-          "team": "Milwaukee Brewers",
-          "opponent": "Boston Red Sox",
-          "k": 2,
-          "outs": 8,
-          "battersFaced": 15
-        }
-      ],
-      "last5": [
-        {
-          "date": "2026-04-24",
-          "team": "Milwaukee Brewers",
-          "opponent": "Pittsburgh Pirates",
-          "k": 2,
-          "outs": 12,
-          "battersFaced": 19
-        },
-        {
-          "date": "2026-04-08",
-          "team": "Milwaukee Brewers",
-          "opponent": "Boston Red Sox",
-          "k": 2,
-          "outs": 8,
-          "battersFaced": 15
-        }
-      ],
-      "h2h": []
-    },
-    {
-      "player": "Andrew Abbott",
-      "team": "Cincinnati Reds",
-      "opponent": "Milwaukee Brewers",
-      "line": null,
-      "last10Avg": 3.8,
-      "last5Avg": 3.0,
-      "h2hAvg": 5.7,
-      "projection": 3.9,
-      "edge": null,
-      "last10OverPct": 0,
-      "last5OverPct": 0,
-      "h2hOverPct": 0,
-      "last10": [
-        {
-          "date": "2026-04-24",
-          "team": "Cincinnati Reds",
-          "opponent": "Detroit Tigers",
-          "k": 4,
-          "outs": 12,
-          "battersFaced": 19
-        },
-        {
-          "date": "2026-04-18",
-          "team": "Cincinnati Reds",
-          "opponent": "Minnesota Twins",
-          "k": 3,
-          "outs": 14,
-          "battersFaced": 24
-        },
-        {
-          "date": "2026-04-12",
-          "team": "Cincinnati Reds",
-          "opponent": "Los Angeles Angels",
           "k": 1,
-          "outs": 9,
-          "battersFaced": 18
-        },
-        {
-          "date": "2026-04-07",
-          "team": "Cincinnati Reds",
-          "opponent": "Miami Marlins",
-          "k": 2,
-          "outs": 16,
-          "battersFaced": 24
-        },
-        {
-          "date": "2026-04-01",
-          "team": "Cincinnati Reds",
-          "opponent": "Pittsburgh Pirates",
-          "k": 5,
-          "outs": 17,
-          "battersFaced": 24
+          "outs": 3,
+          "battersFaced": 11
         },
         {
           "date": "2026-03-26",
-          "team": "Cincinnati Reds",
-          "opponent": "Boston Red Sox",
-          "k": 4,
-          "outs": 18,
-          "battersFaced": 24
-        },
-        {
-          "date": "2025-09-27",
-          "team": "Cincinnati Reds",
-          "opponent": "Milwaukee Brewers",
-          "k": 4,
-          "outs": 16,
-          "battersFaced": 21
-        },
-        {
-          "date": "2025-09-21",
-          "team": "Cincinnati Reds",
-          "opponent": "Chicago Cubs",
-          "k": 2,
-          "outs": 14,
-          "battersFaced": 20
-        },
-        {
-          "date": "2025-09-16",
-          "team": "Cincinnati Reds",
-          "opponent": "St. Louis Cardinals",
-          "k": 7,
-          "outs": 14,
-          "battersFaced": 22
-        },
-        {
-          "date": "2025-09-10",
-          "team": "Cincinnati Reds",
-          "opponent": "San Diego Padres",
-          "k": 6,
-          "outs": 24,
-          "battersFaced": 30
+          "team": "Los Angeles Angels",
+          "opponent": "Houston Astros",
+          "k": 1,
+          "outs": 2,
+          "battersFaced": 4
         }
       ],
       "last5": [
         {
-          "date": "2026-04-24",
-          "team": "Cincinnati Reds",
-          "opponent": "Detroit Tigers",
-          "k": 4,
-          "outs": 12,
-          "battersFaced": 19
+          "date": "2026-04-25",
+          "team": "Los Angeles Angels",
+          "opponent": "Kansas City Royals",
+          "k": 3,
+          "outs": 11,
+          "battersFaced": 21
         },
         {
-          "date": "2026-04-18",
-          "team": "Cincinnati Reds",
-          "opponent": "Minnesota Twins",
-          "k": 3,
-          "outs": 14,
+          "date": "2026-04-19",
+          "team": "Los Angeles Angels",
+          "opponent": "San Diego Padres",
+          "k": 8,
+          "outs": 18,
           "battersFaced": 24
+        },
+        {
+          "date": "2026-03-28",
+          "team": "Los Angeles Angels",
+          "opponent": "Houston Astros",
+          "k": 1,
+          "outs": 3,
+          "battersFaced": 11
+        },
+        {
+          "date": "2026-03-26",
+          "team": "Los Angeles Angels",
+          "opponent": "Houston Astros",
+          "k": 1,
+          "outs": 2,
+          "battersFaced": 4
+        }
+      ],
+      "h2h": []
+    },
+    {
+      "player": "Roki Sasaki",
+      "team": "Los Angeles Dodgers",
+      "opponent": "San Diego Padres",
+      "line": null,
+      "last10Avg": 3.8,
+      "last5Avg": 4.4,
+      "h2hAvg": 0,
+      "projection": 4.0,
+      "edge": null,
+      "last10OverPct": 0,
+      "last5OverPct": 0,
+      "h2hOverPct": 0,
+      "last10": [
+        {
+          "date": "2026-04-25",
+          "team": "Los Angeles Dodgers",
+          "opponent": "Chicago Cubs",
+          "k": 5,
+          "outs": 15,
+          "battersFaced": 23
+        },
+        {
+          "date": "2026-04-19",
+          "team": "Los Angeles Dodgers",
+          "opponent": "Colorado Rockies",
+          "k": 2,
+          "outs": 14,
+          "battersFaced": 22
         },
         {
           "date": "2026-04-12",
-          "team": "Cincinnati Reds",
-          "opponent": "Los Angeles Angels",
-          "k": 1,
-          "outs": 9,
+          "team": "Los Angeles Dodgers",
+          "opponent": "Texas Rangers",
+          "k": 6,
+          "outs": 12,
+          "battersFaced": 22
+        },
+        {
+          "date": "2026-04-05",
+          "team": "Los Angeles Dodgers",
+          "opponent": "Washington Nationals",
+          "k": 5,
+          "outs": 15,
+          "battersFaced": 23
+        },
+        {
+          "date": "2026-03-30",
+          "team": "Los Angeles Dodgers",
+          "opponent": "Cleveland Guardians",
+          "k": 4,
+          "outs": 12,
           "battersFaced": 18
-        },
-        {
-          "date": "2026-04-07",
-          "team": "Cincinnati Reds",
-          "opponent": "Miami Marlins",
-          "k": 2,
-          "outs": 16,
-          "battersFaced": 24
-        },
-        {
-          "date": "2026-04-01",
-          "team": "Cincinnati Reds",
-          "opponent": "Pittsburgh Pirates",
-          "k": 5,
-          "outs": 17,
-          "battersFaced": 24
-        }
-      ],
-      "h2h": [
-        {
-          "date": "2025-09-27",
-          "team": "Cincinnati Reds",
-          "opponent": "Milwaukee Brewers",
-          "k": 4,
-          "outs": 16,
-          "battersFaced": 21
-        },
-        {
-          "date": "2025-08-17",
-          "team": "Cincinnati Reds",
-          "opponent": "Milwaukee Brewers",
-          "k": 7,
-          "outs": 21,
-          "battersFaced": 24
-        },
-        {
-          "date": "2025-06-04",
-          "team": "Cincinnati Reds",
-          "opponent": "Milwaukee Brewers",
-          "k": 6,
-          "outs": 18,
-          "battersFaced": 26
-        }
-      ]
-    },
-    {
-      "player": "Kyle Freeland",
-      "team": "Colorado Rockies",
-      "opponent": "Miami Marlins",
-      "line": null,
-      "last10Avg": 5.2,
-      "last5Avg": 4.8,
-      "h2hAvg": 2.3,
-      "projection": 4.5,
-      "edge": null,
-      "last10OverPct": 0,
-      "last5OverPct": 0,
-      "h2hOverPct": 0,
-      "last10": [
-        {
-          "date": "2026-04-07",
-          "team": "Colorado Rockies",
-          "opponent": "Houston Astros",
-          "k": 5,
-          "outs": 19,
-          "battersFaced": 24
-        },
-        {
-          "date": "2026-04-01",
-          "team": "Colorado Rockies",
-          "opponent": "Toronto Blue Jays",
-          "k": 6,
-          "outs": 15,
-          "battersFaced": 22
-        },
-        {
-          "date": "2026-03-27",
-          "team": "Colorado Rockies",
-          "opponent": "Miami Marlins",
-          "k": 2,
-          "outs": 13,
-          "battersFaced": 21
-        },
-        {
-          "date": "2025-09-27",
-          "team": "Colorado Rockies",
-          "opponent": "San Francisco Giants",
-          "k": 4,
-          "outs": 18,
-          "battersFaced": 22
-        },
-        {
-          "date": "2025-09-21",
-          "team": "Colorado Rockies",
-          "opponent": "Los Angeles Angels",
-          "k": 7,
-          "outs": 18,
-          "battersFaced": 23
-        },
-        {
-          "date": "2025-09-16",
-          "team": "Colorado Rockies",
-          "opponent": "Miami Marlins",
-          "k": 1,
-          "outs": 17,
-          "battersFaced": 27
-        },
-        {
-          "date": "2025-09-10",
-          "team": "Colorado Rockies",
-          "opponent": "Los Angeles Dodgers",
-          "k": 5,
-          "outs": 17,
-          "battersFaced": 28
-        },
-        {
-          "date": "2025-09-05",
-          "team": "Colorado Rockies",
-          "opponent": "San Diego Padres",
-          "k": 10,
-          "outs": 24,
-          "battersFaced": 26
-        },
-        {
-          "date": "2025-08-28",
-          "team": "Colorado Rockies",
-          "opponent": "Houston Astros",
-          "k": 6,
-          "outs": 18,
-          "battersFaced": 26
-        },
-        {
-          "date": "2025-08-23",
-          "team": "Colorado Rockies",
-          "opponent": "Pittsburgh Pirates",
-          "k": 6,
-          "outs": 15,
-          "battersFaced": 24
-        }
-      ],
-      "last5": [
-        {
-          "date": "2026-04-07",
-          "team": "Colorado Rockies",
-          "opponent": "Houston Astros",
-          "k": 5,
-          "outs": 19,
-          "battersFaced": 24
-        },
-        {
-          "date": "2026-04-01",
-          "team": "Colorado Rockies",
-          "opponent": "Toronto Blue Jays",
-          "k": 6,
-          "outs": 15,
-          "battersFaced": 22
-        },
-        {
-          "date": "2026-03-27",
-          "team": "Colorado Rockies",
-          "opponent": "Miami Marlins",
-          "k": 2,
-          "outs": 13,
-          "battersFaced": 21
-        },
-        {
-          "date": "2025-09-27",
-          "team": "Colorado Rockies",
-          "opponent": "San Francisco Giants",
-          "k": 4,
-          "outs": 18,
-          "battersFaced": 22
-        },
-        {
-          "date": "2025-09-21",
-          "team": "Colorado Rockies",
-          "opponent": "Los Angeles Angels",
-          "k": 7,
-          "outs": 18,
-          "battersFaced": 23
-        }
-      ],
-      "h2h": [
-        {
-          "date": "2026-03-27",
-          "team": "Colorado Rockies",
-          "opponent": "Miami Marlins",
-          "k": 2,
-          "outs": 13,
-          "battersFaced": 21
-        },
-        {
-          "date": "2025-09-16",
-          "team": "Colorado Rockies",
-          "opponent": "Miami Marlins",
-          "k": 1,
-          "outs": 17,
-          "battersFaced": 27
-        },
-        {
-          "date": "2025-06-04",
-          "team": "Colorado Rockies",
-          "opponent": "Miami Marlins",
-          "k": 4,
-          "outs": 19,
-          "battersFaced": 23
-        }
-      ]
-    },
-    {
-      "player": "Max Meyer",
-      "team": "Miami Marlins",
-      "opponent": "Colorado Rockies",
-      "line": null,
-      "last10Avg": 4.9,
-      "last5Avg": 5.6,
-      "h2hAvg": 5.0,
-      "projection": 5.2,
-      "edge": null,
-      "last10OverPct": 0,
-      "last5OverPct": 0,
-      "h2hOverPct": 0,
-      "last10": [
-        {
-          "date": "2026-04-20",
-          "team": "Miami Marlins",
-          "opponent": "St. Louis Cardinals",
-          "k": 8,
-          "outs": 16,
-          "battersFaced": 23
-        },
-        {
-          "date": "2026-04-14",
-          "team": "Miami Marlins",
-          "opponent": "Atlanta Braves",
-          "k": 5,
-          "outs": 15,
-          "battersFaced": 21
-        },
-        {
-          "date": "2026-04-09",
-          "team": "Miami Marlins",
-          "opponent": "Cincinnati Reds",
-          "k": 4,
-          "outs": 15,
-          "battersFaced": 23
-        },
-        {
-          "date": "2026-04-04",
-          "team": "Miami Marlins",
-          "opponent": "New York Yankees",
-          "k": 6,
-          "outs": 14,
-          "battersFaced": 21
-        },
-        {
-          "date": "2026-03-29",
-          "team": "Miami Marlins",
-          "opponent": "Colorado Rockies",
-          "k": 5,
-          "outs": 15,
-          "battersFaced": 23
-        },
-        {
-          "date": "2025-06-02",
-          "team": "Miami Marlins",
-          "opponent": "Colorado Rockies",
-          "k": 5,
-          "outs": 15,
-          "battersFaced": 25
-        },
-        {
-          "date": "2025-05-27",
-          "team": "Miami Marlins",
-          "opponent": "San Diego Padres",
-          "k": 0,
-          "outs": 10,
-          "battersFaced": 21
-        },
-        {
-          "date": "2025-05-21",
-          "team": "Miami Marlins",
-          "opponent": "Chicago Cubs",
-          "k": 4,
-          "outs": 18,
-          "battersFaced": 23
-        },
-        {
-          "date": "2025-05-16",
-          "team": "Miami Marlins",
-          "opponent": "Tampa Bay Rays",
-          "k": 7,
-          "outs": 15,
-          "battersFaced": 21
         },
         {
           "date": "2025-05-09",
-          "team": "Miami Marlins",
-          "opponent": "Chicago White Sox",
-          "k": 5,
-          "outs": 19,
-          "battersFaced": 28
-        }
-      ],
-      "last5": [
-        {
-          "date": "2026-04-20",
-          "team": "Miami Marlins",
-          "opponent": "St. Louis Cardinals",
-          "k": 8,
-          "outs": 16,
-          "battersFaced": 23
-        },
-        {
-          "date": "2026-04-14",
-          "team": "Miami Marlins",
-          "opponent": "Atlanta Braves",
-          "k": 5,
-          "outs": 15,
-          "battersFaced": 21
-        },
-        {
-          "date": "2026-04-09",
-          "team": "Miami Marlins",
-          "opponent": "Cincinnati Reds",
-          "k": 4,
-          "outs": 15,
-          "battersFaced": 23
-        },
-        {
-          "date": "2026-04-04",
-          "team": "Miami Marlins",
-          "opponent": "New York Yankees",
-          "k": 6,
-          "outs": 14,
-          "battersFaced": 21
-        },
-        {
-          "date": "2026-03-29",
-          "team": "Miami Marlins",
-          "opponent": "Colorado Rockies",
-          "k": 5,
-          "outs": 15,
-          "battersFaced": 23
-        }
-      ],
-      "h2h": [
-        {
-          "date": "2026-03-29",
-          "team": "Miami Marlins",
-          "opponent": "Colorado Rockies",
-          "k": 5,
-          "outs": 15,
-          "battersFaced": 23
-        },
-        {
-          "date": "2025-06-02",
-          "team": "Miami Marlins",
-          "opponent": "Colorado Rockies",
-          "k": 5,
-          "outs": 15,
-          "battersFaced": 25
-        }
-      ]
-    },
-    {
-      "player": "J.T. Ginn",
-      "team": "Athletics",
-      "opponent": "Los Angeles Dodgers",
-      "line": null,
-      "last10Avg": 4.8,
-      "last5Avg": 3.8,
-      "h2hAvg": 0,
-      "projection": 4.4,
-      "edge": null,
-      "last10OverPct": 0,
-      "last5OverPct": 0,
-      "h2hOverPct": 0,
-      "last10": [
-        {
-          "date": "2026-04-20",
-          "team": "Athletics",
-          "opponent": "Seattle Mariners",
-          "k": 6,
-          "outs": 16,
-          "battersFaced": 23
-        },
-        {
-          "date": "2026-04-15",
-          "team": "Athletics",
-          "opponent": "Texas Rangers",
-          "k": 3,
-          "outs": 16,
-          "battersFaced": 21
-        },
-        {
-          "date": "2026-04-10",
-          "team": "Athletics",
-          "opponent": "New York Mets",
-          "k": 4,
+          "team": "Los Angeles Dodgers",
+          "opponent": "Arizona Diamondbacks",
+          "k": 0,
           "outs": 12,
-          "battersFaced": 14
+          "battersFaced": 20
         },
         {
-          "date": "2026-03-29",
-          "team": "Athletics",
-          "opponent": "Toronto Blue Jays",
-          "k": 2,
-          "outs": 11,
-          "battersFaced": 12
-        },
-        {
-          "date": "2025-09-25",
-          "team": "Athletics",
-          "opponent": "Houston Astros",
+          "date": "2025-05-03",
+          "team": "Los Angeles Dodgers",
+          "opponent": "Atlanta Braves",
           "k": 4,
-          "outs": 11,
-          "battersFaced": 21
-        },
-        {
-          "date": "2025-09-18",
-          "team": "Athletics",
-          "opponent": "Boston Red Sox",
-          "k": 3,
-          "outs": 18,
+          "outs": 15,
           "battersFaced": 24
         },
         {
-          "date": "2025-09-12",
-          "team": "Athletics",
-          "opponent": "Cincinnati Reds",
-          "k": 6,
-          "outs": 13,
-          "battersFaced": 20
-        },
-        {
-          "date": "2025-09-06",
-          "team": "Athletics",
-          "opponent": "Los Angeles Angels",
-          "k": 5,
-          "outs": 15,
-          "battersFaced": 20
-        },
-        {
-          "date": "2025-08-31",
-          "team": "Athletics",
-          "opponent": "Texas Rangers",
-          "k": 7,
-          "outs": 18,
-          "battersFaced": 25
-        },
-        {
-          "date": "2025-08-25",
-          "team": "Athletics",
-          "opponent": "Detroit Tigers",
-          "k": 8,
-          "outs": 16,
-          "battersFaced": 23
+          "date": "2025-04-26",
+          "team": "Los Angeles Dodgers",
+          "opponent": "Pittsburgh Pirates",
+          "k": 4,
+          "outs": 17,
+          "battersFaced": 24
         }
       ],
       "last5": [
         {
-          "date": "2026-04-20",
-          "team": "Athletics",
-          "opponent": "Seattle Mariners",
-          "k": 6,
-          "outs": 16,
+          "date": "2026-04-25",
+          "team": "Los Angeles Dodgers",
+          "opponent": "Chicago Cubs",
+          "k": 5,
+          "outs": 15,
           "battersFaced": 23
         },
         {
-          "date": "2026-04-15",
-          "team": "Athletics",
-          "opponent": "Texas Rangers",
-          "k": 3,
-          "outs": 16,
-          "battersFaced": 21
+          "date": "2026-04-19",
+          "team": "Los Angeles Dodgers",
+          "opponent": "Colorado Rockies",
+          "k": 2,
+          "outs": 14,
+          "battersFaced": 22
         },
         {
-          "date": "2026-04-10",
-          "team": "Athletics",
-          "opponent": "New York Mets",
+          "date": "2026-04-12",
+          "team": "Los Angeles Dodgers",
+          "opponent": "Texas Rangers",
+          "k": 6,
+          "outs": 12,
+          "battersFaced": 22
+        },
+        {
+          "date": "2026-04-05",
+          "team": "Los Angeles Dodgers",
+          "opponent": "Washington Nationals",
+          "k": 5,
+          "outs": 15,
+          "battersFaced": 23
+        },
+        {
+          "date": "2026-03-30",
+          "team": "Los Angeles Dodgers",
+          "opponent": "Cleveland Guardians",
           "k": 4,
           "outs": 12,
-          "battersFaced": 14
-        },
-        {
-          "date": "2026-03-29",
-          "team": "Athletics",
-          "opponent": "Toronto Blue Jays",
-          "k": 2,
-          "outs": 11,
-          "battersFaced": 12
-        },
-        {
-          "date": "2025-09-25",
-          "team": "Athletics",
-          "opponent": "Houston Astros",
-          "k": 4,
-          "outs": 11,
-          "battersFaced": 21
+          "battersFaced": 18
         }
       ],
       "h2h": []
     },
     {
-      "player": "Zac Gallen",
-      "team": "Arizona Diamondbacks",
-      "opponent": "San Francisco Giants",
+      "player": "Randy V\u00e1squez",
+      "team": "San Diego Padres",
+      "opponent": "Los Angeles Dodgers",
       "line": null,
-      "last10Avg": 3.8,
-      "last5Avg": 3.0,
-      "h2hAvg": 6.3,
-      "projection": 4.0,
+      "last10Avg": 5.2,
+      "last5Avg": 6.0,
+      "h2hAvg": 3.3,
+      "projection": 5.1,
       "edge": null,
       "last10OverPct": 0,
       "last5OverPct": 0,
       "h2hOverPct": 0,
       "last10": [
         {
-          "date": "2026-04-25",
-          "team": "Arizona Diamondbacks",
-          "opponent": "San Diego Padres",
-          "k": 3,
-          "outs": 9,
-          "battersFaced": 10
-        },
-        {
-          "date": "2026-04-18",
-          "team": "Arizona Diamondbacks",
-          "opponent": "Toronto Blue Jays",
-          "k": 3,
-          "outs": 17,
-          "battersFaced": 25
-        },
-        {
-          "date": "2026-04-12",
-          "team": "Arizona Diamondbacks",
-          "opponent": "Philadelphia Phillies",
-          "k": 2,
-          "outs": 15,
-          "battersFaced": 22
-        },
-        {
-          "date": "2026-04-07",
-          "team": "Arizona Diamondbacks",
-          "opponent": "New York Mets",
+          "date": "2026-04-21",
+          "team": "San Diego Padres",
+          "opponent": "Colorado Rockies",
           "k": 5,
-          "outs": 15,
-          "battersFaced": 23
+          "outs": 21,
+          "battersFaced": 24
         },
         {
-          "date": "2026-04-01",
-          "team": "Arizona Diamondbacks",
-          "opponent": "Detroit Tigers",
-          "k": 2,
-          "outs": 18,
-          "battersFaced": 21
-        },
-        {
-          "date": "2026-03-26",
-          "team": "Arizona Diamondbacks",
-          "opponent": "Los Angeles Dodgers",
-          "k": 2,
+          "date": "2026-04-15",
+          "team": "San Diego Padres",
+          "opponent": "Seattle Mariners",
+          "k": 6,
           "outs": 12,
-          "battersFaced": 19
-        },
-        {
-          "date": "2025-09-26",
-          "team": "Arizona Diamondbacks",
-          "opponent": "San Diego Padres",
-          "k": 3,
-          "outs": 13,
-          "battersFaced": 24
-        },
-        {
-          "date": "2025-09-20",
-          "team": "Arizona Diamondbacks",
-          "opponent": "Philadelphia Phillies",
-          "k": 9,
-          "outs": 21,
-          "battersFaced": 28
-        },
-        {
-          "date": "2025-09-15",
-          "team": "Arizona Diamondbacks",
-          "opponent": "San Francisco Giants",
-          "k": 6,
-          "outs": 18,
           "battersFaced": 21
         },
         {
-          "date": "2025-09-09",
-          "team": "Arizona Diamondbacks",
-          "opponent": "San Francisco Giants",
-          "k": 3,
-          "outs": 20,
-          "battersFaced": 27
-        }
-      ],
-      "last5": [
-        {
-          "date": "2026-04-25",
-          "team": "Arizona Diamondbacks",
-          "opponent": "San Diego Padres",
-          "k": 3,
-          "outs": 9,
-          "battersFaced": 10
-        },
-        {
-          "date": "2026-04-18",
-          "team": "Arizona Diamondbacks",
-          "opponent": "Toronto Blue Jays",
-          "k": 3,
+          "date": "2026-04-09",
+          "team": "San Diego Padres",
+          "opponent": "Colorado Rockies",
+          "k": 8,
           "outs": 17,
-          "battersFaced": 25
-        },
-        {
-          "date": "2026-04-12",
-          "team": "Arizona Diamondbacks",
-          "opponent": "Philadelphia Phillies",
-          "k": 2,
-          "outs": 15,
-          "battersFaced": 22
-        },
-        {
-          "date": "2026-04-07",
-          "team": "Arizona Diamondbacks",
-          "opponent": "New York Mets",
-          "k": 5,
-          "outs": 15,
           "battersFaced": 23
         },
         {
-          "date": "2026-04-01",
-          "team": "Arizona Diamondbacks",
+          "date": "2026-04-04",
+          "team": "San Diego Padres",
+          "opponent": "Boston Red Sox",
+          "k": 3,
+          "outs": 18,
+          "battersFaced": 23
+        },
+        {
+          "date": "2026-03-28",
+          "team": "San Diego Padres",
           "opponent": "Detroit Tigers",
-          "k": 2,
+          "k": 8,
           "outs": 18,
-          "battersFaced": 21
-        }
-      ],
-      "h2h": [
-        {
-          "date": "2025-09-15",
-          "team": "Arizona Diamondbacks",
-          "opponent": "San Francisco Giants",
-          "k": 6,
-          "outs": 18,
-          "battersFaced": 21
+          "battersFaced": 23
         },
         {
-          "date": "2025-09-09",
-          "team": "Arizona Diamondbacks",
-          "opponent": "San Francisco Giants",
+          "date": "2025-09-23",
+          "team": "San Diego Padres",
+          "opponent": "Milwaukee Brewers",
           "k": 3,
-          "outs": 20,
-          "battersFaced": 27
-        },
-        {
-          "date": "2025-07-01",
-          "team": "Arizona Diamondbacks",
-          "opponent": "San Francisco Giants",
-          "k": 10,
           "outs": 21,
-          "battersFaced": 25
-        }
-      ]
-    },
-    {
-      "player": "Trevor McDonald",
-      "team": "San Francisco Giants",
-      "opponent": "Arizona Diamondbacks",
-      "line": null,
-      "last10Avg": 4.7,
-      "last5Avg": 4.7,
-      "h2hAvg": 1.0,
-      "projection": 4.0,
-      "edge": null,
-      "last10OverPct": 0,
-      "last5OverPct": 0,
-      "h2hOverPct": 0,
-      "last10": [
-        {
-          "date": "2025-09-26",
-          "team": "San Francisco Giants",
-          "opponent": "Colorado Rockies",
-          "k": 10,
-          "outs": 21,
-          "battersFaced": 26
-        },
-        {
-          "date": "2025-09-21",
-          "team": "San Francisco Giants",
-          "opponent": "Los Angeles Dodgers",
-          "k": 3,
-          "outs": 18,
           "battersFaced": 24
         },
         {
-          "date": "2025-09-16",
-          "team": "San Francisco Giants",
-          "opponent": "Arizona Diamondbacks",
-          "k": 1,
-          "outs": 6,
-          "battersFaced": 10
+          "date": "2025-09-11",
+          "team": "San Diego Padres",
+          "opponent": "Colorado Rockies",
+          "k": 9,
+          "outs": 18,
+          "battersFaced": 22
+        },
+        {
+          "date": "2025-09-06",
+          "team": "San Diego Padres",
+          "opponent": "Colorado Rockies",
+          "k": 3,
+          "outs": 18,
+          "battersFaced": 25
+        },
+        {
+          "date": "2025-08-15",
+          "team": "San Diego Padres",
+          "opponent": "Los Angeles Dodgers",
+          "k": 4,
+          "outs": 11,
+          "battersFaced": 13
+        },
+        {
+          "date": "2025-08-02",
+          "team": "San Diego Padres",
+          "opponent": "St. Louis Cardinals",
+          "k": 3,
+          "outs": 12,
+          "battersFaced": 20
         }
       ],
       "last5": [
         {
-          "date": "2025-09-26",
-          "team": "San Francisco Giants",
+          "date": "2026-04-21",
+          "team": "San Diego Padres",
           "opponent": "Colorado Rockies",
-          "k": 10,
+          "k": 5,
           "outs": 21,
-          "battersFaced": 26
-        },
-        {
-          "date": "2025-09-21",
-          "team": "San Francisco Giants",
-          "opponent": "Los Angeles Dodgers",
-          "k": 3,
-          "outs": 18,
           "battersFaced": 24
         },
         {
-          "date": "2025-09-16",
-          "team": "San Francisco Giants",
-          "opponent": "Arizona Diamondbacks",
-          "k": 1,
-          "outs": 6,
-          "battersFaced": 10
+          "date": "2026-04-15",
+          "team": "San Diego Padres",
+          "opponent": "Seattle Mariners",
+          "k": 6,
+          "outs": 12,
+          "battersFaced": 21
+        },
+        {
+          "date": "2026-04-09",
+          "team": "San Diego Padres",
+          "opponent": "Colorado Rockies",
+          "k": 8,
+          "outs": 17,
+          "battersFaced": 23
+        },
+        {
+          "date": "2026-04-04",
+          "team": "San Diego Padres",
+          "opponent": "Boston Red Sox",
+          "k": 3,
+          "outs": 18,
+          "battersFaced": 23
+        },
+        {
+          "date": "2026-03-28",
+          "team": "San Diego Padres",
+          "opponent": "Detroit Tigers",
+          "k": 8,
+          "outs": 18,
+          "battersFaced": 23
         }
       ],
       "h2h": [
         {
-          "date": "2025-09-16",
-          "team": "San Francisco Giants",
-          "opponent": "Arizona Diamondbacks",
-          "k": 1,
-          "outs": 6,
-          "battersFaced": 10
+          "date": "2025-08-15",
+          "team": "San Diego Padres",
+          "opponent": "Los Angeles Dodgers",
+          "k": 4,
+          "outs": 11,
+          "battersFaced": 13
+        },
+        {
+          "date": "2025-06-17",
+          "team": "San Diego Padres",
+          "opponent": "Los Angeles Dodgers",
+          "k": 2,
+          "outs": 15,
+          "battersFaced": 20
+        },
+        {
+          "date": "2025-06-11",
+          "team": "San Diego Padres",
+          "opponent": "Los Angeles Dodgers",
+          "k": 4,
+          "outs": 14,
+          "battersFaced": 18
         }
       ]
     }
