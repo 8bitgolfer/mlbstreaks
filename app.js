@@ -223,16 +223,26 @@ function openPitcherModal(pitcher) {
   const modal = document.getElementById('pitcherModal');
   modal.hidden = false;
 
+  const hasLine = pitcher.line !== null && pitcher.line !== undefined && pitcher.line !== '';
+  const threshold = hasLine ? Number(pitcher.line) : Number(pitcher.projection || 0);
+
   document.getElementById('modalPitcherName').textContent = pitcher.player || '--';
   document.getElementById('modalMatchup').textContent = `${pitcher.team || '--'} vs ${pitcher.opponent || '--'}`;
-  document.getElementById('modalLine').textContent = pitcher.line ?? 'No line';
+  document.getElementById('modalLine').textContent = hasLine ? pitcher.line : 'No line';
   document.getElementById('modalProjection').textContent = formatValue(pitcher.projection);
   document.getElementById('modalEdge').textContent = formatValue(pitcher.edge);
-  document.getElementById('modalL10Over').textContent = `${pitcher.last10OverPct ?? 0}%`;
-  document.getElementById('modalH2HOver').textContent = `${pitcher.h2hOverPct ?? 0}%`;
+
+  document.getElementById('modalL10Over').textContent = `${calcOverPct(pitcher.last10 || [], threshold)}%`;
+  document.getElementById('modalH2HOver').textContent = `${calcOverPct(pitcher.h2h || [], threshold)}%`;
 
   const tabs = modal.querySelectorAll('.tab');
   tabs.forEach(tab => {
+    tab.classList.remove('active');
+
+    if (tab.dataset.tab === 'last10') {
+      tab.classList.add('active');
+    }
+
     tab.onclick = () => {
       tabs.forEach(t => t.classList.remove('active'));
       tab.classList.add('active');
@@ -247,6 +257,13 @@ function closePitcherModal() {
   document.getElementById('pitcherModal').hidden = true;
 }
 
+function calcOverPct(games, threshold) {
+  if (!games.length || !threshold) return 0;
+
+  const overs = games.filter(g => Number(g.k || 0) > threshold).length;
+  return Math.round((overs / games.length) * 100);
+}
+
 function renderPitcherBars(pitcher, tab) {
   const bars = document.getElementById('modalBars');
   const note = document.getElementById('modalNote');
@@ -257,12 +274,21 @@ function renderPitcherBars(pitcher, tab) {
   if (tab === 'last5') games = pitcher.last5 || [];
   if (tab === 'h2h') games = pitcher.h2h || [];
 
-  const line = Number(pitcher.line || 0);
-  const maxK = Math.max(10, ...games.map(g => Number(g.k || 0)));
+  const hasLine = pitcher.line !== null && pitcher.line !== undefined && pitcher.line !== '';
+  const threshold = hasLine ? Number(pitcher.line) : Number(pitcher.projection || 0);
+
+  const maxK = Math.max(
+    10,
+    threshold + 2,
+    ...games.map(g => Number(g.k || 0))
+  );
 
   bars.innerHTML = games.map(g => {
     const k = Number(g.k || 0);
-    const hitOver = line ? k > line : false;
+
+    // Example: 6.5 threshold = 7+ green, 6 and under red
+    const hitOver = threshold ? k > threshold : false;
+
     const width = Math.max(8, (k / maxK) * 100);
 
     return `
@@ -280,9 +306,9 @@ function renderPitcherBars(pitcher, tab) {
     bars.innerHTML = `<p class="modal-note">No games found for this split.</p>`;
   }
 
-  note.textContent = tab === 'h2h'
-    ? 'H2H means previous starts against today’s opponent.'
-    : 'Green means the pitcher went over the listed strikeout line.';
+  note.textContent = hasLine
+    ? `Green means the pitcher went over the listed strikeout line of ${pitcher.line}.`
+    : `No PrizePicks line found. Green means the pitcher went over the model projection of ${formatValue(pitcher.projection)}.`;
 }
 
 document.getElementById('search').addEventListener('input', render);
