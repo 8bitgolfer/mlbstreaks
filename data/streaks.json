@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13 05:55 UTC",
+  "updated": "2026-07-13 09:24 UTC",
   "throughDate": "2026-07-13",
   "hitStreakThroughDate": "2026-07-12",
   "hrThroughDate": "2026-07-12",
@@ -171,6 +171,21 @@
       "lastGameDate": "2026-07-12"
     },
     {
+      "player": "Isiah Kiner-Falefa",
+      "games": 6,
+      "atBats": 21,
+      "runs": 3,
+      "hits": 7,
+      "hr": 1,
+      "rbi": 1,
+      "bb": 2,
+      "k": 2,
+      "ba": ".333",
+      "oba": ".391",
+      "slug": ".476",
+      "lastGameDate": "2026-06-18"
+    },
+    {
       "player": "Yainer Diaz",
       "games": 6,
       "atBats": 20,
@@ -199,21 +214,6 @@
       "oba": ".440",
       "slug": ".762",
       "lastGameDate": "2026-07-12"
-    },
-    {
-      "player": "Isiah Kiner-Falefa",
-      "games": 6,
-      "atBats": 21,
-      "runs": 3,
-      "hits": 7,
-      "hr": 1,
-      "rbi": 1,
-      "bb": 2,
-      "k": 2,
-      "ba": ".333",
-      "oba": ".391",
-      "slug": ".476",
-      "lastGameDate": "2026-06-18"
     },
     {
       "player": "Austin Slater",
