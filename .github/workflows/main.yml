@@ -179,10 +179,10 @@ jobs:
 
               return games
 
-          def get_probable_pitchers(today_date):
+          def get_starting_pitchers_for_date(target_date):
               schedule_url = (
                   "https://statsapi.mlb.com/api/v1/schedule"
-                  f"?sportId=1&gameType=R&date={today_date}&hydrate=probablePitcher"
+                  f"?sportId=1&gameType=R&date={target_date}"
               )
 
               schedule = get_json(schedule_url)
@@ -190,28 +190,64 @@ jobs:
 
               for day in schedule.get("dates", []):
                   for game in day.get("games", []):
+                      game_pk = game.get("gamePk")
                       teams = game.get("teams", {})
+
                       home_team = teams.get("home", {}).get("team", {}).get("name", "")
                       away_team = teams.get("away", {}).get("team", {}).get("name", "")
 
-                      home_pitcher = teams.get("home", {}).get("probablePitcher")
-                      away_pitcher = teams.get("away", {}).get("probablePitcher")
+                      status = game.get("status", {})
+                      abstract_state = status.get("abstractGameState", "")
+                      detailed_state = status.get("detailedState", "")
 
-                      if home_pitcher:
+                      if not game_pk:
+                          continue
+
+                      if abstract_state != "Final" and detailed_state not in ["Final", "Completed Early"]:
+                          continue
+
+                      box_url = f"https://statsapi.mlb.com/api/v1/game/{game_pk}/boxscore"
+
+                      try:
+                          box = get_json(box_url)
+                      except Exception as e:
+                          print(f"Skipped game {game_pk}: {e}")
+                          continue
+
+                      for side in ["home", "away"]:
+                          team_data = box.get("teams", {}).get(side, {})
+                          team_name = team_data.get("team", {}).get("name", "")
+                          opponent = away_team if side == "home" else home_team
+
+                          pitcher_ids = team_data.get("pitchers", [])
+
+                          if not pitcher_ids:
+                              continue
+
+                          # First pitcher listed is the starter
+                          starter_id = str(pitcher_ids[0])
+                          players = team_data.get("players", {})
+                          starter_data = players.get(f"ID{starter_id}")
+
+                          if not starter_data:
+                              continue
+
+                          person = starter_data.get("person", {})
+                          name = person.get("fullName", "")
+
+                          if not name:
+                              continue
+
                           pitchers.append({
-                              "id": str(home_pitcher.get("id")),
-                              "player": home_pitcher.get("fullName"),
-                              "team": home_team,
-                              "opponent": away_team
+                              "id": starter_id,
+                              "player": name,
+                              "team": team_name,
+                              "opponent": opponent,
+                              "gameDate": target_date
                           })
 
-                      if away_pitcher:
-                          pitchers.append({
-                              "id": str(away_pitcher.get("id")),
-                              "player": away_pitcher.get("fullName"),
-                              "team": away_team,
-                              "opponent": home_team
-                          })
+              print(f"Using actual starting pitchers from {target_date}")
+              print(f"Found {len(pitchers)} starters")
 
               return pitchers
 
@@ -283,17 +319,14 @@ jobs:
               props = load_props()
               lines = props.get("pitcherStrikeoutLines", {})
 
-              today = through_date.isoformat()
-              probable_pitchers = get_probable_pitchers(today)
-
-              print(f"Probable pitchers date: {today}")
-              print(f"Found {len(probable_pitchers)} probable pitchers")
+              slate_date = through_date.isoformat()
+              starting_pitchers = get_starting_pitchers_for_date(slate_date)
 
               logs = build_pitching_logs(through_date)
 
               output = []
 
-              for pitcher in probable_pitchers:
+              for pitcher in starting_pitchers:
                   pid = pitcher["id"]
                   name = pitcher["player"]
                   opponent = pitcher["opponent"]
@@ -335,6 +368,7 @@ jobs:
                       "player": name,
                       "team": pitcher["team"],
                       "opponent": opponent,
+                      "gameDate": pitcher.get("gameDate", slate_date),
                       "line": line,
                       "last10Avg": l10_avg,
                       "last5Avg": l5_avg,
@@ -436,9 +470,10 @@ jobs:
 
           hits, hit_through_date = scrape_hit_streaks()
 
-          # Use the real current UTC date for MLB Stats API data.
-          # Do NOT use Baseball Musings' hit-streak date for pitcher Ks or HR streaks.
-          mlb_today = datetime.now(timezone.utc).date()
+          # TEST DATE:
+          # This forces pitcher K props to use actual starting pitchers from 2026-07-12.
+          # Change this back to datetime.now(timezone.utc).date() when regular games are back.
+          mlb_today = date(2026, 7, 12)
 
           hr = build_hr_streaks(mlb_today)
           pitcher_ks = build_pitcher_k_props(mlb_today)
