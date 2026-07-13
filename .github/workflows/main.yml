@@ -71,9 +71,9 @@ jobs:
               date_match = re.search(r"Through Games of\s+(\d{2}/\d{2}/\d{4})", text)
 
               if date_match:
-                  through_date = datetime.strptime(date_match.group(1), "%m/%d/%Y").date()
+                  hit_through_date = datetime.strptime(date_match.group(1), "%m/%d/%Y").date()
               else:
-                  through_date = date.today()
+                  hit_through_date = date.today()
 
               header_pattern = re.compile(
                   r"Player\s+Games\s+At\s+Bats\s+Runs\s+Hits\s+HR\s+RBI\s+BB\s+K\s+BA\s+OBA\s+Slug%\s+Last\s+Game\s+Date",
@@ -139,7 +139,7 @@ jobs:
                   })
 
               hits.sort(key=lambda x: x["games"], reverse=True)
-              return hits, through_date
+              return hits, hit_through_date
 
           def load_props():
               try:
@@ -222,6 +222,7 @@ jobs:
               logs = {}
 
               print(f"Building pitching logs from {len(games)} games")
+              print(f"Pitching logs date range: {start.isoformat()} to {through_date.isoformat()}")
 
               for i, game in enumerate(games, start=1):
                   box_url = f"https://statsapi.mlb.com/api/v1/game/{game['gamePk']}/boxscore"
@@ -282,8 +283,11 @@ jobs:
               props = load_props()
               lines = props.get("pitcherStrikeoutLines", {})
 
-              today = date.today().isoformat()
+              today = through_date.isoformat()
               probable_pitchers = get_probable_pitchers(today)
+
+              print(f"Probable pitchers date: {today}")
+              print(f"Found {len(probable_pitchers)} probable pitchers")
 
               logs = build_pitching_logs(through_date)
 
@@ -297,6 +301,7 @@ jobs:
                   pdata = logs.get(pid)
 
                   if not pdata:
+                      print(f"No logs found for {name}")
                       continue
 
                   games = sorted(pdata["games"], key=lambda x: x["date"], reverse=True)
@@ -354,6 +359,9 @@ jobs:
 
               player_logs = {}
 
+              print(f"Building HR streaks from {len(games)} games")
+              print(f"HR date range: {start.isoformat()} to {through_date.isoformat()}")
+
               for i, game in enumerate(games, start=1):
                   box_url = f"https://statsapi.mlb.com/api/v1/game/{game['gamePk']}/boxscore"
 
@@ -390,6 +398,8 @@ jobs:
                                   "games": []
                               }
 
+                          player_logs[player_id]["player"] = name
+                          player_logs[player_id]["team"] = team_name
                           player_logs[player_id]["games"].append({
                               "date": game["date"],
                               "hr": home_runs
@@ -424,13 +434,19 @@ jobs:
               hr_streaks.sort(key=lambda x: (x["games"], x["hr"]), reverse=True)
               return hr_streaks
 
-          hits, through_date = scrape_hit_streaks()
-          hr = build_hr_streaks(through_date)
-          pitcher_ks = build_pitcher_k_props(through_date)
+          hits, hit_through_date = scrape_hit_streaks()
+
+          # Use the real current UTC date for MLB Stats API data.
+          # Do NOT use Baseball Musings' hit-streak date for pitcher Ks or HR streaks.
+          mlb_today = datetime.now(timezone.utc).date()
+
+          hr = build_hr_streaks(mlb_today)
+          pitcher_ks = build_pitcher_k_props(mlb_today)
 
           data = {
               "updated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
-              "throughDate": through_date.isoformat(),
+              "throughDate": mlb_today.isoformat(),
+              "hitStreakThroughDate": hit_through_date.isoformat(),
               "hits": hits,
               "hr": hr,
               "pitcherKs": pitcher_ks
@@ -442,6 +458,8 @@ jobs:
           print(f"Saved {len(hits)} hit streaks")
           print(f"Saved {len(hr)} HR streaks")
           print(f"Saved {len(pitcher_ks)} pitcher K props")
+          print(f"Hit streak through date: {hit_through_date.isoformat()}")
+          print(f"MLB data through date: {mlb_today.isoformat()}")
 
           if len(hits) == 0:
               raise Exception("No hit streak data found")
