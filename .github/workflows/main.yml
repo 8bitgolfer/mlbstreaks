@@ -179,10 +179,47 @@ jobs:
 
               return games
 
-          def get_starting_pitchers_for_date(target_date):
+          def get_actual_starter_from_boxscore(game_pk, side, home_team, away_team):
+              box_url = f"https://statsapi.mlb.com/api/v1/game/{game_pk}/boxscore"
+
+              try:
+                  box = get_json(box_url)
+              except Exception as e:
+                  print(f"Could not fetch boxscore for {game_pk}: {e}")
+                  return None
+
+              team_data = box.get("teams", {}).get(side, {})
+              pitcher_ids = team_data.get("pitchers", [])
+
+              if not pitcher_ids:
+                  return None
+
+              starter_id = str(pitcher_ids[0])
+              starter_data = team_data.get("players", {}).get(f"ID{starter_id}")
+
+              if not starter_data:
+                  return None
+
+              person = starter_data.get("person", {})
+              name = person.get("fullName", "")
+
+              if not name:
+                  return None
+
+              team_name = home_team if side == "home" else away_team
+              opponent = away_team if side == "home" else home_team
+
+              return {
+                  "id": starter_id,
+                  "player": name,
+                  "team": team_name,
+                  "opponent": opponent
+              }
+
+          def get_pitchers_for_date(target_date):
               schedule_url = (
                   "https://statsapi.mlb.com/api/v1/schedule"
-                  f"?sportId=1&gameType=R&date={target_date}"
+                  f"?sportId=1&gameType=R&date={target_date}&hydrate=probablePitcher"
               )
 
               schedule = get_json(schedule_url)
@@ -196,60 +233,52 @@ jobs:
                       home_team = teams.get("home", {}).get("team", {}).get("name", "")
                       away_team = teams.get("away", {}).get("team", {}).get("name", "")
 
-                      status = game.get("status", {})
-                      abstract_state = status.get("abstractGameState", "")
-                      detailed_state = status.get("detailedState", "")
+                      home_probable = teams.get("home", {}).get("probablePitcher")
+                      away_probable = teams.get("away", {}).get("probablePitcher")
 
-                      if not game_pk:
-                          continue
-
-                      if abstract_state != "Final" and detailed_state not in ["Final", "Completed Early"]:
-                          continue
-
-                      box_url = f"https://statsapi.mlb.com/api/v1/game/{game_pk}/boxscore"
-
-                      try:
-                          box = get_json(box_url)
-                      except Exception as e:
-                          print(f"Skipped game {game_pk}: {e}")
-                          continue
-
-                      for side in ["home", "away"]:
-                          team_data = box.get("teams", {}).get(side, {})
-                          team_name = team_data.get("team", {}).get("name", "")
-                          opponent = away_team if side == "home" else home_team
-
-                          pitcher_ids = team_data.get("pitchers", [])
-
-                          if not pitcher_ids:
-                              continue
-
-                          # First pitcher listed is the starter
-                          starter_id = str(pitcher_ids[0])
-                          players = team_data.get("players", {})
-                          starter_data = players.get(f"ID{starter_id}")
-
-                          if not starter_data:
-                              continue
-
-                          person = starter_data.get("person", {})
-                          name = person.get("fullName", "")
-
-                          if not name:
-                              continue
-
+                      if home_probable:
                           pitchers.append({
-                              "id": starter_id,
-                              "player": name,
-                              "team": team_name,
-                              "opponent": opponent,
-                              "gameDate": target_date
+                              "id": str(home_probable.get("id")),
+                              "player": home_probable.get("fullName"),
+                              "team": home_team,
+                              "opponent": away_team
                           })
+                      elif game_pk:
+                          actual = get_actual_starter_from_boxscore(game_pk, "home", home_team, away_team)
+                          if actual:
+                              pitchers.append(actual)
 
-              print(f"Using actual starting pitchers from {target_date}")
-              print(f"Found {len(pitchers)} starters")
+                      if away_probable:
+                          pitchers.append({
+                              "id": str(away_probable.get("id")),
+                              "player": away_probable.get("fullName"),
+                              "team": away_team,
+                              "opponent": home_team
+                          })
+                      elif game_pk:
+                          actual = get_actual_starter_from_boxscore(game_pk, "away", home_team, away_team)
+                          if actual:
+                              pitchers.append(actual)
 
-              return pitchers
+              # Remove duplicates
+              seen = set()
+              unique = []
+
+              for p in pitchers:
+                  if not p.get("id") or not p.get("player"):
+                      continue
+
+                  key = p["id"]
+
+                  if key in seen:
+                      continue
+
+                  seen.add(key)
+                  p["gameDate"] = target_date
+                  unique.append(p)
+
+              print(f"Found {len(unique)} probable/starting pitchers for {target_date}")
+              return unique
 
           def build_pitching_logs(through_date):
               start = through_date - timedelta(days=430)
@@ -257,7 +286,7 @@ jobs:
 
               logs = {}
 
-              print(f"Building pitching logs from {len(games)} games")
+              print(f"Building pitching logs from {len(games)} completed games")
               print(f"Pitching logs date range: {start.isoformat()} to {through_date.isoformat()}")
 
               for i, game in enumerate(games, start=1):
@@ -315,14 +344,16 @@ jobs:
 
               return logs
 
-          def build_pitcher_k_props(through_date):
+          def build_pitcher_k_props(target_date):
               props = load_props()
               lines = props.get("pitcherStrikeoutLines", {})
 
-              slate_date = through_date.isoformat()
-              starting_pitchers = get_starting_pitchers_for_date(slate_date)
+              target_date_str = target_date.isoformat()
+              starting_pitchers = get_pitchers_for_date(target_date_str)
 
-              logs = build_pitching_logs(through_date)
+              # Use completed games before today for logs
+              logs_through_date = target_date - timedelta(days=1)
+              logs = build_pitching_logs(logs_through_date)
 
               output = []
 
@@ -339,6 +370,7 @@ jobs:
 
                   games = sorted(pdata["games"], key=lambda x: x["date"], reverse=True)
 
+                  # Prefer starts instead of relief appearances
                   starter_games = [g for g in games if g.get("outs", 0) >= 9]
                   if len(starter_games) >= 5:
                       games = starter_games
@@ -368,7 +400,7 @@ jobs:
                       "player": name,
                       "team": pitcher["team"],
                       "opponent": opponent,
-                      "gameDate": pitcher.get("gameDate", slate_date),
+                      "gameDate": pitcher.get("gameDate", target_date_str),
                       "line": line,
                       "last10Avg": l10_avg,
                       "last5Avg": l5_avg,
@@ -383,7 +415,13 @@ jobs:
                       "h2h": h2h
                   })
 
-              output.sort(key=lambda x: (x["edge"] if x["edge"] is not None else -999), reverse=True)
+              output.sort(
+                  key=lambda x: (
+                      x["edge"] if x["edge"] is not None else -999,
+                      x["projection"]
+                  ),
+                  reverse=True
+              )
 
               return output
 
@@ -393,7 +431,7 @@ jobs:
 
               player_logs = {}
 
-              print(f"Building HR streaks from {len(games)} games")
+              print(f"Building HR streaks from {len(games)} completed games")
               print(f"HR date range: {start.isoformat()} to {through_date.isoformat()}")
 
               for i, game in enumerate(games, start=1):
@@ -470,18 +508,21 @@ jobs:
 
           hits, hit_through_date = scrape_hit_streaks()
 
-          # TEST DATE:
-          # This forces pitcher K props to use actual starting pitchers from 2026-07-12.
-          # Change this back to datetime.now(timezone.utc).date() when regular games are back.
-          mlb_today = date(2026, 7, 12)
+          # Real current date for pitcher props
+          mlb_today = datetime.now(timezone.utc).date()
 
-          hr = build_hr_streaks(mlb_today)
+          # Use yesterday for HR streaks because today's games may not be final yet
+          completed_through_date = mlb_today - timedelta(days=1)
+
+          hr = build_hr_streaks(completed_through_date)
           pitcher_ks = build_pitcher_k_props(mlb_today)
 
           data = {
               "updated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
               "throughDate": mlb_today.isoformat(),
               "hitStreakThroughDate": hit_through_date.isoformat(),
+              "hrThroughDate": completed_through_date.isoformat(),
+              "pitcherDate": mlb_today.isoformat(),
               "hits": hits,
               "hr": hr,
               "pitcherKs": pitcher_ks
@@ -494,7 +535,8 @@ jobs:
           print(f"Saved {len(hr)} HR streaks")
           print(f"Saved {len(pitcher_ks)} pitcher K props")
           print(f"Hit streak through date: {hit_through_date.isoformat()}")
-          print(f"MLB data through date: {mlb_today.isoformat()}")
+          print(f"HR through date: {completed_through_date.isoformat()}")
+          print(f"Pitcher K date: {mlb_today.isoformat()}")
 
           if len(hits) == 0:
               raise Exception("No hit streak data found")
