@@ -1,9 +1,9 @@
 {
-  "updated": "2026-07-15 08:06 UTC",
-  "throughDate": "2026-07-15",
+  "updated": "2026-07-16 08:13 UTC",
+  "throughDate": "2026-07-16",
   "hitStreakThroughDate": "2026-07-12",
-  "hrThroughDate": "2026-07-14",
-  "pitcherDate": "2026-07-15",
+  "hrThroughDate": "2026-07-15",
+  "pitcherDate": "2026-07-16",
   "hits": [
     {
       "player": "Ben Rice",
@@ -21,21 +21,6 @@
       "lastGameDate": "2026-07-12"
     },
     {
-      "player": "Xavier Edwards",
-      "games": 8,
-      "atBats": 32,
-      "runs": 1,
-      "hits": 11,
-      "hr": 0,
-      "rbi": 3,
-      "bb": 5,
-      "k": 4,
-      "ba": ".344",
-      "oba": ".432",
-      "slug": ".406",
-      "lastGameDate": "2026-07-12"
-    },
-    {
       "player": "Wyatt Langford",
       "games": 8,
       "atBats": 34,
@@ -48,6 +33,21 @@
       "ba": ".324",
       "oba": ".378",
       "slug": ".618",
+      "lastGameDate": "2026-07-12"
+    },
+    {
+      "player": "Xavier Edwards",
+      "games": 8,
+      "atBats": 32,
+      "runs": 1,
+      "hits": 11,
+      "hr": 0,
+      "rbi": 3,
+      "bb": 5,
+      "k": 4,
+      "ba": ".344",
+      "oba": ".432",
+      "slug": ".406",
       "lastGameDate": "2026-07-12"
     },
     {
@@ -111,36 +111,6 @@
       "lastGameDate": "2026-07-12"
     },
     {
-      "player": "Jordan Walker",
-      "games": 7,
-      "atBats": 26,
-      "runs": 8,
-      "hits": 9,
-      "hr": 2,
-      "rbi": 7,
-      "bb": 1,
-      "k": 4,
-      "ba": ".346",
-      "oba": ".370",
-      "slug": ".615",
-      "lastGameDate": "2026-07-12"
-    },
-    {
-      "player": "Austin Hedges",
-      "games": 7,
-      "atBats": 22,
-      "runs": 5,
-      "hits": 9,
-      "hr": 2,
-      "rbi": 5,
-      "bb": 1,
-      "k": 5,
-      "ba": ".409",
-      "oba": ".435",
-      "slug": ".682",
-      "lastGameDate": "2026-07-10"
-    },
-    {
       "player": "CJ Abrams",
       "games": 7,
       "atBats": 26,
@@ -168,6 +138,36 @@
       "ba": ".281",
       "oba": ".281",
       "slug": ".469",
+      "lastGameDate": "2026-07-12"
+    },
+    {
+      "player": "Austin Hedges",
+      "games": 7,
+      "atBats": 22,
+      "runs": 5,
+      "hits": 9,
+      "hr": 2,
+      "rbi": 5,
+      "bb": 1,
+      "k": 5,
+      "ba": ".409",
+      "oba": ".435",
+      "slug": ".682",
+      "lastGameDate": "2026-07-10"
+    },
+    {
+      "player": "Jordan Walker",
+      "games": 7,
+      "atBats": 26,
+      "runs": 8,
+      "hits": 9,
+      "hr": 2,
+      "rbi": 7,
+      "bb": 1,
+      "k": 4,
+      "ba": ".346",
+      "oba": ".370",
+      "slug": ".615",
       "lastGameDate": "2026-07-12"
     },
     {
@@ -291,21 +291,6 @@
       "lastGameDate": "2026-07-12"
     },
     {
-      "player": "Garrett Mitchell",
-      "games": 5,
-      "atBats": 20,
-      "runs": 3,
-      "hits": 6,
-      "hr": 0,
-      "rbi": 1,
-      "bb": 1,
-      "k": 6,
-      "ba": ".300",
-      "oba": ".333",
-      "slug": ".450",
-      "lastGameDate": "2026-07-12"
-    },
-    {
       "player": "Tommy Edman",
       "games": 5,
       "atBats": 18,
@@ -333,6 +318,21 @@
       "ba": ".333",
       "oba": ".400",
       "slug": ".667",
+      "lastGameDate": "2026-07-12"
+    },
+    {
+      "player": "Garrett Mitchell",
+      "games": 5,
+      "atBats": 20,
+      "runs": 3,
+      "hits": 6,
+      "hr": 0,
+      "rbi": 1,
+      "bb": 1,
+      "k": 6,
+      "ba": ".300",
+      "oba": ".333",
+      "slug": ".450",
       "lastGameDate": "2026-07-12"
     },
     {
@@ -388,11 +388,25 @@
       "lastGameDate": "2026-07-11"
     },
     {
-      "player": "Marcell Ozuna",
-      "team": "Pittsburgh Pirates",
+      "player": "Ernie Clement",
+      "team": "Toronto Blue Jays",
       "games": 1,
       "hr": 1,
       "lastGameDate": "2026-07-12"
+    },
+    {
+      "player": "Jake McCarthy",
+      "team": "Colorado Rockies",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-07-12"
+    },
+    {
+      "player": "Adrian Del Castillo",
+      "team": "Arizona Diamondbacks",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-07-04"
     },
     {
       "player": "Samuel Basallo",
@@ -416,11 +430,32 @@
       "lastGameDate": "2026-07-11"
     },
     {
-      "player": "Ernie Clement",
-      "team": "Toronto Blue Jays",
+      "player": "Henry Davis",
+      "team": "Pittsburgh Pirates",
       "games": 1,
       "hr": 1,
       "lastGameDate": "2026-07-12"
+    },
+    {
+      "player": "Marcell Ozuna",
+      "team": "Pittsburgh Pirates",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-07-12"
+    },
+    {
+      "player": "Jonathan Aranda",
+      "team": "Tampa Bay Rays",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-07-12"
+    },
+    {
+      "player": "Owen Caissie",
+      "team": "Miami Marlins",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-07-07"
     },
     {
       "player": "Chase DeLauter",
@@ -444,32 +479,11 @@
       "lastGameDate": "2026-07-11"
     },
     {
-      "player": "Jonathan Aranda",
-      "team": "Tampa Bay Rays",
+      "player": "Jose Altuve",
+      "team": "Houston Astros",
       "games": 1,
       "hr": 1,
       "lastGameDate": "2026-07-12"
-    },
-    {
-      "player": "Owen Caissie",
-      "team": "Miami Marlins",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-07-07"
-    },
-    {
-      "player": "Brice Turang",
-      "team": "Milwaukee Brewers",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-07-12"
-    },
-    {
-      "player": "Isiah Kiner-Falefa",
-      "team": "Boston Red Sox",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-06-18"
     },
     {
       "player": "Sam Antonacci",
@@ -479,22 +493,22 @@
       "lastGameDate": "2026-07-12"
     },
     {
-      "player": "Cam Smith",
-      "team": "Houston Astros",
+      "player": "Trevor Larnach",
+      "team": "Minnesota Twins",
       "games": 1,
       "hr": 1,
       "lastGameDate": "2026-07-12"
     },
     {
-      "player": "Kyle Higashioka",
-      "team": "Texas Rangers",
+      "player": "Brice Turang",
+      "team": "Milwaukee Brewers",
       "games": 1,
       "hr": 1,
       "lastGameDate": "2026-07-12"
     },
     {
-      "player": "Jake McCarthy",
-      "team": "Colorado Rockies",
+      "player": "Randy Arozarena",
+      "team": "Seattle Mariners",
       "games": 1,
       "hr": 1,
       "lastGameDate": "2026-07-12"
@@ -514,13 +528,6 @@
       "lastGameDate": "2026-07-12"
     },
     {
-      "player": "Randy Arozarena",
-      "team": "Seattle Mariners",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-07-12"
-    },
-    {
       "player": "Shea Langeliers",
       "team": "Athletics",
       "games": 1,
@@ -528,32 +535,11 @@
       "lastGameDate": "2026-07-12"
     },
     {
-      "player": "Adrian Del Castillo",
-      "team": "Arizona Diamondbacks",
+      "player": "Isiah Kiner-Falefa",
+      "team": "Boston Red Sox",
       "games": 1,
       "hr": 1,
-      "lastGameDate": "2026-07-04"
-    },
-    {
-      "player": "Henry Davis",
-      "team": "Pittsburgh Pirates",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-07-12"
-    },
-    {
-      "player": "Jose Altuve",
-      "team": "Houston Astros",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-07-12"
-    },
-    {
-      "player": "Trevor Larnach",
-      "team": "Minnesota Twins",
-      "games": 1,
-      "hr": 1,
-      "lastGameDate": "2026-07-12"
+      "lastGameDate": "2026-06-18"
     },
     {
       "player": "Shay Whitcomb",
@@ -561,6 +547,20 @@
       "games": 1,
       "hr": 1,
       "lastGameDate": "2026-06-10"
+    },
+    {
+      "player": "Cam Smith",
+      "team": "Houston Astros",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-07-12"
+    },
+    {
+      "player": "Kyle Higashioka",
+      "team": "Texas Rangers",
+      "games": 1,
+      "hr": 1,
+      "lastGameDate": "2026-07-12"
     },
     {
       "player": "Ryan Vilade",
@@ -626,5 +626,239 @@
       "lastGameDate": "2026-07-12"
     }
   ],
-  "pitcherKs": []
+  "pitcherKs": [
+    {
+      "player": "Aaron Nola",
+      "team": "Philadelphia Phillies",
+      "opponent": "New York Mets",
+      "gameDate": "2026-07-16",
+      "line": null,
+      "last10Avg": 5.7,
+      "last5Avg": 5.0,
+      "h2hAvg": 7.0,
+      "projection": 5.7,
+      "edge": null,
+      "last10OverPct": 0,
+      "last5OverPct": 0,
+      "h2hOverPct": 0,
+      "last10": [
+        {
+          "date": "2026-05-09",
+          "team": "Philadelphia Phillies",
+          "opponent": "Colorado Rockies",
+          "k": 4,
+          "outs": 14,
+          "battersFaced": 22
+        },
+        {
+          "date": "2026-05-04",
+          "team": "Philadelphia Phillies",
+          "opponent": "Miami Marlins",
+          "k": 5,
+          "outs": 18,
+          "battersFaced": 21
+        },
+        {
+          "date": "2026-04-26",
+          "team": "Philadelphia Phillies",
+          "opponent": "Atlanta Braves",
+          "k": 6,
+          "outs": 14,
+          "battersFaced": 25
+        },
+        {
+          "date": "2026-04-20",
+          "team": "Philadelphia Phillies",
+          "opponent": "Chicago Cubs",
+          "k": 5,
+          "outs": 13,
+          "battersFaced": 22
+        },
+        {
+          "date": "2026-04-14",
+          "team": "Philadelphia Phillies",
+          "opponent": "Chicago Cubs",
+          "k": 5,
+          "outs": 15,
+          "battersFaced": 23
+        },
+        {
+          "date": "2026-04-08",
+          "team": "Philadelphia Phillies",
+          "opponent": "San Francisco Giants",
+          "k": 3,
+          "outs": 18,
+          "battersFaced": 23
+        },
+        {
+          "date": "2026-04-03",
+          "team": "Philadelphia Phillies",
+          "opponent": "Colorado Rockies",
+          "k": 9,
+          "outs": 19,
+          "battersFaced": 25
+        },
+        {
+          "date": "2026-03-28",
+          "team": "Philadelphia Phillies",
+          "opponent": "Texas Rangers",
+          "k": 7,
+          "outs": 15,
+          "battersFaced": 22
+        },
+        {
+          "date": "2025-09-26",
+          "team": "Philadelphia Phillies",
+          "opponent": "Minnesota Twins",
+          "k": 9,
+          "outs": 24,
+          "battersFaced": 26
+        },
+        {
+          "date": "2025-09-20",
+          "team": "Philadelphia Phillies",
+          "opponent": "Arizona Diamondbacks",
+          "k": 4,
+          "outs": 16,
+          "battersFaced": 24
+        }
+      ],
+      "last5": [
+        {
+          "date": "2026-05-09",
+          "team": "Philadelphia Phillies",
+          "opponent": "Colorado Rockies",
+          "k": 4,
+          "outs": 14,
+          "battersFaced": 22
+        },
+        {
+          "date": "2026-05-04",
+          "team": "Philadelphia Phillies",
+          "opponent": "Miami Marlins",
+          "k": 5,
+          "outs": 18,
+          "battersFaced": 21
+        },
+        {
+          "date": "2026-04-26",
+          "team": "Philadelphia Phillies",
+          "opponent": "Atlanta Braves",
+          "k": 6,
+          "outs": 14,
+          "battersFaced": 25
+        },
+        {
+          "date": "2026-04-20",
+          "team": "Philadelphia Phillies",
+          "opponent": "Chicago Cubs",
+          "k": 5,
+          "outs": 13,
+          "battersFaced": 22
+        },
+        {
+          "date": "2026-04-14",
+          "team": "Philadelphia Phillies",
+          "opponent": "Chicago Cubs",
+          "k": 5,
+          "outs": 15,
+          "battersFaced": 23
+        }
+      ],
+      "h2h": [
+        {
+          "date": "2025-09-08",
+          "team": "Philadelphia Phillies",
+          "opponent": "New York Mets",
+          "k": 7,
+          "outs": 18,
+          "battersFaced": 22
+        }
+      ]
+    },
+    {
+      "player": "Christian Scott",
+      "team": "New York Mets",
+      "opponent": "Philadelphia Phillies",
+      "gameDate": "2026-07-16",
+      "line": null,
+      "last10Avg": 5.2,
+      "last5Avg": 5.2,
+      "h2hAvg": 0,
+      "projection": 5.2,
+      "edge": null,
+      "last10OverPct": 0,
+      "last5OverPct": 0,
+      "h2hOverPct": 0,
+      "last10": [
+        {
+          "date": "2026-05-07",
+          "team": "New York Mets",
+          "opponent": "Colorado Rockies",
+          "k": 6,
+          "outs": 14,
+          "battersFaced": 19
+        },
+        {
+          "date": "2026-05-05",
+          "team": "New York Mets",
+          "opponent": "Colorado Rockies",
+          "k": 6,
+          "outs": 14,
+          "battersFaced": 19
+        },
+        {
+          "date": "2026-05-01",
+          "team": "New York Mets",
+          "opponent": "Los Angeles Angels",
+          "k": 8,
+          "outs": 15,
+          "battersFaced": 19
+        },
+        {
+          "date": "2026-04-23",
+          "team": "New York Mets",
+          "opponent": "Minnesota Twins",
+          "k": 1,
+          "outs": 4,
+          "battersFaced": 10
+        }
+      ],
+      "last5": [
+        {
+          "date": "2026-05-07",
+          "team": "New York Mets",
+          "opponent": "Colorado Rockies",
+          "k": 6,
+          "outs": 14,
+          "battersFaced": 19
+        },
+        {
+          "date": "2026-05-05",
+          "team": "New York Mets",
+          "opponent": "Colorado Rockies",
+          "k": 6,
+          "outs": 14,
+          "battersFaced": 19
+        },
+        {
+          "date": "2026-05-01",
+          "team": "New York Mets",
+          "opponent": "Los Angeles Angels",
+          "k": 8,
+          "outs": 15,
+          "battersFaced": 19
+        },
+        {
+          "date": "2026-04-23",
+          "team": "New York Mets",
+          "opponent": "Minnesota Twins",
+          "k": 1,
+          "outs": 4,
+          "battersFaced": 10
+        }
+      ],
+      "h2h": []
+    }
+  ]
 }
