@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MLB Streak Tracker</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div>
+      <p class="eyebrow">MLB Daily Tracker</p>
+      <h1>Today's MLB Hit Streaks & Betting Trends</h1>
+      <p class="sub">Daily MLB slate filtering for hit streaks and pitcher strikeout props, with PrizePicks lines and model edges when available.</p>
+      <p class="slate-line">Slate: <strong id="slateDate">Loading...</strong></p>
+    </div>
+    <div class="updated">Last updated: <span id="updated">Loading...</span></div>
+  </header>
+
+  <main>
+    <section class="controls">
+      <input id="search" placeholder="Search player..." />
+      <select id="view">
+        <option value="hits">Today's hit streaks</option>
+        <option value="hr">Home run streaks</option>
+        <option value="pitcherKs">Today's pitcher K props</option>
+      </select>
+    </section>
+
+    <section class="cards">
+      <div class="stat-card"><span id="leaderName">--</span><small>Current leader</small></div>
+      <div class="stat-card"><span id="leaderGames">--</span><small>Games</small></div>
+      <div class="stat-card"><span id="rowsCount">--</span><small>Players shown</small></div>
+    </section>
+
+    <section class="table-wrap">
+      <table>
+        <thead id="thead"></thead>
+        <tbody id="tbody"></tbody>
+      </table>
+      <p id="empty" class="empty" hidden>No players found.</p>
+    </section>
+  </main>
+
+  <footer>
+    Hit streak source: Baseball Musings Day By Day Database. HR streaks and pitcher game logs calculated from MLB Stats API. PrizePicks lines are best-effort and may change during the day. Model output is informational, not a guarantee.
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
