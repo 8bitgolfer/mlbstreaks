@@ -3,7 +3,7 @@ name: Update MLB streak data
 on:
   workflow_dispatch:
   schedule:
-    - cron: "15 4 * * *"
+    - cron: "15 16 * * *"
 
 permissions:
   contents: write
@@ -26,11 +26,14 @@ jobs:
           pip install requests beautifulsoup4
 
       - name: Generate MLB data
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
         run: |
           mkdir -p data
 
           python << 'EOF'
           import json
+          import os
           import re
           import time
           import requests
@@ -371,81 +374,127 @@ jobs:
               except Exception:
                   return {}
 
-          def fetch_prizepicks_pitcher_k_lines():
-              """Best-effort public-board fetch. Falls back to data/props.json if blocked."""
-              api_headers = {
-                  **HEADERS,
-                  "Accept": "application/json",
-                  "Origin": "https://app.prizepicks.com",
-                  "Referer": "https://app.prizepicks.com/"
-              }
+          def fetch_fanduel_pitcher_k_lines(target_date):
+              """Load today's FanDuel pitcher strikeout lines from The Odds API.
+
+              The events endpoint is free. The single-event odds endpoint uses one
+              credit when the requested market is returned. Manual lines in
+              data/props.json are used whenever FanDuel has no line.
+              """
+              api_key = os.getenv("ODDS_API_KEY", "").strip()
               lines = {}
-              try:
-                  leagues = requests.get(
-                      "https://api.prizepicks.com/v1/leagues",
-                      headers=api_headers,
-                      timeout=30
-                  )
-                  leagues.raise_for_status()
-                  league_rows = leagues.json().get("data", [])
-                  mlb_ids = {
-                      str(row.get("id")) for row in league_rows
-                      if "mlb" in str(row.get("attributes", {}).get("name", "")).lower()
-                  }
+              sources = {}
 
-                  projections = requests.get(
-                      "https://api.prizepicks.com/v1/projections",
-                      headers=api_headers,
-                      timeout=45
-                  )
-                  projections.raise_for_status()
-                  payload = projections.json()
-                  included = {
-                      (str(item.get("type")), str(item.get("id"))): item
-                      for item in payload.get("included", [])
-                  }
-
-                  for row in payload.get("data", []):
-                      attrs = row.get("attributes", {})
-                      stat_type = str(attrs.get("stat_type", "")).lower()
-                      if "strikeout" not in stat_type:
-                          continue
-
-                      relationships = row.get("relationships", {})
-                      league_rel = relationships.get("league", {}).get("data") or {}
-                      if mlb_ids and str(league_rel.get("id")) not in mlb_ids:
-                          continue
-
-                      player_rel = (
-                          relationships.get("new_player", {}).get("data")
-                          or relationships.get("player", {}).get("data")
-                          or {}
+              if not api_key:
+                  print("WARNING: ODDS_API_KEY is not set; using manual lines only")
+              else:
+                  try:
+                      events_response = requests.get(
+                          "https://api.the-odds-api.com/v4/sports/baseball_mlb/events",
+                          params={"apiKey": api_key, "dateFormat": "iso"},
+                          timeout=30
                       )
-                      player_obj = included.get((str(player_rel.get("type")), str(player_rel.get("id"))), {})
-                      player_attrs = player_obj.get("attributes", {})
-                      name = (
-                          player_attrs.get("name")
-                          or player_attrs.get("display_name")
-                          or attrs.get("description")
-                      )
-                      line = attrs.get("line_score")
-                      if name and line is not None:
-                          lines[normalize_player_name(name)] = float(line)
+                      events_response.raise_for_status()
+                      events = events_response.json()
 
-                  print(f"Loaded {len(lines)} MLB pitcher strikeout lines from PrizePicks")
-              except Exception as exc:
-                  print(f"WARNING: PrizePicks board fetch failed: {exc}")
+                      eastern = ZoneInfo("America/New_York")
+                      target_events = []
+                      for event in events:
+                          commence_time = event.get("commence_time")
+                          if not commence_time:
+                              continue
+                          try:
+                              event_date = datetime.fromisoformat(
+                                  commence_time.replace("Z", "+00:00")
+                              ).astimezone(eastern).date()
+                          except ValueError:
+                              continue
+                          if event_date == target_date:
+                              target_events.append(event)
+
+                      print(
+                          f"Found {len(target_events)} Odds API events for "
+                          f"{target_date.isoformat()}"
+                      )
+
+                      for event in target_events:
+                          event_id = event.get("id")
+                          if not event_id:
+                              continue
+
+                          odds_url = (
+                              "https://api.the-odds-api.com/v4/sports/baseball_mlb/"
+                              f"events/{event_id}/odds"
+                          )
+                          response = requests.get(
+                              odds_url,
+                              params={
+                                  "apiKey": api_key,
+                                  "regions": "us",
+                                  "bookmakers": "fanduel",
+                                  "markets": "pitcher_strikeouts",
+                                  "oddsFormat": "american",
+                                  "dateFormat": "iso"
+                              },
+                              timeout=30
+                          )
+
+                          print(
+                              "Odds API usage: "
+                              f"last={response.headers.get('x-requests-last', '?')} "
+                              f"used={response.headers.get('x-requests-used', '?')} "
+                              f"remaining={response.headers.get('x-requests-remaining', '?')}"
+                          )
+
+                          if response.status_code != 200:
+                              print(
+                                  f"WARNING: FanDuel props unavailable for event "
+                                  f"{event_id}: HTTP {response.status_code} "
+                                  f"{response.text[:180]}"
+                              )
+                              continue
+
+                          payload = response.json()
+                          for bookmaker in payload.get("bookmakers", []):
+                              if bookmaker.get("key") != "fanduel":
+                                  continue
+                              for market in bookmaker.get("markets", []):
+                                  if market.get("key") != "pitcher_strikeouts":
+                                      continue
+                              
+                                  # Save one shared threshold for each player. Over and
+                                  # Under outcomes normally carry the same point value.
+                                  for outcome in market.get("outcomes", []):
+                                      name = outcome.get("description")
+                                      point = outcome.get("point")
+                                      if not name or point is None:
+                                          continue
+                                      try:
+                                          key = normalize_player_name(name)
+                                          lines[key] = float(point)
+                                          sources[key] = "FanDuel"
+                                      except (TypeError, ValueError):
+                                          continue
+
+                  except Exception as exc:
+                      print(f"WARNING: FanDuel Odds API fetch failed: {exc}")
 
               manual = load_manual_props()
+              manual_count = 0
               for name, line in manual.items():
                   try:
-                      lines.setdefault(normalize_player_name(name), float(line))
+                      key = normalize_player_name(name)
+                      if key not in lines:
+                          lines[key] = float(line)
+                          sources[key] = "Manual"
+                      manual_count += 1
                   except (TypeError, ValueError):
                       pass
 
-              if manual:
-                  print(f"Loaded {len(manual)} manual fallback lines from data/props.json")
-              return lines
+              print(f"Loaded {len(lines)} total pitcher strikeout lines")
+              if manual_count:
+                  print(f"Manual fallback file contains {manual_count} valid lines")
+              return lines, sources
 
           def get_actual_starter_from_boxscore(game_pk, side, home_team, away_team):
               box_url = f"https://statsapi.mlb.com/api/v1/game/{game_pk}/boxscore"
@@ -551,7 +600,7 @@ jobs:
           def build_pitcher_k_props(target_date):
               target_date_str = target_date.isoformat()
               starting_pitchers = get_pitchers_for_date(target_date_str)
-              prizepicks_lines = fetch_prizepicks_pitcher_k_lines()
+              pitcher_lines, line_sources = fetch_fanduel_pitcher_k_lines(target_date)
               logs_through_date = target_date - timedelta(days=1)
               output = []
 
@@ -570,7 +619,8 @@ jobs:
                   l10_values = [g["k"] for g in last10]
                   l5_values = [g["k"] for g in last5]
                   h2h_values = [g["k"] for g in h2h]
-                  line = prizepicks_lines.get(normalize_player_name(name))
+                  normalized_name = normalize_player_name(name)
+                  line = pitcher_lines.get(normalized_name)
                   l10_avg = safe_avg(l10_values)
                   l5_avg = safe_avg(l5_values)
                   h2h_avg = safe_avg(h2h_values)
@@ -597,11 +647,10 @@ jobs:
                       "gameDate": target_date_str,
                       "gameTime": pitcher.get("gameTime"),
                       "line": line,
-                      "lineSource": "PrizePicks" if line is not None else None,
+                      "lineSource": line_sources.get(normalized_name),
                       "last10Avg": l10_avg,
                       "last5Avg": l5_avg,
                       "h2hAvg": h2h_avg,
-                      "h2hGames": len(h2h_values),
                       "projection": projection,
                       "edge": edge,
                       "edgeStrength": edge_strength,
