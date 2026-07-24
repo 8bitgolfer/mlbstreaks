@@ -34,6 +34,7 @@ jobs:
           import re
           import time
           import requests
+          import statistics
           from bs4 import BeautifulSoup
           from datetime import datetime, timezone, date, timedelta
           from zoneinfo import ZoneInfo
@@ -575,17 +576,40 @@ jobs:
                   l5_avg = safe_avg(l5_values)
                   h2h_avg = safe_avg(h2h_values)
 
+                  # More stable projection: recent form, longer form, matchup history,
+                  # median (outlier resistance), and a small recent-trend adjustment.
+                  l10_median = round(statistics.median(l10_values), 1) if l10_values else 0
+                  l10_std_dev = round(statistics.pstdev(l10_values), 2) if len(l10_values) > 1 else 0
+
+                  trend_difference = l5_avg - l10_avg
+                  trend_adjustment = max(-0.4, min(0.4, trend_difference * 0.15))
+                  trend = (
+                      "Trending Up" if trend_difference >= 0.5
+                      else "Trending Down" if trend_difference <= -0.5
+                      else "Neutral"
+                  )
+
+                  consistency = (
+                      "High" if l10_std_dev <= 1.5
+                      else "Medium" if l10_std_dev <= 2.5
+                      else "Low"
+                  )
+
                   if h2h_values:
-                      h2h_weight = min(0.25, 0.05 + len(h2h_values) * 0.03)
-                      projection = round(
-                          l10_avg * (0.55 - h2h_weight / 2)
-                          + l5_avg * (0.45 - h2h_weight / 2)
-                          + h2h_avg * h2h_weight,
-                          1
+                      base_projection = (
+                          l5_avg * 0.40
+                          + l10_avg * 0.25
+                          + h2h_avg * 0.15
+                          + l10_median * 0.20
                       )
                   else:
-                      projection = round(l10_avg * 0.60 + l5_avg * 0.40, 1)
+                      base_projection = (
+                          l5_avg * 0.45
+                          + l10_avg * 0.30
+                          + l10_median * 0.25
+                      )
 
+                  projection = round(base_projection + trend_adjustment, 1)
                   edge = round(projection - line, 1) if line is not None else None
                   pick = "OVER" if edge is not None and edge > 0 else "UNDER" if edge is not None and edge < 0 else "NO LINE"
                   edge_strength = abs(edge) if edge is not None else None
@@ -602,6 +626,11 @@ jobs:
                       "last5Avg": l5_avg,
                       "h2hAvg": h2h_avg,
                       "h2hGames": len(h2h_values),
+                      "last10Median": l10_median,
+                      "trend": trend,
+                      "trendAdjustment": round(trend_adjustment, 2),
+                      "consistency": consistency,
+                      "last10StdDev": l10_std_dev,
                       "projection": projection,
                       "edge": edge,
                       "edgeStrength": edge_strength,
