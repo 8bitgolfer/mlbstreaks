@@ -3,7 +3,7 @@ name: Update MLB streak data
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 6 * * *"
+    - cron: "15 4 * * *"
 
 permissions:
   contents: write
@@ -36,6 +36,7 @@ jobs:
           import requests
           from bs4 import BeautifulSoup
           from datetime import datetime, timezone, date, timedelta
+          from zoneinfo import ZoneInfo
 
           HEADERS = {
               "User-Agent": (
@@ -264,6 +265,104 @@ jobs:
               hits.sort(key=lambda x: x["games"], reverse=True)
               print(f"Parsed {len(hits)} hit streak rows")
               return hits, hit_through_date
+
+
+          def normalize_player_name(value):
+              value = str(value or "").lower().strip()
+              value = re.sub(r"[^a-z0-9]+", "", value)
+              return value
+
+          def build_daily_hit_streaks(hits, target_date):
+              schedule_url = (
+                  "https://statsapi.mlb.com/api/v1/schedule"
+                  f"?sportId=1&date={target_date}&hydrate=team"
+              )
+              schedule = get_json(schedule_url)
+
+              scheduled_teams = {}
+              matchup_by_team = {}
+
+              for day in schedule.get("dates", []):
+                  for game in day.get("games", []):
+                      teams = game.get("teams", {})
+                      home = teams.get("home", {}).get("team", {})
+                      away = teams.get("away", {}).get("team", {})
+                      home_id = home.get("id")
+                      away_id = away.get("id")
+                      home_name = home.get("name", "")
+                      away_name = away.get("name", "")
+
+                      if not home_id or not away_id:
+                          continue
+
+                      scheduled_teams[str(home_id)] = home_name
+                      scheduled_teams[str(away_id)] = away_name
+                      game_time = game.get("gameDate", "")
+
+                      matchup_by_team[str(home_id)] = {
+                          "team": home_name,
+                          "opponent": away_name,
+                          "homeAway": "home",
+                          "gameTime": game_time,
+                          "gamePk": game.get("gamePk")
+                      }
+                      matchup_by_team[str(away_id)] = {
+                          "team": away_name,
+                          "opponent": home_name,
+                          "homeAway": "away",
+                          "gameTime": game_time,
+                          "gamePk": game.get("gamePk")
+                      }
+
+              if not scheduled_teams:
+                  print(f"No MLB games found for {target_date}")
+                  return []
+
+              roster_players = {}
+
+              for team_id in scheduled_teams:
+                  roster_url = (
+                      f"https://statsapi.mlb.com/api/v1/teams/{team_id}/roster"
+                      f"?rosterType=active&date={target_date}"
+                  )
+                  try:
+                      roster = get_json(roster_url)
+                  except Exception as exc:
+                      print(f"Could not load roster for team {team_id}: {exc}")
+                      continue
+
+                  for entry in roster.get("roster", []):
+                      person = entry.get("person", {})
+                      full_name = person.get("fullName", "")
+                      key = normalize_player_name(full_name)
+                      if key:
+                          roster_players[key] = {
+                              "playerId": person.get("id"),
+                              **matchup_by_team.get(team_id, {})
+                          }
+
+              daily = []
+              unmatched = []
+
+              for streak in hits:
+                  key = normalize_player_name(streak.get("player"))
+                  matchup = roster_players.get(key)
+
+                  if not matchup:
+                      unmatched.append(streak.get("player", ""))
+                      continue
+
+                  daily.append({**streak, **matchup})
+
+              daily.sort(key=lambda row: row.get("games", 0), reverse=True)
+              print(
+                  f"Matched {len(daily)} of {len(hits)} hit-streak players "
+                  f"to teams playing on {target_date}"
+              )
+              if unmatched:
+                  print("Unmatched/not scheduled: " + ", ".join(unmatched[:20]))
+
+              return daily
 
           def load_props():
               try:
@@ -632,8 +731,9 @@ jobs:
 
           previous_data = load_previous_data()
 
-          # Real current date for pitcher props
-          mlb_today = datetime.now(timezone.utc).date()
+          # Use the current calendar day in Eastern Time for the MLB slate.
+          eastern_now = datetime.now(ZoneInfo("America/New_York"))
+          mlb_today = eastern_now.date()
 
           # Use yesterday for HR streaks because today's games may not be final yet
           completed_through_date = mlb_today - timedelta(days=1)
@@ -654,6 +754,19 @@ jobs:
               print(
                   "WARNING: Hit streak refresh failed; keeping previous hit "
                   f"streak data instead. Reason: {exc}"
+              )
+
+          try:
+              daily_hits = build_daily_hit_streaks(hits, mlb_today.isoformat())
+          except Exception as exc:
+              previous_daily_date = previous_data.get("dailyHitsDate")
+              if previous_daily_date == mlb_today.isoformat():
+                  daily_hits = previous_data.get("dailyHits", [])
+              else:
+                  daily_hits = []
+              print(
+                  "WARNING: Today's hit-streak filter failed. The workflow will "
+                  f"continue without breaking. Reason: {exc}"
               )
 
           try:
@@ -684,6 +797,8 @@ jobs:
               "hitStreakThroughDate": hit_through_date.isoformat(),
               "hrThroughDate": completed_through_date.isoformat(),
               "pitcherDate": mlb_today.isoformat(),
+              "dailyHitsDate": mlb_today.isoformat(),
+              "dailyHits": daily_hits,
               "hits": hits,
               "hr": hr,
               "pitcherKs": pitcher_ks
@@ -692,7 +807,8 @@ jobs:
           with open("data/streaks.json", "w", encoding="utf-8") as f:
               json.dump(data, f, indent=2)
 
-          print(f"Saved {len(hits)} hit streaks")
+          print(f"Saved {len(hits)} total hit streaks")
+          print(f"Saved {len(daily_hits)} hit streaks for today's slate")
           print(f"Saved {len(hr)} HR streaks")
           print(f"Saved {len(pitcher_ks)} pitcher K props")
           print(f"Hit streak through date: {hit_through_date.isoformat()}")
