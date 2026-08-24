@@ -1,10 +1,10 @@
 {
-  "updated": "2026-08-23 16:40 UTC",
-  "throughDate": "2026-08-23",
+  "updated": "2026-08-24 16:53 UTC",
+  "throughDate": "2026-08-24",
   "hitStreakThroughDate": "2026-08-22",
-  "hrThroughDate": "2026-08-22",
-  "pitcherDate": "2026-08-23",
-  "dailyHitsDate": "2026-08-23",
+  "hrThroughDate": "2026-08-23",
+  "pitcherDate": "2026-08-24",
+  "dailyHitsDate": "2026-08-24",
   "dailyHits": [
     {
       "player": "Gabriel Moreno",
@@ -22,31 +22,10 @@
       "lastGameDate": "2026-08-22",
       "playerId": 672515,
       "team": "Arizona Diamondbacks",
-      "opponent": "Cincinnati Reds",
+      "opponent": "Chicago Cubs",
       "homeAway": "home",
-      "gameTime": "2026-08-23T20:15:00Z",
-      "gamePk": 825043
-    },
-    {
-      "player": "Pete Alonso",
-      "games": 14,
-      "atBats": 54,
-      "runs": 11,
-      "hits": 26,
-      "hr": 7,
-      "rbi": 14,
-      "bb": 6,
-      "k": 10,
-      "ba": ".481",
-      "oba": ".541",
-      "slug": ".907",
-      "lastGameDate": "2026-08-22",
-      "playerId": 624413,
-      "team": "Baltimore Orioles",
-      "opponent": "Tampa Bay Rays",
-      "homeAway": "home",
-      "gameTime": "2026-08-23T17:35:00Z",
-      "gamePk": 824799
+      "gameTime": "2026-08-25T01:40:00Z",
+      "gamePk": 825041
     },
     {
       "player": "Chandler Simpson",
@@ -64,31 +43,10 @@
       "lastGameDate": "2026-08-22",
       "playerId": 802415,
       "team": "Tampa Bay Rays",
-      "opponent": "Baltimore Orioles",
+      "opponent": "Detroit Tigers",
       "homeAway": "away",
-      "gameTime": "2026-08-23T17:35:00Z",
-      "gamePk": 824799
-    },
-    {
-      "player": "Alejandro Kirk",
-      "games": 11,
-      "atBats": 43,
-      "runs": 6,
-      "hits": 17,
-      "hr": 3,
-      "rbi": 10,
-      "bb": 10,
-      "k": 3,
-      "ba": ".395",
-      "oba": ".509",
-      "slug": ".651",
-      "lastGameDate": "2026-08-22",
-      "playerId": 672386,
-      "team": "Toronto Blue Jays",
-      "opponent": "New York Yankees",
-      "homeAway": "away",
-      "gameTime": "2026-08-23T17:35:00Z",
-      "gamePk": 823507
+      "gameTime": "2026-08-24T22:40:00Z",
+      "gamePk": 824235
     },
     {
       "player": "Luis Arraez",
@@ -106,94 +64,10 @@
       "lastGameDate": "2026-08-22",
       "playerId": 650333,
       "team": "Philadelphia Phillies",
-      "opponent": "St. Louis Cardinals",
-      "homeAway": "home",
-      "gameTime": "2026-08-23T17:35:00Z",
-      "gamePk": 823421
-    },
-    {
-      "player": "Alec Burleson",
-      "games": 9,
-      "atBats": 34,
-      "runs": 10,
-      "hits": 12,
-      "hr": 2,
-      "rbi": 10,
-      "bb": 2,
-      "k": 8,
-      "ba": ".353",
-      "oba": ".405",
-      "slug": ".618",
-      "lastGameDate": "2026-08-22",
-      "playerId": 676475,
-      "team": "St. Louis Cardinals",
-      "opponent": "Philadelphia Phillies",
+      "opponent": "Seattle Mariners",
       "homeAway": "away",
-      "gameTime": "2026-08-23T17:35:00Z",
-      "gamePk": 823421
-    },
-    {
-      "player": "Vladimir Guerrero Jr.",
-      "games": 8,
-      "atBats": 34,
-      "runs": 6,
-      "hits": 11,
-      "hr": 1,
-      "rbi": 2,
-      "bb": 1,
-      "k": 3,
-      "ba": ".324",
-      "oba": ".343",
-      "slug": ".441",
-      "lastGameDate": "2026-08-22",
-      "playerId": 665489,
-      "team": "Toronto Blue Jays",
-      "opponent": "New York Yankees",
-      "homeAway": "away",
-      "gameTime": "2026-08-23T17:35:00Z",
-      "gamePk": 823507
-    },
-    {
-      "player": "Kazuma Okamoto",
-      "games": 8,
-      "atBats": 33,
-      "runs": 5,
-      "hits": 9,
-      "hr": 2,
-      "rbi": 3,
-      "bb": 1,
-      "k": 8,
-      "ba": ".273",
-      "oba": ".294",
-      "slug": ".545",
-      "lastGameDate": "2026-08-22",
-      "playerId": 672960,
-      "team": "Toronto Blue Jays",
-      "opponent": "New York Yankees",
-      "homeAway": "away",
-      "gameTime": "2026-08-23T17:35:00Z",
-      "gamePk": 823507
-    },
-    {
-      "player": "Michael Harris II",
-      "games": 7,
-      "atBats": 28,
-      "runs": 2,
-      "hits": 11,
-      "hr": 0,
-      "rbi": 2,
-      "bb": 0,
-      "k": 4,
-      "ba": ".393",
-      "oba": ".393",
-      "slug": ".571",
-      "lastGameDate": "2026-08-22",
-      "playerId": 671739,
-      "team": "Atlanta Braves",
-      "opponent": "Milwaukee Brewers",
-      "homeAway": "away",
-      "gameTime": "2026-08-23T23:10:00Z",
-      "gamePk": 823745
+      "gameTime": "2026-08-25T01:40:00Z",
+      "gamePk": 823097
     },
     {
       "player": "Sal Stewart",
@@ -211,10 +85,10 @@
       "lastGameDate": "2026-08-22",
       "playerId": 701398,
       "team": "Cincinnati Reds",
-      "opponent": "Arizona Diamondbacks",
+      "opponent": "San Francisco Giants",
       "homeAway": "away",
-      "gameTime": "2026-08-23T20:15:00Z",
-      "gamePk": 825043
+      "gameTime": "2026-08-25T01:45:00Z",
+      "gamePk": 823183
     },
     {
       "player": "Connor Norby",
@@ -232,10 +106,10 @@
       "lastGameDate": "2026-08-22",
       "playerId": 681393,
       "team": "Colorado Rockies",
-      "opponent": "Cleveland Guardians",
-      "homeAway": "home",
-      "gameTime": "2026-08-23T19:10:00Z",
-      "gamePk": 824315
+      "opponent": "Washington Nationals",
+      "homeAway": "away",
+      "gameTime": "2026-08-24T22:45:00Z",
+      "gamePk": 822695
     },
     {
       "player": "Kody Clemens",
@@ -253,10 +127,10 @@
       "lastGameDate": "2026-08-22",
       "playerId": 665019,
       "team": "Minnesota Twins",
-      "opponent": "San Diego Padres",
+      "opponent": "Athletics",
       "homeAway": "away",
-      "gameTime": "2026-08-23T20:10:00Z",
-      "gamePk": 823258
+      "gameTime": "2026-08-25T01:40:00Z",
+      "gamePk": 824964
     },
     {
       "player": "Junior Caminero",
@@ -274,31 +148,10 @@
       "lastGameDate": "2026-08-22",
       "playerId": 691406,
       "team": "Tampa Bay Rays",
-      "opponent": "Baltimore Orioles",
+      "opponent": "Detroit Tigers",
       "homeAway": "away",
-      "gameTime": "2026-08-23T17:35:00Z",
-      "gamePk": 824799
-    },
-    {
-      "player": "Cody Bellinger",
-      "games": 6,
-      "atBats": 20,
-      "runs": 3,
-      "hits": 8,
-      "hr": 0,
-      "rbi": 2,
-      "bb": 4,
-      "k": 6,
-      "ba": ".400",
-      "oba": ".500",
-      "slug": ".500",
-      "lastGameDate": "2026-07-25",
-      "playerId": 641355,
-      "team": "New York Yankees",
-      "opponent": "Toronto Blue Jays",
-      "homeAway": "home",
-      "gameTime": "2026-08-23T17:35:00Z",
-      "gamePk": 823507
+      "gameTime": "2026-08-24T22:40:00Z",
+      "gamePk": 824235
     },
     {
       "player": "Jose Fernandez",
@@ -316,31 +169,10 @@
       "lastGameDate": "2026-08-22",
       "playerId": 699912,
       "team": "Arizona Diamondbacks",
-      "opponent": "Cincinnati Reds",
+      "opponent": "Chicago Cubs",
       "homeAway": "home",
-      "gameTime": "2026-08-23T20:15:00Z",
-      "gamePk": 825043
-    },
-    {
-      "player": "Andrew Vaughn",
-      "games": 6,
-      "atBats": 17,
-      "runs": 2,
-      "hits": 7,
-      "hr": 0,
-      "rbi": 3,
-      "bb": 2,
-      "k": 2,
-      "ba": ".412",
-      "oba": ".474",
-      "slug": ".412",
-      "lastGameDate": "2026-08-22",
-      "playerId": 683734,
-      "team": "Milwaukee Brewers",
-      "opponent": "Atlanta Braves",
-      "homeAway": "home",
-      "gameTime": "2026-08-23T23:10:00Z",
-      "gamePk": 823745
+      "gameTime": "2026-08-25T01:40:00Z",
+      "gamePk": 825041
     },
     {
       "player": "Zach Neto",
@@ -358,10 +190,10 @@
       "lastGameDate": "2026-08-22",
       "playerId": 687263,
       "team": "Los Angeles Angels",
-      "opponent": "Texas Rangers",
-      "homeAway": "away",
-      "gameTime": "2026-08-23T18:35:00Z",
-      "gamePk": 822856
+      "opponent": "Cleveland Guardians",
+      "homeAway": "home",
+      "gameTime": "2026-08-25T01:38:00Z",
+      "gamePk": 823992
     },
     {
       "player": "Nick Sogard",
@@ -379,10 +211,10 @@
       "lastGameDate": "2026-08-22",
       "playerId": 686765,
       "team": "Boston Red Sox",
-      "opponent": "San Francisco Giants",
-      "homeAway": "home",
-      "gameTime": "2026-08-23T19:15:00Z",
-      "gamePk": 824720
+      "opponent": "Miami Marlins",
+      "homeAway": "away",
+      "gameTime": "2026-08-24T22:40:00Z",
+      "gamePk": 823828
     },
     {
       "player": "Luke Keaschall",
@@ -400,10 +232,10 @@
       "lastGameDate": "2026-08-22",
       "playerId": 807712,
       "team": "Minnesota Twins",
-      "opponent": "San Diego Padres",
+      "opponent": "Athletics",
       "homeAway": "away",
-      "gameTime": "2026-08-23T20:10:00Z",
-      "gamePk": 823258
+      "gameTime": "2026-08-25T01:40:00Z",
+      "gamePk": 824964
     },
     {
       "player": "Willson Contreras",
@@ -421,10 +253,10 @@
       "lastGameDate": "2026-08-22",
       "playerId": 575929,
       "team": "Boston Red Sox",
-      "opponent": "San Francisco Giants",
-      "homeAway": "home",
-      "gameTime": "2026-08-23T19:15:00Z",
-      "gamePk": 824720
+      "opponent": "Miami Marlins",
+      "homeAway": "away",
+      "gameTime": "2026-08-24T22:40:00Z",
+      "gamePk": 823828
     },
     {
       "player": "Adam Frazier",
@@ -442,10 +274,10 @@
       "lastGameDate": "2026-08-22",
       "playerId": 624428,
       "team": "Los Angeles Angels",
-      "opponent": "Texas Rangers",
-      "homeAway": "away",
-      "gameTime": "2026-08-23T18:35:00Z",
-      "gamePk": 822856
+      "opponent": "Cleveland Guardians",
+      "homeAway": "home",
+      "gameTime": "2026-08-25T01:38:00Z",
+      "gamePk": 823992
     },
     {
       "player": "Angel Genao",
@@ -463,10 +295,10 @@
       "lastGameDate": "2026-08-22",
       "playerId": 694197,
       "team": "Cleveland Guardians",
-      "opponent": "Colorado Rockies",
+      "opponent": "Los Angeles Angels",
       "homeAway": "away",
-      "gameTime": "2026-08-23T19:10:00Z",
-      "gamePk": 824315
+      "gameTime": "2026-08-25T01:38:00Z",
+      "gamePk": 823992
     },
     {
       "player": "Ty France",
@@ -484,31 +316,10 @@
       "lastGameDate": "2026-08-22",
       "playerId": 664034,
       "team": "San Diego Padres",
-      "opponent": "Minnesota Twins",
+      "opponent": "Pittsburgh Pirates",
       "homeAway": "home",
-      "gameTime": "2026-08-23T20:10:00Z",
-      "gamePk": 823258
-    },
-    {
-      "player": "Yainer Diaz",
-      "games": 5,
-      "atBats": 17,
-      "runs": 0,
-      "hits": 5,
-      "hr": 0,
-      "rbi": 1,
-      "bb": 0,
-      "k": 4,
-      "ba": ".294",
-      "oba": ".294",
-      "slug": ".353",
-      "lastGameDate": "2026-08-22",
-      "playerId": 673237,
-      "team": "Houston Astros",
-      "opponent": "Athletics",
-      "homeAway": "home",
-      "gameTime": "2026-08-23T18:10:00Z",
-      "gamePk": 824150
+      "gameTime": "2026-08-25T01:40:00Z",
+      "gamePk": 823260
     }
   ],
   "hits": [
@@ -1269,3640 +1080,2945 @@
   ],
   "pitcherKs": [
     {
-      "player": "Kyle Leahy",
-      "team": "St. Louis Cardinals",
-      "opponent": "Philadelphia Phillies",
-      "gameDate": "2026-08-23",
-      "gameTime": "2026-08-23T17:35:00Z",
-      "line": 3.5,
+      "player": "Drew Rasmussen",
+      "team": "Tampa Bay Rays",
+      "opponent": "Detroit Tigers",
+      "gameDate": "2026-08-24",
+      "gameTime": "2026-08-24T22:40:00Z",
+      "line": 4.5,
       "lineSource": "FanDuel",
-      "opponentStrikeouts": 1090,
-      "opponentKLeagueRank": 15,
-      "opponentKMatchupRank": 16,
+      "opponentStrikeouts": 1109,
+      "opponentKLeagueRank": 13,
+      "opponentKMatchupRank": 18,
       "opponentKTeamCount": 30,
-      "last10Avg": 5.2,
-      "last5Avg": 6.4,
-      "h2hAvg": 6.0,
-      "h2hGames": 1,
-      "last10Median": 5.5,
+      "last10Avg": 5.4,
+      "last5Avg": 7.0,
+      "h2hAvg": 4.5,
+      "h2hGames": 2,
+      "last10Median": 5.0,
       "trend": "Trending Up",
-      "trendAdjustment": 0.18,
-      "consistency": "Medium",
-      "last10StdDev": 2.14,
-      "projection": 6.0,
-      "edge": 2.5,
-      "edgeStrength": 2.5,
-      "matchupAdjustment": 0.03,
-      "recommendationEdge": 2.53,
-      "recommendationStrength": 2.53,
+      "trendAdjustment": 0.24,
+      "consistency": "Low",
+      "last10StdDev": 2.65,
+      "projection": 6.1,
+      "edge": 1.6,
+      "edgeStrength": 1.6,
+      "matchupAdjustment": 0.14,
+      "recommendationEdge": 1.74,
+      "recommendationStrength": 1.74,
       "pick": "OVER",
       "last10OverPct": 70,
       "last5OverPct": 80,
-      "h2hOverPct": 100,
+      "h2hOverPct": 50,
       "last10": [
         {
-          "date": "2026-08-18",
-          "opponent": "Cincinnati Reds",
-          "k": 6,
+          "date": "2026-08-19",
+          "opponent": "Toronto Blue Jays",
+          "k": 5,
           "inningsPitched": 5.0,
           "isStart": true
         },
         {
           "date": "2026-08-12",
-          "opponent": "Philadelphia Phillies",
-          "k": 6,
+          "opponent": "Athletics",
+          "k": 3,
           "inningsPitched": 5.0,
           "isStart": true
         },
         {
           "date": "2026-08-07",
-          "opponent": "Colorado Rockies",
+          "opponent": "Seattle Mariners",
           "k": 8,
-          "inningsPitched": 5.0,
+          "inningsPitched": 7.0,
           "isStart": true
         },
         {
-          "date": "2026-07-31",
-          "opponent": "Toronto Blue Jays",
-          "k": 3,
+          "date": "2026-08-01",
+          "opponent": "Chicago White Sox",
+          "k": 10,
           "inningsPitched": 6.0,
           "isStart": true
         },
         {
           "date": "2026-07-26",
-          "opponent": "Cincinnati Reds",
+          "opponent": "Cleveland Guardians",
           "k": 9,
-          "inningsPitched": 6.0,
+          "inningsPitched": 7.0,
           "isStart": true
         },
         {
-          "date": "2026-07-20",
-          "opponent": "Los Angeles Angels",
-          "k": 4,
-          "inningsPitched": 6.0,
+          "date": "2026-07-21",
+          "opponent": "Toronto Blue Jays",
+          "k": 5,
+          "inningsPitched": 5.0,
           "isStart": true
         },
         {
-          "date": "2026-07-10",
-          "opponent": "Atlanta Braves",
+          "date": "2026-07-09",
+          "opponent": "New York Yankees",
           "k": 2,
-          "inningsPitched": 3.0,
+          "inningsPitched": 2.1,
           "isStart": true
         },
         {
           "date": "2026-07-04",
-          "opponent": "Chicago Cubs",
-          "k": 6,
+          "opponent": "Houston Astros",
+          "k": 2,
           "inningsPitched": 5.0,
           "isStart": true
         },
         {
           "date": "2026-06-28",
-          "opponent": "Miami Marlins",
+          "opponent": "Arizona Diamondbacks",
           "k": 5,
-          "inningsPitched": 5.0,
+          "inningsPitched": 6.0,
           "isStart": true
         },
         {
-          "date": "2026-06-23",
-          "opponent": "Arizona Diamondbacks",
-          "k": 3,
-          "inningsPitched": 6.1,
+          "date": "2026-06-22",
+          "opponent": "Kansas City Royals",
+          "k": 5,
+          "inningsPitched": 6.0,
           "isStart": true
         }
       ],
       "last5": [
         {
-          "date": "2026-08-18",
-          "opponent": "Cincinnati Reds",
-          "k": 6,
+          "date": "2026-08-19",
+          "opponent": "Toronto Blue Jays",
+          "k": 5,
           "inningsPitched": 5.0,
           "isStart": true
         },
         {
           "date": "2026-08-12",
-          "opponent": "Philadelphia Phillies",
-          "k": 6,
+          "opponent": "Athletics",
+          "k": 3,
           "inningsPitched": 5.0,
           "isStart": true
         },
         {
           "date": "2026-08-07",
-          "opponent": "Colorado Rockies",
+          "opponent": "Seattle Mariners",
           "k": 8,
-          "inningsPitched": 5.0,
+          "inningsPitched": 7.0,
           "isStart": true
         },
         {
-          "date": "2026-07-31",
-          "opponent": "Toronto Blue Jays",
-          "k": 3,
+          "date": "2026-08-01",
+          "opponent": "Chicago White Sox",
+          "k": 10,
           "inningsPitched": 6.0,
           "isStart": true
         },
         {
           "date": "2026-07-26",
-          "opponent": "Cincinnati Reds",
+          "opponent": "Cleveland Guardians",
           "k": 9,
-          "inningsPitched": 6.0,
+          "inningsPitched": 7.0,
           "isStart": true
         }
       ],
       "h2h": [
         {
-          "date": "2026-08-12",
-          "opponent": "Philadelphia Phillies",
-          "k": 6,
+          "date": "2022-08-07",
+          "opponent": "Detroit Tigers",
+          "k": 2,
+          "inningsPitched": 3.0,
+          "isStart": true
+        },
+        {
+          "date": "2022-05-18",
+          "opponent": "Detroit Tigers",
+          "k": 7,
           "inningsPitched": 5.0,
           "isStart": true
         }
       ]
     },
     {
-      "player": "Cal Quantrill",
-      "team": "Texas Rangers",
-      "opponent": "Los Angeles Angels",
-      "gameDate": "2026-08-23",
-      "gameTime": "2026-08-23T18:35:00Z",
+      "player": "Jeffrey Springs",
+      "team": "Athletics",
+      "opponent": "Minnesota Twins",
+      "gameDate": "2026-08-24",
+      "gameTime": "2026-08-25T01:40:00Z",
       "line": 3.5,
       "lineSource": "FanDuel",
-      "opponentStrikeouts": 1226,
-      "opponentKLeagueRank": 3,
-      "opponentKMatchupRank": 28,
+      "opponentStrikeouts": 1051,
+      "opponentKLeagueRank": 22,
+      "opponentKMatchupRank": 9,
       "opponentKTeamCount": 30,
-      "last10Avg": 3.5,
-      "last5Avg": 4.6,
-      "h2hAvg": 4.3,
-      "h2hGames": 9,
-      "last10Median": 3.5,
-      "trend": "Trending Up",
-      "trendAdjustment": 0.16,
+      "last10Avg": 2.9,
+      "last5Avg": 1.8,
+      "h2hAvg": 4.0,
+      "h2hGames": 4,
+      "last10Median": 2.5,
+      "trend": "Trending Down",
+      "trendAdjustment": -0.16,
       "consistency": "Medium",
-      "last10StdDev": 2.11,
-      "projection": 4.2,
-      "edge": 0.7,
-      "edgeStrength": 0.7,
-      "matchupAdjustment": 0.69,
-      "recommendationEdge": 1.39,
-      "recommendationStrength": 1.39,
-      "pick": "OVER",
-      "last10OverPct": 50,
-      "last5OverPct": 80,
-      "h2hOverPct": 67,
+      "last10StdDev": 1.76,
+      "projection": 2.4,
+      "edge": -1.1,
+      "edgeStrength": 1.1,
+      "matchupAdjustment": -0.36,
+      "recommendationEdge": -1.46,
+      "recommendationStrength": 1.46,
+      "pick": "UNDER",
+      "last10OverPct": 40,
+      "last5OverPct": 20,
+      "h2hOverPct": 75,
       "last10": [
         {
-          "date": "2026-08-18",
-          "opponent": "Washington Nationals",
-          "k": 5,
-          "inningsPitched": 7.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-12",
-          "opponent": "Los Angeles Angels",
-          "k": 6,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-03",
-          "opponent": "San Francisco Giants",
-          "k": 4,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-28",
-          "opponent": "Tampa Bay Rays",
-          "k": 7,
-          "inningsPitched": 5.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-22",
-          "opponent": "Chicago White Sox",
+          "date": "2026-08-19",
+          "opponent": "Kansas City Royals",
           "k": 1,
-          "inningsPitched": 3.0,
+          "inningsPitched": 5.2,
           "isStart": true
         },
         {
-          "date": "2026-07-17",
-          "opponent": "Atlanta Braves",
-          "k": 3,
-          "inningsPitched": 4.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-10",
-          "opponent": "Houston Astros",
-          "k": 1,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-04",
+          "date": "2026-07-31",
           "opponent": "Detroit Tigers",
           "k": 2,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-06-27",
-          "opponent": "Toronto Blue Jays",
-          "k": 5,
           "inningsPitched": 4.0,
           "isStart": true
         },
         {
-          "date": "2026-06-23",
-          "opponent": "Miami Marlins",
-          "k": 1,
-          "inningsPitched": 2.0,
-          "isStart": true
-        }
-      ],
-      "last5": [
-        {
-          "date": "2026-08-18",
-          "opponent": "Washington Nationals",
-          "k": 5,
-          "inningsPitched": 7.0,
+          "date": "2026-07-26",
+          "opponent": "Minnesota Twins",
+          "k": 0,
+          "inningsPitched": 1.1,
           "isStart": true
         },
         {
-          "date": "2026-08-12",
-          "opponent": "Los Angeles Angels",
-          "k": 6,
+          "date": "2026-07-20",
+          "opponent": "Arizona Diamondbacks",
+          "k": 2,
           "inningsPitched": 5.0,
           "isStart": true
         },
         {
-          "date": "2026-08-03",
-          "opponent": "San Francisco Giants",
+          "date": "2026-07-08",
+          "opponent": "Detroit Tigers",
           "k": 4,
-          "inningsPitched": 6.0,
+          "inningsPitched": 4.1,
           "isStart": true
         },
         {
-          "date": "2026-07-28",
-          "opponent": "Tampa Bay Rays",
-          "k": 7,
+          "date": "2026-06-30",
+          "opponent": "Los Angeles Dodgers",
+          "k": 2,
           "inningsPitched": 5.1,
           "isStart": true
         },
         {
-          "date": "2026-07-22",
-          "opponent": "Chicago White Sox",
-          "k": 1,
-          "inningsPitched": 3.0,
-          "isStart": true
-        }
-      ],
-      "h2h": [
-        {
-          "date": "2026-08-12",
-          "opponent": "Los Angeles Angels",
+          "date": "2026-06-25",
+          "opponent": "San Francisco Giants",
           "k": 6,
-          "inningsPitched": 5.0,
+          "inningsPitched": 5.1,
           "isStart": true
         },
         {
-          "date": "2026-05-22",
-          "opponent": "Los Angeles Angels",
-          "k": 0,
-          "inningsPitched": 3.0,
-          "isStart": true
-        },
-        {
-          "date": "2025-05-24",
-          "opponent": "Los Angeles Angels",
-          "k": 2,
-          "inningsPitched": 3.1,
-          "isStart": true
-        },
-        {
-          "date": "2024-07-30",
+          "date": "2026-06-19",
           "opponent": "Los Angeles Angels",
           "k": 4,
           "inningsPitched": 3.2,
           "isStart": true
         },
         {
-          "date": "2023-09-07",
-          "opponent": "Los Angeles Angels",
-          "k": 6,
-          "inningsPitched": 6.0,
+          "date": "2026-06-14",
+          "opponent": "Colorado Rockies",
+          "k": 5,
+          "inningsPitched": 4.0,
           "isStart": true
         },
         {
-          "date": "2023-05-13",
-          "opponent": "Los Angeles Angels",
-          "k": 2,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2022-09-14",
-          "opponent": "Los Angeles Angels",
-          "k": 6,
-          "inningsPitched": 7.0,
-          "isStart": true
-        },
-        {
-          "date": "2022-04-28",
-          "opponent": "Los Angeles Angels",
-          "k": 4,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2021-08-22",
-          "opponent": "Los Angeles Angels",
-          "k": 9,
-          "inningsPitched": 7.0,
-          "isStart": true
-        }
-      ]
-    },
-    {
-      "player": "Bryce Miller",
-      "team": "Seattle Mariners",
-      "opponent": "Chicago Cubs",
-      "gameDate": "2026-08-23",
-      "gameTime": "2026-08-23T20:10:00Z",
-      "line": 5.5,
-      "lineSource": "FanDuel",
-      "opponentStrikeouts": 1122,
-      "opponentKLeagueRank": 7,
-      "opponentKMatchupRank": 24,
-      "opponentKTeamCount": 30,
-      "last10Avg": 5.1,
-      "last5Avg": 3.2,
-      "h2hAvg": 4.0,
-      "h2hGames": 1,
-      "last10Median": 5.0,
-      "trend": "Trending Down",
-      "trendAdjustment": -0.28,
-      "consistency": "Low",
-      "last10StdDev": 2.95,
-      "projection": 3.9,
-      "edge": -1.6,
-      "edgeStrength": 1.6,
-      "matchupAdjustment": 0.47,
-      "recommendationEdge": -1.13,
-      "recommendationStrength": 1.13,
-      "pick": "UNDER",
-      "last10OverPct": 40,
-      "last5OverPct": 0,
-      "h2hOverPct": 0,
-      "last10": [
-        {
-          "date": "2026-08-18",
+          "date": "2026-06-08",
           "opponent": "Milwaukee Brewers",
           "k": 3,
-          "inningsPitched": 4.2,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-12",
-          "opponent": "New York Yankees",
-          "k": 5,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-06",
-          "opponent": "Detroit Tigers",
-          "k": 5,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-31",
-          "opponent": "Minnesota Twins",
-          "k": 3,
-          "inningsPitched": 5.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-24",
-          "opponent": "Texas Rangers",
-          "k": 0,
-          "inningsPitched": 5.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-17",
-          "opponent": "San Francisco Giants",
-          "k": 6,
-          "inningsPitched": 5.2,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-09",
-          "opponent": "Miami Marlins",
-          "k": 3,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-02",
-          "opponent": "Los Angeles Angels",
-          "k": 8,
-          "inningsPitched": 7.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-06-25",
-          "opponent": "Pittsburgh Pirates",
-          "k": 11,
-          "inningsPitched": 5.2,
-          "isStart": true
-        },
-        {
-          "date": "2026-06-19",
-          "opponent": "Boston Red Sox",
-          "k": 7,
           "inningsPitched": 5.0,
           "isStart": true
         }
       ],
       "last5": [
         {
-          "date": "2026-08-18",
-          "opponent": "Milwaukee Brewers",
-          "k": 3,
-          "inningsPitched": 4.2,
+          "date": "2026-08-19",
+          "opponent": "Kansas City Royals",
+          "k": 1,
+          "inningsPitched": 5.2,
           "isStart": true
         },
         {
-          "date": "2026-08-12",
+          "date": "2026-07-31",
+          "opponent": "Detroit Tigers",
+          "k": 2,
+          "inningsPitched": 4.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-26",
+          "opponent": "Minnesota Twins",
+          "k": 0,
+          "inningsPitched": 1.1,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-20",
+          "opponent": "Arizona Diamondbacks",
+          "k": 2,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-08",
+          "opponent": "Detroit Tigers",
+          "k": 4,
+          "inningsPitched": 4.1,
+          "isStart": true
+        }
+      ],
+      "h2h": [
+        {
+          "date": "2026-07-26",
+          "opponent": "Minnesota Twins",
+          "k": 0,
+          "inningsPitched": 1.1,
+          "isStart": true
+        },
+        {
+          "date": "2025-06-04",
+          "opponent": "Minnesota Twins",
+          "k": 7,
+          "inningsPitched": 6.2,
+          "isStart": true
+        },
+        {
+          "date": "2024-09-03",
+          "opponent": "Minnesota Twins",
+          "k": 4,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2022-06-12",
+          "opponent": "Minnesota Twins",
+          "k": 5,
+          "inningsPitched": 5.1,
+          "isStart": true
+        }
+      ]
+    },
+    {
+      "player": "Cade Cavalli",
+      "team": "Washington Nationals",
+      "opponent": "Colorado Rockies",
+      "gameDate": "2026-08-24",
+      "gameTime": "2026-08-24T22:45:00Z",
+      "line": 6.5,
+      "lineSource": "FanDuel",
+      "opponentStrikeouts": 1125,
+      "opponentKLeagueRank": 9,
+      "opponentKMatchupRank": 22,
+      "opponentKTeamCount": 30,
+      "last10Avg": 7.3,
+      "last5Avg": 7.0,
+      "h2hAvg": 8.0,
+      "h2hGames": 1,
+      "last10Median": 8.0,
+      "trend": "Neutral",
+      "trendAdjustment": -0.04,
+      "consistency": "Low",
+      "last10StdDev": 3.44,
+      "projection": 7.4,
+      "edge": 0.9,
+      "edgeStrength": 0.9,
+      "matchupAdjustment": 0.36,
+      "recommendationEdge": 1.26,
+      "recommendationStrength": 1.26,
+      "pick": "OVER",
+      "last10OverPct": 60,
+      "last5OverPct": 60,
+      "h2hOverPct": 100,
+      "last10": [
+        {
+          "date": "2026-08-19",
+          "opponent": "Texas Rangers",
+          "k": 11,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-13",
+          "opponent": "Chicago Cubs",
+          "k": 10,
+          "inningsPitched": 8.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-07",
+          "opponent": "Cincinnati Reds",
+          "k": 8,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-02",
+          "opponent": "Atlanta Braves",
+          "k": 3,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-28",
+          "opponent": "Toronto Blue Jays",
+          "k": 3,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-22",
+          "opponent": "Colorado Rockies",
+          "k": 8,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-17",
+          "opponent": "Athletics",
+          "k": 9,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-12",
           "opponent": "New York Yankees",
           "k": 5,
           "inningsPitched": 6.0,
           "isStart": true
         },
         {
-          "date": "2026-08-06",
-          "opponent": "Detroit Tigers",
-          "k": 5,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-31",
-          "opponent": "Minnesota Twins",
+          "date": "2026-07-05",
+          "opponent": "Pittsburgh Pirates",
           "k": 3,
-          "inningsPitched": 5.1,
+          "inningsPitched": 2.1,
           "isStart": true
         },
         {
-          "date": "2026-07-24",
+          "date": "2026-06-30",
+          "opponent": "Boston Red Sox",
+          "k": 13,
+          "inningsPitched": 7.0,
+          "isStart": true
+        }
+      ],
+      "last5": [
+        {
+          "date": "2026-08-19",
           "opponent": "Texas Rangers",
-          "k": 0,
-          "inningsPitched": 5.1,
+          "k": 11,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-13",
+          "opponent": "Chicago Cubs",
+          "k": 10,
+          "inningsPitched": 8.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-07",
+          "opponent": "Cincinnati Reds",
+          "k": 8,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-02",
+          "opponent": "Atlanta Braves",
+          "k": 3,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-28",
+          "opponent": "Toronto Blue Jays",
+          "k": 3,
+          "inningsPitched": 6.0,
           "isStart": true
         }
       ],
       "h2h": [
         {
-          "date": "2024-04-12",
-          "opponent": "Chicago Cubs",
-          "k": 4,
-          "inningsPitched": 6.1,
+          "date": "2026-07-22",
+          "opponent": "Colorado Rockies",
+          "k": 8,
+          "inningsPitched": 6.0,
           "isStart": true
         }
       ]
     },
     {
-      "player": "Shane Drohan",
-      "team": "Milwaukee Brewers",
-      "opponent": "Atlanta Braves",
-      "gameDate": "2026-08-23",
-      "gameTime": "2026-08-23T23:10:00Z",
+      "player": "Braxton Ashcraft",
+      "team": "Pittsburgh Pirates",
+      "opponent": "San Diego Padres",
+      "gameDate": "2026-08-24",
+      "gameTime": "2026-08-25T01:40:00Z",
       "line": 4.5,
       "lineSource": "FanDuel",
-      "opponentStrikeouts": 1052,
-      "opponentKLeagueRank": 21,
-      "opponentKMatchupRank": 10,
+      "opponentStrikeouts": 1061,
+      "opponentKLeagueRank": 20,
+      "opponentKMatchupRank": 11,
       "opponentKTeamCount": 30,
-      "last10Avg": 5.4,
-      "last5Avg": 6.2,
+      "last10Avg": 6.2,
+      "last5Avg": 5.8,
       "h2hAvg": 0,
       "h2hGames": 0,
       "last10Median": 5.5,
-      "trend": "Trending Up",
-      "trendAdjustment": 0.12,
+      "trend": "Neutral",
+      "trendAdjustment": -0.06,
       "consistency": "Medium",
-      "last10StdDev": 1.96,
-      "projection": 5.9,
-      "edge": 1.4,
-      "edgeStrength": 1.4,
-      "matchupAdjustment": -0.3,
-      "recommendationEdge": 1.1,
-      "recommendationStrength": 1.1,
+      "last10StdDev": 2.44,
+      "projection": 5.8,
+      "edge": 1.3,
+      "edgeStrength": 1.3,
+      "matchupAdjustment": -0.25,
+      "recommendationEdge": 1.05,
+      "recommendationStrength": 1.05,
       "pick": "OVER",
-      "last10OverPct": 70,
+      "last10OverPct": 80,
       "last5OverPct": 80,
       "h2hOverPct": 0,
       "last10": [
         {
+          "date": "2026-08-18",
+          "opponent": "Detroit Tigers",
+          "k": 4,
+          "inningsPitched": 8.0,
+          "isStart": true
+        },
+        {
           "date": "2026-08-13",
-          "opponent": "Los Angeles Dodgers",
+          "opponent": "Miami Marlins",
+          "k": 10,
+          "inningsPitched": 9.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-06",
+          "opponent": "Milwaukee Brewers",
+          "k": 5,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-01",
+          "opponent": "Cincinnati Reds",
+          "k": 5,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-26",
+          "opponent": "Chicago Cubs",
+          "k": 5,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-20",
+          "opponent": "New York Yankees",
+          "k": 2,
+          "inningsPitched": 3.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-11",
+          "opponent": "Milwaukee Brewers",
+          "k": 6,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-04",
+          "opponent": "Washington Nationals",
+          "k": 7,
+          "inningsPitched": 5.2,
+          "isStart": true
+        },
+        {
+          "date": "2026-06-29",
+          "opponent": "Philadelphia Phillies",
+          "k": 8,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-06-24",
+          "opponent": "Seattle Mariners",
+          "k": 10,
+          "inningsPitched": 6.0,
+          "isStart": true
+        }
+      ],
+      "last5": [
+        {
+          "date": "2026-08-18",
+          "opponent": "Detroit Tigers",
+          "k": 4,
+          "inningsPitched": 8.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-13",
+          "opponent": "Miami Marlins",
+          "k": 10,
+          "inningsPitched": 9.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-06",
+          "opponent": "Milwaukee Brewers",
+          "k": 5,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-01",
+          "opponent": "Cincinnati Reds",
+          "k": 5,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-26",
+          "opponent": "Chicago Cubs",
+          "k": 5,
+          "inningsPitched": 6.0,
+          "isStart": true
+        }
+      ],
+      "h2h": []
+    },
+    {
+      "player": "Kumar Rocker",
+      "team": "Texas Rangers",
+      "opponent": "Chicago White Sox",
+      "gameDate": "2026-08-24",
+      "gameTime": "2026-08-24T23:40:00Z",
+      "line": 4.5,
+      "lineSource": "FanDuel",
+      "opponentStrikeouts": 1187,
+      "opponentKLeagueRank": 6,
+      "opponentKMatchupRank": 25,
+      "opponentKTeamCount": 30,
+      "last10Avg": 5.3,
+      "last5Avg": 4.6,
+      "h2hAvg": 6.0,
+      "h2hGames": 2,
+      "last10Median": 5.0,
+      "trend": "Trending Down",
+      "trendAdjustment": -0.11,
+      "consistency": "Medium",
+      "last10StdDev": 1.73,
+      "projection": 5.0,
+      "edge": 0.5,
+      "edgeStrength": 0.5,
+      "matchupAdjustment": 0.52,
+      "recommendationEdge": 1.02,
+      "recommendationStrength": 1.02,
+      "pick": "OVER",
+      "last10OverPct": 70,
+      "last5OverPct": 60,
+      "h2hOverPct": 100,
+      "last10": [
+        {
+          "date": "2026-08-19",
+          "opponent": "Washington Nationals",
+          "k": 3,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-14",
+          "opponent": "Athletics",
+          "k": 3,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-09",
+          "opponent": "Baltimore Orioles",
+          "k": 5,
+          "inningsPitched": 3.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-02",
+          "opponent": "Houston Astros",
           "k": 5,
           "inningsPitched": 5.1,
           "isStart": true
         },
         {
-          "date": "2026-08-07",
-          "opponent": "Minnesota Twins",
-          "k": 4,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-31",
-          "opponent": "Los Angeles Angels",
+          "date": "2026-07-27",
+          "opponent": "Seattle Mariners",
           "k": 7,
-          "inningsPitched": 6.0,
+          "inningsPitched": 6.2,
           "isStart": true
         },
         {
-          "date": "2026-07-24",
-          "opponent": "Colorado Rockies",
+          "date": "2026-07-21",
+          "opponent": "Chicago White Sox",
           "k": 6,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-18",
-          "opponent": "Miami Marlins",
-          "k": 9,
           "inningsPitched": 6.0,
           "isStart": true
         },
         {
           "date": "2026-07-11",
-          "opponent": "Pittsburgh Pirates",
+          "opponent": "Houston Astros",
           "k": 6,
-          "inningsPitched": 6.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-06",
-          "opponent": "St. Louis Cardinals",
-          "k": 2,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-01",
-          "opponent": "Cincinnati Reds",
-          "k": 7,
           "inningsPitched": 5.2,
           "isStart": true
         },
         {
-          "date": "2026-06-24",
-          "opponent": "Cincinnati Reds",
-          "k": 5,
+          "date": "2026-07-05",
+          "opponent": "Detroit Tigers",
+          "k": 4,
           "inningsPitched": 4.1,
           "isStart": true
         },
         {
-          "date": "2026-06-18",
-          "opponent": "Cleveland Guardians",
-          "k": 3,
-          "inningsPitched": 5.0,
-          "isStart": true
-        }
-      ],
-      "last5": [
-        {
-          "date": "2026-08-13",
-          "opponent": "Los Angeles Dodgers",
+          "date": "2026-06-28",
+          "opponent": "Toronto Blue Jays",
           "k": 5,
-          "inningsPitched": 5.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-07",
-          "opponent": "Minnesota Twins",
-          "k": 4,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-31",
-          "opponent": "Los Angeles Angels",
-          "k": 7,
           "inningsPitched": 6.0,
           "isStart": true
         },
         {
-          "date": "2026-07-24",
-          "opponent": "Colorado Rockies",
-          "k": 6,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-18",
+          "date": "2026-06-22",
           "opponent": "Miami Marlins",
           "k": 9,
-          "inningsPitched": 6.0,
-          "isStart": true
-        }
-      ],
-      "h2h": []
-    },
-    {
-      "player": "Nick Martinez",
-      "team": "Tampa Bay Rays",
-      "opponent": "Baltimore Orioles",
-      "gameDate": "2026-08-23",
-      "gameTime": "2026-08-23T17:35:00Z",
-      "line": 3.5,
-      "lineSource": "FanDuel",
-      "opponentStrikeouts": 1197,
-      "opponentKLeagueRank": 4,
-      "opponentKMatchupRank": 27,
-      "opponentKTeamCount": 30,
-      "last10Avg": 3.3,
-      "last5Avg": 4.2,
-      "h2hAvg": 0,
-      "h2hGames": 0,
-      "last10Median": 3.5,
-      "trend": "Trending Up",
-      "trendAdjustment": 0.14,
-      "consistency": "Medium",
-      "last10StdDev": 1.73,
-      "projection": 3.9,
-      "edge": 0.4,
-      "edgeStrength": 0.4,
-      "matchupAdjustment": 0.63,
-      "recommendationEdge": 1.03,
-      "recommendationStrength": 1.03,
-      "pick": "OVER",
-      "last10OverPct": 50,
-      "last5OverPct": 80,
-      "h2hOverPct": 0,
-      "last10": [
-        {
-          "date": "2026-08-18",
-          "opponent": "Toronto Blue Jays",
-          "k": 5,
-          "inningsPitched": 3.2,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-11",
-          "opponent": "Athletics",
-          "k": 5,
-          "inningsPitched": 9.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-05",
-          "opponent": "Colorado Rockies",
-          "k": 4,
-          "inningsPitched": 5.2,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-31",
-          "opponent": "Chicago White Sox",
-          "k": 2,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-25",
-          "opponent": "Cleveland Guardians",
-          "k": 5,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-20",
-          "opponent": "Toronto Blue Jays",
-          "k": 0,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-10",
-          "opponent": "Seattle Mariners",
-          "k": 1,
-          "inningsPitched": 5.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-03",
-          "opponent": "Houston Astros",
-          "k": 3,
-          "inningsPitched": 5.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-06-26",
-          "opponent": "Arizona Diamondbacks",
-          "k": 3,
-          "inningsPitched": 5.2,
-          "isStart": true
-        },
-        {
-          "date": "2026-06-21",
-          "opponent": "Washington Nationals",
-          "k": 5,
-          "inningsPitched": 6.0,
-          "isStart": true
-        }
-      ],
-      "last5": [
-        {
-          "date": "2026-08-18",
-          "opponent": "Toronto Blue Jays",
-          "k": 5,
-          "inningsPitched": 3.2,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-11",
-          "opponent": "Athletics",
-          "k": 5,
-          "inningsPitched": 9.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-05",
-          "opponent": "Colorado Rockies",
-          "k": 4,
-          "inningsPitched": 5.2,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-31",
-          "opponent": "Chicago White Sox",
-          "k": 2,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-25",
-          "opponent": "Cleveland Guardians",
-          "k": 5,
-          "inningsPitched": 6.0,
-          "isStart": true
-        }
-      ],
-      "h2h": []
-    },
-    {
-      "player": "Blake Snell",
-      "team": "Los Angeles Dodgers",
-      "opponent": "Pittsburgh Pirates",
-      "gameDate": "2026-08-23",
-      "gameTime": "2026-08-23T20:10:00Z",
-      "line": 8.5,
-      "lineSource": "FanDuel",
-      "opponentStrikeouts": 1237,
-      "opponentKLeagueRank": 1,
-      "opponentKMatchupRank": 30,
-      "opponentKTeamCount": 30,
-      "last10Avg": 7.0,
-      "last5Avg": 7.4,
-      "h2hAvg": 5.2,
-      "h2hGames": 5,
-      "last10Median": 5.5,
-      "trend": "Neutral",
-      "trendAdjustment": 0.06,
-      "consistency": "Low",
-      "last10StdDev": 2.9,
-      "projection": 6.7,
-      "edge": -1.8,
-      "edgeStrength": 1.8,
-      "matchupAdjustment": 0.8,
-      "recommendationEdge": -1.0,
-      "recommendationStrength": 1.0,
-      "pick": "UNDER",
-      "last10OverPct": 30,
-      "last5OverPct": 40,
-      "h2hOverPct": 20,
-      "last10": [
-        {
-          "date": "2026-08-17",
-          "opponent": "Colorado Rockies",
-          "k": 5,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-11",
-          "opponent": "Kansas City Royals",
-          "k": 10,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-05-09",
-          "opponent": "Atlanta Braves",
-          "k": 5,
-          "inningsPitched": 3.0,
-          "isStart": true
-        },
-        {
-          "date": "2025-09-24",
-          "opponent": "Arizona Diamondbacks",
-          "k": 5,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2025-09-17",
-          "opponent": "Philadelphia Phillies",
-          "k": 12,
-          "inningsPitched": 7.0,
-          "isStart": true
-        },
-        {
-          "date": "2025-09-10",
-          "opponent": "Colorado Rockies",
-          "k": 11,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2025-09-04",
-          "opponent": "Pittsburgh Pirates",
-          "k": 6,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2025-08-29",
-          "opponent": "Arizona Diamondbacks",
-          "k": 8,
-          "inningsPitched": 5.1,
-          "isStart": true
-        },
-        {
-          "date": "2025-08-22",
-          "opponent": "San Diego Padres",
-          "k": 5,
-          "inningsPitched": 7.0,
-          "isStart": true
-        },
-        {
-          "date": "2025-08-16",
-          "opponent": "San Diego Padres",
-          "k": 3,
-          "inningsPitched": 6.0,
-          "isStart": true
-        }
-      ],
-      "last5": [
-        {
-          "date": "2026-08-17",
-          "opponent": "Colorado Rockies",
-          "k": 5,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-11",
-          "opponent": "Kansas City Royals",
-          "k": 10,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-05-09",
-          "opponent": "Atlanta Braves",
-          "k": 5,
-          "inningsPitched": 3.0,
-          "isStart": true
-        },
-        {
-          "date": "2025-09-24",
-          "opponent": "Arizona Diamondbacks",
-          "k": 5,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2025-09-17",
-          "opponent": "Philadelphia Phillies",
-          "k": 12,
-          "inningsPitched": 7.0,
-          "isStart": true
-        }
-      ],
-      "h2h": [
-        {
-          "date": "2025-09-04",
-          "opponent": "Pittsburgh Pirates",
-          "k": 6,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2024-05-22",
-          "opponent": "Pittsburgh Pirates",
-          "k": 5,
-          "inningsPitched": 3.1,
-          "isStart": true
-        },
-        {
-          "date": "2023-07-25",
-          "opponent": "Pittsburgh Pirates",
-          "k": 4,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2023-06-28",
-          "opponent": "Pittsburgh Pirates",
-          "k": 10,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2021-04-13",
-          "opponent": "Pittsburgh Pirates",
-          "k": 1,
-          "inningsPitched": 0.2,
-          "isStart": true
-        }
-      ]
-    },
-    {
-      "player": "Cristian Javier",
-      "team": "Houston Astros",
-      "opponent": "Athletics",
-      "gameDate": "2026-08-23",
-      "gameTime": "2026-08-23T18:10:00Z",
-      "line": 4.5,
-      "lineSource": "FanDuel",
-      "opponentStrikeouts": 1104,
-      "opponentKLeagueRank": 11,
-      "opponentKMatchupRank": 20,
-      "opponentKTeamCount": 30,
-      "last10Avg": 3.2,
-      "last5Avg": 4.0,
-      "h2hAvg": 3.0,
-      "h2hGames": 2,
-      "last10Median": 3.0,
-      "trend": "Trending Up",
-      "trendAdjustment": 0.12,
-      "consistency": "Medium",
-      "last10StdDev": 1.83,
-      "projection": 3.6,
-      "edge": -0.9,
-      "edgeStrength": 0.9,
-      "matchupAdjustment": 0.25,
-      "recommendationEdge": -0.65,
-      "recommendationStrength": 0.65,
-      "pick": "UNDER",
-      "last10OverPct": 20,
-      "last5OverPct": 40,
-      "h2hOverPct": 0,
-      "last10": [
-        {
-          "date": "2026-08-18",
-          "opponent": "Los Angeles Angels",
-          "k": 5,
-          "inningsPitched": 4.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-09",
-          "opponent": "San Diego Padres",
-          "k": 2,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-03",
-          "opponent": "Toronto Blue Jays",
-          "k": 2,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-27",
-          "opponent": "Los Angeles Angels",
-          "k": 7,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-12",
-          "opponent": "Texas Rangers",
-          "k": 4,
-          "inningsPitched": 3.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-04-08",
-          "opponent": "Colorado Rockies",
-          "k": 1,
-          "inningsPitched": 1.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-04-03",
-          "opponent": "Athletics",
-          "k": 2,
-          "inningsPitched": 3.2,
-          "isStart": true
-        },
-        {
-          "date": "2026-03-28",
-          "opponent": "Los Angeles Angels",
-          "k": 1,
-          "inningsPitched": 4.2,
-          "isStart": true
-        },
-        {
-          "date": "2025-09-23",
-          "opponent": "Athletics",
-          "k": 4,
-          "inningsPitched": 4.2,
-          "isStart": true
-        },
-        {
-          "date": "2025-09-17",
-          "opponent": "Texas Rangers",
-          "k": 4,
-          "inningsPitched": 6.0,
-          "isStart": true
-        }
-      ],
-      "last5": [
-        {
-          "date": "2026-08-18",
-          "opponent": "Los Angeles Angels",
-          "k": 5,
-          "inningsPitched": 4.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-09",
-          "opponent": "San Diego Padres",
-          "k": 2,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-03",
-          "opponent": "Toronto Blue Jays",
-          "k": 2,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-27",
-          "opponent": "Los Angeles Angels",
-          "k": 7,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-12",
-          "opponent": "Texas Rangers",
-          "k": 4,
-          "inningsPitched": 3.0,
-          "isStart": true
-        }
-      ],
-      "h2h": [
-        {
-          "date": "2026-04-03",
-          "opponent": "Athletics",
-          "k": 2,
-          "inningsPitched": 3.2,
-          "isStart": true
-        },
-        {
-          "date": "2025-09-23",
-          "opponent": "Athletics",
-          "k": 4,
-          "inningsPitched": 4.2,
-          "isStart": true
-        }
-      ]
-    },
-    {
-      "player": "Tomoyuki Sugano",
-      "team": "Colorado Rockies",
-      "opponent": "Cleveland Guardians",
-      "gameDate": "2026-08-23",
-      "gameTime": "2026-08-23T19:10:00Z",
-      "line": 2.5,
-      "lineSource": "FanDuel",
-      "opponentStrikeouts": 1055,
-      "opponentKLeagueRank": 20,
-      "opponentKMatchupRank": 11,
-      "opponentKTeamCount": 30,
-      "last10Avg": 3.3,
-      "last5Avg": 3.6,
-      "h2hAvg": 3.5,
-      "h2hGames": 2,
-      "last10Median": 3.0,
-      "trend": "Neutral",
-      "trendAdjustment": 0.05,
-      "consistency": "High",
-      "last10StdDev": 1.19,
-      "projection": 3.4,
-      "edge": 0.9,
-      "edgeStrength": 0.9,
-      "matchupAdjustment": -0.25,
-      "recommendationEdge": 0.65,
-      "recommendationStrength": 0.65,
-      "pick": "OVER",
-      "last10OverPct": 70,
-      "last5OverPct": 80,
-      "h2hOverPct": 100,
-      "last10": [
-        {
-          "date": "2026-08-17",
-          "opponent": "Los Angeles Dodgers",
-          "k": 3,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-11",
-          "opponent": "Arizona Diamondbacks",
-          "k": 5,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-05",
-          "opponent": "Tampa Bay Rays",
-          "k": 3,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-31",
-          "opponent": "Kansas City Royals",
-          "k": 2,
-          "inningsPitched": 6.2,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-24",
-          "opponent": "Milwaukee Brewers",
-          "k": 5,
-          "inningsPitched": 5.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-18",
-          "opponent": "Cincinnati Reds",
-          "k": 3,
-          "inningsPitched": 6.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-06-26",
-          "opponent": "Minnesota Twins",
-          "k": 2,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-06-20",
-          "opponent": "Pittsburgh Pirates",
-          "k": 5,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-06-14",
-          "opponent": "Athletics",
-          "k": 2,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-06-09",
-          "opponent": "Chicago Cubs",
-          "k": 3,
           "inningsPitched": 5.0,
           "isStart": true
         }
       ],
       "last5": [
         {
-          "date": "2026-08-17",
-          "opponent": "Los Angeles Dodgers",
-          "k": 3,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-11",
-          "opponent": "Arizona Diamondbacks",
-          "k": 5,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-05",
-          "opponent": "Tampa Bay Rays",
-          "k": 3,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-31",
-          "opponent": "Kansas City Royals",
-          "k": 2,
-          "inningsPitched": 6.2,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-24",
-          "opponent": "Milwaukee Brewers",
-          "k": 5,
-          "inningsPitched": 5.1,
-          "isStart": true
-        }
-      ],
-      "h2h": [
-        {
-          "date": "2025-07-21",
-          "opponent": "Cleveland Guardians",
-          "k": 4,
-          "inningsPitched": 3.2,
-          "isStart": true
-        },
-        {
-          "date": "2025-04-17",
-          "opponent": "Cleveland Guardians",
-          "k": 3,
-          "inningsPitched": 7.0,
-          "isStart": true
-        }
-      ]
-    },
-    {
-      "player": "Mitch Bratt",
-      "team": "Arizona Diamondbacks",
-      "opponent": "Cincinnati Reds",
-      "gameDate": "2026-08-23",
-      "gameTime": "2026-08-23T20:15:00Z",
-      "line": 3.5,
-      "lineSource": "FanDuel",
-      "opponentStrikeouts": 1236,
-      "opponentKLeagueRank": 2,
-      "opponentKMatchupRank": 29,
-      "opponentKTeamCount": 30,
-      "last10Avg": 3.1,
-      "last5Avg": 3.6,
-      "h2hAvg": 0,
-      "h2hGames": 0,
-      "last10Median": 3.0,
-      "trend": "Trending Up",
-      "trendAdjustment": 0.07,
-      "consistency": "Low",
-      "last10StdDev": 2.67,
-      "projection": 3.4,
-      "edge": -0.1,
-      "edgeStrength": 0.1,
-      "matchupAdjustment": 0.74,
-      "recommendationEdge": 0.64,
-      "recommendationStrength": 0.64,
-      "pick": "OVER",
-      "last10OverPct": 38,
-      "last5OverPct": 40,
-      "h2hOverPct": 0,
-      "last10": [
-        {
-          "date": "2026-08-17",
-          "opponent": "Boston Red Sox",
-          "k": 0,
-          "inningsPitched": 3.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-11",
-          "opponent": "Colorado Rockies",
-          "k": 4,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-05",
-          "opponent": "San Diego Padres",
-          "k": 9,
-          "inningsPitched": 7.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-31",
-          "opponent": "Cleveland Guardians",
-          "k": 2,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-25",
+          "date": "2026-08-19",
           "opponent": "Washington Nationals",
           "k": 3,
           "inningsPitched": 5.0,
           "isStart": true
         },
-        {
-          "date": "2026-07-20",
-          "opponent": "Athletics",
-          "k": 4,
-          "inningsPitched": 4.2,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-12",
-          "opponent": "Los Angeles Dodgers",
-          "k": 0,
-          "inningsPitched": 3.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-06-24",
-          "opponent": "St. Louis Cardinals",
-          "k": 3,
-          "inningsPitched": 3.0,
-          "isStart": true
-        }
-      ],
-      "last5": [
-        {
-          "date": "2026-08-17",
-          "opponent": "Boston Red Sox",
-          "k": 0,
-          "inningsPitched": 3.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-11",
-          "opponent": "Colorado Rockies",
-          "k": 4,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-05",
-          "opponent": "San Diego Padres",
-          "k": 9,
-          "inningsPitched": 7.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-31",
-          "opponent": "Cleveland Guardians",
-          "k": 2,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-25",
-          "opponent": "Washington Nationals",
-          "k": 3,
-          "inningsPitched": 5.0,
-          "isStart": true
-        }
-      ],
-      "h2h": []
-    },
-    {
-      "player": "Yusei Kikuchi",
-      "team": "Los Angeles Angels",
-      "opponent": "Texas Rangers",
-      "gameDate": "2026-08-23",
-      "gameTime": "2026-08-23T18:35:00Z",
-      "line": 4.5,
-      "lineSource": "FanDuel",
-      "opponentStrikeouts": 1109,
-      "opponentKLeagueRank": 10,
-      "opponentKMatchupRank": 21,
-      "opponentKTeamCount": 30,
-      "last10Avg": 4.4,
-      "last5Avg": 5.0,
-      "h2hAvg": 5.1,
-      "h2hGames": 9,
-      "last10Median": 4.0,
-      "trend": "Trending Up",
-      "trendAdjustment": 0.09,
-      "consistency": "Medium",
-      "last10StdDev": 2.29,
-      "projection": 4.8,
-      "edge": 0.3,
-      "edgeStrength": 0.3,
-      "matchupAdjustment": 0.3,
-      "recommendationEdge": 0.6,
-      "recommendationStrength": 0.6,
-      "pick": "OVER",
-      "last10OverPct": 50,
-      "last5OverPct": 60,
-      "h2hOverPct": 67,
-      "last10": [
-        {
-          "date": "2026-04-29",
-          "opponent": "Chicago White Sox",
-          "k": 1,
-          "inningsPitched": 2.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-04-24",
-          "opponent": "Kansas City Royals",
-          "k": 5,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-04-18",
-          "opponent": "San Diego Padres",
-          "k": 8,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-04-13",
-          "opponent": "New York Yankees",
-          "k": 3,
-          "inningsPitched": 3.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-04-07",
-          "opponent": "Atlanta Braves",
-          "k": 8,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-04-01",
-          "opponent": "Chicago Cubs",
-          "k": 5,
-          "inningsPitched": 5.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-03-27",
-          "opponent": "Houston Astros",
-          "k": 3,
-          "inningsPitched": 4.1,
-          "isStart": true
-        },
-        {
-          "date": "2025-09-24",
-          "opponent": "Kansas City Royals",
-          "k": 6,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2025-09-18",
-          "opponent": "Milwaukee Brewers",
-          "k": 2,
-          "inningsPitched": 5.2,
-          "isStart": true
-        },
-        {
-          "date": "2025-09-12",
-          "opponent": "Seattle Mariners",
-          "k": 3,
-          "inningsPitched": 6.0,
-          "isStart": true
-        }
-      ],
-      "last5": [
-        {
-          "date": "2026-04-29",
-          "opponent": "Chicago White Sox",
-          "k": 1,
-          "inningsPitched": 2.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-04-24",
-          "opponent": "Kansas City Royals",
-          "k": 5,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-04-18",
-          "opponent": "San Diego Padres",
-          "k": 8,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-04-13",
-          "opponent": "New York Yankees",
-          "k": 3,
-          "inningsPitched": 3.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-04-07",
-          "opponent": "Atlanta Braves",
-          "k": 8,
-          "inningsPitched": 5.0,
-          "isStart": true
-        }
-      ],
-      "h2h": [
-        {
-          "date": "2025-08-26",
-          "opponent": "Texas Rangers",
-          "k": 3,
-          "inningsPitched": 4.0,
-          "isStart": true
-        },
-        {
-          "date": "2025-07-29",
-          "opponent": "Texas Rangers",
-          "k": 5,
-          "inningsPitched": 5.1,
-          "isStart": true
-        },
-        {
-          "date": "2025-07-07",
-          "opponent": "Texas Rangers",
-          "k": 4,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2025-04-15",
-          "opponent": "Texas Rangers",
-          "k": 6,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2024-08-07",
-          "opponent": "Texas Rangers",
-          "k": 8,
-          "inningsPitched": 5.1,
-          "isStart": true
-        },
-        {
-          "date": "2024-07-26",
-          "opponent": "Texas Rangers",
-          "k": 5,
-          "inningsPitched": 4.2,
-          "isStart": true
-        },
-        {
-          "date": "2023-09-13",
-          "opponent": "Texas Rangers",
-          "k": 3,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2021-05-30",
-          "opponent": "Texas Rangers",
-          "k": 5,
-          "inningsPitched": 6.2,
-          "isStart": true
-        },
-        {
-          "date": "2020-09-04",
-          "opponent": "Texas Rangers",
-          "k": 7,
-          "inningsPitched": 6.0,
-          "isStart": true
-        }
-      ]
-    },
-    {
-      "player": "Shota Imanaga",
-      "team": "Chicago Cubs",
-      "opponent": "Seattle Mariners",
-      "gameDate": "2026-08-23",
-      "gameTime": "2026-08-23T20:10:00Z",
-      "line": 5.5,
-      "lineSource": "FanDuel",
-      "opponentStrikeouts": 1120,
-      "opponentKLeagueRank": 8,
-      "opponentKMatchupRank": 23,
-      "opponentKTeamCount": 30,
-      "last10Avg": 5.6,
-      "last5Avg": 6.2,
-      "h2hAvg": 4.0,
-      "h2hGames": 1,
-      "last10Median": 5.0,
-      "trend": "Trending Up",
-      "trendAdjustment": 0.09,
-      "consistency": "Medium",
-      "last10StdDev": 1.91,
-      "projection": 5.6,
-      "edge": 0.1,
-      "edgeStrength": 0.1,
-      "matchupAdjustment": 0.41,
-      "recommendationEdge": 0.51,
-      "recommendationStrength": 0.51,
-      "pick": "OVER",
-      "last10OverPct": 40,
-      "last5OverPct": 60,
-      "h2hOverPct": 0,
-      "last10": [
-        {
-          "date": "2026-08-17",
-          "opponent": "Chicago White Sox",
-          "k": 10,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-11",
-          "opponent": "Washington Nationals",
-          "k": 5,
-          "inningsPitched": 4.2,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-05",
-          "opponent": "Los Angeles Dodgers",
-          "k": 6,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-31",
-          "opponent": "New York Yankees",
-          "k": 6,
-          "inningsPitched": 6.2,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-25",
-          "opponent": "Pittsburgh Pirates",
-          "k": 4,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-19",
-          "opponent": "Minnesota Twins",
-          "k": 4,
-          "inningsPitched": 7.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-10",
-          "opponent": "Cincinnati Reds",
-          "k": 5,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-04",
-          "opponent": "St. Louis Cardinals",
-          "k": 8,
-          "inningsPitched": 4.2,
-          "isStart": true
-        },
-        {
-          "date": "2026-06-29",
-          "opponent": "San Diego Padres",
-          "k": 4,
-          "inningsPitched": 6.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-06-24",
-          "opponent": "New York Mets",
-          "k": 4,
-          "inningsPitched": 5.1,
-          "isStart": true
-        }
-      ],
-      "last5": [
-        {
-          "date": "2026-08-17",
-          "opponent": "Chicago White Sox",
-          "k": 10,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-11",
-          "opponent": "Washington Nationals",
-          "k": 5,
-          "inningsPitched": 4.2,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-05",
-          "opponent": "Los Angeles Dodgers",
-          "k": 6,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-31",
-          "opponent": "New York Yankees",
-          "k": 6,
-          "inningsPitched": 6.2,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-25",
-          "opponent": "Pittsburgh Pirates",
-          "k": 4,
-          "inningsPitched": 6.0,
-          "isStart": true
-        }
-      ],
-      "h2h": [
-        {
-          "date": "2024-04-13",
-          "opponent": "Seattle Mariners",
-          "k": 4,
-          "inningsPitched": 5.1,
-          "isStart": true
-        }
-      ]
-    },
-    {
-      "player": "Shane Baz",
-      "team": "Baltimore Orioles",
-      "opponent": "Tampa Bay Rays",
-      "gameDate": "2026-08-23",
-      "gameTime": "2026-08-23T17:35:00Z",
-      "line": 4.5,
-      "lineSource": "FanDuel",
-      "opponentStrikeouts": 913,
-      "opponentKLeagueRank": 30,
-      "opponentKMatchupRank": 1,
-      "opponentKTeamCount": 30,
-      "last10Avg": 5.6,
-      "last5Avg": 5.4,
-      "h2hAvg": 7.5,
-      "h2hGames": 2,
-      "last10Median": 5.5,
-      "trend": "Neutral",
-      "trendAdjustment": -0.03,
-      "consistency": "Low",
-      "last10StdDev": 2.8,
-      "projection": 5.8,
-      "edge": 1.3,
-      "edgeStrength": 1.3,
-      "matchupAdjustment": -0.8,
-      "recommendationEdge": 0.5,
-      "recommendationStrength": 0.5,
-      "pick": "OVER",
-      "last10OverPct": 60,
-      "last5OverPct": 40,
-      "h2hOverPct": 100,
-      "last10": [
-        {
-          "date": "2026-08-18",
-          "opponent": "New York Yankees",
-          "k": 10,
-          "inningsPitched": 6.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-12",
-          "opponent": "Minnesota Twins",
-          "k": 2,
-          "inningsPitched": 3.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-07",
-          "opponent": "Texas Rangers",
-          "k": 9,
-          "inningsPitched": 8.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-01",
-          "opponent": "Philadelphia Phillies",
-          "k": 4,
-          "inningsPitched": 6.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-26",
-          "opponent": "Atlanta Braves",
-          "k": 2,
-          "inningsPitched": 4.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-20",
-          "opponent": "Boston Red Sox",
-          "k": 6,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-12",
-          "opponent": "Kansas City Royals",
-          "k": 9,
-          "inningsPitched": 4.2,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-07",
-          "opponent": "Chicago Cubs",
-          "k": 3,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-06-29",
-          "opponent": "Chicago White Sox",
-          "k": 6,
-          "inningsPitched": 7.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-06-23",
-          "opponent": "Los Angeles Angels",
-          "k": 5,
-          "inningsPitched": 5.0,
-          "isStart": true
-        }
-      ],
-      "last5": [
-        {
-          "date": "2026-08-18",
-          "opponent": "New York Yankees",
-          "k": 10,
-          "inningsPitched": 6.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-12",
-          "opponent": "Minnesota Twins",
-          "k": 2,
-          "inningsPitched": 3.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-07",
-          "opponent": "Texas Rangers",
-          "k": 9,
-          "inningsPitched": 8.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-01",
-          "opponent": "Philadelphia Phillies",
-          "k": 4,
-          "inningsPitched": 6.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-26",
-          "opponent": "Atlanta Braves",
-          "k": 2,
-          "inningsPitched": 4.1,
-          "isStart": true
-        }
-      ],
-      "h2h": [
-        {
-          "date": "2026-05-26",
-          "opponent": "Tampa Bay Rays",
-          "k": 9,
-          "inningsPitched": 7.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-05-20",
-          "opponent": "Tampa Bay Rays",
-          "k": 6,
-          "inningsPitched": 6.0,
-          "isStart": true
-        }
-      ]
-    },
-    {
-      "player": "Bailey Ober",
-      "team": "Minnesota Twins",
-      "opponent": "San Diego Padres",
-      "gameDate": "2026-08-23",
-      "gameTime": "2026-08-23T20:10:00Z",
-      "line": 3.5,
-      "lineSource": "FanDuel",
-      "opponentStrikeouts": 1056,
-      "opponentKLeagueRank": 19,
-      "opponentKMatchupRank": 12,
-      "opponentKTeamCount": 30,
-      "last10Avg": 3.2,
-      "last5Avg": 2.6,
-      "h2hAvg": 5.5,
-      "h2hGames": 2,
-      "last10Median": 3.0,
-      "trend": "Trending Down",
-      "trendAdjustment": -0.09,
-      "consistency": "Medium",
-      "last10StdDev": 1.89,
-      "projection": 3.2,
-      "edge": -0.3,
-      "edgeStrength": 0.3,
-      "matchupAdjustment": -0.19,
-      "recommendationEdge": -0.49,
-      "recommendationStrength": 0.49,
-      "pick": "UNDER",
-      "last10OverPct": 40,
-      "last5OverPct": 40,
-      "h2hOverPct": 100,
-      "last10": [
-        {
-          "date": "2026-08-17",
-          "opponent": "Atlanta Braves",
-          "k": 4,
-          "inningsPitched": 4.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-11",
-          "opponent": "Baltimore Orioles",
-          "k": 4,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-06",
-          "opponent": "Kansas City Royals",
-          "k": 0,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-30",
-          "opponent": "Kansas City Royals",
-          "k": 3,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-22",
-          "opponent": "Cleveland Guardians",
-          "k": 2,
-          "inningsPitched": 4.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-17",
-          "opponent": "Chicago Cubs",
-          "k": 7,
-          "inningsPitched": 5.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-09",
-          "opponent": "Cleveland Guardians",
-          "k": 5,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-05-30",
-          "opponent": "Pittsburgh Pirates",
-          "k": 3,
-          "inningsPitched": 4.2,
-          "isStart": true
-        },
-        {
-          "date": "2026-05-24",
-          "opponent": "Boston Red Sox",
-          "k": 3,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-05-17",
-          "opponent": "Milwaukee Brewers",
-          "k": 1,
-          "inningsPitched": 5.0,
-          "isStart": true
-        }
-      ],
-      "last5": [
-        {
-          "date": "2026-08-17",
-          "opponent": "Atlanta Braves",
-          "k": 4,
-          "inningsPitched": 4.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-11",
-          "opponent": "Baltimore Orioles",
-          "k": 4,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-06",
-          "opponent": "Kansas City Royals",
-          "k": 0,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-30",
-          "opponent": "Kansas City Royals",
-          "k": 3,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-22",
-          "opponent": "Cleveland Guardians",
-          "k": 2,
-          "inningsPitched": 4.0,
-          "isStart": true
-        }
-      ],
-      "h2h": [
-        {
-          "date": "2024-08-20",
-          "opponent": "San Diego Padres",
-          "k": 5,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2023-05-11",
-          "opponent": "San Diego Padres",
-          "k": 6,
-          "inningsPitched": 6.0,
-          "isStart": true
-        }
-      ]
-    },
-    {
-      "player": "Jake Bennett",
-      "team": "Boston Red Sox",
-      "opponent": "San Francisco Giants",
-      "gameDate": "2026-08-23",
-      "gameTime": "2026-08-23T19:15:00Z",
-      "line": 4.5,
-      "lineSource": "FanDuel",
-      "opponentStrikeouts": 1029,
-      "opponentKLeagueRank": 24,
-      "opponentKMatchupRank": 7,
-      "opponentKTeamCount": 30,
-      "last10Avg": 4.8,
-      "last5Avg": 4.6,
-      "h2hAvg": 0,
-      "h2hGames": 0,
-      "last10Median": 4.0,
-      "trend": "Neutral",
-      "trendAdjustment": -0.03,
-      "consistency": "Medium",
-      "last10StdDev": 1.72,
-      "projection": 4.5,
-      "edge": 0.0,
-      "edgeStrength": 0.0,
-      "matchupAdjustment": -0.47,
-      "recommendationEdge": -0.47,
-      "recommendationStrength": 0.47,
-      "pick": "UNDER",
-      "last10OverPct": 40,
-      "last5OverPct": 40,
-      "h2hOverPct": 0,
-      "last10": [
         {
           "date": "2026-08-14",
-          "opponent": "Pittsburgh Pirates",
-          "k": 6,
-          "inningsPitched": 4.0,
+          "opponent": "Athletics",
+          "k": 3,
+          "inningsPitched": 5.0,
           "isStart": true
         },
         {
-          "date": "2026-08-08",
-          "opponent": "Athletics",
+          "date": "2026-08-09",
+          "opponent": "Baltimore Orioles",
           "k": 5,
-          "inningsPitched": 5.1,
+          "inningsPitched": 3.0,
           "isStart": true
         },
         {
           "date": "2026-08-02",
-          "opponent": "Los Angeles Dodgers",
-          "k": 4,
-          "inningsPitched": 5.2,
+          "opponent": "Houston Astros",
+          "k": 5,
+          "inningsPitched": 5.1,
           "isStart": true
         },
         {
-          "date": "2026-07-28",
-          "opponent": "Athletics",
-          "k": 4,
-          "inningsPitched": 6.1,
+          "date": "2026-07-27",
+          "opponent": "Seattle Mariners",
+          "k": 7,
+          "inningsPitched": 6.2,
           "isStart": true
-        },
+        }
+      ],
+      "h2h": [
         {
-          "date": "2026-07-22",
-          "opponent": "Baltimore Orioles",
-          "k": 4,
-          "inningsPitched": 5.2,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-17",
-          "opponent": "Tampa Bay Rays",
-          "k": 3,
+          "date": "2026-07-21",
+          "opponent": "Chicago White Sox",
+          "k": 6,
           "inningsPitched": 6.0,
           "isStart": true
         },
         {
-          "date": "2026-07-08",
+          "date": "2025-06-15",
           "opponent": "Chicago White Sox",
-          "k": 4,
+          "k": 6,
+          "inningsPitched": 5.0,
+          "isStart": true
+        }
+      ]
+    },
+    {
+      "player": "Parker Messick",
+      "team": "Cleveland Guardians",
+      "opponent": "Los Angeles Angels",
+      "gameDate": "2026-08-24",
+      "gameTime": "2026-08-25T01:38:00Z",
+      "line": 6.5,
+      "lineSource": "FanDuel",
+      "opponentStrikeouts": 1236,
+      "opponentKLeagueRank": 3,
+      "opponentKMatchupRank": 28,
+      "opponentKTeamCount": 30,
+      "last10Avg": 6.1,
+      "last5Avg": 7.2,
+      "h2hAvg": 7.0,
+      "h2hGames": 1,
+      "last10Median": 6.0,
+      "trend": "Trending Up",
+      "trendAdjustment": 0.17,
+      "consistency": "Low",
+      "last10StdDev": 2.66,
+      "projection": 6.8,
+      "edge": 0.3,
+      "edgeStrength": 0.3,
+      "matchupAdjustment": 0.69,
+      "recommendationEdge": 0.99,
+      "recommendationStrength": 0.99,
+      "pick": "OVER",
+      "last10OverPct": 30,
+      "last5OverPct": 40,
+      "h2hOverPct": 100,
+      "last10": [
+        {
+          "date": "2026-08-19",
+          "opponent": "San Francisco Giants",
+          "k": 10,
+          "inningsPitched": 6.2,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-13",
+          "opponent": "Detroit Tigers",
+          "k": 6,
+          "inningsPitched": 5.2,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-07",
+          "opponent": "Chicago White Sox",
+          "k": 8,
           "inningsPitched": 7.0,
           "isStart": true
         },
         {
-          "date": "2026-07-03",
-          "opponent": "Los Angeles Angels",
+          "date": "2026-08-01",
+          "opponent": "Arizona Diamondbacks",
+          "k": 6,
+          "inningsPitched": 4.1,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-26",
+          "opponent": "Tampa Bay Rays",
           "k": 6,
           "inningsPitched": 7.2,
           "isStart": true
         },
         {
-          "date": "2026-06-27",
-          "opponent": "New York Yankees",
-          "k": 3,
-          "inningsPitched": 6.1,
+          "date": "2026-07-21",
+          "opponent": "Minnesota Twins",
+          "k": 6,
+          "inningsPitched": 5.2,
           "isStart": true
         },
         {
-          "date": "2026-06-22",
-          "opponent": "Colorado Rockies",
-          "k": 9,
+          "date": "2026-07-10",
+          "opponent": "Miami Marlins",
+          "k": 1,
           "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-04",
+          "opponent": "Chicago White Sox",
+          "k": 3,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-06-29",
+          "opponent": "Texas Rangers",
+          "k": 5,
+          "inningsPitched": 6.2,
+          "isStart": true
+        },
+        {
+          "date": "2026-06-23",
+          "opponent": "Chicago White Sox",
+          "k": 10,
+          "inningsPitched": 7.2,
           "isStart": true
         }
       ],
       "last5": [
         {
-          "date": "2026-08-14",
-          "opponent": "Pittsburgh Pirates",
+          "date": "2026-08-19",
+          "opponent": "San Francisco Giants",
+          "k": 10,
+          "inningsPitched": 6.2,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-13",
+          "opponent": "Detroit Tigers",
           "k": 6,
+          "inningsPitched": 5.2,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-07",
+          "opponent": "Chicago White Sox",
+          "k": 8,
+          "inningsPitched": 7.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-01",
+          "opponent": "Arizona Diamondbacks",
+          "k": 6,
+          "inningsPitched": 4.1,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-26",
+          "opponent": "Tampa Bay Rays",
+          "k": 6,
+          "inningsPitched": 7.2,
+          "isStart": true
+        }
+      ],
+      "h2h": [
+        {
+          "date": "2026-05-13",
+          "opponent": "Los Angeles Angels",
+          "k": 7,
+          "inningsPitched": 6.2,
+          "isStart": true
+        }
+      ]
+    },
+    {
+      "player": "Merrill Kelly",
+      "team": "Arizona Diamondbacks",
+      "opponent": "Chicago Cubs",
+      "gameDate": "2026-08-24",
+      "gameTime": "2026-08-25T01:40:00Z",
+      "line": 3.5,
+      "lineSource": "FanDuel",
+      "opponentStrikeouts": 1129,
+      "opponentKLeagueRank": 7,
+      "opponentKMatchupRank": 24,
+      "opponentKTeamCount": 30,
+      "last10Avg": 4.0,
+      "last5Avg": 3.8,
+      "h2hAvg": 4.5,
+      "h2hGames": 8,
+      "last10Median": 3.5,
+      "trend": "Neutral",
+      "trendAdjustment": -0.03,
+      "consistency": "Medium",
+      "last10StdDev": 1.55,
+      "projection": 3.9,
+      "edge": 0.4,
+      "edgeStrength": 0.4,
+      "matchupAdjustment": 0.47,
+      "recommendationEdge": 0.87,
+      "recommendationStrength": 0.87,
+      "pick": "OVER",
+      "last10OverPct": 50,
+      "last5OverPct": 60,
+      "h2hOverPct": 75,
+      "last10": [
+        {
+          "date": "2026-08-18",
+          "opponent": "Boston Red Sox",
+          "k": 2,
           "inningsPitched": 4.0,
           "isStart": true
         },
         {
-          "date": "2026-08-08",
-          "opponent": "Athletics",
-          "k": 5,
-          "inningsPitched": 5.1,
+          "date": "2026-08-12",
+          "opponent": "Colorado Rockies",
+          "k": 2,
+          "inningsPitched": 5.0,
           "isStart": true
         },
         {
-          "date": "2026-08-02",
+          "date": "2026-08-07",
           "opponent": "Los Angeles Dodgers",
           "k": 4,
           "inningsPitched": 5.2,
           "isStart": true
         },
         {
-          "date": "2026-07-28",
-          "opponent": "Athletics",
-          "k": 4,
-          "inningsPitched": 6.1,
+          "date": "2026-08-02",
+          "opponent": "Cleveland Guardians",
+          "k": 5,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-27",
+          "opponent": "Pittsburgh Pirates",
+          "k": 6,
+          "inningsPitched": 5.2,
           "isStart": true
         },
         {
           "date": "2026-07-22",
-          "opponent": "Baltimore Orioles",
+          "opponent": "Athletics",
+          "k": 3,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-17",
+          "opponent": "St. Louis Cardinals",
+          "k": 3,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-09",
+          "opponent": "San Diego Padres",
+          "k": 6,
+          "inningsPitched": 7.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-04",
+          "opponent": "Milwaukee Brewers",
+          "k": 6,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-06-28",
+          "opponent": "Tampa Bay Rays",
+          "k": 3,
+          "inningsPitched": 6.0,
+          "isStart": true
+        }
+      ],
+      "last5": [
+        {
+          "date": "2026-08-18",
+          "opponent": "Boston Red Sox",
+          "k": 2,
+          "inningsPitched": 4.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-12",
+          "opponent": "Colorado Rockies",
+          "k": 2,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-07",
+          "opponent": "Los Angeles Dodgers",
           "k": 4,
           "inningsPitched": 5.2,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-02",
+          "opponent": "Cleveland Guardians",
+          "k": 5,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-27",
+          "opponent": "Pittsburgh Pirates",
+          "k": 6,
+          "inningsPitched": 5.2,
+          "isStart": true
+        }
+      ],
+      "h2h": [
+        {
+          "date": "2026-05-03",
+          "opponent": "Chicago Cubs",
+          "k": 5,
+          "inningsPitched": 4.1,
+          "isStart": true
+        },
+        {
+          "date": "2025-04-20",
+          "opponent": "Chicago Cubs",
+          "k": 5,
+          "inningsPitched": 5.2,
+          "isStart": true
+        },
+        {
+          "date": "2025-03-28",
+          "opponent": "Chicago Cubs",
+          "k": 1,
+          "inningsPitched": 5.1,
+          "isStart": true
+        },
+        {
+          "date": "2024-04-15",
+          "opponent": "Chicago Cubs",
+          "k": 5,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2023-09-09",
+          "opponent": "Chicago Cubs",
+          "k": 6,
+          "inningsPitched": 5.2,
+          "isStart": true
+        },
+        {
+          "date": "2022-05-22",
+          "opponent": "Chicago Cubs",
+          "k": 2,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2021-07-24",
+          "opponent": "Chicago Cubs",
+          "k": 6,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2021-07-18",
+          "opponent": "Chicago Cubs",
+          "k": 6,
+          "inningsPitched": 8.0,
+          "isStart": true
+        }
+      ]
+    },
+    {
+      "player": "Zack Wheeler",
+      "team": "Philadelphia Phillies",
+      "opponent": "Seattle Mariners",
+      "gameDate": "2026-08-24",
+      "gameTime": "2026-08-25T01:40:00Z",
+      "line": 7.5,
+      "lineSource": "FanDuel",
+      "opponentStrikeouts": 1128,
+      "opponentKLeagueRank": 8,
+      "opponentKMatchupRank": 23,
+      "opponentKTeamCount": 30,
+      "last10Avg": 7.5,
+      "last5Avg": 5.4,
+      "h2hAvg": 9.0,
+      "h2hGames": 1,
+      "last10Median": 6.5,
+      "trend": "Trending Down",
+      "trendAdjustment": -0.31,
+      "consistency": "Low",
+      "last10StdDev": 3.07,
+      "projection": 6.4,
+      "edge": -1.1,
+      "edgeStrength": 1.1,
+      "matchupAdjustment": 0.41,
+      "recommendationEdge": -0.69,
+      "recommendationStrength": 0.69,
+      "pick": "UNDER",
+      "last10OverPct": 40,
+      "last5OverPct": 0,
+      "h2hOverPct": 100,
+      "last10": [
+        {
+          "date": "2026-08-18",
+          "opponent": "Miami Marlins",
+          "k": 7,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-12",
+          "opponent": "St. Louis Cardinals",
+          "k": 5,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-07",
+          "opponent": "Toronto Blue Jays",
+          "k": 6,
+          "inningsPitched": 5.1,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-02",
+          "opponent": "Baltimore Orioles",
+          "k": 3,
+          "inningsPitched": 2.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-27",
+          "opponent": "Miami Marlins",
+          "k": 6,
+          "inningsPitched": 3.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-21",
+          "opponent": "Los Angeles Dodgers",
+          "k": 9,
+          "inningsPitched": 7.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-12",
+          "opponent": "Detroit Tigers",
+          "k": 10,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-07",
+          "opponent": "Cincinnati Reds",
+          "k": 14,
+          "inningsPitched": 7.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-01",
+          "opponent": "Pittsburgh Pirates",
+          "k": 10,
+          "inningsPitched": 4.2,
+          "isStart": true
+        },
+        {
+          "date": "2026-06-26",
+          "opponent": "New York Mets",
+          "k": 5,
+          "inningsPitched": 7.0,
+          "isStart": true
+        }
+      ],
+      "last5": [
+        {
+          "date": "2026-08-18",
+          "opponent": "Miami Marlins",
+          "k": 7,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-12",
+          "opponent": "St. Louis Cardinals",
+          "k": 5,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-07",
+          "opponent": "Toronto Blue Jays",
+          "k": 6,
+          "inningsPitched": 5.1,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-02",
+          "opponent": "Baltimore Orioles",
+          "k": 3,
+          "inningsPitched": 2.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-27",
+          "opponent": "Miami Marlins",
+          "k": 6,
+          "inningsPitched": 3.0,
+          "isStart": true
+        }
+      ],
+      "h2h": [
+        {
+          "date": "2024-08-04",
+          "opponent": "Seattle Mariners",
+          "k": 9,
+          "inningsPitched": 8.0,
+          "isStart": true
+        }
+      ]
+    },
+    {
+      "player": "Framber Valdez",
+      "team": "Detroit Tigers",
+      "opponent": "Tampa Bay Rays",
+      "gameDate": "2026-08-24",
+      "gameTime": "2026-08-24T22:40:00Z",
+      "line": 3.5,
+      "lineSource": "FanDuel",
+      "opponentStrikeouts": 916,
+      "opponentKLeagueRank": 30,
+      "opponentKMatchupRank": 1,
+      "opponentKTeamCount": 30,
+      "last10Avg": 4.4,
+      "last5Avg": 4.6,
+      "h2hAvg": 6.7,
+      "h2hGames": 3,
+      "last10Median": 4.5,
+      "trend": "Neutral",
+      "trendAdjustment": 0.03,
+      "consistency": "Low",
+      "last10StdDev": 2.62,
+      "projection": 4.9,
+      "edge": 1.4,
+      "edgeStrength": 1.4,
+      "matchupAdjustment": -0.8,
+      "recommendationEdge": 0.6,
+      "recommendationStrength": 0.6,
+      "pick": "OVER",
+      "last10OverPct": 60,
+      "last5OverPct": 80,
+      "h2hOverPct": 67,
+      "last10": [
+        {
+          "date": "2026-08-17",
+          "opponent": "Pittsburgh Pirates",
+          "k": 5,
+          "inningsPitched": 5.2,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-12",
+          "opponent": "Cleveland Guardians",
+          "k": 3,
+          "inningsPitched": 5.2,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-06",
+          "opponent": "Seattle Mariners",
+          "k": 5,
+          "inningsPitched": 7.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-01",
+          "opponent": "Athletics",
+          "k": 6,
+          "inningsPitched": 7.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-26",
+          "opponent": "Kansas City Royals",
+          "k": 4,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-21",
+          "opponent": "Chicago Cubs",
+          "k": 1,
+          "inningsPitched": 0.2,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-09",
+          "opponent": "Athletics",
+          "k": 9,
+          "inningsPitched": 7.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-02",
+          "opponent": "Texas Rangers",
+          "k": 1,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-06-27",
+          "opponent": "Houston Astros",
+          "k": 2,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-06-22",
+          "opponent": "New York Yankees",
+          "k": 8,
+          "inningsPitched": 6.0,
+          "isStart": true
+        }
+      ],
+      "last5": [
+        {
+          "date": "2026-08-17",
+          "opponent": "Pittsburgh Pirates",
+          "k": 5,
+          "inningsPitched": 5.2,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-12",
+          "opponent": "Cleveland Guardians",
+          "k": 3,
+          "inningsPitched": 5.2,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-06",
+          "opponent": "Seattle Mariners",
+          "k": 5,
+          "inningsPitched": 7.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-01",
+          "opponent": "Athletics",
+          "k": 6,
+          "inningsPitched": 7.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-26",
+          "opponent": "Kansas City Royals",
+          "k": 4,
+          "inningsPitched": 5.0,
+          "isStart": true
+        }
+      ],
+      "h2h": [
+        {
+          "date": "2025-05-30",
+          "opponent": "Tampa Bay Rays",
+          "k": 9,
+          "inningsPitched": 9.0,
+          "isStart": true
+        },
+        {
+          "date": "2024-08-12",
+          "opponent": "Tampa Bay Rays",
+          "k": 9,
+          "inningsPitched": 5.2,
+          "isStart": true
+        },
+        {
+          "date": "2022-09-30",
+          "opponent": "Tampa Bay Rays",
+          "k": 2,
+          "inningsPitched": 5.1,
+          "isStart": true
+        }
+      ]
+    },
+    {
+      "player": "George Klassen",
+      "team": "Los Angeles Angels",
+      "opponent": "Cleveland Guardians",
+      "gameDate": "2026-08-24",
+      "gameTime": "2026-08-25T01:38:00Z",
+      "line": 4.5,
+      "lineSource": "FanDuel",
+      "opponentStrikeouts": 1060,
+      "opponentKLeagueRank": 21,
+      "opponentKMatchupRank": 10,
+      "opponentKTeamCount": 30,
+      "last10Avg": 4.2,
+      "last5Avg": 4.2,
+      "h2hAvg": 0,
+      "h2hGames": 0,
+      "last10Median": 4,
+      "trend": "Neutral",
+      "trendAdjustment": 0.0,
+      "consistency": "Medium",
+      "last10StdDev": 1.72,
+      "projection": 4.2,
+      "edge": -0.3,
+      "edgeStrength": 0.3,
+      "matchupAdjustment": -0.3,
+      "recommendationEdge": -0.6,
+      "recommendationStrength": 0.6,
+      "pick": "UNDER",
+      "last10OverPct": 40,
+      "last5OverPct": 40,
+      "h2hOverPct": 0,
+      "last10": [
+        {
+          "date": "2026-08-18",
+          "opponent": "Houston Astros",
+          "k": 7,
+          "inningsPitched": 7.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-12",
+          "opponent": "Texas Rangers",
+          "k": 5,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-07",
+          "opponent": "Miami Marlins",
+          "k": 3,
+          "inningsPitched": 4.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-04-11",
+          "opponent": "Cincinnati Reds",
+          "k": 2,
+          "inningsPitched": 2.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-04-05",
+          "opponent": "Seattle Mariners",
+          "k": 4,
+          "inningsPitched": 2.2,
+          "isStart": true
+        }
+      ],
+      "last5": [
+        {
+          "date": "2026-08-18",
+          "opponent": "Houston Astros",
+          "k": 7,
+          "inningsPitched": 7.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-12",
+          "opponent": "Texas Rangers",
+          "k": 5,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-07",
+          "opponent": "Miami Marlins",
+          "k": 3,
+          "inningsPitched": 4.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-04-11",
+          "opponent": "Cincinnati Reds",
+          "k": 2,
+          "inningsPitched": 2.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-04-05",
+          "opponent": "Seattle Mariners",
+          "k": 4,
+          "inningsPitched": 2.2,
           "isStart": true
         }
       ],
       "h2h": []
     },
     {
-      "player": "Daniel Lynch IV",
-      "team": "Kansas City Royals",
-      "opponent": "Detroit Tigers",
-      "gameDate": "2026-08-23",
-      "gameTime": "2026-08-23T18:10:00Z",
-      "line": 2.5,
+      "player": "Chase Burns",
+      "team": "Cincinnati Reds",
+      "opponent": "San Francisco Giants",
+      "gameDate": "2026-08-24",
+      "gameTime": "2026-08-25T01:45:00Z",
+      "line": 6.5,
       "lineSource": "FanDuel",
-      "opponentStrikeouts": 1102,
-      "opponentKLeagueRank": 12,
-      "opponentKMatchupRank": 19,
+      "opponentStrikeouts": 1036,
+      "opponentKLeagueRank": 24,
+      "opponentKMatchupRank": 7,
       "opponentKTeamCount": 30,
-      "last10Avg": 2.8,
-      "last5Avg": 2.4,
-      "h2hAvg": 3.6,
-      "h2hGames": 9,
-      "last10Median": 3.0,
-      "trend": "Neutral",
-      "trendAdjustment": -0.06,
-      "consistency": "High",
-      "last10StdDev": 1.17,
-      "projection": 2.7,
-      "edge": 0.2,
-      "edgeStrength": 0.2,
-      "matchupAdjustment": 0.19,
-      "recommendationEdge": 0.39,
-      "recommendationStrength": 0.39,
-      "pick": "OVER",
+      "last10Avg": 6.4,
+      "last5Avg": 7.0,
+      "h2hAvg": 4.0,
+      "h2hGames": 1,
+      "last10Median": 6.5,
+      "trend": "Trending Up",
+      "trendAdjustment": 0.09,
+      "consistency": "Medium",
+      "last10StdDev": 2.37,
+      "projection": 6.4,
+      "edge": -0.1,
+      "edgeStrength": 0.1,
+      "matchupAdjustment": -0.47,
+      "recommendationEdge": -0.57,
+      "recommendationStrength": 0.57,
+      "pick": "UNDER",
+      "last10OverPct": 50,
+      "last5OverPct": 60,
+      "h2hOverPct": 0,
+      "last10": [
+        {
+          "date": "2026-08-19",
+          "opponent": "St. Louis Cardinals",
+          "k": 8,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-14",
+          "opponent": "Miami Marlins",
+          "k": 8,
+          "inningsPitched": 7.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-08",
+          "opponent": "Washington Nationals",
+          "k": 6,
+          "inningsPitched": 5.1,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-02",
+          "opponent": "Pittsburgh Pirates",
+          "k": 9,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-28",
+          "opponent": "Cleveland Guardians",
+          "k": 4,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-21",
+          "opponent": "Seattle Mariners",
+          "k": 6,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-08",
+          "opponent": "Philadelphia Phillies",
+          "k": 2,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-02",
+          "opponent": "Milwaukee Brewers",
+          "k": 4,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-06-27",
+          "opponent": "Pittsburgh Pirates",
+          "k": 10,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-06-21",
+          "opponent": "New York Yankees",
+          "k": 7,
+          "inningsPitched": 5.0,
+          "isStart": true
+        }
+      ],
+      "last5": [
+        {
+          "date": "2026-08-19",
+          "opponent": "St. Louis Cardinals",
+          "k": 8,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-14",
+          "opponent": "Miami Marlins",
+          "k": 8,
+          "inningsPitched": 7.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-08",
+          "opponent": "Washington Nationals",
+          "k": 6,
+          "inningsPitched": 5.1,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-02",
+          "opponent": "Pittsburgh Pirates",
+          "k": 9,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-28",
+          "opponent": "Cleveland Guardians",
+          "k": 4,
+          "inningsPitched": 5.0,
+          "isStart": true
+        }
+      ],
+      "h2h": [
+        {
+          "date": "2026-04-16",
+          "opponent": "San Francisco Giants",
+          "k": 4,
+          "inningsPitched": 6.0,
+          "isStart": true
+        }
+      ]
+    },
+    {
+      "player": "Ranger Suarez",
+      "team": "Boston Red Sox",
+      "opponent": "Miami Marlins",
+      "gameDate": "2026-08-24",
+      "gameTime": "2026-08-24T22:40:00Z",
+      "line": 4.5,
+      "lineSource": "FanDuel",
+      "opponentStrikeouts": 1067,
+      "opponentKLeagueRank": 18,
+      "opponentKMatchupRank": 13,
+      "opponentKTeamCount": 30,
+      "last10Avg": 5.0,
+      "last5Avg": 3.2,
+      "h2hAvg": 5.4,
+      "h2hGames": 12,
+      "last10Median": 5.0,
+      "trend": "Trending Down",
+      "trendAdjustment": -0.27,
+      "consistency": "Medium",
+      "last10StdDev": 2.37,
+      "projection": 4.1,
+      "edge": -0.4,
+      "edgeStrength": 0.4,
+      "matchupAdjustment": -0.14,
+      "recommendationEdge": -0.54,
+      "recommendationStrength": 0.54,
+      "pick": "UNDER",
       "last10OverPct": 60,
-      "last5OverPct": 40,
-      "h2hOverPct": 89,
+      "last5OverPct": 20,
+      "h2hOverPct": 42,
       "last10": [
         {
           "date": "2026-08-18",
-          "opponent": "Athletics",
-          "k": 1,
-          "inningsPitched": 4.0,
+          "opponent": "Arizona Diamondbacks",
+          "k": 3,
+          "inningsPitched": 5.1,
           "isStart": true
         },
         {
           "date": "2026-08-12",
-          "opponent": "Los Angeles Dodgers",
-          "k": 3,
-          "inningsPitched": 2.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-07",
-          "opponent": "Chicago Cubs",
+          "opponent": "Toronto Blue Jays",
           "k": 2,
-          "inningsPitched": 1.2,
+          "inningsPitched": 5.0,
           "isStart": true
         },
         {
-          "date": "2025-05-27",
-          "opponent": "Cincinnati Reds",
-          "k": 4,
+          "date": "2026-08-06",
+          "opponent": "Chicago White Sox",
+          "k": 3,
+          "inningsPitched": 3.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-31",
+          "opponent": "Los Angeles Dodgers",
+          "k": 2,
+          "inningsPitched": 4.2,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-26",
+          "opponent": "Toronto Blue Jays",
+          "k": 6,
+          "inningsPitched": 4.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-05",
+          "opponent": "Los Angeles Angels",
+          "k": 5,
           "inningsPitched": 2.2,
           "isStart": true
         },
         {
-          "date": "2025-05-21",
-          "opponent": "San Francisco Giants",
-          "k": 2,
-          "inningsPitched": 1.2,
+          "date": "2026-06-29",
+          "opponent": "Washington Nationals",
+          "k": 8,
+          "inningsPitched": 6.0,
           "isStart": true
         },
         {
-          "date": "2024-09-18",
-          "opponent": "Detroit Tigers",
-          "k": 4,
-          "inningsPitched": 3.1,
+          "date": "2026-06-24",
+          "opponent": "Colorado Rockies",
+          "k": 9,
+          "inningsPitched": 6.0,
           "isStart": true
         },
         {
-          "date": "2024-09-07",
-          "opponent": "Minnesota Twins",
-          "k": 4,
-          "inningsPitched": 3.0,
-          "isStart": true
-        },
-        {
-          "date": "2024-08-26",
-          "opponent": "Cleveland Guardians",
-          "k": 1,
-          "inningsPitched": 3.0,
-          "isStart": true
-        },
-        {
-          "date": "2024-06-12",
-          "opponent": "New York Yankees",
-          "k": 3,
+          "date": "2026-06-19",
+          "opponent": "Seattle Mariners",
+          "k": 5,
           "inningsPitched": 6.2,
           "isStart": true
         },
         {
-          "date": "2024-06-07",
-          "opponent": "Seattle Mariners",
-          "k": 4,
-          "inningsPitched": 4.0,
+          "date": "2026-06-13",
+          "opponent": "Texas Rangers",
+          "k": 7,
+          "inningsPitched": 5.0,
           "isStart": true
         }
       ],
       "last5": [
         {
           "date": "2026-08-18",
-          "opponent": "Athletics",
-          "k": 1,
-          "inningsPitched": 4.0,
+          "opponent": "Arizona Diamondbacks",
+          "k": 3,
+          "inningsPitched": 5.1,
           "isStart": true
         },
         {
           "date": "2026-08-12",
-          "opponent": "Los Angeles Dodgers",
+          "opponent": "Toronto Blue Jays",
+          "k": 2,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-06",
+          "opponent": "Chicago White Sox",
           "k": 3,
-          "inningsPitched": 2.1,
+          "inningsPitched": 3.0,
           "isStart": true
         },
         {
-          "date": "2026-08-07",
-          "opponent": "Chicago Cubs",
+          "date": "2026-07-31",
+          "opponent": "Los Angeles Dodgers",
           "k": 2,
-          "inningsPitched": 1.2,
+          "inningsPitched": 4.2,
           "isStart": true
         },
         {
-          "date": "2025-05-27",
-          "opponent": "Cincinnati Reds",
-          "k": 4,
-          "inningsPitched": 2.2,
-          "isStart": true
-        },
-        {
-          "date": "2025-05-21",
-          "opponent": "San Francisco Giants",
-          "k": 2,
-          "inningsPitched": 1.2,
+          "date": "2026-07-26",
+          "opponent": "Toronto Blue Jays",
+          "k": 6,
+          "inningsPitched": 4.0,
           "isStart": true
         }
       ],
       "h2h": [
         {
-          "date": "2024-09-18",
-          "opponent": "Detroit Tigers",
-          "k": 4,
-          "inningsPitched": 3.1,
-          "isStart": true
-        },
-        {
-          "date": "2023-07-18",
-          "opponent": "Detroit Tigers",
-          "k": 3,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2023-06-20",
-          "opponent": "Detroit Tigers",
-          "k": 2,
+          "date": "2025-06-18",
+          "opponent": "Miami Marlins",
+          "k": 8,
           "inningsPitched": 7.0,
           "isStart": true
         },
         {
-          "date": "2022-09-28",
-          "opponent": "Detroit Tigers",
-          "k": 4,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2022-09-09",
-          "opponent": "Detroit Tigers",
-          "k": 4,
-          "inningsPitched": 3.2,
-          "isStart": true
-        },
-        {
-          "date": "2022-09-02",
-          "opponent": "Detroit Tigers",
+          "date": "2024-09-05",
+          "opponent": "Miami Marlins",
           "k": 4,
           "inningsPitched": 5.0,
           "isStart": true
         },
         {
-          "date": "2022-07-11",
-          "opponent": "Detroit Tigers",
+          "date": "2024-06-30",
+          "opponent": "Miami Marlins",
+          "k": 0,
+          "inningsPitched": 4.2,
+          "isStart": true
+        },
+        {
+          "date": "2024-05-10",
+          "opponent": "Miami Marlins",
+          "k": 9,
+          "inningsPitched": 7.0,
+          "isStart": true
+        },
+        {
+          "date": "2023-09-10",
+          "opponent": "Miami Marlins",
+          "k": 10,
+          "inningsPitched": 6.1,
+          "isStart": true
+        },
+        {
+          "date": "2023-08-01",
+          "opponent": "Miami Marlins",
           "k": 3,
-          "inningsPitched": 4.0,
+          "inningsPitched": 6.1,
           "isStart": true
         },
         {
-          "date": "2021-07-25",
-          "opponent": "Detroit Tigers",
+          "date": "2023-07-08",
+          "opponent": "Miami Marlins",
           "k": 4,
-          "inningsPitched": 8.0,
+          "inningsPitched": 5.2,
           "isStart": true
         },
         {
-          "date": "2021-05-13",
-          "opponent": "Detroit Tigers",
+          "date": "2022-07-16",
+          "opponent": "Miami Marlins",
           "k": 4,
-          "inningsPitched": 2.2,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2022-04-16",
+          "opponent": "Miami Marlins",
+          "k": 4,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2021-10-01",
+          "opponent": "Miami Marlins",
+          "k": 9,
+          "inningsPitched": 7.0,
+          "isStart": true
+        },
+        {
+          "date": "2021-09-04",
+          "opponent": "Miami Marlins",
+          "k": 7,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2021-05-27",
+          "opponent": "Miami Marlins",
+          "k": 3,
+          "inningsPitched": 3.0,
           "isStart": true
         }
       ]
     },
     {
-      "player": "Andrew Abbott",
-      "team": "Cincinnati Reds",
-      "opponent": "Arizona Diamondbacks",
-      "gameDate": "2026-08-23",
-      "gameTime": "2026-08-23T20:15:00Z",
+      "player": "Ryan Feltner",
+      "team": "Colorado Rockies",
+      "opponent": "Washington Nationals",
+      "gameDate": "2026-08-24",
+      "gameTime": "2026-08-24T22:45:00Z",
       "line": 3.5,
       "lineSource": "FanDuel",
-      "opponentStrikeouts": 944,
+      "opponentStrikeouts": 1101,
+      "opponentKLeagueRank": 14,
+      "opponentKMatchupRank": 17,
+      "opponentKTeamCount": 30,
+      "last10Avg": 3.1,
+      "last5Avg": 2.8,
+      "h2hAvg": 3.0,
+      "h2hGames": 1,
+      "last10Median": 3.0,
+      "trend": "Neutral",
+      "trendAdjustment": -0.05,
+      "consistency": "Medium",
+      "last10StdDev": 2.21,
+      "projection": 2.9,
+      "edge": -0.6,
+      "edgeStrength": 0.6,
+      "matchupAdjustment": 0.08,
+      "recommendationEdge": -0.52,
+      "recommendationStrength": 0.52,
+      "pick": "UNDER",
+      "last10OverPct": 20,
+      "last5OverPct": 20,
+      "h2hOverPct": 0,
+      "last10": [
+        {
+          "date": "2026-08-18",
+          "opponent": "Los Angeles Dodgers",
+          "k": 3,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-12",
+          "opponent": "Arizona Diamondbacks",
+          "k": 2,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-07",
+          "opponent": "St. Louis Cardinals",
+          "k": 2,
+          "inningsPitched": 5.1,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-01",
+          "opponent": "Kansas City Royals",
+          "k": 3,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-25",
+          "opponent": "Milwaukee Brewers",
+          "k": 4,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-19",
+          "opponent": "Cincinnati Reds",
+          "k": 3,
+          "inningsPitched": 2.1,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-09",
+          "opponent": "San Francisco Giants",
+          "k": 3,
+          "inningsPitched": 4.1,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-03",
+          "opponent": "San Francisco Giants",
+          "k": 9,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-06-28",
+          "opponent": "Minnesota Twins",
+          "k": 0,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-06-22",
+          "opponent": "Boston Red Sox",
+          "k": 2,
+          "inningsPitched": 6.0,
+          "isStart": true
+        }
+      ],
+      "last5": [
+        {
+          "date": "2026-08-18",
+          "opponent": "Los Angeles Dodgers",
+          "k": 3,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-12",
+          "opponent": "Arizona Diamondbacks",
+          "k": 2,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-07",
+          "opponent": "St. Louis Cardinals",
+          "k": 2,
+          "inningsPitched": 5.1,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-01",
+          "opponent": "Kansas City Royals",
+          "k": 3,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-25",
+          "opponent": "Milwaukee Brewers",
+          "k": 4,
+          "inningsPitched": 5.0,
+          "isStart": true
+        }
+      ],
+      "h2h": [
+        {
+          "date": "2023-04-09",
+          "opponent": "Washington Nationals",
+          "k": 3,
+          "inningsPitched": 5.0,
+          "isStart": true
+        }
+      ]
+    },
+    {
+      "player": "Logan Gilbert",
+      "team": "Seattle Mariners",
+      "opponent": "Philadelphia Phillies",
+      "gameDate": "2026-08-24",
+      "gameTime": "2026-08-25T01:40:00Z",
+      "line": 5.5,
+      "lineSource": "FanDuel",
+      "opponentStrikeouts": 1095,
+      "opponentKLeagueRank": 15,
+      "opponentKMatchupRank": 16,
+      "opponentKTeamCount": 30,
+      "last10Avg": 6.5,
+      "last5Avg": 5.6,
+      "h2hAvg": 5.8,
+      "h2hGames": 4,
+      "last10Median": 6.5,
+      "trend": "Trending Down",
+      "trendAdjustment": -0.14,
+      "consistency": "Medium",
+      "last10StdDev": 1.63,
+      "projection": 5.9,
+      "edge": 0.4,
+      "edgeStrength": 0.4,
+      "matchupAdjustment": 0.03,
+      "recommendationEdge": 0.43,
+      "recommendationStrength": 0.43,
+      "pick": "OVER",
+      "last10OverPct": 70,
+      "last5OverPct": 60,
+      "h2hOverPct": 75,
+      "last10": [
+        {
+          "date": "2026-08-19",
+          "opponent": "Milwaukee Brewers",
+          "k": 5,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-13",
+          "opponent": "New York Yankees",
+          "k": 7,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-07",
+          "opponent": "Tampa Bay Rays",
+          "k": 6,
+          "inningsPitched": 6.2,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-01",
+          "opponent": "Minnesota Twins",
+          "k": 6,
+          "inningsPitched": 7.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-26",
+          "opponent": "Texas Rangers",
+          "k": 4,
+          "inningsPitched": 5.2,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-19",
+          "opponent": "San Francisco Giants",
+          "k": 10,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-11",
+          "opponent": "Tampa Bay Rays",
+          "k": 5,
+          "inningsPitched": 6.2,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-04",
+          "opponent": "Toronto Blue Jays",
+          "k": 7,
+          "inningsPitched": 7.1,
+          "isStart": true
+        },
+        {
+          "date": "2026-06-27",
+          "opponent": "Cleveland Guardians",
+          "k": 7,
+          "inningsPitched": 7.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-06-21",
+          "opponent": "Boston Red Sox",
+          "k": 8,
+          "inningsPitched": 6.1,
+          "isStart": true
+        }
+      ],
+      "last5": [
+        {
+          "date": "2026-08-19",
+          "opponent": "Milwaukee Brewers",
+          "k": 5,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-13",
+          "opponent": "New York Yankees",
+          "k": 7,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-07",
+          "opponent": "Tampa Bay Rays",
+          "k": 6,
+          "inningsPitched": 6.2,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-01",
+          "opponent": "Minnesota Twins",
+          "k": 6,
+          "inningsPitched": 7.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-26",
+          "opponent": "Texas Rangers",
+          "k": 4,
+          "inningsPitched": 5.2,
+          "isStart": true
+        }
+      ],
+      "h2h": [
+        {
+          "date": "2025-08-18",
+          "opponent": "Philadelphia Phillies",
+          "k": 1,
+          "inningsPitched": 2.0,
+          "isStart": true
+        },
+        {
+          "date": "2024-08-04",
+          "opponent": "Philadelphia Phillies",
+          "k": 7,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2023-04-26",
+          "opponent": "Philadelphia Phillies",
+          "k": 6,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2022-05-11",
+          "opponent": "Philadelphia Phillies",
+          "k": 9,
+          "inningsPitched": 5.0,
+          "isStart": true
+        }
+      ]
+    },
+    {
+      "player": "Kevin Gausman",
+      "team": "Chicago Cubs",
+      "opponent": "Arizona Diamondbacks",
+      "gameDate": "2026-08-24",
+      "gameTime": "2026-08-25T01:40:00Z",
+      "line": 4.5,
+      "lineSource": "FanDuel",
+      "opponentStrikeouts": 951,
       "opponentKLeagueRank": 29,
       "opponentKMatchupRank": 2,
       "opponentKTeamCount": 30,
-      "last10Avg": 4.4,
-      "last5Avg": 3.6,
-      "h2hAvg": 5.0,
+      "last10Avg": 5.4,
+      "last5Avg": 5.2,
+      "h2hAvg": 6.4,
+      "h2hGames": 7,
+      "last10Median": 5.5,
+      "trend": "Neutral",
+      "trendAdjustment": -0.03,
+      "consistency": "Medium",
+      "last10StdDev": 2.11,
+      "projection": 5.5,
+      "edge": 1.0,
+      "edgeStrength": 1.0,
+      "matchupAdjustment": -0.74,
+      "recommendationEdge": 0.26,
+      "recommendationStrength": 0.26,
+      "pick": "OVER",
+      "last10OverPct": 60,
+      "last5OverPct": 60,
+      "h2hOverPct": 71,
+      "last10": [
+        {
+          "date": "2026-08-18",
+          "opponent": "Chicago White Sox",
+          "k": 5,
+          "inningsPitched": 4.1,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-13",
+          "opponent": "Washington Nationals",
+          "k": 7,
+          "inningsPitched": 4.2,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-07",
+          "opponent": "Kansas City Royals",
+          "k": 4,
+          "inningsPitched": 7.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-01",
+          "opponent": "St. Louis Cardinals",
+          "k": 4,
+          "inningsPitched": 5.2,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-26",
+          "opponent": "Boston Red Sox",
+          "k": 6,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-21",
+          "opponent": "Tampa Bay Rays",
+          "k": 1,
+          "inningsPitched": 3.1,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-12",
+          "opponent": "San Diego Padres",
+          "k": 8,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-06",
+          "opponent": "San Francisco Giants",
+          "k": 8,
+          "inningsPitched": 5.1,
+          "isStart": true
+        },
+        {
+          "date": "2026-06-30",
+          "opponent": "New York Mets",
+          "k": 7,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-06-25",
+          "opponent": "Texas Rangers",
+          "k": 4,
+          "inningsPitched": 6.0,
+          "isStart": true
+        }
+      ],
+      "last5": [
+        {
+          "date": "2026-08-18",
+          "opponent": "Chicago White Sox",
+          "k": 5,
+          "inningsPitched": 4.1,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-13",
+          "opponent": "Washington Nationals",
+          "k": 7,
+          "inningsPitched": 4.2,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-07",
+          "opponent": "Kansas City Royals",
+          "k": 4,
+          "inningsPitched": 7.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-01",
+          "opponent": "St. Louis Cardinals",
+          "k": 4,
+          "inningsPitched": 5.2,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-26",
+          "opponent": "Boston Red Sox",
+          "k": 6,
+          "inningsPitched": 6.0,
+          "isStart": true
+        }
+      ],
+      "h2h": [
+        {
+          "date": "2026-04-19",
+          "opponent": "Arizona Diamondbacks",
+          "k": 4,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2025-06-19",
+          "opponent": "Arizona Diamondbacks",
+          "k": 4,
+          "inningsPitched": 4.1,
+          "isStart": true
+        },
+        {
+          "date": "2021-08-11",
+          "opponent": "Arizona Diamondbacks",
+          "k": 5,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2021-08-04",
+          "opponent": "Arizona Diamondbacks",
+          "k": 8,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2021-06-17",
+          "opponent": "Arizona Diamondbacks",
+          "k": 6,
+          "inningsPitched": 8.0,
+          "isStart": true
+        },
+        {
+          "date": "2021-05-25",
+          "opponent": "Arizona Diamondbacks",
+          "k": 9,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2020-09-07",
+          "opponent": "Arizona Diamondbacks",
+          "k": 9,
+          "inningsPitched": 6.0,
+          "isStart": true
+        }
+      ]
+    },
+    {
+      "player": "Sandy Alcantara",
+      "team": "Miami Marlins",
+      "opponent": "Boston Red Sox",
+      "gameDate": "2026-08-24",
+      "gameTime": "2026-08-24T22:40:00Z",
+      "line": 4.5,
+      "lineSource": "FanDuel",
+      "opponentStrikeouts": 1051,
+      "opponentKLeagueRank": 23,
+      "opponentKMatchupRank": 8,
+      "opponentKTeamCount": 30,
+      "last10Avg": 5.0,
+      "last5Avg": 4.2,
+      "h2hAvg": 5.7,
       "h2hGames": 3,
-      "last10Median": 4.0,
+      "last10Median": 5.0,
       "trend": "Trending Down",
       "trendAdjustment": -0.12,
-      "consistency": "Medium",
-      "last10StdDev": 1.96,
-      "projection": 4.0,
-      "edge": 0.5,
-      "edgeStrength": 0.5,
-      "matchupAdjustment": -0.74,
-      "recommendationEdge": -0.24,
-      "recommendationStrength": 0.24,
+      "consistency": "Low",
+      "last10StdDev": 2.53,
+      "projection": 4.7,
+      "edge": 0.2,
+      "edgeStrength": 0.2,
+      "matchupAdjustment": -0.41,
+      "recommendationEdge": -0.21,
+      "recommendationStrength": 0.21,
       "pick": "UNDER",
       "last10OverPct": 60,
       "last5OverPct": 60,
       "h2hOverPct": 100,
       "last10": [
         {
-          "date": "2026-08-18",
-          "opponent": "St. Louis Cardinals",
-          "k": 6,
-          "inningsPitched": 6.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-13",
-          "opponent": "Chicago White Sox",
-          "k": 3,
-          "inningsPitched": 4.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-06",
-          "opponent": "Athletics",
-          "k": 4,
-          "inningsPitched": 6.2,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-01",
-          "opponent": "Pittsburgh Pirates",
-          "k": 1,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-26",
-          "opponent": "St. Louis Cardinals",
-          "k": 4,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-20",
-          "opponent": "Seattle Mariners",
-          "k": 6,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-12",
-          "opponent": "Chicago Cubs",
-          "k": 3,
-          "inningsPitched": 4.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-07",
+          "date": "2026-08-19",
           "opponent": "Philadelphia Phillies",
-          "k": 8,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-01",
-          "opponent": "Milwaukee Brewers",
-          "k": 3,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-06-26",
-          "opponent": "Pittsburgh Pirates",
-          "k": 6,
-          "inningsPitched": 5.1,
-          "isStart": true
-        }
-      ],
-      "last5": [
-        {
-          "date": "2026-08-18",
-          "opponent": "St. Louis Cardinals",
-          "k": 6,
-          "inningsPitched": 6.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-13",
-          "opponent": "Chicago White Sox",
-          "k": 3,
-          "inningsPitched": 4.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-06",
-          "opponent": "Athletics",
-          "k": 4,
-          "inningsPitched": 6.2,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-01",
-          "opponent": "Pittsburgh Pirates",
           "k": 1,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-26",
-          "opponent": "St. Louis Cardinals",
-          "k": 4,
           "inningsPitched": 6.0,
           "isStart": true
-        }
-      ],
-      "h2h": [
-        {
-          "date": "2026-06-14",
-          "opponent": "Arizona Diamondbacks",
-          "k": 5,
-          "inningsPitched": 5.0,
-          "isStart": true
         },
         {
-          "date": "2025-08-23",
-          "opponent": "Arizona Diamondbacks",
-          "k": 6,
-          "inningsPitched": 4.0,
-          "isStart": true
-        },
-        {
-          "date": "2024-05-15",
-          "opponent": "Arizona Diamondbacks",
-          "k": 4,
+          "date": "2026-08-14",
+          "opponent": "Cincinnati Reds",
+          "k": 2,
           "inningsPitched": 7.0,
           "isStart": true
-        }
-      ]
-    },
-    {
-      "player": "Janson Junk",
-      "team": "Miami Marlins",
-      "opponent": "Washington Nationals",
-      "gameDate": "2026-08-23",
-      "gameTime": "2026-08-23T17:40:00Z",
-      "line": 3.5,
-      "lineSource": "FanDuel",
-      "opponentStrikeouts": 1094,
-      "opponentKLeagueRank": 14,
-      "opponentKMatchupRank": 17,
-      "opponentKTeamCount": 30,
-      "last10Avg": 3.3,
-      "last5Avg": 3.0,
-      "h2hAvg": 4.3,
-      "h2hGames": 3,
-      "last10Median": 3.0,
-      "trend": "Neutral",
-      "trendAdjustment": -0.04,
-      "consistency": "High",
-      "last10StdDev": 1.42,
-      "projection": 3.2,
-      "edge": -0.3,
-      "edgeStrength": 0.3,
-      "matchupAdjustment": 0.08,
-      "recommendationEdge": -0.22,
-      "recommendationStrength": 0.22,
-      "pick": "UNDER",
-      "last10OverPct": 40,
-      "last5OverPct": 40,
-      "h2hOverPct": 67,
-      "last10": [
+        },
         {
-          "date": "2026-08-17",
-          "opponent": "Philadelphia Phillies",
-          "k": 2,
-          "inningsPitched": 5.0,
+          "date": "2026-08-08",
+          "opponent": "Los Angeles Angels",
+          "k": 8,
+          "inningsPitched": 7.0,
           "isStart": true
         },
         {
-          "date": "2026-08-12",
-          "opponent": "Pittsburgh Pirates",
-          "k": 2,
+          "date": "2026-08-02",
+          "opponent": "New York Mets",
+          "k": 5,
           "inningsPitched": 6.0,
           "isStart": true
         },
         {
-          "date": "2026-08-06",
-          "opponent": "Atlanta Braves",
-          "k": 1,
-          "inningsPitched": 3.0,
+          "date": "2026-07-28",
+          "opponent": "Philadelphia Phillies",
+          "k": 5,
+          "inningsPitched": 7.0,
           "isStart": true
         },
         {
-          "date": "2026-07-31",
-          "opponent": "New York Mets",
-          "k": 4,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-26",
-          "opponent": "San Diego Padres",
-          "k": 6,
-          "inningsPitched": 4.2,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-20",
+          "date": "2026-07-22",
           "opponent": "Houston Astros",
           "k": 3,
-          "inningsPitched": 4.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-09",
-          "opponent": "Seattle Mariners",
-          "k": 5,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-05-25",
-          "opponent": "Toronto Blue Jays",
-          "k": 3,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-05-20",
-          "opponent": "Atlanta Braves",
-          "k": 3,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-05-15",
-          "opponent": "Tampa Bay Rays",
-          "k": 4,
-          "inningsPitched": 5.2,
-          "isStart": true
-        }
-      ],
-      "last5": [
-        {
-          "date": "2026-08-17",
-          "opponent": "Philadelphia Phillies",
-          "k": 2,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-12",
-          "opponent": "Pittsburgh Pirates",
-          "k": 2,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-06",
-          "opponent": "Atlanta Braves",
-          "k": 1,
-          "inningsPitched": 3.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-31",
-          "opponent": "New York Mets",
-          "k": 4,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-26",
-          "opponent": "San Diego Padres",
-          "k": 6,
-          "inningsPitched": 4.2,
-          "isStart": true
-        }
-      ],
-      "h2h": [
-        {
-          "date": "2026-05-09",
-          "opponent": "Washington Nationals",
-          "k": 6,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2025-09-08",
-          "opponent": "Washington Nationals",
-          "k": 3,
-          "inningsPitched": 4.1,
-          "isStart": true
-        },
-        {
-          "date": "2025-06-14",
-          "opponent": "Washington Nationals",
-          "k": 4,
-          "inningsPitched": 5.2,
-          "isStart": true
-        }
-      ]
-    },
-    {
-      "player": "Tyler Mahle",
-      "team": "Atlanta Braves",
-      "opponent": "Milwaukee Brewers",
-      "gameDate": "2026-08-23",
-      "gameTime": "2026-08-23T23:10:00Z",
-      "line": 5.5,
-      "lineSource": "FanDuel",
-      "opponentStrikeouts": 1089,
-      "opponentKLeagueRank": 16,
-      "opponentKMatchupRank": 15,
-      "opponentKTeamCount": 30,
-      "last10Avg": 5.1,
-      "last5Avg": 6.2,
-      "h2hAvg": 6.5,
-      "h2hGames": 6,
-      "last10Median": 4.0,
-      "trend": "Trending Up",
-      "trendAdjustment": 0.17,
-      "consistency": "Medium",
-      "last10StdDev": 2.26,
-      "projection": 5.7,
-      "edge": 0.2,
-      "edgeStrength": 0.2,
-      "matchupAdjustment": -0.03,
-      "recommendationEdge": 0.17,
-      "recommendationStrength": 0.17,
-      "pick": "OVER",
-      "last10OverPct": 30,
-      "last5OverPct": 60,
-      "h2hOverPct": 67,
-      "last10": [
-        {
-          "date": "2026-08-18",
-          "opponent": "Minnesota Twins",
-          "k": 3,
-          "inningsPitched": 6.2,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-12",
-          "opponent": "New York Mets",
-          "k": 7,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-07",
-          "opponent": "New York Yankees",
-          "k": 9,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-01",
-          "opponent": "San Diego Padres",
-          "k": 9,
-          "inningsPitched": 5.2,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-27",
-          "opponent": "Milwaukee Brewers",
-          "k": 3,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-21",
-          "opponent": "Kansas City Royals",
-          "k": 4,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-11",
-          "opponent": "Colorado Rockies",
-          "k": 4,
           "inningsPitched": 7.0,
           "isStart": true
         },
         {
-          "date": "2026-07-05",
-          "opponent": "Colorado Rockies",
-          "k": 5,
-          "inningsPitched": 4.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-06-29",
-          "opponent": "Arizona Diamondbacks",
-          "k": 3,
-          "inningsPitched": 4.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-06-24",
-          "opponent": "Athletics",
-          "k": 4,
-          "inningsPitched": 5.2,
-          "isStart": true
-        }
-      ],
-      "last5": [
-        {
-          "date": "2026-08-18",
-          "opponent": "Minnesota Twins",
-          "k": 3,
-          "inningsPitched": 6.2,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-12",
-          "opponent": "New York Mets",
+          "date": "2026-07-17",
+          "opponent": "Milwaukee Brewers",
           "k": 7,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-07",
-          "opponent": "New York Yankees",
-          "k": 9,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-01",
-          "opponent": "San Diego Padres",
-          "k": 9,
-          "inningsPitched": 5.2,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-27",
-          "opponent": "Milwaukee Brewers",
-          "k": 3,
-          "inningsPitched": 6.0,
-          "isStart": true
-        }
-      ],
-      "h2h": [
-        {
-          "date": "2026-07-27",
-          "opponent": "Milwaukee Brewers",
-          "k": 3,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2022-05-03",
-          "opponent": "Milwaukee Brewers",
-          "k": 2,
-          "inningsPitched": 3.1,
-          "isStart": true
-        },
-        {
-          "date": "2021-08-24",
-          "opponent": "Milwaukee Brewers",
-          "k": 8,
-          "inningsPitched": 5.2,
-          "isStart": true
-        },
-        {
-          "date": "2021-07-16",
-          "opponent": "Milwaukee Brewers",
-          "k": 8,
-          "inningsPitched": 5.1,
-          "isStart": true
-        },
-        {
-          "date": "2021-07-08",
-          "opponent": "Milwaukee Brewers",
-          "k": 6,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2021-06-16",
-          "opponent": "Milwaukee Brewers",
-          "k": 12,
-          "inningsPitched": 6.0,
-          "isStart": true
-        }
-      ]
-    },
-    {
-      "player": "Foster Griffin",
-      "team": "Cleveland Guardians",
-      "opponent": "Colorado Rockies",
-      "gameDate": "2026-08-23",
-      "gameTime": "2026-08-23T19:10:00Z",
-      "line": 4.5,
-      "lineSource": "FanDuel",
-      "opponentStrikeouts": 1116,
-      "opponentKLeagueRank": 9,
-      "opponentKMatchupRank": 22,
-      "opponentKTeamCount": 30,
-      "last10Avg": 5.1,
-      "last5Avg": 4.0,
-      "h2hAvg": 0,
-      "h2hGames": 0,
-      "last10Median": 4.5,
-      "trend": "Trending Down",
-      "trendAdjustment": -0.16,
-      "consistency": "Low",
-      "last10StdDev": 2.91,
-      "projection": 4.3,
-      "edge": -0.2,
-      "edgeStrength": 0.2,
-      "matchupAdjustment": 0.36,
-      "recommendationEdge": 0.16,
-      "recommendationStrength": 0.16,
-      "pick": "OVER",
-      "last10OverPct": 50,
-      "last5OverPct": 40,
-      "h2hOverPct": 0,
-      "last10": [
-        {
-          "date": "2026-08-18",
-          "opponent": "San Francisco Giants",
-          "k": 6,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-12",
-          "opponent": "Detroit Tigers",
-          "k": 3,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-06",
-          "opponent": "New York Mets",
-          "k": 6,
-          "inningsPitched": 4.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-31",
-          "opponent": "Atlanta Braves",
-          "k": 3,
-          "inningsPitched": 5.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-25",
-          "opponent": "Arizona Diamondbacks",
-          "k": 2,
-          "inningsPitched": 6.2,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-19",
-          "opponent": "Athletics",
-          "k": 2,
-          "inningsPitched": 7.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-08",
-          "opponent": "Houston Astros",
-          "k": 9,
-          "inningsPitched": 7.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-03",
-          "opponent": "Pittsburgh Pirates",
-          "k": 2,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-06-27",
-          "opponent": "Baltimore Orioles",
-          "k": 9,
-          "inningsPitched": 7.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-06-22",
-          "opponent": "Philadelphia Phillies",
-          "k": 9,
-          "inningsPitched": 7.1,
-          "isStart": true
-        }
-      ],
-      "last5": [
-        {
-          "date": "2026-08-18",
-          "opponent": "San Francisco Giants",
-          "k": 6,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-12",
-          "opponent": "Detroit Tigers",
-          "k": 3,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-06",
-          "opponent": "New York Mets",
-          "k": 6,
-          "inningsPitched": 4.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-31",
-          "opponent": "Atlanta Braves",
-          "k": 3,
-          "inningsPitched": 5.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-25",
-          "opponent": "Arizona Diamondbacks",
-          "k": 2,
-          "inningsPitched": 6.2,
-          "isStart": true
-        }
-      ],
-      "h2h": []
-    },
-    {
-      "player": "Jackson Kent",
-      "team": "Washington Nationals",
-      "opponent": "Miami Marlins",
-      "gameDate": "2026-08-23",
-      "gameTime": "2026-08-23T17:40:00Z",
-      "line": 4.5,
-      "lineSource": "FanDuel",
-      "opponentStrikeouts": 1059,
-      "opponentKLeagueRank": 18,
-      "opponentKMatchupRank": 13,
-      "opponentKTeamCount": 30,
-      "last10Avg": 4.5,
-      "last5Avg": 4.5,
-      "h2hAvg": 0,
-      "h2hGames": 0,
-      "last10Median": 4.5,
-      "trend": "Neutral",
-      "trendAdjustment": 0.0,
-      "consistency": "High",
-      "last10StdDev": 1.5,
-      "projection": 4.5,
-      "edge": 0.0,
-      "edgeStrength": 0.0,
-      "matchupAdjustment": -0.14,
-      "recommendationEdge": -0.14,
-      "recommendationStrength": 0.14,
-      "pick": "UNDER",
-      "last10OverPct": 50,
-      "last5OverPct": 50,
-      "h2hOverPct": 0,
-      "last10": [
-        {
-          "date": "2026-08-18",
-          "opponent": "Texas Rangers",
-          "k": 3,
-          "inningsPitched": 3.2,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-12",
-          "opponent": "Chicago Cubs",
-          "k": 6,
-          "inningsPitched": 4.0,
-          "isStart": true
-        }
-      ],
-      "last5": [
-        {
-          "date": "2026-08-18",
-          "opponent": "Texas Rangers",
-          "k": 3,
-          "inningsPitched": 3.2,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-12",
-          "opponent": "Chicago Cubs",
-          "k": 6,
-          "inningsPitched": 4.0,
-          "isStart": true
-        }
-      ],
-      "h2h": []
-    },
-    {
-      "player": "Walker Buehler",
-      "team": "San Diego Padres",
-      "opponent": "Minnesota Twins",
-      "gameDate": "2026-08-23",
-      "gameTime": "2026-08-23T20:10:00Z",
-      "line": 3.5,
-      "lineSource": "FanDuel",
-      "opponentStrikeouts": 1045,
-      "opponentKLeagueRank": 23,
-      "opponentKMatchupRank": 8,
-      "opponentKTeamCount": 30,
-      "last10Avg": 3.9,
-      "last5Avg": 4.0,
-      "h2hAvg": 0,
-      "h2hGames": 0,
-      "last10Median": 4.0,
-      "trend": "Neutral",
-      "trendAdjustment": 0.02,
-      "consistency": "Medium",
-      "last10StdDev": 1.87,
-      "projection": 4.0,
-      "edge": 0.5,
-      "edgeStrength": 0.5,
-      "matchupAdjustment": -0.41,
-      "recommendationEdge": 0.09,
-      "recommendationStrength": 0.09,
-      "pick": "OVER",
-      "last10OverPct": 60,
-      "last5OverPct": 60,
-      "h2hOverPct": 0,
-      "last10": [
-        {
-          "date": "2026-08-17",
-          "opponent": "New York Mets",
-          "k": 4,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-11",
-          "opponent": "Milwaukee Brewers",
-          "k": 5,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-06",
-          "opponent": "Arizona Diamondbacks",
-          "k": 3,
-          "inningsPitched": 4.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-01",
-          "opponent": "San Francisco Giants",
-          "k": 1,
-          "inningsPitched": 4.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-26",
-          "opponent": "Miami Marlins",
-          "k": 7,
-          "inningsPitched": 5.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-21",
-          "opponent": "Atlanta Braves",
-          "k": 3,
-          "inningsPitched": 5.2,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-11",
-          "opponent": "Toronto Blue Jays",
-          "k": 1,
-          "inningsPitched": 2.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-06",
-          "opponent": "Arizona Diamondbacks",
-          "k": 4,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-01",
-          "opponent": "Chicago Cubs",
-          "k": 6,
-          "inningsPitched": 4.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-06-26",
-          "opponent": "Los Angeles Dodgers",
-          "k": 5,
-          "inningsPitched": 5.1,
-          "isStart": true
-        }
-      ],
-      "last5": [
-        {
-          "date": "2026-08-17",
-          "opponent": "New York Mets",
-          "k": 4,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-11",
-          "opponent": "Milwaukee Brewers",
-          "k": 5,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-06",
-          "opponent": "Arizona Diamondbacks",
-          "k": 3,
-          "inningsPitched": 4.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-01",
-          "opponent": "San Francisco Giants",
-          "k": 1,
-          "inningsPitched": 4.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-26",
-          "opponent": "Miami Marlins",
-          "k": 7,
-          "inningsPitched": 5.1,
-          "isStart": true
-        }
-      ],
-      "h2h": []
-    },
-    {
-      "player": "Nolan McLean",
-      "team": "New York Mets",
-      "opponent": "Chicago White Sox",
-      "gameDate": "2026-08-23",
-      "gameTime": "2026-08-23T18:10:00Z",
-      "line": 6.5,
-      "lineSource": "FanDuel",
-      "opponentStrikeouts": 1177,
-      "opponentKLeagueRank": 6,
-      "opponentKMatchupRank": 25,
-      "opponentKTeamCount": 30,
-      "last10Avg": 6.5,
-      "last5Avg": 5.4,
-      "h2hAvg": 0,
-      "h2hGames": 0,
-      "last10Median": 7.0,
-      "trend": "Trending Down",
-      "trendAdjustment": -0.16,
-      "consistency": "Medium",
-      "last10StdDev": 2.2,
-      "projection": 6.0,
-      "edge": -0.5,
-      "edgeStrength": 0.5,
-      "matchupAdjustment": 0.52,
-      "recommendationEdge": 0.02,
-      "recommendationStrength": 0.02,
-      "pick": "OVER",
-      "last10OverPct": 60,
-      "last5OverPct": 40,
-      "h2hOverPct": 0,
-      "last10": [
-        {
-          "date": "2026-08-17",
-          "opponent": "San Diego Padres",
-          "k": 3,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-11",
-          "opponent": "Atlanta Braves",
-          "k": 3,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-06",
-          "opponent": "Cleveland Guardians",
-          "k": 8,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-30",
-          "opponent": "Miami Marlins",
-          "k": 6,
-          "inningsPitched": 6.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-25",
-          "opponent": "Los Angeles Dodgers",
-          "k": 7,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-19",
-          "opponent": "Philadelphia Phillies",
-          "k": 10,
           "inningsPitched": 6.0,
           "isStart": true
         },
         {
           "date": "2026-07-10",
+          "opponent": "Cleveland Guardians",
+          "k": 8,
+          "inningsPitched": 7.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-04",
+          "opponent": "Athletics",
+          "k": 8,
+          "inningsPitched": 8.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-06-29",
+          "opponent": "Colorado Rockies",
+          "k": 3,
+          "inningsPitched": 5.2,
+          "isStart": true
+        }
+      ],
+      "last5": [
+        {
+          "date": "2026-08-19",
+          "opponent": "Philadelphia Phillies",
+          "k": 1,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-14",
+          "opponent": "Cincinnati Reds",
+          "k": 2,
+          "inningsPitched": 7.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-08",
+          "opponent": "Los Angeles Angels",
+          "k": 8,
+          "inningsPitched": 7.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-02",
+          "opponent": "New York Mets",
+          "k": 5,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-28",
+          "opponent": "Philadelphia Phillies",
+          "k": 5,
+          "inningsPitched": 7.0,
+          "isStart": true
+        }
+      ],
+      "h2h": [
+        {
+          "date": "2025-08-15",
           "opponent": "Boston Red Sox",
           "k": 7,
           "inningsPitched": 6.0,
           "isStart": true
         },
         {
-          "date": "2026-07-05",
-          "opponent": "Atlanta Braves",
+          "date": "2023-06-27",
+          "opponent": "Boston Red Sox",
+          "k": 5,
+          "inningsPitched": 7.0,
+          "isStart": true
+        },
+        {
+          "date": "2020-09-15",
+          "opponent": "Boston Red Sox",
           "k": 5,
           "inningsPitched": 6.0,
           "isStart": true
-        },
-        {
-          "date": "2026-06-30",
-          "opponent": "Toronto Blue Jays",
-          "k": 7,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-06-24",
-          "opponent": "Chicago Cubs",
-          "k": 9,
-          "inningsPitched": 6.0,
-          "isStart": true
         }
-      ],
-      "last5": [
+      ]
+    },
+    {
+      "player": "Robbie Ray",
+      "team": "San Diego Padres",
+      "opponent": "Pittsburgh Pirates",
+      "gameDate": "2026-08-24",
+      "gameTime": "2026-08-25T01:40:00Z",
+      "line": 5.5,
+      "lineSource": "FanDuel",
+      "opponentStrikeouts": 1247,
+      "opponentKLeagueRank": 1,
+      "opponentKMatchupRank": 30,
+      "opponentKTeamCount": 30,
+      "last10Avg": 4.3,
+      "last5Avg": 4.2,
+      "h2hAvg": 7.5,
+      "h2hGames": 2,
+      "last10Median": 4.0,
+      "trend": "Neutral",
+      "trendAdjustment": -0.01,
+      "consistency": "High",
+      "last10StdDev": 1.42,
+      "projection": 4.7,
+      "edge": -0.8,
+      "edgeStrength": 0.8,
+      "matchupAdjustment": 0.8,
+      "recommendationEdge": 0.0,
+      "recommendationStrength": 0.0,
+      "pick": "OVER",
+      "last10OverPct": 30,
+      "last5OverPct": 20,
+      "h2hOverPct": 100,
+      "last10": [
         {
-          "date": "2026-08-17",
-          "opponent": "San Diego Padres",
-          "k": 3,
+          "date": "2026-08-18",
+          "opponent": "New York Mets",
+          "k": 4,
           "inningsPitched": 6.0,
           "isStart": true
         },
         {
-          "date": "2026-08-11",
-          "opponent": "Atlanta Braves",
-          "k": 3,
-          "inningsPitched": 6.0,
+          "date": "2026-08-12",
+          "opponent": "Milwaukee Brewers",
+          "k": 4,
+          "inningsPitched": 4.0,
           "isStart": true
         },
         {
-          "date": "2026-08-06",
-          "opponent": "Cleveland Guardians",
-          "k": 8,
+          "date": "2026-08-07",
+          "opponent": "Houston Astros",
+          "k": 2,
           "inningsPitched": 5.0,
           "isStart": true
         },
         {
           "date": "2026-07-30",
-          "opponent": "Miami Marlins",
+          "opponent": "San Diego Padres",
           "k": 6,
-          "inningsPitched": 6.1,
+          "inningsPitched": 6.0,
           "isStart": true
         },
         {
           "date": "2026-07-25",
-          "opponent": "Los Angeles Dodgers",
-          "k": 7,
-          "inningsPitched": 6.0,
-          "isStart": true
-        }
-      ],
-      "h2h": []
-    },
-    {
-      "player": "Cristopher S\u00e1nchez",
-      "team": "Philadelphia Phillies",
-      "opponent": "St. Louis Cardinals",
-      "gameDate": "2026-08-23",
-      "gameTime": "2026-08-23T17:35:00Z",
-      "line": null,
-      "lineSource": null,
-      "opponentStrikeouts": 1021,
-      "opponentKLeagueRank": 27,
-      "opponentKMatchupRank": 4,
-      "opponentKTeamCount": 30,
-      "last10Avg": 6.6,
-      "last5Avg": 7.2,
-      "h2hAvg": 5.0,
-      "h2hGames": 5,
-      "last10Median": 6.5,
-      "trend": "Trending Up",
-      "trendAdjustment": 0.09,
-      "consistency": "Medium",
-      "last10StdDev": 2.42,
-      "projection": 6.7,
-      "edge": null,
-      "edgeStrength": null,
-      "matchupAdjustment": -0.63,
-      "recommendationEdge": null,
-      "recommendationStrength": null,
-      "pick": "NO LINE",
-      "last10OverPct": 0,
-      "last5OverPct": 0,
-      "h2hOverPct": 0,
-      "last10": [
-        {
-          "date": "2026-08-17",
-          "opponent": "Miami Marlins",
-          "k": 6,
+          "opponent": "Los Angeles Angels",
+          "k": 5,
           "inningsPitched": 6.0,
           "isStart": true
         },
         {
-          "date": "2026-08-11",
-          "opponent": "St. Louis Cardinals",
-          "k": 7,
-          "inningsPitched": 6.0,
+          "date": "2026-07-19",
+          "opponent": "Seattle Mariners",
+          "k": 6,
+          "inningsPitched": 4.0,
           "isStart": true
         },
         {
-          "date": "2026-08-06",
-          "opponent": "Washington Nationals",
-          "k": 6,
+          "date": "2026-07-10",
+          "opponent": "Colorado Rockies",
+          "k": 4,
           "inningsPitched": 5.0,
           "isStart": true
         },
         {
-          "date": "2026-08-01",
-          "opponent": "Baltimore Orioles",
-          "k": 11,
+          "date": "2026-07-04",
+          "opponent": "Colorado Rockies",
+          "k": 4,
           "inningsPitched": 6.0,
           "isStart": true
         },
         {
-          "date": "2026-07-26",
-          "opponent": "New York Yankees",
+          "date": "2026-06-28",
+          "opponent": "Atlanta Braves",
+          "k": 2,
+          "inningsPitched": 8.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-06-23",
+          "opponent": "Athletics",
           "k": 6,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-20",
-          "opponent": "Los Angeles Dodgers",
-          "k": 7,
-          "inningsPitched": 5.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-11",
-          "opponent": "Detroit Tigers",
-          "k": 7,
-          "inningsPitched": 7.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-06",
-          "opponent": "Kansas City Royals",
-          "k": 1,
-          "inningsPitched": 3.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-06-30",
-          "opponent": "Pittsburgh Pirates",
-          "k": 9,
-          "inningsPitched": 7.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-06-25",
-          "opponent": "Washington Nationals",
-          "k": 6,
-          "inningsPitched": 5.0,
+          "inningsPitched": 8.0,
           "isStart": true
         }
       ],
       "last5": [
         {
-          "date": "2026-08-17",
-          "opponent": "Miami Marlins",
-          "k": 6,
+          "date": "2026-08-18",
+          "opponent": "New York Mets",
+          "k": 4,
           "inningsPitched": 6.0,
           "isStart": true
         },
         {
-          "date": "2026-08-11",
-          "opponent": "St. Louis Cardinals",
-          "k": 7,
-          "inningsPitched": 6.0,
+          "date": "2026-08-12",
+          "opponent": "Milwaukee Brewers",
+          "k": 4,
+          "inningsPitched": 4.0,
           "isStart": true
         },
         {
-          "date": "2026-08-06",
-          "opponent": "Washington Nationals",
-          "k": 6,
+          "date": "2026-08-07",
+          "opponent": "Houston Astros",
+          "k": 2,
           "inningsPitched": 5.0,
           "isStart": true
         },
         {
-          "date": "2026-08-01",
-          "opponent": "Baltimore Orioles",
-          "k": 11,
+          "date": "2026-07-30",
+          "opponent": "San Diego Padres",
+          "k": 6,
           "inningsPitched": 6.0,
           "isStart": true
         },
         {
-          "date": "2026-07-26",
-          "opponent": "New York Yankees",
-          "k": 6,
+          "date": "2026-07-25",
+          "opponent": "Los Angeles Angels",
+          "k": 5,
           "inningsPitched": 6.0,
           "isStart": true
         }
       ],
       "h2h": [
         {
-          "date": "2026-08-11",
-          "opponent": "St. Louis Cardinals",
+          "date": "2026-05-08",
+          "opponent": "Pittsburgh Pirates",
           "k": 7,
           "inningsPitched": 6.0,
           "isStart": true
         },
         {
-          "date": "2025-05-12",
-          "opponent": "St. Louis Cardinals",
+          "date": "2025-08-06",
+          "opponent": "Pittsburgh Pirates",
           "k": 8,
           "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2025-04-12",
-          "opponent": "St. Louis Cardinals",
-          "k": 3,
-          "inningsPitched": 6.1,
-          "isStart": true
-        },
-        {
-          "date": "2023-08-25",
-          "opponent": "St. Louis Cardinals",
-          "k": 6,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2022-07-10",
-          "opponent": "St. Louis Cardinals",
-          "k": 1,
-          "inningsPitched": 3.0,
           "isStart": true
         }
       ]
     },
     {
-      "player": "Carlos Rod\u00f3n",
-      "team": "New York Yankees",
-      "opponent": "Toronto Blue Jays",
-      "gameDate": "2026-08-23",
-      "gameTime": "2026-08-23T17:35:00Z",
+      "player": "Zebby Matthews",
+      "team": "Minnesota Twins",
+      "opponent": "Athletics",
+      "gameDate": "2026-08-24",
+      "gameTime": "2026-08-25T01:40:00Z",
+      "line": 4.5,
+      "lineSource": "FanDuel",
+      "opponentStrikeouts": 1120,
+      "opponentKLeagueRank": 10,
+      "opponentKMatchupRank": 21,
+      "opponentKTeamCount": 30,
+      "last10Avg": 4.7,
+      "last5Avg": 4.6,
+      "h2hAvg": 2.5,
+      "h2hGames": 2,
+      "last10Median": 4.0,
+      "trend": "Neutral",
+      "trendAdjustment": -0.02,
+      "consistency": "Medium",
+      "last10StdDev": 2.28,
+      "projection": 4.2,
+      "edge": -0.3,
+      "edgeStrength": 0.3,
+      "matchupAdjustment": 0.3,
+      "recommendationEdge": 0.0,
+      "recommendationStrength": 0.0,
+      "pick": "OVER",
+      "last10OverPct": 40,
+      "last5OverPct": 20,
+      "h2hOverPct": 0,
+      "last10": [
+        {
+          "date": "2026-08-18",
+          "opponent": "Atlanta Braves",
+          "k": 4,
+          "inningsPitched": 5.2,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-12",
+          "opponent": "Baltimore Orioles",
+          "k": 4,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-07",
+          "opponent": "Milwaukee Brewers",
+          "k": 4,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-31",
+          "opponent": "Seattle Mariners",
+          "k": 10,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-24",
+          "opponent": "Athletics",
+          "k": 1,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-19",
+          "opponent": "Chicago Cubs",
+          "k": 4,
+          "inningsPitched": 3.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-10",
+          "opponent": "Los Angeles Angels",
+          "k": 3,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-04",
+          "opponent": "New York Yankees",
+          "k": 5,
+          "inningsPitched": 4.2,
+          "isStart": true
+        },
+        {
+          "date": "2026-06-29",
+          "opponent": "Houston Astros",
+          "k": 7,
+          "inningsPitched": 7.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-06-22",
+          "opponent": "Los Angeles Dodgers",
+          "k": 5,
+          "inningsPitched": 6.0,
+          "isStart": true
+        }
+      ],
+      "last5": [
+        {
+          "date": "2026-08-18",
+          "opponent": "Atlanta Braves",
+          "k": 4,
+          "inningsPitched": 5.2,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-12",
+          "opponent": "Baltimore Orioles",
+          "k": 4,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-08-07",
+          "opponent": "Milwaukee Brewers",
+          "k": 4,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-31",
+          "opponent": "Seattle Mariners",
+          "k": 10,
+          "inningsPitched": 5.0,
+          "isStart": true
+        },
+        {
+          "date": "2026-07-24",
+          "opponent": "Athletics",
+          "k": 1,
+          "inningsPitched": 6.0,
+          "isStart": true
+        }
+      ],
+      "h2h": [
+        {
+          "date": "2026-07-24",
+          "opponent": "Athletics",
+          "k": 1,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2025-06-04",
+          "opponent": "Athletics",
+          "k": 4,
+          "inningsPitched": 5.0,
+          "isStart": true
+        }
+      ]
+    },
+    {
+      "player": "Jos\u00e9 Urquidy",
+      "team": "Chicago White Sox",
+      "opponent": "Texas Rangers",
+      "gameDate": "2026-08-24",
+      "gameTime": "2026-08-24T23:40:00Z",
       "line": null,
       "lineSource": null,
-      "opponentStrikeouts": 956,
-      "opponentKLeagueRank": 28,
-      "opponentKMatchupRank": 3,
+      "opponentStrikeouts": 1118,
+      "opponentKLeagueRank": 11,
+      "opponentKMatchupRank": 20,
       "opponentKTeamCount": 30,
-      "last10Avg": 5.6,
-      "last5Avg": 5.8,
-      "h2hAvg": 5.9,
-      "h2hGames": 8,
-      "last10Median": 6.0,
-      "trend": "Neutral",
-      "trendAdjustment": 0.03,
-      "consistency": "High",
-      "last10StdDev": 1.43,
-      "projection": 5.8,
+      "last10Avg": 3.1,
+      "last5Avg": 3.6,
+      "h2hAvg": 6.0,
+      "h2hGames": 6,
+      "last10Median": 2.5,
+      "trend": "Trending Up",
+      "trendAdjustment": 0.07,
+      "consistency": "Medium",
+      "last10StdDev": 2.34,
+      "projection": 3.7,
       "edge": null,
       "edgeStrength": null,
-      "matchupAdjustment": -0.69,
+      "matchupAdjustment": 0.25,
       "recommendationEdge": null,
       "recommendationStrength": null,
       "pick": "NO LINE",
@@ -4911,700 +4027,73 @@
       "h2hOverPct": 0,
       "last10": [
         {
-          "date": "2026-08-18",
-          "opponent": "Baltimore Orioles",
-          "k": 4,
-          "inningsPitched": 4.0,
+          "date": "2026-08-19",
+          "opponent": "Chicago Cubs",
+          "k": 8,
+          "inningsPitched": 6.0,
           "isStart": true
         },
         {
-          "date": "2026-06-28",
-          "opponent": "Boston Red Sox",
-          "k": 6,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-06-23",
+          "date": "2026-08-14",
           "opponent": "Detroit Tigers",
-          "k": 5,
-          "inningsPitched": 5.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-06-17",
-          "opponent": "Chicago White Sox",
-          "k": 7,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-06-10",
-          "opponent": "Cleveland Guardians",
-          "k": 7,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-06-04",
-          "opponent": "Cleveland Guardians",
-          "k": 7,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-05-29",
-          "opponent": "Athletics",
           "k": 3,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-05-21",
-          "opponent": "Toronto Blue Jays",
-          "k": 7,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-05-16",
-          "opponent": "New York Mets",
-          "k": 6,
           "inningsPitched": 3.2,
           "isStart": true
         },
         {
-          "date": "2026-05-10",
-          "opponent": "Milwaukee Brewers",
-          "k": 4,
-          "inningsPitched": 4.1,
+          "date": "2023-09-29",
+          "opponent": "Arizona Diamondbacks",
+          "k": 2,
+          "inningsPitched": 6.0,
           "isStart": true
-        }
-      ],
-      "last5": [
+        },
         {
-          "date": "2026-08-18",
-          "opponent": "Baltimore Orioles",
-          "k": 4,
+          "date": "2023-09-24",
+          "opponent": "Kansas City Royals",
+          "k": 2,
+          "inningsPitched": 3.0,
+          "isStart": true
+        },
+        {
+          "date": "2023-09-08",
+          "opponent": "San Diego Padres",
+          "k": 3,
           "inningsPitched": 4.0,
           "isStart": true
         },
         {
-          "date": "2026-06-28",
+          "date": "2023-08-28",
           "opponent": "Boston Red Sox",
-          "k": 6,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-06-23",
-          "opponent": "Detroit Tigers",
-          "k": 5,
-          "inningsPitched": 5.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-06-17",
-          "opponent": "Chicago White Sox",
-          "k": 7,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-06-10",
-          "opponent": "Cleveland Guardians",
-          "k": 7,
-          "inningsPitched": 6.0,
-          "isStart": true
-        }
-      ],
-      "h2h": [
-        {
-          "date": "2026-05-21",
-          "opponent": "Toronto Blue Jays",
-          "k": 7,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2025-07-21",
-          "opponent": "Toronto Blue Jays",
-          "k": 4,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2025-06-30",
-          "opponent": "Toronto Blue Jays",
-          "k": 4,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2024-08-03",
-          "opponent": "Toronto Blue Jays",
-          "k": 8,
-          "inningsPitched": 5.1,
-          "isStart": true
-        },
-        {
-          "date": "2024-06-27",
-          "opponent": "Toronto Blue Jays",
-          "k": 8,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2024-04-16",
-          "opponent": "Toronto Blue Jays",
-          "k": 5,
+          "k": 1,
           "inningsPitched": 4.0,
           "isStart": true
         },
         {
-          "date": "2021-08-26",
-          "opponent": "Toronto Blue Jays",
-          "k": 3,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2021-06-08",
-          "opponent": "Toronto Blue Jays",
-          "k": 8,
-          "inningsPitched": 5.0,
-          "isStart": true
-        }
-      ]
-    },
-    {
-      "player": "Jos\u00e9 Soriano",
-      "team": "Toronto Blue Jays",
-      "opponent": "New York Yankees",
-      "gameDate": "2026-08-23",
-      "gameTime": "2026-08-23T17:35:00Z",
-      "line": null,
-      "lineSource": null,
-      "opponentStrikeouts": 1192,
-      "opponentKLeagueRank": 5,
-      "opponentKMatchupRank": 26,
-      "opponentKTeamCount": 30,
-      "last10Avg": 4.4,
-      "last5Avg": 4.2,
-      "h2hAvg": 6.0,
-      "h2hGames": 1,
-      "last10Median": 4.0,
-      "trend": "Neutral",
-      "trendAdjustment": -0.03,
-      "consistency": "Medium",
-      "last10StdDev": 2.42,
-      "projection": 4.5,
-      "edge": null,
-      "edgeStrength": null,
-      "matchupAdjustment": 0.58,
-      "recommendationEdge": null,
-      "recommendationStrength": null,
-      "pick": "NO LINE",
-      "last10OverPct": 0,
-      "last5OverPct": 0,
-      "h2hOverPct": 0,
-      "last10": [
-        {
-          "date": "2026-08-18",
-          "opponent": "Tampa Bay Rays",
-          "k": 2,
-          "inningsPitched": 5.2,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-12",
+          "date": "2023-08-23",
           "opponent": "Boston Red Sox",
-          "k": 4,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-07",
-          "opponent": "Philadelphia Phillies",
-          "k": 3,
+          "k": 1,
           "inningsPitched": 4.2,
           "isStart": true
         },
         {
-          "date": "2026-07-26",
-          "opponent": "San Francisco Giants",
-          "k": 5,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-20",
-          "opponent": "St. Louis Cardinals",
+          "date": "2023-08-13",
+          "opponent": "Los Angeles Angels",
           "k": 7,
-          "inningsPitched": 7.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-12",
-          "opponent": "Minnesota Twins",
-          "k": 0,
           "inningsPitched": 5.0,
           "isStart": true
         },
         {
-          "date": "2026-07-07",
-          "opponent": "Texas Rangers",
-          "k": 4,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-06-30",
-          "opponent": "Seattle Mariners",
-          "k": 9,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-06-24",
-          "opponent": "Baltimore Orioles",
-          "k": 4,
-          "inningsPitched": 3.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-06-19",
-          "opponent": "Athletics",
-          "k": 6,
-          "inningsPitched": 5.0,
-          "isStart": true
-        }
-      ],
-      "last5": [
-        {
-          "date": "2026-08-18",
-          "opponent": "Tampa Bay Rays",
-          "k": 2,
-          "inningsPitched": 5.2,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-12",
-          "opponent": "Boston Red Sox",
-          "k": 4,
-          "inningsPitched": 6.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-07",
-          "opponent": "Philadelphia Phillies",
-          "k": 3,
-          "inningsPitched": 4.2,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-26",
-          "opponent": "San Francisco Giants",
-          "k": 5,
-          "inningsPitched": 5.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-20",
-          "opponent": "St. Louis Cardinals",
-          "k": 7,
-          "inningsPitched": 7.0,
-          "isStart": true
-        }
-      ],
-      "h2h": [
-        {
-          "date": "2025-06-16",
+          "date": "2023-08-06",
           "opponent": "New York Yankees",
-          "k": 6,
-          "inningsPitched": 7.0,
-          "isStart": true
-        }
-      ]
-    },
-    {
-      "player": "Jacob Waguespack",
-      "team": "Detroit Tigers",
-      "opponent": "Kansas City Royals",
-      "gameDate": "2026-08-23",
-      "gameTime": "2026-08-23T18:10:00Z",
-      "line": null,
-      "lineSource": null,
-      "opponentStrikeouts": 1026,
-      "opponentKLeagueRank": 25,
-      "opponentKMatchupRank": 6,
-      "opponentKTeamCount": 30,
-      "last10Avg": 0.6,
-      "last5Avg": 0.4,
-      "h2hAvg": 0.5,
-      "h2hGames": 2,
-      "last10Median": 0.5,
-      "trend": "Neutral",
-      "trendAdjustment": -0.03,
-      "consistency": "High",
-      "last10StdDev": 0.66,
-      "projection": 0.5,
-      "edge": null,
-      "edgeStrength": null,
-      "matchupAdjustment": -0.52,
-      "recommendationEdge": null,
-      "recommendationStrength": null,
-      "pick": "NO LINE",
-      "last10OverPct": 0,
-      "last5OverPct": 0,
-      "h2hOverPct": 0,
-      "last10": [
-        {
-          "date": "2026-08-19",
-          "opponent": "Pittsburgh Pirates",
-          "k": 0,
-          "inningsPitched": 0.2,
-          "isStart": false
-        },
-        {
-          "date": "2026-08-16",
-          "opponent": "Chicago White Sox",
           "k": 1,
-          "inningsPitched": 2.0,
-          "isStart": false
-        },
-        {
-          "date": "2026-08-14",
-          "opponent": "Chicago White Sox",
-          "k": 0,
-          "inningsPitched": 1.1,
-          "isStart": false
-        },
-        {
-          "date": "2026-08-11",
-          "opponent": "Cleveland Guardians",
-          "k": 0,
-          "inningsPitched": 2.0,
-          "isStart": false
-        },
-        {
-          "date": "2026-08-04",
-          "opponent": "Seattle Mariners",
-          "k": 1,
-          "inningsPitched": 1.0,
-          "isStart": false
-        },
-        {
-          "date": "2026-08-01",
-          "opponent": "Athletics",
-          "k": 1,
-          "inningsPitched": 0.2,
-          "isStart": false
-        },
-        {
-          "date": "2026-07-29",
-          "opponent": "Baltimore Orioles",
-          "k": 0,
-          "inningsPitched": 1.2,
-          "isStart": false
-        },
-        {
-          "date": "2026-07-27",
-          "opponent": "Baltimore Orioles",
-          "k": 2,
-          "inningsPitched": 2.0,
-          "isStart": false
-        },
-        {
-          "date": "2026-07-25",
-          "opponent": "Kansas City Royals",
-          "k": 1,
-          "inningsPitched": 1.2,
-          "isStart": false
-        },
-        {
-          "date": "2026-07-23",
-          "opponent": "Kansas City Royals",
-          "k": 0,
-          "inningsPitched": 0.1,
-          "isStart": false
-        }
-      ],
-      "last5": [
-        {
-          "date": "2026-08-19",
-          "opponent": "Pittsburgh Pirates",
-          "k": 0,
-          "inningsPitched": 0.2,
-          "isStart": false
-        },
-        {
-          "date": "2026-08-16",
-          "opponent": "Chicago White Sox",
-          "k": 1,
-          "inningsPitched": 2.0,
-          "isStart": false
-        },
-        {
-          "date": "2026-08-14",
-          "opponent": "Chicago White Sox",
-          "k": 0,
-          "inningsPitched": 1.1,
-          "isStart": false
-        },
-        {
-          "date": "2026-08-11",
-          "opponent": "Cleveland Guardians",
-          "k": 0,
-          "inningsPitched": 2.0,
-          "isStart": false
-        },
-        {
-          "date": "2026-08-04",
-          "opponent": "Seattle Mariners",
-          "k": 1,
-          "inningsPitched": 1.0,
-          "isStart": false
-        }
-      ],
-      "h2h": [
-        {
-          "date": "2026-07-25",
-          "opponent": "Kansas City Royals",
-          "k": 1,
-          "inningsPitched": 1.2,
-          "isStart": false
-        },
-        {
-          "date": "2026-07-23",
-          "opponent": "Kansas City Royals",
-          "k": 0,
-          "inningsPitched": 0.1,
-          "isStart": false
-        }
-      ]
-    },
-    {
-      "player": "Brady Basso",
-      "team": "Athletics",
-      "opponent": "Houston Astros",
-      "gameDate": "2026-08-23",
-      "gameTime": "2026-08-23T18:10:00Z",
-      "line": null,
-      "lineSource": null,
-      "opponentStrikeouts": 1062,
-      "opponentKLeagueRank": 17,
-      "opponentKMatchupRank": 14,
-      "opponentKTeamCount": 30,
-      "last10Avg": 2.9,
-      "last5Avg": 2.4,
-      "h2hAvg": 0,
-      "h2hGames": 0,
-      "last10Median": 3,
-      "trend": "Trending Down",
-      "trendAdjustment": -0.07,
-      "consistency": "Medium",
-      "last10StdDev": 1.96,
-      "projection": 2.6,
-      "edge": null,
-      "edgeStrength": null,
-      "matchupAdjustment": -0.08,
-      "recommendationEdge": null,
-      "recommendationStrength": null,
-      "pick": "NO LINE",
-      "last10OverPct": 0,
-      "last5OverPct": 0,
-      "h2hOverPct": 0,
-      "last10": [
-        {
-          "date": "2026-08-18",
-          "opponent": "Kansas City Royals",
-          "k": 1,
-          "inningsPitched": 2.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-25",
-          "opponent": "Minnesota Twins",
-          "k": 3,
-          "inningsPitched": 2.1,
-          "isStart": true
-        },
-        {
-          "date": "2025-09-28",
-          "opponent": "Kansas City Royals",
-          "k": 0,
-          "inningsPitched": 1.1,
-          "isStart": true
-        },
-        {
-          "date": "2024-09-25",
-          "opponent": "Texas Rangers",
-          "k": 3,
-          "inningsPitched": 3.0,
-          "isStart": true
-        },
-        {
-          "date": "2024-09-18",
-          "opponent": "Chicago Cubs",
-          "k": 5,
-          "inningsPitched": 4.2,
-          "isStart": true
-        },
-        {
-          "date": "2024-09-13",
-          "opponent": "Chicago White Sox",
-          "k": 2,
-          "inningsPitched": 5.1,
-          "isStart": true
-        },
-        {
-          "date": "2024-09-07",
-          "opponent": "Detroit Tigers",
-          "k": 6,
-          "inningsPitched": 6.0,
-          "isStart": true
-        }
-      ],
-      "last5": [
-        {
-          "date": "2026-08-18",
-          "opponent": "Kansas City Royals",
-          "k": 1,
-          "inningsPitched": 2.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-07-25",
-          "opponent": "Minnesota Twins",
-          "k": 3,
-          "inningsPitched": 2.1,
-          "isStart": true
-        },
-        {
-          "date": "2025-09-28",
-          "opponent": "Kansas City Royals",
-          "k": 0,
-          "inningsPitched": 1.1,
-          "isStart": true
-        },
-        {
-          "date": "2024-09-25",
-          "opponent": "Texas Rangers",
-          "k": 3,
-          "inningsPitched": 3.0,
-          "isStart": true
-        },
-        {
-          "date": "2024-09-18",
-          "opponent": "Chicago Cubs",
-          "k": 5,
-          "inningsPitched": 4.2,
-          "isStart": true
-        }
-      ],
-      "h2h": []
-    },
-    {
-      "player": "Sean Newcomb",
-      "team": "Chicago White Sox",
-      "opponent": "New York Mets",
-      "gameDate": "2026-08-23",
-      "gameTime": "2026-08-23T18:10:00Z",
-      "line": null,
-      "lineSource": null,
-      "opponentStrikeouts": 1102,
-      "opponentKLeagueRank": 13,
-      "opponentKMatchupRank": 18,
-      "opponentKTeamCount": 30,
-      "last10Avg": 3.2,
-      "last5Avg": 2.2,
-      "h2hAvg": 2.5,
-      "h2hGames": 2,
-      "last10Median": 3.0,
-      "trend": "Trending Down",
-      "trendAdjustment": -0.15,
-      "consistency": "Medium",
-      "last10StdDev": 1.99,
-      "projection": 2.5,
-      "edge": null,
-      "edgeStrength": null,
-      "matchupAdjustment": 0.14,
-      "recommendationEdge": null,
-      "recommendationStrength": null,
-      "pick": "NO LINE",
-      "last10OverPct": 0,
-      "last5OverPct": 0,
-      "h2hOverPct": 0,
-      "last10": [
-        {
-          "date": "2026-08-19",
-          "opponent": "Chicago Cubs",
-          "k": 0,
-          "inningsPitched": 2.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-14",
-          "opponent": "Detroit Tigers",
-          "k": 2,
-          "inningsPitched": 1.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-06-20",
-          "opponent": "Detroit Tigers",
-          "k": 4,
-          "inningsPitched": 3.0,
-          "isStart": true
-        },
-        {
-          "date": "2025-06-27",
-          "opponent": "New York Yankees",
-          "k": 2,
-          "inningsPitched": 3.0,
-          "isStart": true
-        },
-        {
-          "date": "2025-06-08",
-          "opponent": "Baltimore Orioles",
-          "k": 3,
-          "inningsPitched": 3.0,
-          "isStart": true
-        },
-        {
-          "date": "2025-05-29",
-          "opponent": "Toronto Blue Jays",
-          "k": 2,
           "inningsPitched": 3.1,
           "isStart": true
         },
         {
-          "date": "2025-05-18",
-          "opponent": "Atlanta Braves",
-          "k": 4,
-          "inningsPitched": 4.2,
-          "isStart": true
-        },
-        {
-          "date": "2025-05-12",
-          "opponent": "Detroit Tigers",
-          "k": 4,
-          "inningsPitched": 5.2,
-          "isStart": true
-        },
-        {
-          "date": "2025-05-06",
-          "opponent": "Texas Rangers",
+          "date": "2023-04-30",
+          "opponent": "Philadelphia Phillies",
           "k": 3,
-          "inningsPitched": 4.0,
-          "isStart": true
-        },
-        {
-          "date": "2025-04-23",
-          "opponent": "Seattle Mariners",
-          "k": 8,
-          "inningsPitched": 5.0,
+          "inningsPitched": 5.1,
           "isStart": true
         }
       ],
@@ -5612,248 +4101,83 @@
         {
           "date": "2026-08-19",
           "opponent": "Chicago Cubs",
-          "k": 0,
-          "inningsPitched": 2.0,
+          "k": 8,
+          "inningsPitched": 6.0,
           "isStart": true
         },
         {
           "date": "2026-08-14",
           "opponent": "Detroit Tigers",
-          "k": 2,
-          "inningsPitched": 1.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-06-20",
-          "opponent": "Detroit Tigers",
-          "k": 4,
-          "inningsPitched": 3.0,
-          "isStart": true
-        },
-        {
-          "date": "2025-06-27",
-          "opponent": "New York Yankees",
-          "k": 2,
-          "inningsPitched": 3.0,
-          "isStart": true
-        },
-        {
-          "date": "2025-06-08",
-          "opponent": "Baltimore Orioles",
           "k": 3,
+          "inningsPitched": 3.2,
+          "isStart": true
+        },
+        {
+          "date": "2023-09-29",
+          "opponent": "Arizona Diamondbacks",
+          "k": 2,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2023-09-24",
+          "opponent": "Kansas City Royals",
+          "k": 2,
           "inningsPitched": 3.0,
+          "isStart": true
+        },
+        {
+          "date": "2023-09-08",
+          "opponent": "San Diego Padres",
+          "k": 3,
+          "inningsPitched": 4.0,
           "isStart": true
         }
       ],
       "h2h": [
         {
-          "date": "2020-07-31",
-          "opponent": "New York Mets",
+          "date": "2022-08-09",
+          "opponent": "Texas Rangers",
           "k": 4,
-          "inningsPitched": 4.1,
+          "inningsPitched": 5.0,
           "isStart": true
         },
         {
-          "date": "2020-07-26",
-          "opponent": "New York Mets",
-          "k": 1,
-          "inningsPitched": 3.1,
+          "date": "2022-06-14",
+          "opponent": "Texas Rangers",
+          "k": 4,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2022-05-22",
+          "opponent": "Texas Rangers",
+          "k": 10,
+          "inningsPitched": 6.2,
+          "isStart": true
+        },
+        {
+          "date": "2021-09-15",
+          "opponent": "Texas Rangers",
+          "k": 6,
+          "inningsPitched": 6.0,
+          "isStart": true
+        },
+        {
+          "date": "2020-09-25",
+          "opponent": "Texas Rangers",
+          "k": 5,
+          "inningsPitched": 7.0,
+          "isStart": true
+        },
+        {
+          "date": "2020-09-15",
+          "opponent": "Texas Rangers",
+          "k": 7,
+          "inningsPitched": 7.0,
           "isStart": true
         }
       ]
-    },
-    {
-      "player": "Matt Wilkinson",
-      "team": "San Francisco Giants",
-      "opponent": "Boston Red Sox",
-      "gameDate": "2026-08-23",
-      "gameTime": "2026-08-23T19:15:00Z",
-      "line": null,
-      "lineSource": null,
-      "opponentStrikeouts": 1046,
-      "opponentKLeagueRank": 22,
-      "opponentKMatchupRank": 9,
-      "opponentKTeamCount": 30,
-      "last10Avg": 0.0,
-      "last5Avg": 0.0,
-      "h2hAvg": 0,
-      "h2hGames": 0,
-      "last10Median": 0,
-      "trend": "Neutral",
-      "trendAdjustment": 0.0,
-      "consistency": "High",
-      "last10StdDev": 0,
-      "projection": 0.0,
-      "edge": null,
-      "edgeStrength": null,
-      "matchupAdjustment": -0.36,
-      "recommendationEdge": null,
-      "recommendationStrength": null,
-      "pick": "NO LINE",
-      "last10OverPct": 0,
-      "last5OverPct": 0,
-      "h2hOverPct": 0,
-      "last10": [
-        {
-          "date": "2026-08-19",
-          "opponent": "Cleveland Guardians",
-          "k": 0,
-          "inningsPitched": 2.0,
-          "isStart": true
-        }
-      ],
-      "last5": [
-        {
-          "date": "2026-08-19",
-          "opponent": "Cleveland Guardians",
-          "k": 0,
-          "inningsPitched": 2.0,
-          "isStart": true
-        }
-      ],
-      "h2h": []
-    },
-    {
-      "player": "Lake Bachar",
-      "team": "Pittsburgh Pirates",
-      "opponent": "Los Angeles Dodgers",
-      "gameDate": "2026-08-23",
-      "gameTime": "2026-08-23T20:10:00Z",
-      "line": null,
-      "lineSource": null,
-      "opponentStrikeouts": 1024,
-      "opponentKLeagueRank": 26,
-      "opponentKMatchupRank": 5,
-      "opponentKTeamCount": 30,
-      "last10Avg": 2.5,
-      "last5Avg": 2.4,
-      "h2hAvg": 0,
-      "h2hGames": 0,
-      "last10Median": 2.5,
-      "trend": "Neutral",
-      "trendAdjustment": -0.02,
-      "consistency": "High",
-      "last10StdDev": 1.02,
-      "projection": 2.4,
-      "edge": null,
-      "edgeStrength": null,
-      "matchupAdjustment": -0.58,
-      "recommendationEdge": null,
-      "recommendationStrength": null,
-      "pick": "NO LINE",
-      "last10OverPct": 0,
-      "last5OverPct": 0,
-      "h2hOverPct": 0,
-      "last10": [
-        {
-          "date": "2026-08-16",
-          "opponent": "Boston Red Sox",
-          "k": 4,
-          "inningsPitched": 3.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-12",
-          "opponent": "Miami Marlins",
-          "k": 1,
-          "inningsPitched": 3.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-01",
-          "opponent": "New York Mets",
-          "k": 2,
-          "inningsPitched": 3.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-06-19",
-          "opponent": "San Francisco Giants",
-          "k": 1,
-          "inningsPitched": 1.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-06-13",
-          "opponent": "Pittsburgh Pirates",
-          "k": 4,
-          "inningsPitched": 2.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-06-06",
-          "opponent": "Tampa Bay Rays",
-          "k": 3,
-          "inningsPitched": 3.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-06-02",
-          "opponent": "Washington Nationals",
-          "k": 3,
-          "inningsPitched": 2.2,
-          "isStart": true
-        },
-        {
-          "date": "2026-03-30",
-          "opponent": "Chicago White Sox",
-          "k": 3,
-          "inningsPitched": 3.0,
-          "isStart": true
-        },
-        {
-          "date": "2025-09-01",
-          "opponent": "Washington Nationals",
-          "k": 2,
-          "inningsPitched": 2.0,
-          "isStart": true
-        },
-        {
-          "date": "2025-06-11",
-          "opponent": "Pittsburgh Pirates",
-          "k": 2,
-          "inningsPitched": 3.0,
-          "isStart": true
-        }
-      ],
-      "last5": [
-        {
-          "date": "2026-08-16",
-          "opponent": "Boston Red Sox",
-          "k": 4,
-          "inningsPitched": 3.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-12",
-          "opponent": "Miami Marlins",
-          "k": 1,
-          "inningsPitched": 3.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-08-01",
-          "opponent": "New York Mets",
-          "k": 2,
-          "inningsPitched": 3.0,
-          "isStart": true
-        },
-        {
-          "date": "2026-06-19",
-          "opponent": "San Francisco Giants",
-          "k": 1,
-          "inningsPitched": 1.1,
-          "isStart": true
-        },
-        {
-          "date": "2026-06-13",
-          "opponent": "Pittsburgh Pirates",
-          "k": 4,
-          "inningsPitched": 2.0,
-          "isStart": true
-        }
-      ],
-      "h2h": []
     }
   ]
 }
