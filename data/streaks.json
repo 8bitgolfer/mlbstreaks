@@ -1,10 +1,10 @@
 {
-  "updated": "2026-09-29 20:43 UTC",
-  "throughDate": "2026-09-29",
+  "updated": "2026-09-30 20:47 UTC",
+  "throughDate": "2026-09-30",
   "hitStreakThroughDate": "2026-09-27",
-  "hrThroughDate": "2026-09-28",
-  "pitcherDate": "2026-09-29",
-  "dailyHitsDate": "2026-09-29",
+  "hrThroughDate": "2026-09-29",
+  "pitcherDate": "2026-09-30",
+  "dailyHitsDate": "2026-09-30",
   "dailyHits": [
     {
       "player": "Yordan Alvarez",
@@ -24,8 +24,8 @@
       "team": "Houston Astros",
       "opponent": "Chicago White Sox",
       "homeAway": "home",
-      "gameTime": "2026-09-29T21:00:00Z",
-      "gamePk": 849849
+      "gameTime": "2026-09-30T21:00:00Z",
+      "gamePk": 849846
     },
     {
       "player": "Christian Walker",
@@ -45,8 +45,8 @@
       "team": "Houston Astros",
       "opponent": "Chicago White Sox",
       "homeAway": "home",
-      "gameTime": "2026-09-29T21:00:00Z",
-      "gamePk": 849849
+      "gameTime": "2026-09-30T21:00:00Z",
+      "gamePk": 849846
     },
     {
       "player": "Chase Meidroth",
@@ -66,8 +66,8 @@
       "team": "Chicago White Sox",
       "opponent": "Houston Astros",
       "homeAway": "away",
-      "gameTime": "2026-09-29T21:00:00Z",
-      "gamePk": 849849
+      "gameTime": "2026-09-30T21:00:00Z",
+      "gamePk": 849846
     },
     {
       "player": "Heliot Ramos",
@@ -87,8 +87,8 @@
       "team": "New York Yankees",
       "opponent": "Boston Red Sox",
       "homeAway": "home",
-      "gameTime": "2026-09-30T00:00:00Z",
-      "gamePk": 849851
+      "gameTime": "2026-10-01T00:00:00Z",
+      "gamePk": 849848
     }
   ],
   "hits": [
@@ -258,21 +258,6 @@
       "lastGameDate": "2026-09-27"
     },
     {
-      "player": "Kahlil Watson",
-      "games": 6,
-      "atBats": 20,
-      "runs": 2,
-      "hits": 7,
-      "hr": 0,
-      "rbi": 2,
-      "bb": 0,
-      "k": 6,
-      "ba": ".350",
-      "oba": ".350",
-      "slug": ".500",
-      "lastGameDate": "2026-07-21"
-    },
-    {
       "player": "Chanteyon Davidson",
       "games": 6,
       "atBats": 20,
@@ -286,6 +271,21 @@
       "oba": ".364",
       "slug": ".350",
       "lastGameDate": "2026-09-27"
+    },
+    {
+      "player": "Kahlil Watson",
+      "games": 6,
+      "atBats": 20,
+      "runs": 2,
+      "hits": 7,
+      "hr": 0,
+      "rbi": 2,
+      "bb": 0,
+      "k": 6,
+      "ba": ".350",
+      "oba": ".350",
+      "slug": ".500",
+      "lastGameDate": "2026-07-21"
     },
     {
       "player": "Austin Slater",
@@ -318,6 +318,21 @@
       "lastGameDate": "2026-09-26"
     },
     {
+      "player": "Nick Loftin",
+      "games": 5,
+      "atBats": 20,
+      "runs": 1,
+      "hits": 8,
+      "hr": 1,
+      "rbi": 3,
+      "bb": 1,
+      "k": 3,
+      "ba": ".400",
+      "oba": ".429",
+      "slug": ".650",
+      "lastGameDate": "2026-09-24"
+    },
+    {
       "player": "Josue De Paula",
       "games": 5,
       "atBats": 17,
@@ -346,21 +361,6 @@
       "oba": ".625",
       "slug": ".786",
       "lastGameDate": "2026-09-27"
-    },
-    {
-      "player": "Nick Loftin",
-      "games": 5,
-      "atBats": 20,
-      "runs": 1,
-      "hits": 8,
-      "hr": 1,
-      "rbi": 3,
-      "bb": 1,
-      "k": 3,
-      "ba": ".400",
-      "oba": ".429",
-      "slug": ".650",
-      "lastGameDate": "2026-09-24"
     },
     {
       "player": "Randy Arozarena",
@@ -408,6 +408,21 @@
       "lastGameDate": "2026-09-25"
     },
     {
+      "player": "Otto Lopez",
+      "games": 5,
+      "atBats": 20,
+      "runs": 3,
+      "hits": 6,
+      "hr": 0,
+      "rbi": 0,
+      "bb": 2,
+      "k": 2,
+      "ba": ".300",
+      "oba": ".391",
+      "slug": ".300",
+      "lastGameDate": "2026-09-26"
+    },
+    {
       "player": "David Fry",
       "games": 5,
       "atBats": 19,
@@ -451,21 +466,6 @@
       "oba": ".444",
       "slug": ".562",
       "lastGameDate": "2026-09-27"
-    },
-    {
-      "player": "Otto Lopez",
-      "games": 5,
-      "atBats": 20,
-      "runs": 3,
-      "hits": 6,
-      "hr": 0,
-      "rbi": 0,
-      "bb": 2,
-      "k": 2,
-      "ba": ".300",
-      "oba": ".391",
-      "slug": ".300",
-      "lastGameDate": "2026-09-26"
     },
     {
       "player": "Cedric Mullins II",
