@@ -1,10 +1,10 @@
 {
-  "updated": "2026-10-01 20:59 UTC",
-  "throughDate": "2026-10-01",
+  "updated": "2026-10-02 20:40 UTC",
+  "throughDate": "2026-10-02",
   "hitStreakThroughDate": "2026-09-27",
-  "hrThroughDate": "2026-09-30",
-  "pitcherDate": "2026-10-01",
-  "dailyHitsDate": "2026-10-01",
+  "hrThroughDate": "2026-10-01",
+  "pitcherDate": "2026-10-02",
+  "dailyHitsDate": "2026-10-02",
   "dailyHits": [],
   "hits": [
     {
@@ -233,21 +233,6 @@
       "lastGameDate": "2026-09-26"
     },
     {
-      "player": "Josue De Paula",
-      "games": 5,
-      "atBats": 17,
-      "runs": 5,
-      "hits": 8,
-      "hr": 0,
-      "rbi": 4,
-      "bb": 6,
-      "k": 3,
-      "ba": ".471",
-      "oba": ".609",
-      "slug": ".706",
-      "lastGameDate": "2026-09-22"
-    },
-    {
       "player": "Jackson Chourio",
       "games": 5,
       "atBats": 14,
@@ -276,6 +261,21 @@
       "oba": ".429",
       "slug": ".650",
       "lastGameDate": "2026-09-24"
+    },
+    {
+      "player": "Josue De Paula",
+      "games": 5,
+      "atBats": 17,
+      "runs": 5,
+      "hits": 8,
+      "hr": 0,
+      "rbi": 4,
+      "bb": 6,
+      "k": 3,
+      "ba": ".471",
+      "oba": ".609",
+      "slug": ".706",
+      "lastGameDate": "2026-09-22"
     },
     {
       "player": "Carlos Jorge",
@@ -323,21 +323,6 @@
       "lastGameDate": "2026-09-27"
     },
     {
-      "player": "David Fry",
-      "games": 5,
-      "atBats": 19,
-      "runs": 3,
-      "hits": 6,
-      "hr": 1,
-      "rbi": 5,
-      "bb": 0,
-      "k": 3,
-      "ba": ".316",
-      "oba": ".350",
-      "slug": ".526",
-      "lastGameDate": "2026-09-27"
-    },
-    {
       "player": "Brandon Valenzuela",
       "games": 5,
       "atBats": 16,
@@ -381,6 +366,21 @@
       "oba": ".391",
       "slug": ".300",
       "lastGameDate": "2026-09-26"
+    },
+    {
+      "player": "David Fry",
+      "games": 5,
+      "atBats": 19,
+      "runs": 3,
+      "hits": 6,
+      "hr": 1,
+      "rbi": 5,
+      "bb": 0,
+      "k": 3,
+      "ba": ".316",
+      "oba": ".350",
+      "slug": ".526",
+      "lastGameDate": "2026-09-27"
     },
     {
       "player": "Cedric Mullins II",
