@@ -1,32 +1,11 @@
 {
-  "updated": "2026-10-15 19:51 UTC",
-  "throughDate": "2026-10-15",
+  "updated": "2026-10-16 19:31 UTC",
+  "throughDate": "2026-10-16",
   "hitStreakThroughDate": "2026-09-27",
-  "hrThroughDate": "2026-10-14",
-  "pitcherDate": "2026-10-15",
-  "dailyHitsDate": "2026-10-15",
+  "hrThroughDate": "2026-10-15",
+  "pitcherDate": "2026-10-16",
+  "dailyHitsDate": "2026-10-16",
   "dailyHits": [
-    {
-      "player": "Brice Turang",
-      "games": 6,
-      "atBats": 25,
-      "runs": 5,
-      "hits": 9,
-      "hr": 2,
-      "rbi": 7,
-      "bb": 1,
-      "k": 7,
-      "ba": ".360",
-      "oba": ".385",
-      "slug": ".720",
-      "lastGameDate": "2026-09-27",
-      "playerId": 668930,
-      "team": "Milwaukee Brewers",
-      "opponent": "Los Angeles Dodgers",
-      "homeAway": "away",
-      "gameTime": "2026-10-16T00:00:00Z",
-      "gamePk": 849810
-    },
     {
       "player": "Jonny Deluca",
       "games": 6,
@@ -45,50 +24,8 @@
       "team": "Tampa Bay Rays",
       "opponent": "Cleveland Guardians",
       "homeAway": "away",
-      "gameTime": "2026-10-15T17:00:00Z",
-      "gamePk": 849818
-    },
-    {
-      "player": "Jackson Chourio",
-      "games": 5,
-      "atBats": 14,
-      "runs": 6,
-      "hits": 8,
-      "hr": 1,
-      "rbi": 5,
-      "bb": 2,
-      "k": 2,
-      "ba": ".571",
-      "oba": ".625",
-      "slug": ".786",
-      "lastGameDate": "2026-09-27",
-      "playerId": 694192,
-      "team": "Milwaukee Brewers",
-      "opponent": "Los Angeles Dodgers",
-      "homeAway": "away",
-      "gameTime": "2026-10-16T00:00:00Z",
-      "gamePk": 849810
-    },
-    {
-      "player": "Josue De Paula",
-      "games": 5,
-      "atBats": 17,
-      "runs": 5,
-      "hits": 8,
-      "hr": 0,
-      "rbi": 4,
-      "bb": 6,
-      "k": 3,
-      "ba": ".471",
-      "oba": ".609",
-      "slug": ".706",
-      "lastGameDate": "2026-09-22",
-      "playerId": 800543,
-      "team": "Los Angeles Dodgers",
-      "opponent": "Milwaukee Brewers",
-      "homeAway": "home",
-      "gameTime": "2026-10-16T00:00:00Z",
-      "gamePk": 849810
+      "gameTime": "2026-10-17T00:00:00Z",
+      "gamePk": 849817
     },
     {
       "player": "Petey Halpin",
@@ -108,8 +45,8 @@
       "team": "Cleveland Guardians",
       "opponent": "Tampa Bay Rays",
       "homeAway": "home",
-      "gameTime": "2026-10-15T17:00:00Z",
-      "gamePk": 849818
+      "gameTime": "2026-10-17T00:00:00Z",
+      "gamePk": 849817
     },
     {
       "player": "David Fry",
@@ -129,8 +66,8 @@
       "team": "Cleveland Guardians",
       "opponent": "Tampa Bay Rays",
       "homeAway": "home",
-      "gameTime": "2026-10-15T17:00:00Z",
-      "gamePk": 849818
+      "gameTime": "2026-10-17T00:00:00Z",
+      "gamePk": 849817
     }
   ],
   "hits": [
