@@ -1,10 +1,10 @@
 {
-  "updated": "2026-10-17 18:26 UTC",
-  "throughDate": "2026-10-17",
+  "updated": "2026-10-18 18:36 UTC",
+  "throughDate": "2026-10-18",
   "hitStreakThroughDate": "2026-09-27",
-  "hrThroughDate": "2026-10-16",
-  "pitcherDate": "2026-10-17",
-  "dailyHitsDate": "2026-10-17",
+  "hrThroughDate": "2026-10-17",
+  "pitcherDate": "2026-10-18",
+  "dailyHitsDate": "2026-10-18",
   "dailyHits": [
     {
       "player": "Jonny Deluca",
@@ -24,29 +24,8 @@
       "team": "Tampa Bay Rays",
       "opponent": "Cleveland Guardians",
       "homeAway": "away",
-      "gameTime": "2026-10-18T00:08:00Z",
-      "gamePk": 849816
-    },
-    {
-      "player": "Petey Halpin",
-      "games": 5,
-      "atBats": 16,
-      "runs": 3,
-      "hits": 6,
-      "hr": 1,
-      "rbi": 4,
-      "bb": 2,
-      "k": 2,
-      "ba": ".375",
-      "oba": ".444",
-      "slug": ".562",
-      "lastGameDate": "2026-09-27",
-      "playerId": 690984,
-      "team": "Cleveland Guardians",
-      "opponent": "Tampa Bay Rays",
-      "homeAway": "home",
-      "gameTime": "2026-10-18T00:08:00Z",
-      "gamePk": 849816
+      "gameTime": "2026-10-18T21:08:00Z",
+      "gamePk": 849817
     },
     {
       "player": "David Fry",
@@ -66,8 +45,29 @@
       "team": "Cleveland Guardians",
       "opponent": "Tampa Bay Rays",
       "homeAway": "home",
-      "gameTime": "2026-10-18T00:08:00Z",
-      "gamePk": 849816
+      "gameTime": "2026-10-18T21:08:00Z",
+      "gamePk": 849817
+    },
+    {
+      "player": "Petey Halpin",
+      "games": 5,
+      "atBats": 16,
+      "runs": 3,
+      "hits": 6,
+      "hr": 1,
+      "rbi": 4,
+      "bb": 2,
+      "k": 2,
+      "ba": ".375",
+      "oba": ".444",
+      "slug": ".562",
+      "lastGameDate": "2026-09-27",
+      "playerId": 690984,
+      "team": "Cleveland Guardians",
+      "opponent": "Tampa Bay Rays",
+      "homeAway": "home",
+      "gameTime": "2026-10-18T21:08:00Z",
+      "gamePk": 849817
     }
   ],
   "hits": [
@@ -297,6 +297,21 @@
       "lastGameDate": "2026-09-26"
     },
     {
+      "player": "Josue De Paula",
+      "games": 5,
+      "atBats": 17,
+      "runs": 5,
+      "hits": 8,
+      "hr": 0,
+      "rbi": 4,
+      "bb": 6,
+      "k": 3,
+      "ba": ".471",
+      "oba": ".609",
+      "slug": ".706",
+      "lastGameDate": "2026-09-22"
+    },
+    {
       "player": "Jackson Chourio",
       "games": 5,
       "atBats": 14,
@@ -325,21 +340,6 @@
       "oba": ".429",
       "slug": ".650",
       "lastGameDate": "2026-09-24"
-    },
-    {
-      "player": "Josue De Paula",
-      "games": 5,
-      "atBats": 17,
-      "runs": 5,
-      "hits": 8,
-      "hr": 0,
-      "rbi": 4,
-      "bb": 6,
-      "k": 3,
-      "ba": ".471",
-      "oba": ".609",
-      "slug": ".706",
-      "lastGameDate": "2026-09-22"
     },
     {
       "player": "Carlos Jorge",
@@ -387,6 +387,21 @@
       "lastGameDate": "2026-09-27"
     },
     {
+      "player": "David Fry",
+      "games": 5,
+      "atBats": 19,
+      "runs": 3,
+      "hits": 6,
+      "hr": 1,
+      "rbi": 5,
+      "bb": 0,
+      "k": 3,
+      "ba": ".316",
+      "oba": ".350",
+      "slug": ".526",
+      "lastGameDate": "2026-09-27"
+    },
+    {
       "player": "Brandon Valenzuela",
       "games": 5,
       "atBats": 16,
@@ -430,21 +445,6 @@
       "oba": ".391",
       "slug": ".300",
       "lastGameDate": "2026-09-26"
-    },
-    {
-      "player": "David Fry",
-      "games": 5,
-      "atBats": 19,
-      "runs": 3,
-      "hits": 6,
-      "hr": 1,
-      "rbi": 5,
-      "bb": 0,
-      "k": 3,
-      "ba": ".316",
-      "oba": ".350",
-      "slug": ".526",
-      "lastGameDate": "2026-09-27"
     },
     {
       "player": "Cedric Mullins II",
