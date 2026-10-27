@@ -1,10 +1,10 @@
 {
-  "updated": "2026-10-26 20:59 UTC",
-  "throughDate": "2026-10-26",
+  "updated": "2026-10-27 20:39 UTC",
+  "throughDate": "2026-10-27",
   "hitStreakThroughDate": "2026-09-27",
-  "hrThroughDate": "2026-10-25",
-  "pitcherDate": "2026-10-26",
-  "dailyHitsDate": "2026-10-26",
+  "hrThroughDate": "2026-10-26",
+  "pitcherDate": "2026-10-27",
+  "dailyHitsDate": "2026-10-27",
   "dailyHits": [
     {
       "player": "Jonny Deluca",
@@ -24,8 +24,8 @@
       "team": "Tampa Bay Rays",
       "opponent": "Milwaukee Brewers",
       "homeAway": "home",
-      "gameTime": "2026-10-27T00:00:00Z",
-      "gamePk": 849804
+      "gameTime": "2026-10-28T00:00:00Z",
+      "gamePk": 849803
     },
     {
       "player": "Brice Turang",
@@ -45,8 +45,8 @@
       "team": "Milwaukee Brewers",
       "opponent": "Tampa Bay Rays",
       "homeAway": "away",
-      "gameTime": "2026-10-27T00:00:00Z",
-      "gamePk": 849804
+      "gameTime": "2026-10-28T00:00:00Z",
+      "gamePk": 849803
     },
     {
       "player": "Jackson Chourio",
@@ -66,8 +66,8 @@
       "team": "Milwaukee Brewers",
       "opponent": "Tampa Bay Rays",
       "homeAway": "away",
-      "gameTime": "2026-10-27T00:00:00Z",
-      "gamePk": 849804
+      "gameTime": "2026-10-28T00:00:00Z",
+      "gamePk": 849803
     }
   ],
   "hits": [
