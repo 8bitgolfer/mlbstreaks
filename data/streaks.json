@@ -1,10 +1,10 @@
 {
-  "updated": "2026-10-29 21:03 UTC",
-  "throughDate": "2026-10-29",
+  "updated": "2026-10-30 20:42 UTC",
+  "throughDate": "2026-10-30",
   "hitStreakThroughDate": "2026-09-27",
-  "hrThroughDate": "2026-10-28",
-  "pitcherDate": "2026-10-29",
-  "dailyHitsDate": "2026-10-29",
+  "hrThroughDate": "2026-10-29",
+  "pitcherDate": "2026-10-30",
+  "dailyHitsDate": "2026-10-30",
   "dailyHits": [],
   "hits": [
     {
@@ -278,21 +278,6 @@
       "lastGameDate": "2026-09-22"
     },
     {
-      "player": "Carlos Jorge",
-      "games": 5,
-      "atBats": 21,
-      "runs": 3,
-      "hits": 7,
-      "hr": 1,
-      "rbi": 2,
-      "bb": 2,
-      "k": 6,
-      "ba": ".333",
-      "oba": ".391",
-      "slug": ".476",
-      "lastGameDate": "2026-09-27"
-    },
-    {
       "player": "Heliot Ramos",
       "games": 5,
       "atBats": 19,
@@ -320,6 +305,21 @@
       "ba": ".350",
       "oba": ".435",
       "slug": ".600",
+      "lastGameDate": "2026-09-27"
+    },
+    {
+      "player": "Carlos Jorge",
+      "games": 5,
+      "atBats": 21,
+      "runs": 3,
+      "hits": 7,
+      "hr": 1,
+      "rbi": 2,
+      "bb": 2,
+      "k": 6,
+      "ba": ".333",
+      "oba": ".391",
+      "slug": ".476",
       "lastGameDate": "2026-09-27"
     },
     {
