@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-01 20:27 UTC",
-  "throughDate": "2026-11-01",
+  "updated": "2026-11-02 23:28 UTC",
+  "throughDate": "2026-11-02",
   "hitStreakThroughDate": "2026-09-27",
-  "hrThroughDate": "2026-10-31",
-  "pitcherDate": "2026-11-01",
-  "dailyHitsDate": "2026-11-01",
+  "hrThroughDate": "2026-11-01",
+  "pitcherDate": "2026-11-02",
+  "dailyHitsDate": "2026-11-02",
   "dailyHits": [],
   "hits": [
     {
@@ -113,6 +113,21 @@
       "lastGameDate": "2026-09-27"
     },
     {
+      "player": "Brice Turang",
+      "games": 6,
+      "atBats": 25,
+      "runs": 5,
+      "hits": 9,
+      "hr": 2,
+      "rbi": 7,
+      "bb": 1,
+      "k": 7,
+      "ba": ".360",
+      "oba": ".385",
+      "slug": ".720",
+      "lastGameDate": "2026-09-27"
+    },
+    {
       "player": "Jonny Deluca",
       "games": 6,
       "atBats": 23,
@@ -141,21 +156,6 @@
       "oba": ".591",
       "slug": ".778",
       "lastGameDate": "2026-09-26"
-    },
-    {
-      "player": "Brice Turang",
-      "games": 6,
-      "atBats": 25,
-      "runs": 5,
-      "hits": 9,
-      "hr": 2,
-      "rbi": 7,
-      "bb": 1,
-      "k": 7,
-      "ba": ".360",
-      "oba": ".385",
-      "slug": ".720",
-      "lastGameDate": "2026-09-27"
     },
     {
       "player": "Christian Walker",
@@ -233,6 +233,21 @@
       "lastGameDate": "2026-09-26"
     },
     {
+      "player": "Jackson Chourio",
+      "games": 5,
+      "atBats": 14,
+      "runs": 6,
+      "hits": 8,
+      "hr": 1,
+      "rbi": 5,
+      "bb": 2,
+      "k": 2,
+      "ba": ".571",
+      "oba": ".625",
+      "slug": ".786",
+      "lastGameDate": "2026-09-27"
+    },
+    {
       "player": "Nick Loftin",
       "games": 5,
       "atBats": 20,
@@ -263,36 +278,6 @@
       "lastGameDate": "2026-09-22"
     },
     {
-      "player": "Jackson Chourio",
-      "games": 5,
-      "atBats": 14,
-      "runs": 6,
-      "hits": 8,
-      "hr": 1,
-      "rbi": 5,
-      "bb": 2,
-      "k": 2,
-      "ba": ".571",
-      "oba": ".625",
-      "slug": ".786",
-      "lastGameDate": "2026-09-27"
-    },
-    {
-      "player": "Randy Arozarena",
-      "games": 5,
-      "atBats": 20,
-      "runs": 7,
-      "hits": 7,
-      "hr": 0,
-      "rbi": 3,
-      "bb": 2,
-      "k": 7,
-      "ba": ".350",
-      "oba": ".435",
-      "slug": ".600",
-      "lastGameDate": "2026-09-27"
-    },
-    {
       "player": "Carlos Jorge",
       "games": 5,
       "atBats": 21,
@@ -321,6 +306,36 @@
       "oba": ".381",
       "slug": ".526",
       "lastGameDate": "2026-09-25"
+    },
+    {
+      "player": "Randy Arozarena",
+      "games": 5,
+      "atBats": 20,
+      "runs": 7,
+      "hits": 7,
+      "hr": 0,
+      "rbi": 3,
+      "bb": 2,
+      "k": 7,
+      "ba": ".350",
+      "oba": ".435",
+      "slug": ".600",
+      "lastGameDate": "2026-09-27"
+    },
+    {
+      "player": "Petey Halpin",
+      "games": 5,
+      "atBats": 16,
+      "runs": 3,
+      "hits": 6,
+      "hr": 1,
+      "rbi": 4,
+      "bb": 2,
+      "k": 2,
+      "ba": ".375",
+      "oba": ".444",
+      "slug": ".562",
+      "lastGameDate": "2026-09-27"
     },
     {
       "player": "Otto Lopez",
@@ -364,21 +379,6 @@
       "k": 3,
       "ba": ".375",
       "oba": ".474",
-      "slug": ".562",
-      "lastGameDate": "2026-09-27"
-    },
-    {
-      "player": "Petey Halpin",
-      "games": 5,
-      "atBats": 16,
-      "runs": 3,
-      "hits": 6,
-      "hr": 1,
-      "rbi": 4,
-      "bb": 2,
-      "k": 2,
-      "ba": ".375",
-      "oba": ".444",
       "slug": ".562",
       "lastGameDate": "2026-09-27"
     },
