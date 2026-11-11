@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-10 21:46 UTC",
-  "throughDate": "2026-11-10",
+  "updated": "2026-11-11 22:39 UTC",
+  "throughDate": "2026-11-11",
   "hitStreakThroughDate": "2026-09-27",
-  "hrThroughDate": "2026-11-09",
-  "pitcherDate": "2026-11-10",
-  "dailyHitsDate": "2026-11-10",
+  "hrThroughDate": "2026-11-10",
+  "pitcherDate": "2026-11-11",
+  "dailyHitsDate": "2026-11-11",
   "dailyHits": [],
   "hits": [
     {
@@ -113,6 +113,21 @@
       "lastGameDate": "2026-09-27"
     },
     {
+      "player": "Brice Turang",
+      "games": 6,
+      "atBats": 25,
+      "runs": 5,
+      "hits": 9,
+      "hr": 2,
+      "rbi": 7,
+      "bb": 1,
+      "k": 7,
+      "ba": ".360",
+      "oba": ".385",
+      "slug": ".720",
+      "lastGameDate": "2026-09-27"
+    },
+    {
       "player": "Jonny Deluca",
       "games": 6,
       "atBats": 23,
@@ -141,21 +156,6 @@
       "oba": ".591",
       "slug": ".778",
       "lastGameDate": "2026-09-26"
-    },
-    {
-      "player": "Brice Turang",
-      "games": 6,
-      "atBats": 25,
-      "runs": 5,
-      "hits": 9,
-      "hr": 2,
-      "rbi": 7,
-      "bb": 1,
-      "k": 7,
-      "ba": ".360",
-      "oba": ".385",
-      "slug": ".720",
-      "lastGameDate": "2026-09-27"
     },
     {
       "player": "Christian Walker",
@@ -278,21 +278,6 @@
       "lastGameDate": "2026-09-24"
     },
     {
-      "player": "Randy Arozarena",
-      "games": 5,
-      "atBats": 20,
-      "runs": 7,
-      "hits": 7,
-      "hr": 0,
-      "rbi": 3,
-      "bb": 2,
-      "k": 7,
-      "ba": ".350",
-      "oba": ".435",
-      "slug": ".600",
-      "lastGameDate": "2026-09-27"
-    },
-    {
       "player": "Carlos Jorge",
       "games": 5,
       "atBats": 21,
@@ -321,6 +306,21 @@
       "oba": ".381",
       "slug": ".526",
       "lastGameDate": "2026-09-25"
+    },
+    {
+      "player": "Randy Arozarena",
+      "games": 5,
+      "atBats": 20,
+      "runs": 7,
+      "hits": 7,
+      "hr": 0,
+      "rbi": 3,
+      "bb": 2,
+      "k": 7,
+      "ba": ".350",
+      "oba": ".435",
+      "slug": ".600",
+      "lastGameDate": "2026-09-27"
     },
     {
       "player": "David Fry",
