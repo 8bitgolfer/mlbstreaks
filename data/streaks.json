@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-12 22:13 UTC",
-  "throughDate": "2026-11-12",
+  "updated": "2026-11-13 21:56 UTC",
+  "throughDate": "2026-11-13",
   "hitStreakThroughDate": "2026-09-27",
-  "hrThroughDate": "2026-11-11",
-  "pitcherDate": "2026-11-12",
-  "dailyHitsDate": "2026-11-12",
+  "hrThroughDate": "2026-11-12",
+  "pitcherDate": "2026-11-13",
+  "dailyHitsDate": "2026-11-13",
   "dailyHits": [],
   "hits": [
     {
@@ -113,6 +113,21 @@
       "lastGameDate": "2026-09-27"
     },
     {
+      "player": "Brice Turang",
+      "games": 6,
+      "atBats": 25,
+      "runs": 5,
+      "hits": 9,
+      "hr": 2,
+      "rbi": 7,
+      "bb": 1,
+      "k": 7,
+      "ba": ".360",
+      "oba": ".385",
+      "slug": ".720",
+      "lastGameDate": "2026-09-27"
+    },
+    {
       "player": "Jonny Deluca",
       "games": 6,
       "atBats": 23,
@@ -141,21 +156,6 @@
       "oba": ".591",
       "slug": ".778",
       "lastGameDate": "2026-09-26"
-    },
-    {
-      "player": "Brice Turang",
-      "games": 6,
-      "atBats": 25,
-      "runs": 5,
-      "hits": 9,
-      "hr": 2,
-      "rbi": 7,
-      "bb": 1,
-      "k": 7,
-      "ba": ".360",
-      "oba": ".385",
-      "slug": ".720",
-      "lastGameDate": "2026-09-27"
     },
     {
       "player": "Christian Walker",
@@ -233,21 +233,6 @@
       "lastGameDate": "2026-09-26"
     },
     {
-      "player": "Josue De Paula",
-      "games": 5,
-      "atBats": 17,
-      "runs": 5,
-      "hits": 8,
-      "hr": 0,
-      "rbi": 4,
-      "bb": 6,
-      "k": 3,
-      "ba": ".471",
-      "oba": ".609",
-      "slug": ".706",
-      "lastGameDate": "2026-09-22"
-    },
-    {
       "player": "Jackson Chourio",
       "games": 5,
       "atBats": 14,
@@ -278,19 +263,19 @@
       "lastGameDate": "2026-09-24"
     },
     {
-      "player": "Randy Arozarena",
+      "player": "Josue De Paula",
       "games": 5,
-      "atBats": 20,
-      "runs": 7,
-      "hits": 7,
+      "atBats": 17,
+      "runs": 5,
+      "hits": 8,
       "hr": 0,
-      "rbi": 3,
-      "bb": 2,
-      "k": 7,
-      "ba": ".350",
-      "oba": ".435",
-      "slug": ".600",
-      "lastGameDate": "2026-09-27"
+      "rbi": 4,
+      "bb": 6,
+      "k": 3,
+      "ba": ".471",
+      "oba": ".609",
+      "slug": ".706",
+      "lastGameDate": "2026-09-22"
     },
     {
       "player": "Carlos Jorge",
@@ -323,18 +308,18 @@
       "lastGameDate": "2026-09-25"
     },
     {
-      "player": "David Fry",
+      "player": "Randy Arozarena",
       "games": 5,
-      "atBats": 19,
-      "runs": 3,
-      "hits": 6,
-      "hr": 1,
-      "rbi": 5,
-      "bb": 0,
-      "k": 3,
-      "ba": ".316",
-      "oba": ".350",
-      "slug": ".526",
+      "atBats": 20,
+      "runs": 7,
+      "hits": 7,
+      "hr": 0,
+      "rbi": 3,
+      "bb": 2,
+      "k": 7,
+      "ba": ".350",
+      "oba": ".435",
+      "slug": ".600",
       "lastGameDate": "2026-09-27"
     },
     {
@@ -381,6 +366,21 @@
       "oba": ".391",
       "slug": ".300",
       "lastGameDate": "2026-09-26"
+    },
+    {
+      "player": "David Fry",
+      "games": 5,
+      "atBats": 19,
+      "runs": 3,
+      "hits": 6,
+      "hr": 1,
+      "rbi": 5,
+      "bb": 0,
+      "k": 3,
+      "ba": ".316",
+      "oba": ".350",
+      "slug": ".526",
+      "lastGameDate": "2026-09-27"
     },
     {
       "player": "Cedric Mullins II",
