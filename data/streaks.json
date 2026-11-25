@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-24 02:52 UTC",
-  "throughDate": "2026-11-23",
+  "updated": "2026-11-25 00:36 UTC",
+  "throughDate": "2026-11-24",
   "hitStreakThroughDate": "2026-09-27",
-  "hrThroughDate": "2026-11-22",
-  "pitcherDate": "2026-11-23",
-  "dailyHitsDate": "2026-11-23",
+  "hrThroughDate": "2026-11-23",
+  "pitcherDate": "2026-11-24",
+  "dailyHitsDate": "2026-11-24",
   "dailyHits": [],
   "hits": [
     {
@@ -113,21 +113,6 @@
       "lastGameDate": "2026-09-27"
     },
     {
-      "player": "Brice Turang",
-      "games": 6,
-      "atBats": 25,
-      "runs": 5,
-      "hits": 9,
-      "hr": 2,
-      "rbi": 7,
-      "bb": 1,
-      "k": 7,
-      "ba": ".360",
-      "oba": ".385",
-      "slug": ".720",
-      "lastGameDate": "2026-09-27"
-    },
-    {
       "player": "Jonny Deluca",
       "games": 6,
       "atBats": 23,
@@ -158,6 +143,21 @@
       "lastGameDate": "2026-09-26"
     },
     {
+      "player": "Brice Turang",
+      "games": 6,
+      "atBats": 25,
+      "runs": 5,
+      "hits": 9,
+      "hr": 2,
+      "rbi": 7,
+      "bb": 1,
+      "k": 7,
+      "ba": ".360",
+      "oba": ".385",
+      "slug": ".720",
+      "lastGameDate": "2026-09-27"
+    },
+    {
       "player": "Christian Walker",
       "games": 6,
       "atBats": 23,
@@ -170,21 +170,6 @@
       "ba": ".348",
       "oba": ".407",
       "slug": ".913",
-      "lastGameDate": "2026-09-27"
-    },
-    {
-      "player": "Chanteyon Davidson",
-      "games": 6,
-      "atBats": 20,
-      "runs": 2,
-      "hits": 7,
-      "hr": 0,
-      "rbi": 1,
-      "bb": 1,
-      "k": 7,
-      "ba": ".350",
-      "oba": ".364",
-      "slug": ".350",
       "lastGameDate": "2026-09-27"
     },
     {
@@ -201,6 +186,21 @@
       "oba": ".350",
       "slug": ".500",
       "lastGameDate": "2026-07-21"
+    },
+    {
+      "player": "Chanteyon Davidson",
+      "games": 6,
+      "atBats": 20,
+      "runs": 2,
+      "hits": 7,
+      "hr": 0,
+      "rbi": 1,
+      "bb": 1,
+      "k": 7,
+      "ba": ".350",
+      "oba": ".364",
+      "slug": ".350",
+      "lastGameDate": "2026-09-27"
     },
     {
       "player": "Austin Slater",
@@ -233,6 +233,21 @@
       "lastGameDate": "2026-09-26"
     },
     {
+      "player": "Josue De Paula",
+      "games": 5,
+      "atBats": 17,
+      "runs": 5,
+      "hits": 8,
+      "hr": 0,
+      "rbi": 4,
+      "bb": 6,
+      "k": 3,
+      "ba": ".471",
+      "oba": ".609",
+      "slug": ".706",
+      "lastGameDate": "2026-09-22"
+    },
+    {
       "player": "Jackson Chourio",
       "games": 5,
       "atBats": 14,
@@ -263,19 +278,19 @@
       "lastGameDate": "2026-09-24"
     },
     {
-      "player": "Josue De Paula",
+      "player": "Randy Arozarena",
       "games": 5,
-      "atBats": 17,
-      "runs": 5,
-      "hits": 8,
+      "atBats": 20,
+      "runs": 7,
+      "hits": 7,
       "hr": 0,
-      "rbi": 4,
-      "bb": 6,
-      "k": 3,
-      "ba": ".471",
-      "oba": ".609",
-      "slug": ".706",
-      "lastGameDate": "2026-09-22"
+      "rbi": 3,
+      "bb": 2,
+      "k": 7,
+      "ba": ".350",
+      "oba": ".435",
+      "slug": ".600",
+      "lastGameDate": "2026-09-27"
     },
     {
       "player": "Carlos Jorge",
@@ -308,18 +323,33 @@
       "lastGameDate": "2026-09-25"
     },
     {
-      "player": "Randy Arozarena",
+      "player": "David Fry",
       "games": 5,
-      "atBats": 20,
-      "runs": 7,
-      "hits": 7,
-      "hr": 0,
+      "atBats": 19,
+      "runs": 3,
+      "hits": 6,
+      "hr": 1,
+      "rbi": 5,
+      "bb": 0,
+      "k": 3,
+      "ba": ".316",
+      "oba": ".350",
+      "slug": ".526",
+      "lastGameDate": "2026-09-27"
+    },
+    {
+      "player": "Brandon Valenzuela",
+      "games": 5,
+      "atBats": 16,
+      "runs": 3,
+      "hits": 6,
+      "hr": 1,
       "rbi": 3,
-      "bb": 2,
-      "k": 7,
-      "ba": ".350",
-      "oba": ".435",
-      "slug": ".600",
+      "bb": 3,
+      "k": 3,
+      "ba": ".375",
+      "oba": ".474",
+      "slug": ".562",
       "lastGameDate": "2026-09-27"
     },
     {
@@ -351,36 +381,6 @@
       "oba": ".391",
       "slug": ".300",
       "lastGameDate": "2026-09-26"
-    },
-    {
-      "player": "David Fry",
-      "games": 5,
-      "atBats": 19,
-      "runs": 3,
-      "hits": 6,
-      "hr": 1,
-      "rbi": 5,
-      "bb": 0,
-      "k": 3,
-      "ba": ".316",
-      "oba": ".350",
-      "slug": ".526",
-      "lastGameDate": "2026-09-27"
-    },
-    {
-      "player": "Brandon Valenzuela",
-      "games": 5,
-      "atBats": 16,
-      "runs": 3,
-      "hits": 6,
-      "hr": 1,
-      "rbi": 3,
-      "bb": 3,
-      "k": 3,
-      "ba": ".375",
-      "oba": ".474",
-      "slug": ".562",
-      "lastGameDate": "2026-09-27"
     },
     {
       "player": "Cedric Mullins II",
